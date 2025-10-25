@@ -1,2 +1,0 @@
-# tech-journal
-a diary 
