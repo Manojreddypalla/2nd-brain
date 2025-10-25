@@ -11,10 +11,10 @@
             "id": "b2f753719b03e9e5",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -167,6 +167,8 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
+    "The Hacker’s Log Pose/Retr0 skills.md",
+    "The Hacker’s Log Pose/Retr0.md",
     "AI/AI/RAG/RAG.MD",
     "AI/AI/RAG/about.md",
     "AI/AI/Ollama/Ollama.md",
@@ -191,8 +193,6 @@
     "AI/AI/n8n .md",
     "AI/AI/Must-Know Python Libraries for Artificial Intellig .md",
     "AI/AI/MCP servers .md",
-    "AI/AI/LLM eco system .md",
-    "AI/AI/courses .md",
     "Projects/GitSage/New folder",
     "SQL",
     "The Hacker’s Log Pose/Data Base/MongoDB",

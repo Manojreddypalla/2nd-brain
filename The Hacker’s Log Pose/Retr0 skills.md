@@ -3,3 +3,4 @@
 [git](git.md)
 [linux](linux.md)
 [tailscale](tailscale.md)
+[AI](AI.md)
