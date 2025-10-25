@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "d85a50a421c19f44",
+    "type": "split",
+    "children": [
+      {
+        "id": "179bddfe27a38406",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4405509ce89a766f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devops/docker/cheatsheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cheatsheet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0640bf36b38225d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddff44ab48f2309d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af0ff7d915aae477",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d1de9aa6a83dffbf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f9a8a7e23ebd5c36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c6a5af316df3fe18",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8f2b648b3a51f7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62b8d8e2c5c3f15a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "27-08-2025/Kasm_Workspaces_Installation_Guide.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Kasm_Workspaces_Installation_Guide"
+            }
+          },
+          {
+            "id": "655893a4ea18e373",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "27-08-2025/Kasm_Workspaces_Installation_Guide.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Kasm_Workspaces_Installation_Guide"
+            }
+          },
+          {
+            "id": "99e5f66148a02aa6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e3669f01bf55ead1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "27-08-2025/Kasm_Workspaces_Installation_Guide.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Kasm_Workspaces_Installation_Guide"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4405509ce89a766f",
+  "lastOpenFiles": [
+    "The Hacker’s Log Pose 26f8f4fd38e7804eac37d63403b6c54e.md",
+    "ExportBlock-5f553817-5cce-484f-b5b0-dbc713c147e2-Part-1.zip",
+    "9100b1c4-84f2-4df0-9aa6-16b58228eef1_ExportBlock-5f553817-5cce-484f-b5b0-dbc713c147e2.zip"
+  ]
+}
