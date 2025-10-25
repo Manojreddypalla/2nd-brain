@@ -4,18 +4,142 @@
     "type": "split",
     "children": [
       {
-        "id": "179bddfe27a38406",
+        "id": "3112f3eacb2d6f5d",
         "type": "tabs",
         "children": [
           {
-            "id": "4405509ce89a766f",
+            "id": "03327cbd6ae831fd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
+              "type": "localgraph",
+              "state": {
+                "file": "The Hacker’s Log Pose/Data Base/Data Base.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Data Base"
             }
+          },
+          {
+            "id": "b2f753719b03e9e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Hacker’s Log Pose/Data Base/Data Base.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Base"
+            },
+            "group": "4bb4255d0ddc6e06"
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b4f7a8172465e918",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5571bf6997f3a724",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "The Hacker’s Log Pose/Data Base/Data Base.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "MySQL",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    },
+                    {
+                      "query": "",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11657298
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Data Base"
+            },
+            "group": "4bb4255d0ddc6e06"
           }
         ]
       }
@@ -165,13 +289,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "4405509ce89a766f",
+  "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
-    "The Hacker’s Log Pose/Data Base/SQL/SQL.md",
     "The Hacker’s Log Pose/Data Base/SQL/1.MySQL overview.md",
+    "The Hacker’s Log Pose/Data Base/Data Base.md",
+    "The Hacker’s Log Pose/Data Base/Vector DB/1.Vector Database.md",
+    "The Hacker’s Log Pose/Data Base/MongoDB/1.MongoDB overview.md",
+    "The Hacker’s Log Pose/Tailscale/tailscale.md",
+    "The Hacker’s Log Pose/Git/git.md",
+    "The Hacker’s Log Pose/DevOps/docker/Docker.md",
+    "Projects/GitSage/tech to learn.md",
+    "Projects/GitSage/GitSage.md",
+    "Projects/GitSage/New folder",
+    "Projects/GitSage/work flow.md",
+    "The Hacker’s Log Pose/DevOps/docker/DOCKER.md",
+    "The Hacker’s Log Pose/DevOps/docker/Docker Cheat Sheet – Complete Revision.md",
+    "The Hacker’s Log Pose/DevOps/docker/revision.md",
+    "docker cheat sheet-Complete Revision.md",
+    "The Hacker’s Log Pose/DevOps/docker/docker.md",
+    "The Hacker’s Log Pose/Data Base/SQL/SQL.md",
     "SQL/2.Advanced MySQL.md",
     "SQL",
-    "The Hacker’s Log Pose/Data Base/MongoDB/1.MongoDB overview.md",
     "The Hacker’s Log Pose/Data Base/MongoDB",
     "devops/docker/docker file.md",
     "devops/docker/docker.md",
@@ -182,26 +320,12 @@
     "The Hacker's Log Pose/Linux/linux.md",
     "The Hacker's Log Pose/Linux",
     "The Hacker's Log Pose",
-    "The Hacker’s Log Pose/Tailscale/tailscale.md",
     "The Hacker’s Log Pose/Tailscale/index.md",
     "The Hacker's Log Pose/Tailscale/index.md",
     "The Hacker's Log Pose/Tailscale",
-    "The Hacker’s Log Pose/Git/Resolving SSH Key Conflicts.md",
-    "The Hacker’s Log Pose/Data Base/Data Base.md",
-    "The Hacker’s Log Pose/Data Base/MongaDB/1.MongoDB overview.md",
-    "The Hacker’s Log Pose/Data Base/Vector DB/1.Vector Database.md",
-    "The Hacker’s Log Pose/Data Base/Vector Database.md",
-    "The Hacker’s Log Pose/Data Base/Vector DB/Vector Database.md",
     "The Hacker’s Log Pose/Data Base/Vector DB",
     "The Hacker’s Log Pose/Data Base/New folder",
-    "The Hacker’s Log Pose/Data Base/SQL/MySQL overview.md",
     "The Hacker’s Log Pose/Data Base/SQL",
-    "The Hacker’s Log Pose/Data Base/MongoDB overview.md",
-    "The Hacker’s Log Pose/Data Base/MongaDB/MongoDB overview.md",
-    "The Hacker’s Log Pose/Data Base/MongaDB",
-    "The Hacker’s Log Pose/Data Base/MySQL overview.md",
-    "The Hacker’s Log Pose/Data Base 2708f4fd38e780489125fe65ebc73a48.md",
-    "The Hacker’s Log Pose/JOB/roadmap for job 27e8f4fd38e780febd7dcc95ae01742d.md",
-    "The Hacker’s Log Pose/JOB"
+    "The Hacker’s Log Pose/Data Base/MongaDB"
   ]
 }
