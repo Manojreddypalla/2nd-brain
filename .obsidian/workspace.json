@@ -11,10 +11,14 @@
             "id": "4405509ce89a766f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Projects/GitSage/Rag.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rag"
             }
           }
         ]
@@ -167,6 +171,19 @@
   },
   "active": "4405509ce89a766f",
   "lastOpenFiles": [
+    "Projects/GitSage/Abstract.md",
+    "git sage 28e8f4fd38e7803e9055cdd17a824117/Abstract 28e8f4fd38e78081bf9ede5e74dec8d6.md",
+    "Projects/GitSage/git sage.md",
+    "Projects/GitSage/git sage/Rag.md",
+    "Projects/GitSage/git sage/Abstract.md",
+    "git sage 28e8f4fd38e7803e9055cdd17a824117",
+    "Projects/GitSage/git sage/work flow.md",
+    "Projects/GitSage/git sage/tech to learn.md",
+    "Projects/GitSage/git sage/work flow 28e8f4fd38e780f28479cdd27fa027c7.md",
+    "Projects/GitSage/git sage/tech to learn 28e8f4fd38e78014a3f9cbb6fffbbe66.md",
+    "Projects/GitSage/git sage/Rag 2948f4fd38e780c3b08cf442e6b117ab.md",
+    "Projects/GitSage/git sage/Abstract 28e8f4fd38e78081bf9ede5e74dec8d6.md",
+    "Projects/GitSage/git sage",
     "devops/docker/cheatsheet.md",
     "devops/docker/docker file.md",
     "The Hacker’s Log Pose 26f8f4fd38e7804eac37d63403b6c54e.md",
