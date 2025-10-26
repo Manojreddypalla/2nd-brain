@@ -11,10 +11,14 @@
             "id": "b2f753719b03e9e5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Projects/GitSage/Rag.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rag"
             }
           }
         ]
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "27-08-2025/Kasm_Workspaces_Installation_Guide.md",
+                "file": "Projects/GitSage/Rag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kasm_Workspaces_Installation_Guide"
+              "title": "Backlinks for Rag"
             }
           },
           {
@@ -109,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "27-08-2025/Kasm_Workspaces_Installation_Guide.md",
+                "file": "Projects/GitSage/Rag.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kasm_Workspaces_Installation_Guide"
+              "title": "Outgoing links from Rag"
             }
           },
           {
@@ -138,21 +142,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "27-08-2025/Kasm_Workspaces_Installation_Guide.md",
+                "file": "Projects/GitSage/Rag.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kasm_Workspaces_Installation_Guide"
+              "title": "Outline of Rag"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,41 +171,42 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
+    "Projects/stock prediction/plan.md",
+    "Projects/stock prediction/Abstract.md",
+    "Projects/GitSage/work flow.md",
+    "Projects/GitSage/GitSage.md",
+    "Projects/GitSage/Rag.md",
+    "Projects/GitSage/tech to learn.md",
+    "2025-10-26.md",
+    "Projects/GitSage/Abstract.md",
+    "journal/2025-08-26/kasm.md",
+    "journal/2025-08-26/new.md",
+    "AI/AI/RAG/RAG.MD",
+    "AI/AI/RAG/about.md",
+    "AI/AI.md",
+    "AI/AI/Lang Chain/langchain.md",
+    "AI/AI/Lang Chain/quick review.md",
+    "AI/AI/Ollama/How to Expose Ollama to Your Local Network.md",
+    "Untitled.canvas",
+    "AI/AI/Lang Chain",
+    "AI/AI/Untitled.md",
+    "AI/AI/n8n/n8n.md",
+    "Projects/Personal AI agent",
+    "AI/AI/n8n/Depolyment.md",
+    "AI/AI/n8n/About.md",
+    "journal/2025-08-26/2025-08-26.md",
     "The Hacker’s Log Pose/DevOps/docker/revision.md",
     "Programming and web dev/Python/python/Basics/9) Data Structures/Data Structures.md",
     "Basics.md",
     "Programming and web dev/Python/python/Basics/12 Testing/17 Assertions.md",
     "Programming and web dev/Python/python/Basics/12 Testing/16 Test Run.md",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/15 So Random.md",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/14 List Comprehensions.md",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/13 Transformation.md",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/12 Higher Order Functions.md",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/11 Functional Programming.md",
-    "Programming and web dev/Python/python/Basics/10) File I O/10 Packing List.md",
-    "Programming and web dev/Python/python/Basics/10) File I O/09 CSV Files.md",
-    "Programming and web dev/Python/python/Basics/10) File I O/08 Uncharted Files.md",
-    "Programming and web dev/Python/python/Basics/10) File I O/07 The File Realm.md",
-    "Programming and web dev/Python/python/Basics/10) File I O/06 File Handling.md",
-    "Programming and web dev/Python/python/Basics/9) Data Structures/05 Post-Game Stats.md",
-    "Programming and web dev/Python/python/Basics/9) Data Structures/04 Sets.md",
-    "Programming and web dev/Python/python/Basics/9) Data Structures/03 Dictionaries.md",
-    "Programming and web dev/Python/python/Basics/9) Data Structures/02 Tuples.md",
-    "Programming and web dev/Python/python/Basics/9) Data Structures/01 Intro.md",
-    "Programming and web dev/Python/python/Basics/12 Testing/17 Assertions 2738f4fd38e7807cbe61f760cb4848c5.md",
-    "Programming and web dev/Python/python/Basics/12 Testing/16 Test Run 2738f4fd38e780f883f8fe106d3c52cb.md",
     "Programming and web dev/Python/python/Basics/12 Testing",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/15 So Random 2738f4fd38e78044a0c4eeb1bfe2e9b1.md",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/14 List Comprehensions 2738f4fd38e780d29b69c9a275d7f5b7.md",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/13 Transformation 2738f4fd38e780f3965ed11647fd8280.md",
-    "Programming and web dev/Python/python/Basics/11) Functional programming/12 Higher Order Functions 2738f4fd38e780658988f88e0e9d9cf8.md",
     "Programming and web dev/Python/python/Basics/11) Functional programming",
     "Programming and web dev/Python/python/Basics/10) File I O",
     "Programming and web dev/Python/python/Basics/9) Data Structures",
     "Programming and web dev/Python/python/NumPy",
     "Programming and web dev/Python/python/Basics/9) Data Structures 2738f4fd38e7808fb82cd957b37e9061",
     "Programming and web dev/Python/python/Basics/12 Testing 2738f4fd38e7804489f9f195c20a5037",
-    "Programming and web dev/Python/python/Basics/11) Functional programming 2738f4fd38e78018829ce868c8cce241",
-    "Programming and web dev/Python/python/Basics/10) File I O 2738f4fd38e780f1a02df8b818075fdb",
-    "Programming and web dev/Python/python/Basics"
+    "Programming and web dev/Python/python/Basics/11) Functional programming 2738f4fd38e78018829ce868c8cce241"
   ]
 }
