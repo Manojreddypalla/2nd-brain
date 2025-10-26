@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/GitSage/Rag.md",
+                "file": "JOB/job preparation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rag"
+              "title": "job preparation"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/GitSage/Rag.md",
+                "file": "JOB/job preparation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rag"
+              "title": "Outline of job preparation"
             }
           }
         ],
@@ -171,11 +171,16 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
+    "JOB/resume.md",
+    "JOB/job preparation.md",
+    "Pasted image 20251026204147.png",
+    "The Hacker’s Log Pose/Retr0 skills.md",
+    "The Hacker’s Log Pose/Linux/SMBA.md",
+    "Projects/GitSage/Rag.md",
     "Projects/stock prediction/plan.md",
     "Projects/stock prediction/Abstract.md",
     "Projects/GitSage/work flow.md",
     "Projects/GitSage/GitSage.md",
-    "Projects/GitSage/Rag.md",
     "Projects/GitSage/tech to learn.md",
     "2025-10-26.md",
     "Projects/GitSage/Abstract.md",
@@ -195,11 +200,6 @@
     "AI/AI/n8n/Depolyment.md",
     "AI/AI/n8n/About.md",
     "journal/2025-08-26/2025-08-26.md",
-    "The Hacker’s Log Pose/DevOps/docker/revision.md",
-    "Programming and web dev/Python/python/Basics/9) Data Structures/Data Structures.md",
-    "Basics.md",
-    "Programming and web dev/Python/python/Basics/12 Testing/17 Assertions.md",
-    "Programming and web dev/Python/python/Basics/12 Testing/16 Test Run.md",
     "Programming and web dev/Python/python/Basics/12 Testing",
     "Programming and web dev/Python/python/Basics/11) Functional programming",
     "Programming and web dev/Python/python/Basics/10) File I O",
