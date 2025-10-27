@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JOB/job preparation.md",
+                "file": "AI/hugging face/roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "job preparation"
+              "title": "roadmap"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JOB/job preparation.md",
+                "file": "AI/hugging face/roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of job preparation"
+              "title": "Outline of roadmap"
             }
           }
         ],
@@ -171,42 +171,44 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
-    "JOB/resume.md",
-    "JOB/job preparation.md",
-    "Pasted image 20251026204147.png",
+    "AI/hugging face/cheatsheet.md",
+    "Programming and web dev/DSA/plan.md",
+    "AI/hugging face/roadmap.md",
+    "AI/hugging face",
+    "Programming and web dev/DSA/DSA.MD",
     "The Hacker’s Log Pose/Retr0 skills.md",
+    "AI/AI/AI Agents/smolagents/smol_agents.md",
+    "AI/AI/AI Agents/sample.md",
+    "AI/AI/AI Agents/smol_agents.md",
+    "AI/AI/AI Agents/smolagents",
+    "JOB/AI/AI agents/Smolagents/Smolagents_interview_questions.md",
+    "AI/AI/AI Agents",
+    "JOB/AI/AI agents/Smolagents/Smolagents_cheat_sheet.md",
+    "JOB/AI/AI agents/Smolagents/Smolagents.md",
+    "JOB/resume.md",
+    "JOB/Pasted image 20251026204147.png",
+    "JOB/job preparation.md",
+    "JOB/AI/JOB.md",
+    "JOB/AI/AI.md",
+    "JOB/AI/YOLOv8/YOLOv8.md",
+    "JOB/AI/RAG/RAG.md",
+    "JOB/AI/OpenCV/OpenCV.md",
+    "JOB/AI/model training and evaluation/model training and evaluation.md",
+    "JOB/AI/MCP servers/MCP servers.md",
+    "JOB/AI/LLM fine-tuning/unsloth/unsloth.md",
+    "JOB/AI/LLM fine-tuning/LLM fine-tuning.md",
+    "JOB/AI/langchain/langchain.md",
+    "JOB/AI/FAISS/FAISS.md",
+    "JOB/AI/AI agents/AI agents.md",
+    "Pasted image 20251026204147.png",
     "The Hacker’s Log Pose/Linux/SMBA.md",
-    "Projects/GitSage/Rag.md",
-    "Projects/stock prediction/plan.md",
-    "Projects/stock prediction/Abstract.md",
-    "Projects/GitSage/work flow.md",
-    "Projects/GitSage/GitSage.md",
-    "Projects/GitSage/tech to learn.md",
-    "2025-10-26.md",
-    "Projects/GitSage/Abstract.md",
-    "journal/2025-08-26/kasm.md",
-    "journal/2025-08-26/new.md",
-    "AI/AI/RAG/RAG.MD",
-    "AI/AI/RAG/about.md",
-    "AI/AI.md",
-    "AI/AI/Lang Chain/langchain.md",
-    "AI/AI/Lang Chain/quick review.md",
-    "AI/AI/Ollama/How to Expose Ollama to Your Local Network.md",
     "Untitled.canvas",
     "AI/AI/Lang Chain",
-    "AI/AI/Untitled.md",
-    "AI/AI/n8n/n8n.md",
     "Projects/Personal AI agent",
-    "AI/AI/n8n/Depolyment.md",
-    "AI/AI/n8n/About.md",
-    "journal/2025-08-26/2025-08-26.md",
     "Programming and web dev/Python/python/Basics/12 Testing",
     "Programming and web dev/Python/python/Basics/11) Functional programming",
     "Programming and web dev/Python/python/Basics/10) File I O",
     "Programming and web dev/Python/python/Basics/9) Data Structures",
-    "Programming and web dev/Python/python/NumPy",
-    "Programming and web dev/Python/python/Basics/9) Data Structures 2738f4fd38e7808fb82cd957b37e9061",
-    "Programming and web dev/Python/python/Basics/12 Testing 2738f4fd38e7804489f9f195c20a5037",
-    "Programming and web dev/Python/python/Basics/11) Functional programming 2738f4fd38e78018829ce868c8cce241"
+    "Programming and web dev/Python/python/NumPy"
   ]
 }
