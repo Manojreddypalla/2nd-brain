@@ -164,8 +164,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "b2f753719b03e9e5",
+  "active": "af0ff7d915aae477",
   "lastOpenFiles": [
+    "JOB/AI/LLM fine-tuning/general/LLM fine-tuning.md",
+    "JOB/AI/LLM fine-tuning/general/LLM_fine-tuning_interview_questions.md",
+    "JOB/AI/LLM fine-tuning/general/LLM_fine-tuning_cheat_sheet.md",
+    "JOB/AI/LLM fine-tuning/general",
+    "JOB/AI/LLM fine-tuning/New folder",
+    "JOB/AI/AI agents/Basics/AI_agents_interview_questions.md",
+    "JOB/AI/AI agents/Basics/AI_agents_cheat_sheet.md",
+    "JOB/AI/AI agents/Basics/AI agents.md",
+    "JOB/AI/AI agents/Basics",
+    "JOB/AI/AI agents/New folder",
     "BOOKS/BLACK HAT BASH/Bash Basics/04_Variables.md",
     "1_Input_Prompting.md",
     "BOOKS/BLACK HAT BASH/Black Hat Bash.md",
@@ -186,12 +196,6 @@
     "BOOKS/BLACK HAT BASH/Bash Basics/06_Arrays.md",
     "BOOKS/BLACK HAT BASH/Bash Basics/05_Arithmetic_Operators.md",
     "BOOKS/BLACK HAT BASH/Bash Basics/01_Environmental_Setup.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/notes/01_Bash_Basics.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/notes/02_Flow_Control_and_Text_Processing.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/notes/12_Defense_Evasion_and_Exfiltration.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/notes/11_Network_Probing_and_Lateral_Movement.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/notes/10_Persistence.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/notes/09_Privilege_Escalation.md",
     "AI/hugging face",
     "AI/AI/AI Agents/smolagents",
     "AI/AI/AI Agents",
@@ -200,10 +204,6 @@
     "Untitled.canvas",
     "AI/AI/Lang Chain",
     "Projects/Personal AI agent",
-    "Programming and web dev/Python/python/Basics/12 Testing",
-    "Programming and web dev/Python/python/Basics/11) Functional programming",
-    "Programming and web dev/Python/python/Basics/10) File I O",
-    "Programming and web dev/Python/python/Basics/9) Data Structures",
-    "Programming and web dev/Python/python/NumPy"
+    "Programming and web dev/Python/python/Basics/12 Testing"
   ]
 }
