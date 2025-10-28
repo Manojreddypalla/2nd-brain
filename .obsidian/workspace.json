@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/hugging face/roadmap.md",
+                "file": "Programming and web dev/DSA/DSA.MD",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "roadmap"
+              "title": "DSA"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/hugging face/roadmap.md",
+                "file": "Programming and web dev/DSA/DSA.MD",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of roadmap"
+              "title": "Outline of DSA"
             }
           }
         ],
@@ -171,11 +171,11 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
-    "AI/hugging face/cheatsheet.md",
     "Programming and web dev/DSA/plan.md",
+    "Programming and web dev/DSA/DSA.MD",
+    "AI/hugging face/cheatsheet.md",
     "AI/hugging face/roadmap.md",
     "AI/hugging face",
-    "Programming and web dev/DSA/DSA.MD",
     "The Hacker’s Log Pose/Retr0 skills.md",
     "AI/AI/AI Agents/smolagents/smol_agents.md",
     "AI/AI/AI Agents/sample.md",
