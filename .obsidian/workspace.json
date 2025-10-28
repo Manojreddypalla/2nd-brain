@@ -11,14 +11,10 @@
             "id": "b2f753719b03e9e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming and web dev/DSA/DSA.MD",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DSA"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and web dev/DSA/DSA.MD",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DSA"
+              "title": "Outline"
             }
           }
         ],
@@ -171,37 +166,37 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
-    "Programming and web dev/DSA/plan.md",
-    "Programming and web dev/DSA/DSA.MD",
-    "AI/hugging face/cheatsheet.md",
-    "AI/hugging face/roadmap.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/04_Variables.md",
+    "1_Input_Prompting.md",
+    "BOOKS/BLACK HAT BASH/Black Hat Bash.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/Unit 1.md",
+    "BOOKS/BLACK HAT BASH/blackhatbash.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/black-hat-bash.md",
+    "BOOKS/BLACK HAT BASH/black-hat-bash.md",
+    "BOOKS/BLACK HAT BASH/black hat bash.md",
+    "BOOKS/Books.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/00_Unit_Overview.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/12_Exit_Codes.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/11_Input_Prompting.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/10_Positional_Arguments.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/03_Elements_of_a_Bash_Script.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/02_Exploring_the_Shell.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/08_Control_Operators.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/07_Streams.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/06_Arrays.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/05_Arithmetic_Operators.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/01_Environmental_Setup.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/notes/01_Bash_Basics.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/notes/02_Flow_Control_and_Text_Processing.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/notes/12_Defense_Evasion_and_Exfiltration.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/notes/11_Network_Probing_and_Lateral_Movement.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/notes/10_Persistence.md",
+    "BOOKS/BLACK HAT BASH/Bash Basics/notes/09_Privilege_Escalation.md",
     "AI/hugging face",
-    "The Hacker’s Log Pose/Retr0 skills.md",
-    "AI/AI/AI Agents/smolagents/smol_agents.md",
-    "AI/AI/AI Agents/sample.md",
-    "AI/AI/AI Agents/smol_agents.md",
     "AI/AI/AI Agents/smolagents",
-    "JOB/AI/AI agents/Smolagents/Smolagents_interview_questions.md",
     "AI/AI/AI Agents",
-    "JOB/AI/AI agents/Smolagents/Smolagents_cheat_sheet.md",
-    "JOB/AI/AI agents/Smolagents/Smolagents.md",
-    "JOB/resume.md",
     "JOB/Pasted image 20251026204147.png",
-    "JOB/job preparation.md",
-    "JOB/AI/JOB.md",
-    "JOB/AI/AI.md",
-    "JOB/AI/YOLOv8/YOLOv8.md",
-    "JOB/AI/RAG/RAG.md",
-    "JOB/AI/OpenCV/OpenCV.md",
-    "JOB/AI/model training and evaluation/model training and evaluation.md",
-    "JOB/AI/MCP servers/MCP servers.md",
-    "JOB/AI/LLM fine-tuning/unsloth/unsloth.md",
-    "JOB/AI/LLM fine-tuning/LLM fine-tuning.md",
-    "JOB/AI/langchain/langchain.md",
-    "JOB/AI/FAISS/FAISS.md",
-    "JOB/AI/AI agents/AI agents.md",
     "Pasted image 20251026204147.png",
-    "The Hacker’s Log Pose/Linux/SMBA.md",
     "Untitled.canvas",
     "AI/AI/Lang Chain",
     "Projects/Personal AI agent",
