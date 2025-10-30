@@ -7,4 +7,7 @@
 - [OpenCV](OpenCV.md)
 - [RAG](RAG.md)
 - [YOLOv8](YOLOv8.md)
-- [resume](resume.md)
+[MCP](MCP.md)
+[n8n](n8n.md)
+[Ollama](Ollama.md)
+[RAG](RAG.md)

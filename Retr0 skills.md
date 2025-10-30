@@ -4,5 +4,7 @@
 [linux](linux.md)
 [tailscale](tailscale.md)
 [AI](AI.md)
+- [resume](resume.md)
 
 [Programming and Web Dev](Programming%20and%20Web%20Dev.md)
+[LLM & AIML](LLM%20&%20AIML.md)

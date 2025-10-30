@@ -11,10 +11,14 @@
             "id": "b2f753719b03e9e5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "GEMINI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GEMINI"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "GEMINI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of GEMINI"
             }
           }
         ],
@@ -166,44 +171,45 @@
   },
   "active": "af0ff7d915aae477",
   "lastOpenFiles": [
-    "JOB/AI/LLM fine-tuning/general/LLM fine-tuning.md",
-    "JOB/AI/LLM fine-tuning/general/LLM_fine-tuning_interview_questions.md",
-    "JOB/AI/LLM fine-tuning/general/LLM_fine-tuning_cheat_sheet.md",
-    "JOB/AI/LLM fine-tuning/general",
-    "JOB/AI/LLM fine-tuning/New folder",
-    "JOB/AI/AI agents/Basics/AI_agents_interview_questions.md",
-    "JOB/AI/AI agents/Basics/AI_agents_cheat_sheet.md",
-    "JOB/AI/AI agents/Basics/AI agents.md",
-    "JOB/AI/AI agents/Basics",
-    "JOB/AI/AI agents/New folder",
-    "BOOKS/BLACK HAT BASH/Bash Basics/04_Variables.md",
+    "Retr0 skills.md",
     "1_Input_Prompting.md",
-    "BOOKS/BLACK HAT BASH/Black Hat Bash.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/Unit 1.md",
-    "BOOKS/BLACK HAT BASH/blackhatbash.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/black-hat-bash.md",
-    "BOOKS/BLACK HAT BASH/black-hat-bash.md",
-    "BOOKS/BLACK HAT BASH/black hat bash.md",
-    "BOOKS/Books.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/00_Unit_Overview.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/12_Exit_Codes.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/11_Input_Prompting.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/10_Positional_Arguments.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/03_Elements_of_a_Bash_Script.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/02_Exploring_the_Shell.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/08_Control_Operators.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/07_Streams.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/06_Arrays.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/05_Arithmetic_Operators.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/01_Environmental_Setup.md",
-    "AI/hugging face",
-    "AI/AI/AI Agents/smolagents",
-    "AI/AI/AI Agents",
+    "Gray Hat Hacking",
+    "gray hat",
+    "New folder",
+    "AI&LLM/resume.md",
+    "AI&LLM/AI/hugging face/roadmap.md",
+    "AI&LLM/AI/hugging face/cheatsheet.md",
+    "AI&LLM/AI/hugging face",
+    "AI&LLM/AI/LLM & AIML.md",
+    "AI&LLM/AI/VISUAL ML/model training and evaluation/model_training_and_evaluation_interview_questions.md",
+    "AI&LLM/AI/VISUAL ML/model training and evaluation/model_training_and_evaluation_cheat_sheet.md",
+    "AI&LLM/AI/VISUAL ML/model training and evaluation/model training and evaluation.md",
+    "AI&LLM/AI/VISUAL ML/model training and evaluation",
+    "AI&LLM/AI/VISUAL ML/OpenCV/OpenCV_interview_questions.md",
+    "AI&LLM/AI/VISUAL ML/OpenCV/OpenCV_cheat_sheet.md",
+    "AI&LLM/AI/VISUAL ML/OpenCV/OpenCV.md",
+    "AI&LLM/AI/VISUAL ML/OpenCV",
+    "AI&LLM/AI/VISUAL ML/YOLOv8/YOLOv8_interview_questions.md",
+    "AI&LLM/AI/VISUAL ML/YOLOv8/YOLOv8_cheat_sheet.md",
+    "AI&LLM/AI/VISUAL ML/YOLOv8/YOLOv8.md",
+    "AI&LLM/AI/VISUAL ML/YOLOv8",
+    "AI&LLM/AI/VISUAL ML",
+    "AI&LLM/AI/New folder",
+    "AI&LLM/AI/LLM/AI agents/Smolagents/smol_agents.md",
+    "AI&LLM/AI/LLM/AI agents/Smolagents/Smolagents_interview_questions.md",
+    "AI&LLM/AI/LLM/AI agents/Smolagents/Smolagents_cheat_sheet.md",
+    "AI&LLM/AI/LLM/AI agents/Smolagents/Smolagents.md",
+    "AI&LLM/AI/LLM/AI agents/Basics/AI_agents_interview_questions.md",
+    "AI&LLM/AI/LLM/AI agents/Basics/AI_agents_cheat_sheet.md",
+    "AI&LLM/AI/LLM/AI agents/Basics/AI agents.md",
+    "AI&LLM/AI/LLM/AI agents/Smolagents",
+    "AI&LLM/AI/LLM/AI agents/sample.md",
+    "AI&LLM/AI/LLM/Lang Chain/quick review.md",
+    "AI&LLM/AI/LLM/Lang Chain/langchain.md",
+    "AI&LLM/AI/LLM/langchain/langgraph.md",
+    "AI&LLM/Pasted image 20251026204147.png",
     "JOB/Pasted image 20251026204147.png",
     "Pasted image 20251026204147.png",
-    "Untitled.canvas",
-    "AI/AI/Lang Chain",
-    "Projects/Personal AI agent",
-    "Programming and web dev/Python/python/Basics/12 Testing"
+    "Untitled.canvas"
   ]
 }

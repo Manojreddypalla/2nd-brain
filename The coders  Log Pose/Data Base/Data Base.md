@@ -1,0 +1,3 @@
+- **[SQL](1.MySQL%20overview.md):** The universal foundation of all data.
+- **[MongoDB](1.MongoDB%20overview.md):** The dominant NoSQL database for modern web apps (perfect for your MERN stack interest).
+- **[Vector DBs](1.Vector%20Database.md):** The specialized tool for AI and LLMs.
