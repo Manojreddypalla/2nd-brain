@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "Projects/manga_reader/quick.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "quick"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GEMINI.md",
+                "file": "Projects/manga_reader/quick.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GEMINI"
+              "title": "Outline of quick"
             }
           }
         ],
@@ -169,8 +169,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "af0ff7d915aae477",
+  "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
+    "Projects/manga_reader/readme.md",
+    "Projects/manga_reader/thoughts.md",
+    "Projects/manga_reader/quick.md",
+    "GEMINI.md",
+    "Projects/manga_reader",
     "Retr0 skills.md",
     "1_Input_Prompting.md",
     "Gray Hat Hacking",
@@ -202,11 +207,6 @@
     "AI&LLM/AI/LLM/AI agents/Basics/AI_agents_interview_questions.md",
     "AI&LLM/AI/LLM/AI agents/Basics/AI_agents_cheat_sheet.md",
     "AI&LLM/AI/LLM/AI agents/Basics/AI agents.md",
-    "AI&LLM/AI/LLM/AI agents/Smolagents",
-    "AI&LLM/AI/LLM/AI agents/sample.md",
-    "AI&LLM/AI/LLM/Lang Chain/quick review.md",
-    "AI&LLM/AI/LLM/Lang Chain/langchain.md",
-    "AI&LLM/AI/LLM/langchain/langgraph.md",
     "AI&LLM/Pasted image 20251026204147.png",
     "JOB/Pasted image 20251026204147.png",
     "Pasted image 20251026204147.png",
