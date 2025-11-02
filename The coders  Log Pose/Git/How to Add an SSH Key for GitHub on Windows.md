@@ -18,6 +18,9 @@ First, you need to check if you already have an SSH key. It's good practice to a
 2. Enter the following command to see if you have any existing keys:Bash
     
     `ls -al ~/.ssh`
+    `cat ~/.ssh/id_ed25519.pub`
+
+    
     
 3. Look for a file pair like `id_ed25519` and `id_ed25519.pub`. If you see these files, you already have a key and can skip to **Step 3**. If not, or if you want to create a new one, proceed to the next step.
 

@@ -1,4 +1,4 @@
 [Abstract](Abstract.md)
-[plan](plan.md)
+[plan](Projects/stock%20prediction/plan.md)
 [progress](progress.md)
-[tools](tools.md)
+[tools](Projects/stock%20prediction/tools.md)
