@@ -1,0 +1,175 @@
+## 🧩 **Array Patterns & Topics**
+
+### 🔹 1. Basic Traversal and Operations
+
+**Pattern:** Access, modify, sum, min/max, count.
+
+**Questions:**
+
+- Find the **maximum and minimum** element in an array.
+- Find the **sum** and **average** of elements.
+- Count **even and odd** numbers.
+- **Search** for an element (Linear Search).
+- **Reverse** an array (using one loop).
+
+💡 _Concepts:_ Iteration, indexing, swapping.
+
+---
+
+### 🔹 2. Sorting & Rearranging
+
+**Pattern:** Sort, rearrange, partition.
+
+**Questions:**
+
+- Sort an array (Bubble/Selection/Insertion sort).
+- Move **all negative numbers to one side**.
+- Sort array of 0s, 1s, and 2s → _(Dutch National Flag)_.
+- Rearrange array so that **positive and negative numbers alternate**.
+- Sort array by **frequency** or **absolute value**.
+
+💡 _Concepts:_ Two pointers, partition logic.
+
+---
+
+### 🔹 3. Searching & Binary Search Patterns
+
+**Pattern:** Divide and conquer (sorted arrays).
+
+**Questions:**
+
+- Binary Search (iterative/recursive).
+- Find **first/last occurrence** of a number.
+- Count **number of occurrences** of a number.
+- Find the **index where element should be inserted**.
+- Find the **peak element** (mountain array).
+
+💡 _Concepts:_ Binary Search variations, boundary conditions.
+
+---
+
+### 🔹 4. Prefix Sum / Cumulative Sum
+
+**Pattern:** Running totals.
+
+**Questions:**
+
+- Find **subarray sum = K**.
+- Find **equilibrium index** (left sum = right sum).
+- Find **maximum subarray sum** (Kadane’s Algorithm).
+- Given queries of ranges, find **sum between L and R**.
+- Count subarrays with **even/odd sum**.
+
+💡 _Concepts:_ Prefix sums, cumulative sums, Kadane’s.
+
+---
+
+### 🔹 5. Sliding Window
+
+**Pattern:** Fixed or variable-size window.
+
+**Questions:**
+
+- Find **maximum sum subarray** of size K.
+- Find **first negative number** in every window of size K.
+- Find **longest substring/subarray** with K distinct elements.
+- Count **number of subarrays with sum less than K**.
+
+💡 _Concepts:_ Two-pointer/sliding window, queue.
+
+---
+
+### 🔹 6. Two Pointers
+
+**Pattern:** Opposite ends, shrinking window.
+
+**Questions:**
+
+- **Pair sum = target** (like 2-sum problem).
+- Remove **duplicates** from sorted array.
+- Merge two sorted arrays (without extra space).
+- Move zeros to the end.
+- Trapping Rain Water.
+
+💡 _Concepts:_ Start/end pointer movement, condition-based.
+
+---
+
+### 🔹 7. Subarrays & Subsequences
+
+**Pattern:** All possible combinations or optimized patterns.
+
+**Questions:**
+
+- Print all **subarrays**.
+- Find **longest subarray with given sum**.
+- Maximum **product subarray**.
+- Count **subarrays with equal 0s and 1s**.
+- Find **missing number** in range 1–N.
+
+💡 _Concepts:_ Hashing + prefix sum tricks.
+
+---
+
+### 🔹 8. Rearrangement & Rotation
+
+**Pattern:** Shift or rotate arrays.
+
+**Questions:**
+
+- **Rotate array** by K positions (left/right).
+- **Rotate matrix** 90 degrees.
+- **Next permutation** of numbers.
+- **Cyclically rotate** by one.
+
+💡 _Concepts:_ Modulo rotation, in-place swaps.
+
+---
+
+### 🔹 9. Matrix (2D Arrays)
+
+**Pattern:** Nested loops + direction logic.
+
+**Questions:**
+
+- Print matrix in **spiral order**.
+- **Transpose** of a matrix.
+- **Search** in a sorted 2D matrix.
+- **Set matrix zeroes**.
+- Find **diagonal sums**.
+
+💡 _Concepts:_ Row/column traversal, boundary control.
+
+---
+
+### 🔹 10. Advanced / Interview-Level
+
+**Pattern:** Optimization, hashing, prefix, bitwise.
+
+**Questions:**
+
+- **Majority element** (Boyer-Moore).
+- Find **duplicate number** without modifying array.
+- Find **missing + repeating** elements.
+- Find **maximum XOR pair**.
+- Find **3 numbers that sum to 0 (Triplet Sum)**.
+- **Merge intervals**.
+
+💡 _Concepts:_ HashMap, XOR, sorting + scanning.
+
+---
+
+## 💻 Bonus: Pattern Practice Strategy
+
+|Day|Pattern|Example Problems|
+|---|---|---|
+|1|Basics|Reverse array, max-min|
+|2|Sorting|0s,1s,2s sort|
+|3|Searching|Binary search variations|
+|4|Prefix Sum|Subarray sum, equilibrium index|
+|5|Sliding Window|Max sum subarray|
+|6|Two Pointers|Pair sum, move zeros|
+|7|Subarrays|Longest subarray sum|
+|8|Rotation|Rotate array, next permutation|
+|9|Matrix|Spiral print, transpose|
+|10|Advanced|Majority element, triplet sum|

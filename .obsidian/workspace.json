@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and web dev/DSA/Basic Data Structures/arrays/2. Sorting & Rearranging.md",
+                "file": "Programming and web dev/DSA/Basic Data Structures/arrays/TOPICS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Sorting & Rearranging"
+              "title": "TOPICS"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and web dev/DSA/Basic Data Structures/arrays/2. Sorting & Rearranging.md",
+                "file": "Programming and web dev/DSA/Basic Data Structures/arrays/TOPICS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. Sorting & Rearranging"
+              "title": "Outline of TOPICS"
             }
           }
         ],
@@ -171,17 +171,18 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
-    "Programming and web dev/DSA/Basic Data Structures/arrays/1. Basic Traversal and Operations.md",
-    "Programming and web dev/DSA/Basic Data Structures/arrays/2. Sorting & Rearranging.md",
-    "Programming and web dev/DSA/Basic Data Structures/arrays/0.🧩 Array Patterns & Topics.md",
+    "Programming and web dev/DSA/plan.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/TOPICS.md",
     "Programming and web dev/DSA/Basic Data Structures/arrays/basics.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/2. Sorting & Rearranging.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/1. Basic Traversal and Operations.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/0.🧩 Array Patterns & Topics.md",
     "Programming and web dev/some random web topics/Session vs Token Authentication.md",
     "Programming and web dev/some random web topics",
     "The coders  Log Pose/Linux/Mount a ssd,hdd.md",
     "The coders  Log Pose/Linux/SMBA.md",
     "The coders  Log Pose/Linux/static ip in linux.md",
     "The coders  Log Pose/Linux/system recovery.md",
-    "Programming and web dev/DSA/plan.md",
     "AI&LLM/AI/LLM/AI agents/langchain/LangChain_cheat_sheet.md",
     "AI&LLM/AI/LLM/AI agents/Lang Graph",
     "AI&LLM/AI/LLM/AI agents/Untitled.canvas",
@@ -206,7 +207,6 @@
     "DevOps/DevOps.md",
     "DevOps/kubernaties/Untitled.md",
     "DevOps/kubernaties/1.introduction",
-    "AI&LLM/AI/LLM/AI agents/Smolagents/Resources.md",
     "AI&LLM/AI/LLM/AI agents/AI Agents/smolagents",
     "AI&LLM/Pasted image 20251026204147.png",
     "JOB/Pasted image 20251026204147.png",
