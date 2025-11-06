@@ -1,6 +1,6 @@
 - [AI agents](AI%20agents.md)
 - [FAISS](FAISS/FAISS.md)
-- [langchain](langchain/langchain.md)
+- [langchain](langchain.md)
 - [LLM fine-tuning](LLM%20fine-tuning.md)
 - [MCP servers](MCP%20servers.md)
 - [model training and evaluation](model%20training%20and%20evaluation.md)

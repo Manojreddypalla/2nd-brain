@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming and web dev/React/course/Untitled.md",
-                "mode": "source",
+                "file": "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/5.Installing Additional Hacking Tools.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "5.Installing Additional Hacking Tools"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 293.5
   },
   "right": {
     "id": "c6a5af316df3fe18",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and web dev/React/course/Untitled.md",
+                "file": "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/5.Installing Additional Hacking Tools.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of 5.Installing Additional Hacking Tools"
             }
           }
         ],
@@ -171,10 +171,35 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
+    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/4.Accessing Individual Lab Machines.md",
+    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/5.Installing Additional Hacking Tools.md",
+    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/3.Managing the Lab.md",
+    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/2.The Network Architecture.md",
+    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/1.Setting up the Lab with docker.md",
+    "AI&LLM/AI/LLM/AI agents/langchain/basics/langGraph.md",
+    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB",
+    "AI&LLM/AI/LLM/AI agents/langchain/basics/LangChain_interview_questions.md",
+    "AI&LLM/AI/LLM/AI agents/langchain/basics/LangChain_cheat_sheet.md",
+    "AI&LLM/AI/LLM/AI agents/langchain/basics/langchain.md",
+    "AI&LLM/AI/LLM/AI agents/langchain/basics",
+    "Programming and web dev/Aptitude/plan.md",
+    "images/Pasted image 20251106122752.png",
+    "images/Pasted image 20251106122029.png",
+    "Pasted image 20251106123022.png",
+    "images",
+    "GEMINI.md",
+    "Untitled.base",
+    "Retr0 skills.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/3. Searching & Binary Search Patterns.md",
+    "Programming and web dev/Aptitude",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/TOPICS.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/1. Basic Traversal and Operations.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/basics.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/2. Sorting & Rearranging.md",
+    "Programming and web dev/React/course/Untitled.md",
     "Programming and web dev/React/course/Untitled 3.md",
     "Programming and web dev/React/course/Untitled 2.md",
     "Programming and web dev/React/course/Untitled 1.md",
-    "Programming and web dev/React/course/Untitled.md",
     "Programming and web dev/Programming and Web Dev.md",
     "Programming and web dev/React/course",
     "Programming and web dev/React",
@@ -182,32 +207,10 @@
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/01_test_operators.md",
     "BOOKS/BLACK HAT BASH/Black Hat Bash.md",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/10_bash_customizations.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/09_job_control.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/08_text_processing.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/07_case_statements.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/06_loops.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/05_functions.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/04_testing_command_success.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/03_linking_conditions.md",
-    "Projects/manga_reader/bash_notes/10_bash_customizations.md",
-    "Projects/manga_reader/bash_notes/09_job_control.md",
-    "Projects/manga_reader/bash_notes/08_text_processing.md",
-    "Projects/manga_reader/bash_notes/07_case_statements.md",
-    "Projects/manga_reader/bash_notes/06_loops.md",
-    "Projects/manga_reader/bash_notes/05_functions.md",
-    "Projects/manga_reader/bash_notes/04_testing_command_success.md",
-    "Projects/manga_reader/bash_notes/03_linking_conditions.md",
-    "Projects/manga_reader/bash_notes/02_if_conditions.md",
-    "Projects/manga_reader/bash_notes/01_test_operators.md",
     "Projects/manga_reader/bash_notes",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING",
     "articles and blogs",
-    "BOOKS/FLOW CONTROL AND   TEXT PROCESSING",
-    "Programming and web dev/some random web topics",
-    "AI&LLM/AI/LLM/AI agents/Lang Graph",
     "AI&LLM/AI/LLM/AI agents/Untitled.canvas",
-    "AI&LLM/AI/Robotics",
-    "AI&LLM/AI/Untitled",
     "AI&LLM/Pasted image 20251026204147.png",
     "JOB/Pasted image 20251026204147.png",
     "Pasted image 20251026204147.png",
