@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"44edeb1da4de163b","type":"text","text":"make a plan ","x":-600,"y":-600,"width":250,"height":60},
+		{"id":"bf19e1d649aa5aa7","type":"text","text":"execute action with tools ","x":40,"y":-540,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"a68fb99ccdb7713d","fromNode":"44edeb1da4de163b","fromSide":"top","toNode":"bf19e1d649aa5aa7","toSide":"top"}
+	]
+}

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/5.Installing Additional Hacking Tools.md",
+                "file": "The coders  Log Pose/Tailscale/installation.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.Installing Additional Hacking Tools"
+              "title": "installation"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/5.Installing Additional Hacking Tools.md",
+                "file": "The coders  Log Pose/Tailscale/installation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 5.Installing Additional Hacking Tools"
+              "title": "Outline of installation"
             }
           }
         ],
@@ -171,8 +171,32 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
-    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/4.Accessing Individual Lab Machines.md",
+    "articles and blogs/Why I Self-Hosted GitLab in My Home Lab.md",
+    "The coders  Log Pose/code server/Code server.md",
+    "Game dev and Animation",
+    "The coders  Log Pose/Git/How to Add an SSH Key for GitHub on Windows.md",
+    "The coders  Log Pose/code server",
+    "The coders  Log Pose/Data Interchange Formats/YAML/quick review.md",
+    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
+    "The coders  Log Pose/Data Interchange Formats/YAML",
+    "The coders  Log Pose/Data Interchange Formats",
+    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
+    "articles and blogs/1 AI Agents  Agnetic  and Generative AI",
+    "The coders  Log Pose/Linux/static ip in linux.md",
+    "The coders  Log Pose/Linux/commands for wi-fi connection.md",
+    "Programming and web dev/some random web topics/Session vs Token Authentication.md",
+    "Programming and web dev/React/course/Untitled 3.md",
+    "Programming and web dev/React/course/Untitled 2.md",
+    "Programming and web dev/React/course/Untitled 1.md",
+    "Programming and web dev/React/course/Untitled.md",
+    "AI&LLM/AI/LLM/RAG/RAG_cheat_sheet.md",
+    "AI&LLM/AI/LLM/RAG/building an RAG",
+    "AI&LLM/AI/LLM/RAG/RAG.md",
+    "AI&LLM/AI/LLM/RAG/about.md",
+    "AI&LLM/AI/LLM/AI agents/Basics/AI_agents_cheat_sheet.md",
+    "AI&LLM/AI/LLM/AI agents/Basics/AI agents.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/5.Installing Additional Hacking Tools.md",
+    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/4.Accessing Individual Lab Machines.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/3.Managing the Lab.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/2.The Network Architecture.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/1.Setting up the Lab with docker.md",
@@ -182,38 +206,14 @@
     "AI&LLM/AI/LLM/AI agents/langchain/basics/LangChain_cheat_sheet.md",
     "AI&LLM/AI/LLM/AI agents/langchain/basics/langchain.md",
     "AI&LLM/AI/LLM/AI agents/langchain/basics",
-    "Programming and web dev/Aptitude/plan.md",
     "images/Pasted image 20251106122752.png",
     "images/Pasted image 20251106122029.png",
     "Pasted image 20251106123022.png",
     "images",
-    "GEMINI.md",
     "Untitled.base",
-    "Retr0 skills.md",
-    "Programming and web dev/DSA/Basic Data Structures/arrays/3. Searching & Binary Search Patterns.md",
-    "Programming and web dev/Aptitude",
-    "Programming and web dev/DSA/Basic Data Structures/arrays/TOPICS.md",
-    "Programming and web dev/DSA/Basic Data Structures/arrays/1. Basic Traversal and Operations.md",
-    "Programming and web dev/DSA/Basic Data Structures/arrays/basics.md",
-    "Programming and web dev/DSA/Basic Data Structures/arrays/2. Sorting & Rearranging.md",
-    "Programming and web dev/React/course/Untitled.md",
-    "Programming and web dev/React/course/Untitled 3.md",
-    "Programming and web dev/React/course/Untitled 2.md",
-    "Programming and web dev/React/course/Untitled 1.md",
-    "Programming and web dev/Programming and Web Dev.md",
-    "Programming and web dev/React/course",
-    "Programming and web dev/React",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/02_if_conditions.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/01_test_operators.md",
-    "BOOKS/BLACK HAT BASH/Black Hat Bash.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/10_bash_customizations.md",
-    "Projects/manga_reader/bash_notes",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING",
-    "articles and blogs",
     "AI&LLM/AI/LLM/AI agents/Untitled.canvas",
     "AI&LLM/Pasted image 20251026204147.png",
     "JOB/Pasted image 20251026204147.png",
-    "Pasted image 20251026204147.png",
-    "Untitled.canvas"
+    "Pasted image 20251026204147.png"
   ]
 }

@@ -1,4 +1,4 @@
-# AI Agents Cheat Sheet
+
 
 ## 1. What is an AI Agent?
 
