@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The coders  Log Pose/Tailscale/installation.md",
-                "mode": "preview",
+                "file": "articles and blogs/Self-Hosted GitLab/Self-Hosted GitLab.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "installation"
+              "title": "Self-Hosted GitLab"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The coders  Log Pose/Tailscale/installation.md",
+                "file": "articles and blogs/Self-Hosted GitLab/Self-Hosted GitLab.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of installation"
+              "title": "Outline of Self-Hosted GitLab"
             }
           }
         ],
@@ -171,7 +171,10 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
-    "articles and blogs/Why I Self-Hosted GitLab in My Home Lab.md",
+    "articles and blogs/Self-Hosted GitLab",
+    "articles and blogs/Self-Hosted GitLab/Why I Self-Hosted GitLab in My Home Lab.md",
+    "articles and blogs/Self-Hosted GitLab/Self-Hosted GitLab.md",
+    "The coders  Log Pose/Tailscale/installation.md",
     "The coders  Log Pose/code server/Code server.md",
     "Game dev and Animation",
     "The coders  Log Pose/Git/How to Add an SSH Key for GitHub on Windows.md",
@@ -202,9 +205,6 @@
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/1.Setting up the Lab with docker.md",
     "AI&LLM/AI/LLM/AI agents/langchain/basics/langGraph.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB",
-    "AI&LLM/AI/LLM/AI agents/langchain/basics/LangChain_interview_questions.md",
-    "AI&LLM/AI/LLM/AI agents/langchain/basics/LangChain_cheat_sheet.md",
-    "AI&LLM/AI/LLM/AI agents/langchain/basics/langchain.md",
     "AI&LLM/AI/LLM/AI agents/langchain/basics",
     "images/Pasted image 20251106122752.png",
     "images/Pasted image 20251106122029.png",
