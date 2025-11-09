@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
-                "mode": "source",
+                "file": "Programming and web dev/some random web topics/DOM/What is the DOM.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 AI Agents Vs Agnetic workflow"
+              "title": "What is the DOM"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
+                "file": "Programming and web dev/some random web topics/DOM/What is the DOM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1 AI Agents Vs Agnetic workflow"
+              "title": "Outline of What is the DOM"
             }
           }
         ],
@@ -171,10 +171,13 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
+    "Programming and web dev/some random web topics/DOM/DOM overview.md",
+    "Programming and web dev/some random web topics/DOM/What is the DOM.md",
+    "Programming and web dev/some random web topics/DOM",
+    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
     "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
     "articles and blogs/Self-Hosted GitLab/Self-Hosted GitLab.md",
     "articles and blogs/Self-Hosted GitLab/Why I Self-Hosted GitLab in My Home Lab.md",
-    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
     "The coders  Log Pose/Git/How to Add a Remote Repository in Git.md",
     "articles and blogs/Self-Hosted GitLab",
     "The coders  Log Pose/Tailscale/installation.md",
@@ -203,13 +206,11 @@
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/4.Accessing Individual Lab Machines.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/3.Managing the Lab.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/2.The Network Architecture.md",
-    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/1.Setting up the Lab with docker.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB",
     "AI&LLM/AI/LLM/AI agents/langchain/basics",
     "images/Pasted image 20251106122752.png",
     "images/Pasted image 20251106122029.png",
     "Pasted image 20251106123022.png",
-    "images",
     "AI&LLM/AI/LLM/AI agents/Untitled.canvas",
     "AI&LLM/Pasted image 20251026204147.png",
     "JOB/Pasted image 20251026204147.png",
