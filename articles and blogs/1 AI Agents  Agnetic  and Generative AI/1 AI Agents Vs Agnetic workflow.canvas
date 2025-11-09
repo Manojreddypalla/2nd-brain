@@ -1,9 +1,28 @@
 {
 	"nodes":[
-		{"id":"44edeb1da4de163b","type":"text","text":"make a plan ","x":-600,"y":-600,"width":250,"height":60},
-		{"id":"bf19e1d649aa5aa7","type":"text","text":"execute action with tools ","x":40,"y":-540,"width":250,"height":60}
+		{"id":"d6dd8724e717d59c","x":-680,"y":-620,"width":250,"height":60,"type":"text","text":"Router "},
+		{"id":"e1cb3815836acbd2","x":-320,"y":-620,"width":250,"height":60,"type":"text","text":"switch "},
+		{"id":"117816797b295684","x":-600,"y":-280,"width":250,"height":60,"type":"text","text":"ThinClient T630"},
+		{"id":"0761a53d064c951d","x":-260,"y":-280,"width":250,"height":60,"type":"text","text":"Mac Mini 2014"},
+		{"id":"5c36d9c1f74b01e5","x":80,"y":-280,"width":250,"height":60,"type":"text","text":"HP OMEN"},
+		{"id":"7e52aebac1166e5d","x":-600,"y":-100,"width":250,"height":60,"type":"text","text":"Docker: GitLab CE"},
+		{"id":"9820e1afe25dcb30","x":-260,"y":-100,"width":250,"height":60,"type":"text","text":"Ubuntu Server: backups, containers"},
+		{"id":"65b07713b5b0fec2","x":-680,"y":-820,"width":250,"height":60,"type":"text","text":"Internet"},
+		{"id":"c1eca11450208caa","x":80,"y":-100,"width":250,"height":60,"type":"text","text":"Dev laptop (primary client)"}
 	],
 	"edges":[
-		{"id":"a68fb99ccdb7713d","fromNode":"44edeb1da4de163b","fromSide":"top","toNode":"bf19e1d649aa5aa7","toSide":"top"}
+		{"id":"3a809d429f281c0c","fromNode":"d6dd8724e717d59c","fromSide":"right","toNode":"e1cb3815836acbd2","toSide":"left"},
+		{"id":"8f3c39acd60f90e8","fromNode":"117816797b295684","fromSide":"bottom","toNode":"7e52aebac1166e5d","toSide":"top"},
+		{"id":"a4395c48c145d885","fromNode":"0761a53d064c951d","fromSide":"bottom","toNode":"9820e1afe25dcb30","toSide":"top"},
+		{"id":"777ac18a5a3ce292","fromNode":"117816797b295684","fromSide":"top","toNode":"e1cb3815836acbd2","toSide":"bottom"},
+		{"id":"156e2a1addaed8bf","fromNode":"0761a53d064c951d","fromSide":"top","toNode":"e1cb3815836acbd2","toSide":"bottom"},
+		{"id":"d0efb03349eabce6","fromNode":"5c36d9c1f74b01e5","fromSide":"top","toNode":"e1cb3815836acbd2","toSide":"bottom"},
+		{"id":"7d453f807596bf6b","fromNode":"e1cb3815836acbd2","fromSide":"left","toNode":"d6dd8724e717d59c","toSide":"right"},
+		{"id":"151389eadf9b9416","fromNode":"e1cb3815836acbd2","fromSide":"bottom","toNode":"117816797b295684","toSide":"top"},
+		{"id":"62a89bde11e045fe","fromNode":"e1cb3815836acbd2","fromSide":"bottom","toNode":"0761a53d064c951d","toSide":"top"},
+		{"id":"fba30ee35a74dfd9","fromNode":"e1cb3815836acbd2","fromSide":"bottom","toNode":"5c36d9c1f74b01e5","toSide":"top"},
+		{"id":"d8cb9db46f01412f","fromNode":"d6dd8724e717d59c","fromSide":"top","toNode":"65b07713b5b0fec2","toSide":"bottom"},
+		{"id":"1fb4649eff2ae912","fromNode":"65b07713b5b0fec2","fromSide":"bottom","toNode":"d6dd8724e717d59c","toSide":"top"},
+		{"id":"65d7665efce0381e","fromNode":"5c36d9c1f74b01e5","fromSide":"bottom","toNode":"c1eca11450208caa","toSide":"top"}
 	]
 }

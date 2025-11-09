@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles and blogs/Self-Hosted GitLab/Self-Hosted GitLab.md",
+                "file": "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-Hosted GitLab"
+              "title": "1 AI Agents Vs Agnetic workflow"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles and blogs/Self-Hosted GitLab/Self-Hosted GitLab.md",
+                "file": "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Self-Hosted GitLab"
+              "title": "Outline of 1 AI Agents Vs Agnetic workflow"
             }
           }
         ],
@@ -171,19 +171,20 @@
   },
   "active": "b2f753719b03e9e5",
   "lastOpenFiles": [
-    "articles and blogs/Self-Hosted GitLab",
-    "articles and blogs/Self-Hosted GitLab/Why I Self-Hosted GitLab in My Home Lab.md",
+    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
     "articles and blogs/Self-Hosted GitLab/Self-Hosted GitLab.md",
+    "articles and blogs/Self-Hosted GitLab/Why I Self-Hosted GitLab in My Home Lab.md",
+    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
+    "The coders  Log Pose/Git/How to Add a Remote Repository in Git.md",
+    "articles and blogs/Self-Hosted GitLab",
     "The coders  Log Pose/Tailscale/installation.md",
     "The coders  Log Pose/code server/Code server.md",
     "Game dev and Animation",
     "The coders  Log Pose/Git/How to Add an SSH Key for GitHub on Windows.md",
     "The coders  Log Pose/code server",
     "The coders  Log Pose/Data Interchange Formats/YAML/quick review.md",
-    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.md",
     "The coders  Log Pose/Data Interchange Formats/YAML",
     "The coders  Log Pose/Data Interchange Formats",
-    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
     "articles and blogs/1 AI Agents  Agnetic  and Generative AI",
     "The coders  Log Pose/Linux/static ip in linux.md",
     "The coders  Log Pose/Linux/commands for wi-fi connection.md",
@@ -203,14 +204,12 @@
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/3.Managing the Lab.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/2.The Network Architecture.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/1.Setting up the Lab with docker.md",
-    "AI&LLM/AI/LLM/AI agents/langchain/basics/langGraph.md",
     "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB",
     "AI&LLM/AI/LLM/AI agents/langchain/basics",
     "images/Pasted image 20251106122752.png",
     "images/Pasted image 20251106122029.png",
     "Pasted image 20251106123022.png",
     "images",
-    "Untitled.base",
     "AI&LLM/AI/LLM/AI agents/Untitled.canvas",
     "AI&LLM/Pasted image 20251026204147.png",
     "JOB/Pasted image 20251026204147.png",
