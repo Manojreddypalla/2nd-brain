@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"07900edb46a10d29","x":-1000,"y":-740,"width":1200,"height":540,"type":"group","label":"stack "},
+		{"id":"2ee66de531e540a7","type":"group","x":-20,"y":100,"width":480,"height":580,"label":"Video "},
+		{"id":"67d1d4e61e463d1f","type":"text","text":"**USER**\n- email\n- password\n- -id\n- created at \n- updated at \n","x":-1040,"y":160,"width":242,"height":240},
+		{"id":"7f8b933fa9ec4871","type":"text","text":"next js ","x":-860,"y":-520,"width":250,"height":60,"color":"4"},
+		{"id":"abaf7e8be4735751","type":"text","text":"TypeScript \n\n\n\n**JS+Types** ","x":-847,"y":-680,"width":225,"height":105,"color":"4"},
+		{"id":"d4963736a8c9e490","x":148,"y":540,"width":250,"height":100,"type":"text","text":"height \nwidth \nquality "},
+		{"id":"06bcac18b082fc57","type":"text","text":"**Video**\n\n\n- Title\n- decsription\n- videoUrl\n- thumbnailUrl\n- controls\n- transformation ","x":40,"y":180,"width":280,"height":240},
+		{"id":"881f41d3ecefba24","x":-380,"y":-680,"width":294,"height":205,"color":"4","type":"text","text":"**model**  \n- mongoose \n- bcryptjs \n"}
+	],
+	"edges":[
+		{"id":"607d75b2fbd00aef","fromNode":"06bcac18b082fc57","fromSide":"bottom","toNode":"d4963736a8c9e490","toSide":"top"},
+		{"id":"142d47f153dc7aab","fromNode":"67d1d4e61e463d1f","fromSide":"top","toNode":"07900edb46a10d29","toSide":"bottom"},
+		{"id":"093be76930f2c1a8","fromNode":"2ee66de531e540a7","fromSide":"top","toNode":"07900edb46a10d29","toSide":"bottom"}
+	]
+}
