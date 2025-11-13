@@ -23,8 +23,23 @@
               "icon": "lucide-layout-dashboard",
               "title": "plan of action"
             }
+          },
+          {
+            "id": "6a8d1cba1f7a1562",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming and web dev/DSA/Basic Data Structures/linked list/single linked list.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "single linked list"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Full Stack Projects/Next js/normal project/plan of action.canvas",
+                "file": "Programming and web dev/DSA/Basic Data Structures/linked list/single linked list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of plan of action"
+              "title": "Outline of single linked list"
             }
           }
         ],
@@ -172,50 +187,50 @@
       "bases:Create new base": false
     }
   },
-  "active": "b2f753719b03e9e5",
+  "active": "6a8d1cba1f7a1562",
   "lastOpenFiles": [
-    "GEMINI.md",
-    "Retr0 skills.md",
+    "Programming and web dev/DSA/Basic Data Structures/linked list/Doubly Linked List.md",
+    "Programming and web dev/DSA/Basic Data Structures/linked list/single linked list.md",
+    "Programming and web dev/DSA/plan.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/3. Searching & Binary Search Patterns.md",
+    "Programming and web dev/DSA/Basic Data Structures/linked list",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/2. Sorting & Rearranging.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/1. Basic Traversal and Operations.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/0.🧩 Array Patterns & Topics.md",
+    "Programming and web dev/DSA/Basic Data Structures/Untitled.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/TOPICS.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/7. Subarrays & Subsequences (Super Simple Explanation).md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/6. Two Pointers.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/basics.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/5. Sliding Window.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/CURD operations.md",
+    "Programming and web dev/DSA/Basic Data Structures/arrays/4. Prefix Sum Cumulative Sum.md",
+    "Programming and web dev/DSA/patterns.md",
+    "Programming and web dev/DSA/DSA.MD",
+    "Gray Hat Hacking/kasm work space/installation.md",
+    "DevOps/Tunnel/Cloudflare/step by step.md",
+    "Gray Hat Hacking/kasm work space",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/16_Summary.md",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/12_Text_Processing.md",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/11_Case_Statements.md",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/10_Break_and_Continue.md",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/09_For_Loops.md",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/08_Until_Loops.md",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/07_While_Loops.md",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth",
+    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/New folder",
+    "BOOKS/BLACK HAT BASH/Bash Basics/depth",
+    "BOOKS/BLACK HAT BASH/Bash Basics/New folder",
+    "Gray Hat Hacking/Dark Web",
+    "Projects/sys res monitor",
     "images/Pasted image 20251111141355.png",
     "Projects/Full Stack Projects/Next js/normal project/plan of action.canvas",
-    "Projects/Full Stack Projects/Next js/normal project/plan of action.md",
     "images/Pasted image 20251111140501.png",
     "Pasted image 20251111140623.png",
     "images/Pasted image 20251111140633.png",
     "images/Untitled.base",
-    "Programming and web dev/DSA/Basic Data Structures/arrays/TOPICS.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/01_Test_Operators.md",
     "Projects/Full Stack Projects/Next js/normal project",
-    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/4.Accessing Individual Lab Machines.md",
-    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/5.Installing Additional Hacking Tools.md",
-    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/3.Managing the Lab.md",
-    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/2.The Network Architecture.md",
-    "BOOKS/BLACK HAT BASH/SETTING UP A HACKING LAB/1.Setting up the Lab with docker.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/03_Elements_of_a_Bash_Script.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/02_Exploring_the_Shell.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/01_Environmental_Setup.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/00_Unit_Overview.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/12_Exit_Codes.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/Unit 1.md",
-    "BOOKS/BookMarks.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/04_Advanced_If.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/02_If_Conditions.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/11_Input_Prompting.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/10_Positional_Arguments.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/08_Control_Operators.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/06_Arrays.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/05_Arithmetic_Operators.md",
-    "BOOKS/BLACK HAT BASH/Bash Basics/04_Variables.md",
-    "The coders  Log Pose/Git/Git Version Control.md",
-    "Programming and web dev/Full Stack",
-    "Projects/Full Stack Projects/Next js",
-    "Projects/Full Stack Projects",
-    "DevOps/Tunnel/Cloudflare",
-    "DevOps/Tunnel",
-    "Programming and web dev/some random web topics/DOM",
     "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
-    "articles and blogs/Self-Hosted GitLab",
-    "Game dev and Animation",
     "images/Pasted image 20251106122752.png",
     "images/Pasted image 20251106122029.png",
     "Pasted image 20251106123022.png",
