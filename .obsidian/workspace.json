@@ -28,14 +28,17 @@
             "id": "6a8d1cba1f7a1562",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Programming and web dev/DSA/Basic Data Structures/linked list/single linked list.md",
-                "mode": "source",
-                "source": false
+                "file": "AI&LLM/AI/Gen AI/Gen AI.canvas",
+                "viewState": {
+                  "x": 205.7535045792814,
+                  "y": -302.0574603179356,
+                  "zoom": -0.6666666666666665
+                }
               },
-              "icon": "lucide-file",
-              "title": "single linked list"
+              "icon": "lucide-layout-dashboard",
+              "title": "Gen AI"
             }
           }
         ],
@@ -160,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming and web dev/DSA/Basic Data Structures/linked list/single linked list.md",
+                "file": "AI&LLM/AI/Gen AI/Gen AI.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of single linked list"
+              "title": "Outline of Gen AI"
             }
           }
         ],
@@ -189,9 +192,14 @@
   },
   "active": "6a8d1cba1f7a1562",
   "lastOpenFiles": [
-    "Programming and web dev/DSA/Basic Data Structures/linked list/Doubly Linked List.md",
-    "Programming and web dev/DSA/Basic Data Structures/linked list/single linked list.md",
+    "AI&LLM/AI/Gen AI/ROADMAP.md",
+    "AI&LLM/AI/Gen AI/Gen AI.canvas",
+    "Programming and web dev/Full Stack/imp tech stack.md",
+    "AI&LLM/AI/Gen AI",
     "Programming and web dev/DSA/plan.md",
+    "Programming and web dev/DSA/Basic Data Structures/Stack",
+    "Programming and web dev/DSA/Basic Data Structures/linked list/single linked list.md",
+    "Programming and web dev/DSA/Basic Data Structures/linked list/Doubly Linked List.md",
     "Programming and web dev/DSA/Basic Data Structures/arrays/3. Searching & Binary Search Patterns.md",
     "Programming and web dev/DSA/Basic Data Structures/linked list",
     "Programming and web dev/DSA/Basic Data Structures/arrays/2. Sorting & Rearranging.md",
@@ -214,9 +222,6 @@
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/12_Text_Processing.md",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/11_Case_Statements.md",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/10_Break_and_Continue.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/09_For_Loops.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/08_Until_Loops.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/07_While_Loops.md",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/New folder",
     "BOOKS/BLACK HAT BASH/Bash Basics/depth",
@@ -228,8 +233,6 @@
     "images/Pasted image 20251111140501.png",
     "Pasted image 20251111140623.png",
     "images/Pasted image 20251111140633.png",
-    "images/Untitled.base",
-    "Projects/Full Stack Projects/Next js/normal project",
     "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
     "images/Pasted image 20251106122752.png",
     "images/Pasted image 20251106122029.png",
