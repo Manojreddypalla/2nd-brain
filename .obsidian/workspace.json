@@ -28,17 +28,14 @@
             "id": "6a8d1cba1f7a1562",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI&LLM/AI/Gen AI/Gen AI.canvas",
-                "viewState": {
-                  "x": 205.7535045792814,
-                  "y": -302.0574603179356,
-                  "zoom": -0.6666666666666665
-                }
+                "file": "Programming and web dev/Aptitude/plan.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Gen AI"
+              "icon": "lucide-file",
+              "title": "plan"
             }
           }
         ],
@@ -163,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI&LLM/AI/Gen AI/Gen AI.canvas",
+                "file": "Programming and web dev/Aptitude/plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gen AI"
+              "title": "Outline of plan"
             }
           }
         ],
@@ -192,8 +189,13 @@
   },
   "active": "6a8d1cba1f7a1562",
   "lastOpenFiles": [
-    "AI&LLM/AI/Gen AI/ROADMAP.md",
+    "Programming and web dev/Aptitude/basics part 1.md",
+    "Programming and web dev/Aptitude/plan.md",
+    "Programming and web dev/Aptitude/Data Interpretation/tables",
+    "Programming and web dev/Aptitude/Data Interpretation",
+    "The coders  Log Pose/Data Base/MongoDB/1.MongoDB overview.md",
     "AI&LLM/AI/Gen AI/Gen AI.canvas",
+    "AI&LLM/AI/Gen AI/ROADMAP.md",
     "Programming and web dev/Full Stack/imp tech stack.md",
     "AI&LLM/AI/Gen AI",
     "Programming and web dev/DSA/plan.md",
@@ -220,14 +222,10 @@
     "Gray Hat Hacking/kasm work space",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/16_Summary.md",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/12_Text_Processing.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/11_Case_Statements.md",
-    "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth/10_Break_and_Continue.md",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/depth",
     "BOOKS/BLACK HAT BASH/FLOW CONTROL AND   TEXT PROCESSING/New folder",
     "BOOKS/BLACK HAT BASH/Bash Basics/depth",
     "BOOKS/BLACK HAT BASH/Bash Basics/New folder",
-    "Gray Hat Hacking/Dark Web",
-    "Projects/sys res monitor",
     "images/Pasted image 20251111141355.png",
     "Projects/Full Stack Projects/Next js/normal project/plan of action.canvas",
     "images/Pasted image 20251111140501.png",
