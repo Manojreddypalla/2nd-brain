@@ -1,6 +1,6 @@
 # python
 
-[Basics ](Basics)
+[basics](basics.md)
 
 [NumPy](NumPY)
 
