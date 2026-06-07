@@ -1,4 +1,0 @@
--[Abstract](Cold%20Storage/Projects/GitSage/Abstract.md)
--[Rag](Cold%20Storage/Projects/GitSage/Rag.md)
--[tech to learn ](tech%20to%20learn.md)
--[work flow](work%20flow.md)
