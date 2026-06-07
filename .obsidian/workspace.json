@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "to revise and revisit and learn.md",
+                "file": "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/1.tracing (how it works ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "to revise and revisit and learn"
+              "title": "1.tracing (how it works )"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "to revise and revisit and learn.md",
+                "file": "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/1.tracing (how it works ).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of to revise and revisit and learn"
+              "title": "Outline of 1.tracing (how it works )"
             }
           }
         ],
@@ -170,12 +170,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3ec71a7546caba60",
+  "active": "af0ff7d915aae477",
   "lastOpenFiles": [
+    "3.The Atlas/Data Analytics/roadmap.md",
+    "3.The Atlas/CSE Core/Programming/python/Python fundamentals.md",
+    "3.The Atlas/AIML/Drawing 2026-06-07 01.09.41.excalidraw.md",
+    "3.The Atlas/Data Analytics/SQL",
+    "3.The Atlas/WEB DEV/web development.md",
+    "3.The Atlas/CSE Core/Programming/python",
+    "to revise and revisit and learn.md",
+    "3.The Atlas/Data Analytics",
     "2.Active Work (Projects)/Home Lab/NAS/Untitled.md",
     "4.Cold Storage/The coders  Log Pose/Linux/SMBA.md",
     "2.Active Work (Projects)/about.md",
-    "to revise and revisit and learn.md",
     "2.Active Work (Projects)/Home Lab/NAS",
     "Drawing 2026-06-07 19.08.52.excalidraw.md",
     "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/8.1 fib.md",
@@ -195,19 +202,12 @@
     "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/2.Structures/everything.md",
     "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/1.array/1.Array Basics.md",
     "3.The Atlas/Life & Media/anime and manga/dr stone/why  i like it.md",
-    "3.The Atlas/Life & Media/anime and manga/dr stone/Dr Stone.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/2.Introduction/1.introduction.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/7. Taylor series from start to end.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/5.Static and Global Variables in Recursion.md",
     "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/5.parameter passing",
     "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/4.functions",
     "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/3.pointers",
     "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/2.Structures",
     "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/1.array",
     "3.The Atlas/Life & Media/anime and manga/dr stone",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/2.Introduction",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts",
     "images/Pasted image 20260607122119.png",
     "images/Pasted image 20260607122044.png",
     "4.Cold Storage/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
