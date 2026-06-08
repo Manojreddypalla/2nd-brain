@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/5. N-Queens Algorithm.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -172,6 +172,14 @@
   },
   "active": "3ec71a7546caba60",
   "lastOpenFiles": [
+    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/4.N-Queens Problem - Solution.md",
+    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/3.N-Queens Problem - Introduction.md",
+    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/2.Backtracking - Introduction.md",
+    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/1.Recursion - BruteForce - Backtracking - What is What.md",
+    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/1.tracing.md",
+    "images/Pasted image 20260608134837.png",
+    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/5. N-Queens Algorithm.md",
+    "3.The Atlas/science and math/physics",
     "3.The Atlas/CSE Core/Programming/cpp/basics/Conditions.md",
     "3.The Atlas/CSE Core/Programming/cpp/STL",
     "3.The Atlas/CSE Core/Programming/cpp/basics",
@@ -179,12 +187,6 @@
     "3.The Atlas/CSE Core/Programming/cpp/basics/Loops.md",
     "3.The Atlas/CSE Core/Programming/cpp/basics/Operators.md",
     "3.The Atlas/CSE Core/Programming/cpp/basics/Variables.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/5. N-Queens Algorithm.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/4.N-Queens Problem - Solution.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/3.N-Queens Problem - Introduction.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/2.Backtracking - Introduction.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/1.tracing.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/Backtracking/1.Recursion - BruteForce - Backtracking - What is What.md",
     "3.The Atlas/science and math",
     "Tracing.md",
     "Drawing 2026-06-07 19.08.52.excalidraw.md",
@@ -206,7 +208,6 @@
     "4.Cold Storage/The coders  Log Pose/Linux/SMBA.md",
     "2.Active Work (Projects)/about.md",
     "2.Active Work (Projects)/Home Lab/NAS",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/5.parameter passing",
     "images/Pasted image 20260607122119.png",
     "images/Pasted image 20260607122044.png",
     "4.Cold Storage/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
@@ -223,7 +224,6 @@
     "Pasted image 20251111140623.png",
     "images/Pasted image 20251111140633.png",
     "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
-    "images/Pasted image 20251106122752.png",
     "AI&LLM/AI/LLM/AI agents/Untitled.canvas"
   ]
 }
