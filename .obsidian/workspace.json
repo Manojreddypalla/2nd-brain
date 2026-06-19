@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/DSA/roadmaps/Exact Preparation & Revision Roadmap.md",
+                "file": "3.The Atlas/DSA/questions and concepts/graphs/imp concepts and q/DFS AND BFS Traversal/recursive BFS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exact Preparation & Revision Roadmap"
+              "title": "recursive BFS"
             }
           }
         ]
@@ -173,8 +173,22 @@
   },
   "active": "ad1e390115debe3d",
   "lastOpenFiles": [
-    "3.The Atlas/DSA/roadmaps/Fastest Way to Learn DSA.md",
+    "3.The Atlas/DSA/questions and concepts/graphs/imp concepts and q/DFS AND BFS Traversal/recursive DFS.md",
+    "3.The Atlas/DSA/questions and concepts/graphs/imp concepts and q/DFS AND BFS Traversal/recursive BFS.md",
+    "3.The Atlas/DSA/questions and concepts/graphs/imp concepts and q/DFS AND BFS Traversal/iterative BFS.md",
+    "3.The Atlas/DSA/questions and concepts/graphs/imp concepts and q/DFS AND BFS Traversal/iterative DFS (Depth First Search) using a stack..md",
+    "3.The Atlas/DSA/questions and concepts/trees/imp concepts/Tree sum.md",
+    "3.The Atlas/DSA/questions and concepts/graphs/imp concepts and q/DFS AND BFS Traversal",
+    "3.The Atlas/DSA/questions and concepts/graphs/imp concepts and q",
+    "3.The Atlas/DSA/questions and concepts/graphs",
+    "3.The Atlas/DSA/questions and concepts/trees/imp concepts/tree min value.md",
+    "3.The Atlas/DSA/questions and concepts/trees/imp concepts/tree max value.md",
+    "3.The Atlas/DSA/questions and concepts/trees/imp concepts/DFS using stacks.md",
+    "3.The Atlas/DSA/questions and concepts/trees/imp concepts/Binary Tree Algorithms for Technical Interviews.md",
+    "3.The Atlas/DSA/questions and concepts/trees/imp concepts/BFS using queue.md",
+    "3.The Atlas/science and math/physics/DC/BASIC Concepts of electricity/Static Electricity.md",
     "3.The Atlas/DSA/roadmaps/Exact Preparation & Revision Roadmap.md",
+    "3.The Atlas/DSA/roadmaps/Fastest Way to Learn DSA.md",
     "3.The Atlas/AIML/Agentic AI/Full stack generative and Agentic AI/core foundations of gen AI/Deep Dive into the GPT Architecture.md",
     "3.The Atlas/AIML/Agentic AI/Full stack generative and Agentic AI/core foundations of gen AI/Understanding Large Language Models (LLMs).md",
     "3.The Atlas/AIML/Agentic AI.md",
@@ -194,24 +208,10 @@
     "1.The Inbox/about me/as of 17-06-2026.md",
     "2.Active Work (Projects)/flipper one/path.md",
     "1.The Inbox/about me/Untitled",
-    "1.The Inbox/about me",
     "2.Active Work (Projects)/flipper one/arc/where to start.md",
-    "2.Active Work (Projects)/flipper one/arc",
-    "2.Active Work (Projects)/flipper one/arc/need to learn.md",
-    "2.Active Work (Projects)/flipper one/arc/what is flipper one.md",
-    "3.The Atlas/linux/topics.md",
-    "3.The Atlas/linux/Untitled",
-    "3.The Atlas/DSA/questions and concepts/trees/revision and prevision notes/Tree sum.md",
-    "3.The Atlas/DSA/questions and concepts/trees/revision and prevision notes/BFS using queue.md",
-    "3.The Atlas/DSA/questions and concepts/trees/revision and prevision notes/DFS using stacks.md",
-    "3.The Atlas/DSA/questions and concepts/trees/revision and prevision notes/Binary Tree Algorithms for Technical Interviews.md",
     "images/Pasted image 20260617145913.png",
     "images/Pasted image 20260617145909.png",
     "images/Pasted image 20260617145905.png",
-    "3.The Atlas/DSA/questions and concepts/DP/BASICS/Grid Traveler or Unique Paths.md",
-    "3.The Atlas/DSA/questions and concepts/DP/BASICS/FIB Memorization.md",
-    "3.The Atlas/DSA/questions and concepts/DP/BASICS/0&1 Knapsack.md",
-    "3.The Atlas/DSA/questions and concepts/trees/daily/Tier 1 — Absolutely Do These/4. Validate Binary Search Tree.md",
     "images/Pasted image 20260616164941.png",
     "images/Pasted image 20260611132338.png",
     "images/Pasted image 20260611132240.png",
