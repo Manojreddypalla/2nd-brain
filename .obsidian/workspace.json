@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
-                "mode": "source",
+                "file": "1.The Inbox/pc/tools.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "tools"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
+                "file": "1.The Inbox/pc/tools.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of tools"
             }
           }
         ],
@@ -185,17 +185,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "af0ff7d915aae477",
+  "active": "d2dc7ff986b809b3",
   "lastOpenFiles": [
+    "1.The Inbox/Carrer roles/Digital Content Creation/Creative Media & Content Creation Roadmap.md",
+    "1.The Inbox/pc/tools.md",
+    "1.The Inbox/pc",
+    "1.The Inbox/Carrer roles/Software Engineering.md",
+    "1.The Inbox/Carrer roles/Digital Content Creation/summery.md",
+    "1.The Inbox/Carrer roles/Digital Content Creation/in short.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Has path problem/BFS.md",
+    "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Network Delay Time",
     "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS",
     "3.The Atlas/Programming/python/basics/Python fundamentals.md",
-    "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
     "3.The Atlas/DSA/concepts/graphs/algorithms",
-    "1.The Inbox/Carrer roles/Digital Content Creation/in short.md",
-    "1.The Inbox/Carrer roles/Digital Content Creation/summery.md",
     "1.The Inbox/Carrer roles/cyber security/roles.md",
     "1.The Inbox/Carrer roles/AI Industry/all.md",
-    "1.The Inbox/Carrer roles/Software Engineering.md",
     "1.The Inbox/Carrer roles/Digital Content Creation/Untitled",
     "1.The Inbox/Carrer roles/Digital Content Creation",
     "1.The Inbox/Carrer roles/cyber security",
@@ -216,13 +221,8 @@
     "2.Active Work (Projects)/about.md",
     "3.The Atlas/Programming/python/data manipulation/need to learn.md",
     "3.The Atlas/Programming/python/basics",
-    "3.The Atlas/Programming/python/data manipulation",
     "3.The Atlas/Programming/cpp/basics/Variables.md",
     "3.The Atlas/Programming/cpp/basics/Operators.md",
-    "web development.md",
-    "3.The Atlas/Programming/cpp/basics/Loops.md",
-    "3.The Atlas/Programming/java",
-    "1.The Inbox/path",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260621101336.png",
     "images/Pasted image 20260617145913.png",
