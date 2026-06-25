@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.Active Work (Projects)/cyber security/C++ port scanner/concepts.md",
+                "file": "3.The Atlas/Hardware & Mechatronics/Drone/Path/roadmap.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "roadmap"
+            }
+          },
+          {
+            "id": "d2dc7ff986b809b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "concepts"
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.Active Work (Projects)/flipper one/logs/log 1.md",
+                "file": "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of log 1"
+              "title": "Outline of Untitled"
             }
           }
         ],
@@ -156,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,46 +185,46 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ad1e390115debe3d",
+  "active": "af0ff7d915aae477",
   "lastOpenFiles": [
-    "2.Active Work (Projects)/cyber security/C++ port scanner/goal.md",
-    "2.Active Work (Projects)/cyber security/C++ port scanner/concepts.md",
-    "2.Active Work (Projects)/cyber security/C++ port scanner/requirements for this.md",
-    "3.The Atlas/DSA/concepts/strings/Group Anagrams/Group Anagrams.md",
-    "2.Active Work (Projects)/cyber security/C++ port scanner",
-    "2.Active Work (Projects)/cyber security",
-    "3.The Atlas/DSA/70 leetcode/2.missing numbers.md",
-    "3.The Atlas/DSA/concepts/strings/Group Anagrams",
-    "3.The Atlas/DSA/concepts/strings",
+    "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS",
+    "3.The Atlas/Programming/python/basics/Python fundamentals.md",
+    "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
+    "3.The Atlas/DSA/concepts/graphs/algorithms",
+    "1.The Inbox/Carrer roles/Digital Content Creation/in short.md",
+    "1.The Inbox/Carrer roles/Digital Content Creation/summery.md",
+    "1.The Inbox/Carrer roles/cyber security/roles.md",
+    "1.The Inbox/Carrer roles/AI Industry/all.md",
+    "1.The Inbox/Carrer roles/Software Engineering.md",
+    "1.The Inbox/Carrer roles/Digital Content Creation/Untitled",
+    "1.The Inbox/Carrer roles/Digital Content Creation",
+    "1.The Inbox/Carrer roles/cyber security",
+    "1.The Inbox/Carrer roles/AI Industry/AI Research Scientist.md",
+    "1.The Inbox/Carrer roles/AI Industry/MLOps Engineer.md",
+    "4.Cold Storage/DevOps/DevOps.md",
+    "1.The Inbox/Carrer roles/AI Industry/Generative AI Engineer.md",
+    "1.The Inbox/Carrer roles/AI Industry/Machine Learning Engineer.md",
+    "1.The Inbox/Carrer roles/AI Industry/Data Scientist.md",
+    "1.The Inbox/Carrer roles/AI Industry/AI Engineer.md",
+    "1.The Inbox/Carrer roles/AI Industry",
+    "1.The Inbox/path/roadmap.md",
+    "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.3 Basic Commands.md",
+    "1.The Inbox/Carrer roles",
+    "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.1 The Bourne Shell and using it.md",
+    "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/intro.md",
+    "The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/C and C++ concepts/5.parameter passing/parameter passing.md",
+    "2.Active Work (Projects)/about.md",
+    "3.The Atlas/Programming/python/data manipulation/need to learn.md",
+    "3.The Atlas/Programming/python/basics",
+    "3.The Atlas/Programming/python/data manipulation",
+    "3.The Atlas/Programming/cpp/basics/Variables.md",
+    "3.The Atlas/Programming/cpp/basics/Operators.md",
+    "web development.md",
+    "3.The Atlas/Programming/cpp/basics/Loops.md",
+    "3.The Atlas/Programming/java",
+    "1.The Inbox/path",
     "3.The Atlas/DSA/Untitled.canvas",
-    "3.The Atlas/DSA/patterns/8 imp patterns",
-    "3.The Atlas/DSA/patterns",
-    "3.The Atlas/DSA/70 leetcode/1.Duplicate values.md",
-    "3.The Atlas/DSA/70 leetcode/1.info.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Has path problem/BFS.md",
-    "3.The Atlas/DSA/70 leetcode",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/shortest path",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Has path problem/recursion DFS.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Has path problem/info.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Has path problem/DFS version iteratively.md",
     "images/Pasted image 20260621101336.png",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/DFS AND BFS Traversal/iterative BFS.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Has path problem",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/Graph Representations Cheat Sheet.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/4.Weighted Adjacency List/Untitled.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/2.Adjacency Matrix/Weighted Adjacency Matrix.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/3.Adjacency List/Adjacency List.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/3.Adjacency List/Adjacency List (Unweighted Graph).md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/2.Adjacency Matrix/Adjacency Matrix (Undirected Graph) code.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/2.Adjacency Matrix/what is it.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/1.edge list/Weighted Edge List.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/1.edge list/Edge list.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/1.edge list/code.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/DFS AND BFS Traversal/recursive DFS.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/DFS AND BFS Traversal/recursive BFS.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/DFS AND BFS Traversal/iterative DFS (Depth First Search) using a stack..md",
-    "2.Active Work (Projects)/flipper one/linux wiki/RK3588 and RK3576 video decoders support merged in the upstream Linux Kernel/what is this actually.md",
     "images/Pasted image 20260617145913.png",
     "images/Pasted image 20260617145909.png",
     "images/Pasted image 20260617145905.png",
