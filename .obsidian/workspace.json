@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad1e390115debe3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.The Atlas/Hardware & Mechatronics/Drone/Path/roadmap.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "roadmap"
-            }
-          },
-          {
             "id": "d2dc7ff986b809b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.The Inbox/pc/tools.md",
+                "file": "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.1 The Bourne Shell and using it.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tools"
+              "title": "2.1 The Bourne Shell and using it"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.The Inbox/pc/tools.md",
+                "file": "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.1 The Bourne Shell and using it.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tools"
+              "title": "Outline of 2.1 The Bourne Shell and using it"
             }
           }
         ],
@@ -187,42 +172,42 @@
   },
   "active": "d2dc7ff986b809b3",
   "lastOpenFiles": [
-    "1.The Inbox/Carrer roles/Digital Content Creation/Creative Media & Content Creation Roadmap.md",
+    "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.3 Basic Commands.md",
+    "2.Active Work (Projects)/web dev prep/Software Development Practices/review.md",
+    "2.Active Work (Projects)/web dev prep/Deployment & Cloud Basics/quick note.md",
+    "2.Active Work (Projects)/web dev prep/Software Development Practices",
+    "2.Active Work (Projects)/web dev prep/Debugging & Browser DevTools Interview Notes/revision.md",
+    "2.Active Work (Projects)/web dev prep/Deployment & Cloud Basics",
+    "2.Active Work (Projects)/web dev prep/Git & GitHub/revision.md",
+    "2.Active Work (Projects)/web dev prep/Debugging & Browser DevTools Interview Notes",
+    "2.Active Work (Projects)/web dev prep/SQL/SQL Interview Notes.md",
+    "2.Active Work (Projects)/web dev prep/Git & GitHub",
+    "2.Active Work (Projects)/web dev prep/REST APIs/quick revision.md",
+    "2.Active Work (Projects)/web dev prep/SQL",
+    "2.Active Work (Projects)/web dev prep/Express.js/quick revision.md",
+    "2.Active Work (Projects)/web dev prep/React.js/revision.md",
+    "2.Active Work (Projects)/web dev prep/REST APIs",
+    "2.Active Work (Projects)/web dev prep/Node.js/quick review.md",
+    "2.Active Work (Projects)/web dev prep/Express.js",
+    "2.Active Work (Projects)/web dev prep/Node.js",
+    "2.Active Work (Projects)/web dev prep/TypeScript (TS)/revision.md",
+    "2.Active Work (Projects)/web dev prep/React.js",
+    "2.Active Work (Projects)/web dev prep/JavaScript (JS)/revision.md",
+    "2.Active Work (Projects)/web dev prep/TypeScript (TS)",
+    "2.Active Work (Projects)/web dev prep/css/revision.md",
+    "2.Active Work (Projects)/web dev prep/html/revision 2.md",
+    "2.Active Work (Projects)/web dev prep/html/quick note.md",
+    "2.Active Work (Projects)/web dev prep/topics.md",
+    "3.The Atlas/WEB DEV/web development.md",
+    "3.The Atlas/DSA/concepts/graphs/to do.md",
     "1.The Inbox/pc/tools.md",
-    "1.The Inbox/pc",
+    "1.The Inbox/Carrer roles/Digital Content Creation/Creative Media & Content Creation Roadmap.md",
     "1.The Inbox/Carrer roles/Software Engineering.md",
     "1.The Inbox/Carrer roles/Digital Content Creation/summery.md",
     "1.The Inbox/Carrer roles/Digital Content Creation/in short.md",
     "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Has path problem/BFS.md",
     "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Network Delay Time",
-    "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS",
     "3.The Atlas/Programming/python/basics/Python fundamentals.md",
-    "3.The Atlas/DSA/concepts/graphs/algorithms",
-    "1.The Inbox/Carrer roles/cyber security/roles.md",
-    "1.The Inbox/Carrer roles/AI Industry/all.md",
-    "1.The Inbox/Carrer roles/Digital Content Creation/Untitled",
-    "1.The Inbox/Carrer roles/Digital Content Creation",
-    "1.The Inbox/Carrer roles/cyber security",
-    "1.The Inbox/Carrer roles/AI Industry/AI Research Scientist.md",
-    "1.The Inbox/Carrer roles/AI Industry/MLOps Engineer.md",
-    "4.Cold Storage/DevOps/DevOps.md",
-    "1.The Inbox/Carrer roles/AI Industry/Generative AI Engineer.md",
-    "1.The Inbox/Carrer roles/AI Industry/Machine Learning Engineer.md",
-    "1.The Inbox/Carrer roles/AI Industry/Data Scientist.md",
-    "1.The Inbox/Carrer roles/AI Industry/AI Engineer.md",
-    "1.The Inbox/Carrer roles/AI Industry",
-    "1.The Inbox/path/roadmap.md",
-    "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.3 Basic Commands.md",
-    "1.The Inbox/Carrer roles",
-    "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.1 The Bourne Shell and using it.md",
-    "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/intro.md",
-    "The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/C and C++ concepts/5.parameter passing/parameter passing.md",
-    "2.Active Work (Projects)/about.md",
-    "3.The Atlas/Programming/python/data manipulation/need to learn.md",
-    "3.The Atlas/Programming/python/basics",
-    "3.The Atlas/Programming/cpp/basics/Variables.md",
-    "3.The Atlas/Programming/cpp/basics/Operators.md",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260621101336.png",
     "images/Pasted image 20260617145913.png",
