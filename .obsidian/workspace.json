@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.1 The Bourne Shell and using it.md",
+                "file": "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/3.Adjacency List/Adjacency List (Unweighted Graph).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.1 The Bourne Shell and using it"
+              "title": "Adjacency List (Unweighted Graph)"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.1 The Bourne Shell and using it.md",
+                "file": "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/3.Adjacency List/Adjacency List (Unweighted Graph).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2.1 The Bourne Shell and using it"
+              "title": "Outline of Adjacency List (Unweighted Graph)"
             }
           }
         ],
@@ -172,6 +172,20 @@
   },
   "active": "d2dc7ff986b809b3",
   "lastOpenFiles": [
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/Graph Representations Cheat Sheet.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/3.Adjacency List/Adjacency List (Unweighted Graph).md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/3.Adjacency List/Adjacency List.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/2.Adjacency Matrix/what is it.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/2.Adjacency Matrix/Weighted Adjacency Matrix.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/2.Adjacency Matrix/Adjacency Matrix (Undirected Graph) code.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/1.edge list/Weighted Edge List.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/1.edge list/code.md",
+    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/1.representation of graphs/1.edge list/Edge list.md",
+    "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
+    "3.The Atlas/Devops/TO IMPROVE.md",
+    "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.1 The Bourne Shell and using it.md",
+    "3.The Atlas/Devops/CICD Pipeline Automation/GitHub  Actions",
+    "3.The Atlas/Devops/CICD Pipeline Automation/jenkins",
     "3.The Atlas/linux/how Linux works/2.BASIC COMMANDS AND  DIRECTORY HIERARCHY/2.3 Basic Commands.md",
     "2.Active Work (Projects)/web dev prep/Software Development Practices/review.md",
     "2.Active Work (Projects)/web dev prep/Deployment & Cloud Basics/quick note.md",
@@ -191,23 +205,9 @@
     "2.Active Work (Projects)/web dev prep/Express.js",
     "2.Active Work (Projects)/web dev prep/Node.js",
     "2.Active Work (Projects)/web dev prep/TypeScript (TS)/revision.md",
-    "2.Active Work (Projects)/web dev prep/React.js",
     "2.Active Work (Projects)/web dev prep/JavaScript (JS)/revision.md",
-    "2.Active Work (Projects)/web dev prep/TypeScript (TS)",
     "2.Active Work (Projects)/web dev prep/css/revision.md",
     "2.Active Work (Projects)/web dev prep/html/revision 2.md",
-    "2.Active Work (Projects)/web dev prep/html/quick note.md",
-    "2.Active Work (Projects)/web dev prep/topics.md",
-    "3.The Atlas/WEB DEV/web development.md",
-    "3.The Atlas/DSA/concepts/graphs/to do.md",
-    "1.The Inbox/pc/tools.md",
-    "1.The Inbox/Carrer roles/Digital Content Creation/Creative Media & Content Creation Roadmap.md",
-    "1.The Inbox/Carrer roles/Software Engineering.md",
-    "1.The Inbox/Carrer roles/Digital Content Creation/summery.md",
-    "1.The Inbox/Carrer roles/Digital Content Creation/in short.md",
-    "3.The Atlas/DSA/concepts/graphs/imp concepts and q/questions/Has path problem/BFS.md",
-    "3.The Atlas/DSA/concepts/graphs/algorithms/1.DFS/Untitled.md",
-    "3.The Atlas/Programming/python/basics/Python fundamentals.md",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260621101336.png",
     "images/Pasted image 20260617145913.png",
