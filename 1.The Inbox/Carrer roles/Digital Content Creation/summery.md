@@ -232,7 +232,7 @@ Examples
 
 - [[C++]]
 - [[C#]]
-- [[Python]]
+- [[4.Cold Storage/Programming/Python/python]]
 - [[Lua]]
 - [[GLSL]]
 - [[HLSL]]
