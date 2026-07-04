@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/Data Bases/psql/1.SQL SELECT Queries/notes.md",
-                "mode": "source",
+                "file": "3.The Atlas/Reverse Engineering/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "index"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/Data Bases/psql/1.SQL SELECT Queries/notes.md",
+                "file": "3.The Atlas/Reverse Engineering/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of notes"
+              "title": "Outline of index"
             }
           }
         ],
@@ -170,35 +170,40 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d2dc7ff986b809b3",
+  "active": "af0ff7d915aae477",
   "lastOpenFiles": [
-    "3.The Atlas/Data Bases/psql/setup and basics.md",
+    "3.The Atlas/Reverse Engineering/Technical/Games/gta vice city",
+    "3.The Atlas/Creativity codex/09. Inspiration/reference.md",
+    "3.The Atlas/Reverse Engineering/index.md",
+    "3.The Atlas/Reverse Engineering/Technical/Malware Analysis",
+    "3.The Atlas/Reverse Engineering/Creative/Soundtracks",
+    "3.The Atlas/Reverse Engineering/Creative/World Building",
+    "3.The Atlas/Reverse Engineering/Creative/Storytelling",
+    "3.The Atlas/Reverse Engineering/Creative/Cinematography",
+    "3.The Atlas/Reverse Engineering/Creative/VFX",
+    "3.The Atlas/Reverse Engineering/Creative/Character Design",
+    "3.The Atlas/Reverse Engineering/Creative/Environment Art",
+    "3.The Atlas/Reverse Engineering/Creative/Level Design",
+    "3.The Atlas/Reverse Engineering/Creative/Game UI",
+    "3.The Atlas/Cyber Security/bandit game/passwords.md",
+    "3.The Atlas/Creativity codex/Untitled.canvas",
     "3.The Atlas/Data Bases/psql/1.SQL SELECT Queries/notes.md",
-    "3.The Atlas/Data Bases/psql/1.SQL SELECT Queries",
+    "3.The Atlas/Data Bases/psql/setup and basics.md",
     "3.The Atlas/AIML/topics.md",
-    "3.The Atlas/Data Bases/psql",
-    "3.The Atlas/Game Dev & 3D/fusion 360/pre req.md",
+    "3.The Atlas/Creativity codex/01. Game Development/fusion 360/pre req.md",
     "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/2.Symbolic AI  Knowledge Representation & Reasoning/1.Knowledge Representation.md",
-    "3.The Atlas/Game Dev & 3D/fusion 360",
     "Pasted image 20260702192018.png",
     "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/1.Introduction to AI/roadmaps/advanced.md",
-    "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/2.Symbolic AI  Knowledge Representation & Reasoning",
     "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/1.Introduction to AI/roadmaps/all of ai.md",
-    "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/1.Introduction to AI/roadmaps",
     "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/1.Introduction to AI/Introduction to AI.md",
     "images/Pasted image 20260702184948.png",
     "3.The Atlas/linux/daily linux/day 1/file system.md",
-    "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/1.Introduction to AI",
-    "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum",
     "3.The Atlas/linux/daily linux/day 1/theory.md",
     "3.The Atlas/linux/daily linux/day 1/Hands-on Lab.md",
     "1.The Inbox/path/roadmap.md",
-    "3.The Atlas/linux/daily linux/day 1",
-    "3.The Atlas/linux/daily linux",
     "3.The Atlas/Interst.md",
     "3.The Atlas/linux/Linux Knowledge Tree/topics.md",
     "2.Active Work (Projects)/linux lab/Build a Mini Container/goal.md",
-    "3.The Atlas/linux/Linux Knowledge Tree",
     "3.The Atlas/linux/container internals/lab.md",
     "3.The Atlas/linux/container internals/name spaces.md",
     "3.The Atlas/linux/container internals/groups (Control Groups).md",
@@ -214,10 +219,6 @@
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162749.png",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162734.png",
     "2.Active Work (Projects)/job notes/accenture/accenture.md",
-    "3.The Atlas/Programming/python/prep/revision/1. Python Memory Model & Variables.md",
-    "3.The Atlas/Programming/python/prep/revision/Python.md",
-    "3.The Atlas/Programming/python/prep/revision/roadmap.md",
-    "3.The Atlas/Data Engineering/spark/pyspark/templates.md",
     "3.The Atlas/DSA/Untitled.canvas",
     "4.Cold Storage/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
     "New folder/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
