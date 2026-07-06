@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/Reverse Engineering/index.md",
+                "file": "2.Active Work (Projects)/Game ideas/The Second Age/A rough version.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "A rough version"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/Reverse Engineering/index.md",
+                "file": "2.Active Work (Projects)/Game ideas/The Second Age/A rough version.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of A rough version"
             }
           }
         ],
@@ -170,11 +170,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "af0ff7d915aae477",
+  "active": "d2dc7ff986b809b3",
   "lastOpenFiles": [
+    "2.Active Work (Projects)/Game ideas/The Second Age/art style.md",
+    "2.Active Work (Projects)/Game ideas/The Second Age/research.md",
+    "2.Active Work (Projects)/Game ideas/The Second Age/man of culture.md",
+    "2.Active Work (Projects)/Game ideas/The Second Age/memes.md",
+    "2.Active Work (Projects)/Game ideas/The Second Age/humour.md",
+    "2.Active Work (Projects)/Game ideas/The Second Age/start.md",
+    "2.Active Work (Projects)/Game ideas/The Second Age/A rough version.md",
+    "2.Active Work (Projects)/Documenting  my Life/carrer.md",
+    "2.Active Work (Projects)/Game ideas/The Second Age",
+    "2.Active Work (Projects)/Game ideas",
+    "2.Active Work (Projects)/Documenting  my Life/how should I.md",
+    "3.The Atlas/Interst.md",
+    "3.The Atlas/Reverse Engineering/index.md",
     "3.The Atlas/Reverse Engineering/Technical/Games/gta vice city",
     "3.The Atlas/Creativity codex/09. Inspiration/reference.md",
-    "3.The Atlas/Reverse Engineering/index.md",
     "3.The Atlas/Reverse Engineering/Technical/Malware Analysis",
     "3.The Atlas/Reverse Engineering/Creative/Soundtracks",
     "3.The Atlas/Reverse Engineering/Creative/World Building",
@@ -182,15 +194,12 @@
     "3.The Atlas/Reverse Engineering/Creative/Cinematography",
     "3.The Atlas/Reverse Engineering/Creative/VFX",
     "3.The Atlas/Reverse Engineering/Creative/Character Design",
-    "3.The Atlas/Reverse Engineering/Creative/Environment Art",
-    "3.The Atlas/Reverse Engineering/Creative/Level Design",
-    "3.The Atlas/Reverse Engineering/Creative/Game UI",
     "3.The Atlas/Cyber Security/bandit game/passwords.md",
     "3.The Atlas/Creativity codex/Untitled.canvas",
     "3.The Atlas/Data Bases/psql/1.SQL SELECT Queries/notes.md",
     "3.The Atlas/Data Bases/psql/setup and basics.md",
     "3.The Atlas/AIML/topics.md",
-    "3.The Atlas/Creativity codex/01. Game Development/fusion 360/pre req.md",
+    "3.The Atlas/Creativity codex/02. 3D/fusion 360/pre req.md",
     "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/2.Symbolic AI  Knowledge Representation & Reasoning/1.Knowledge Representation.md",
     "Pasted image 20260702192018.png",
     "3.The Atlas/AIML/Artificial Intelligence for Beginners - A Curriculum/1.Introduction to AI/roadmaps/advanced.md",
@@ -201,24 +210,15 @@
     "3.The Atlas/linux/daily linux/day 1/theory.md",
     "3.The Atlas/linux/daily linux/day 1/Hands-on Lab.md",
     "1.The Inbox/path/roadmap.md",
-    "3.The Atlas/Interst.md",
     "3.The Atlas/linux/Linux Knowledge Tree/topics.md",
-    "2.Active Work (Projects)/linux lab/Build a Mini Container/goal.md",
-    "3.The Atlas/linux/container internals/lab.md",
-    "3.The Atlas/linux/container internals/name spaces.md",
-    "3.The Atlas/linux/container internals/groups (Control Groups).md",
-    "3.The Atlas/linux/container internals/Network Namespace.md",
-    "2.Active Work (Projects)/tasks/2nd imp.md",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162433.png",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162506.png",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162405.png",
-    "2.Active Work (Projects)/job notes/accenture/interview round images.md",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162841.png",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162820.png",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162803.png",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162749.png",
     "2.Active Work (Projects)/job notes/accenture/images/Pasted image 20260701162734.png",
-    "2.Active Work (Projects)/job notes/accenture/accenture.md",
     "3.The Atlas/DSA/Untitled.canvas",
     "4.Cold Storage/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
     "New folder/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
