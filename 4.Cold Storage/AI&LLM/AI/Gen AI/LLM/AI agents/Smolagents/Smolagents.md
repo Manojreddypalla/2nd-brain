@@ -8,5 +8,5 @@
 - [5.tools](5.tools.md)
 - [6.Building Agentic RAG Systems](6.Building%20Agentic%20RAG%20Systems.md)
 - [7.Vision Agents with smolagents](7.Vision%20Agents%20with%20smolagents.md)
-- [Resources](Resources.md)
+- [Resources](4.Cold%20Storage/AI&LLM/AI/Gen%20AI/LLM/AI%20agents/Smolagents/Resources.md)
 - [smol_agents](smol_agents.md)

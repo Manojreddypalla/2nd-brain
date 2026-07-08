@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/DSA/concepts/graphs/2.problems in GT/0.summery.md",
-                "mode": "source",
+                "file": "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer/Chapter 1 — Introduction to NumPy.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.summery"
+              "title": "Chapter 1 — Introduction to NumPy"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/DSA/concepts/graphs/2.problems in GT/0.summery.md",
+                "file": "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer/Chapter 1 — Introduction to NumPy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0.summery"
+              "title": "Outline of Chapter 1 — Introduction to NumPy"
             }
           }
         ],
@@ -172,13 +172,28 @@
   },
   "active": "d2dc7ff986b809b3",
   "lastOpenFiles": [
+    "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer/NumPy Like an Engineer.md",
+    "3.The Atlas/Programming/python/resources.md",
+    "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer/Chapter 1 — Introduction to NumPy.md",
+    "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/index.md",
+    "3.The Atlas/linux/daily linux/day 7/Hands-on Lab.md",
+    "3.The Atlas/linux/daily linux/day 7/theory.md",
+    "3.The Atlas/WEB DEV/JAVA SCRIPT/RUN 1/Datatypes, variables and constants in Javascript.md",
+    "3.The Atlas/linux/daily linux/day 7",
+    "3.The Atlas/WEB DEV/JAVA SCRIPT/RUN 1/1.1.JavaScript Introduction.md",
+    "3.The Atlas/WEB DEV/JAVA SCRIPT/RUN 1/1.2.JAVA SCRIPT INTRO.md",
+    "3.The Atlas/AIML/machine learning theory/index.md",
+    "3.The Atlas/AIML/machine learning theory",
+    "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer",
+    "3.The Atlas/AIML/topics.md",
+    "3.The Atlas/DSA/concepts/graphs/2.problems in GT/0.summery.md",
+    "3.The Atlas/AIML/Practical Data Analysis and Machine Learning",
     "images/Pasted image 20260707163300.png",
     "images/Pasted image 20260707163213.png",
     "images/Pasted image 20260707163123.png",
     "images/Pasted image 20260707162107.png",
     "images/Pasted image 20260707161724.png",
     "3.The Atlas/DSA/concepts/graphs/2.problems in GT/9.network flow.md",
-    "3.The Atlas/DSA/concepts/graphs/2.problems in GT/0.summery.md",
     "Pasted image 20260707163300.png",
     "3.The Atlas/DSA/concepts/graphs/2.problems in GT/8.minium spanning tree.md",
     "Pasted image 20260707163213.png",
@@ -187,7 +202,6 @@
     "Pasted image 20260707162107.png",
     "3.The Atlas/DSA/concepts/graphs/2.problems in GT/6.Bridges.md",
     "Pasted image 20260707161724.png",
-    "images/Pasted image 20260707161602.png",
     "3.The Atlas/DSA/concepts/graphs/2.problems in GT/5.Traveling Salesman Problem.md",
     "3.The Atlas/DSA/concepts/graphs/2.problems in GT/4.Strongly Connected Components (SCC).md",
     "3.The Atlas/DSA/concepts/graphs/2.problems in GT/3.negative cycle.md",
@@ -199,25 +213,11 @@
     "3.The Atlas/linux/daily linux/index.md",
     "3.The Atlas/linux/daily linux/day 6/Hands-on Lab.md",
     "3.The Atlas/linux/daily linux/day 6/Linux Networking Basics.md",
-    "3.The Atlas/linux/daily linux/day 5/Hands-on Lab.md",
     "3.The Atlas/linux/daily linux/day 6",
-    "3.The Atlas/linux/daily linux/Untitled.md",
-    "3.The Atlas/linux/daily linux/day 5/Users, Groups & Permissions.md",
-    "3.The Atlas/linux/daily linux/day 4/searching using inode number.md",
     "3.The Atlas/linux/daily linux/day 5",
-    "3.The Atlas/linux/daily linux/day 4/Hands-on Lab.md",
-    "3.The Atlas/linux/daily linux/day 4/theory.md",
-    "3.The Atlas/linux/daily linux/day 3/Theory.md",
-    "3.The Atlas/linux/daily linux/day 4/overview.md",
     "3.The Atlas/linux/daily linux/day 4",
-    "3.The Atlas/linux/daily linux/day 3/Hands-on Lab.md",
-    "3.The Atlas/linux/daily linux/day 2/Hands-on Lab.md",
     "3.The Atlas/linux/daily linux/day 3",
     "3.The Atlas/linux/daily linux/day 2",
-    "3.The Atlas/DSA/concepts/graphs/1.graph representation",
-    "2.Active Work (Projects)/Game ideas/The Second Age",
-    "2.Active Work (Projects)/Game ideas",
-    "3.The Atlas/Reverse Engineering/Technical/Games/gta vice city",
     "3.The Atlas/Creativity codex/Untitled.canvas",
     "3.The Atlas/DSA/Untitled.canvas",
     "4.Cold Storage/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
