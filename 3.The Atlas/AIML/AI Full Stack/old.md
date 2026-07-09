@@ -489,4 +489,4 @@ Work through these in order:
 7. Netflix Movies
 8. Heart Disease
 9. Student Performance
-10. Customer Churn
+10. Customer Churn well this is actual plan 
