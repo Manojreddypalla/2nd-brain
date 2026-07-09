@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/DSA/concepts/graphs/4.BFS/grid/Dungeon Problem Statement.md",
+                "file": "5.Creative Codex/11. Creative Journal/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dungeon Problem Statement"
+              "title": "Untitled"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/DSA/concepts/graphs/4.BFS/grid/Dungeon Problem Statement.md",
+                "file": "5.Creative Codex/11. Creative Journal/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dungeon Problem Statement"
+              "title": "Outline of Untitled"
             }
           }
         ],
@@ -172,6 +172,20 @@
   },
   "active": "d2dc7ff986b809b3",
   "lastOpenFiles": [
+    "5.Creative Codex/10. Resources/Untitled.md",
+    "5.Creative Codex/11. Creative Journal/Untitled.md",
+    "5.Creative Codex/09. Inspiration/Untitled.md",
+    "5.Creative Codex/08. Storytelling/Untitled.md",
+    "5.Creative Codex/07. Content Creation/Untitled.md",
+    "5.Creative Codex/06. CAD/Untitled.md",
+    "5.Creative Codex/05. Photography/Untitled.md",
+    "5.Creative Codex/04. Video Production/Untitled.md",
+    "5.Creative Codex/03. Graphic Design/Untitled.md",
+    "5.Creative Codex/02. 3D/Untitled.md",
+    "5.Creative Codex/01. Game Development/Untitled.md",
+    "5.Creative Codex/01. Game Development/unreal engine/2D Game Development/Untitled.md",
+    "5.Creative Codex/02. 3D/fusion 360/pre req.md",
+    "3.The Atlas/DSA/concepts/graphs/4.BFS/grid/Dungeon Problem Statement.md",
     "images/Pasted image 20260709121351.png",
     "images/Pasted image 20260709121335.png",
     "images/Pasted image 20260709121228.png",
@@ -180,12 +194,10 @@
     "Pasted image 20260709121335.png",
     "Pasted image 20260709121228.png",
     "3.The Atlas/DSA/concepts/graphs/4.BFS/grid/path on a grid.md",
-    "3.The Atlas/DSA/concepts/graphs/4.BFS/grid/Dungeon Problem Statement.md",
     "3.The Atlas/DSA/concepts/graphs/4.BFS/grid",
     "Pasted image 20260709120907.png",
     "images/Pasted image 20260709120747.png",
     "images/Pasted image 20260709120714.png",
-    "images/Pasted image 20260709120543.png",
     "3.The Atlas/DSA/concepts/graphs/4.BFS/BFS indepth.md",
     "3.The Atlas/DSA/concepts/graphs/4.BFS/recursive BFS.md",
     "3.The Atlas/DSA/concepts/graphs/4.BFS/iterative BFS.md",
@@ -198,22 +210,10 @@
     "3.The Atlas/DSA/concepts/graphs/imp concepts and q/DFS AND BFS Traversal/recursive DFS.md",
     "3.The Atlas/DSA/concepts/graphs/imp concepts and q/DFS AND BFS Traversal/iterative DFS (Depth First Search) using a stack..md",
     "3.The Atlas/DSA/concepts/graphs/imp concepts and q/DFS AND BFS Traversal/recursive BFS.md",
-    "3.The Atlas/DSA/concepts/graphs/1.graph representation/Graph Representation in C++ (STL).md",
-    "3.The Atlas/DSA/concepts/graphs/2.problems in GT/5.Traveling Salesman Problem.md",
     "3.The Atlas/DSA/concepts/graphs/3.DFS",
-    "3.The Atlas/DSA/concepts/graphs/2.problems in GT/7.articulation points.md",
-    "3.The Atlas/DSA/concepts/graphs/2.problems in GT/8.minium spanning tree.md",
-    "3.The Atlas/DSA/concepts/graphs/2.problems in GT/9.network flow.md",
-    "2.Active Work (Projects)/Home Lab/NAS/net use for windows.md",
     "5.Creative Codex/01. Game Development/unity engine",
     "5.Creative Codex/01. Game Development/unreal engine",
     "5.Creative Codex/01. Game Development/unreal engine/2D Game Development",
-    "4.Cold Storage/The coders  Log Pose/Linux/SMBA.md",
-    "2.Active Work (Projects)/Home Lab/NAS/sbma setup.md",
-    "2.Active Work (Projects)/Home Lab/NAS/how to auto mount a drive at a location.md",
-    "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer/NumPy Chapter 6 – Slicing.md",
-    "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer/Chapter 5 — Indexing.md",
-    "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer/Chapter 4 — Array Attributes.md",
     "3.The Atlas/linux/daily linux/day 7",
     "3.The Atlas/AIML/machine learning theory",
     "3.The Atlas/AIML/Practical Data Analysis and Machine Learning/NumPy Like an Engineer",
