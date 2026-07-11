@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/AIML/AI Full Stack/index.md",
-                "mode": "preview",
+                "file": "3.The Atlas/Programming/C++ Game Programming/lecture 2/Lecture 1 — C++ Fundamentals for Game Programming.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Lecture 1 — C++ Fundamentals for Game Programming"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/AIML/AI Full Stack/index.md",
+                "file": "3.The Atlas/Programming/C++ Game Programming/lecture 2/Lecture 1 — C++ Fundamentals for Game Programming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Lecture 1 — C++ Fundamentals for Game Programming"
             }
           }
         ],
@@ -187,6 +187,17 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
+    "3.The Atlas/Programming/C++ Game Programming/lecture 1/Introduction to 2D Game Engine Programming.md",
+    "3.The Atlas/Programming/C++ Game Programming/lecture 2/Lecture 1 — C++ Fundamentals for Game Programming.md",
+    "3.The Atlas/Programming/C++ Game Programming/lecture 2",
+    "3.The Atlas/linux/daily linux/day 7/theory.md",
+    "3.The Atlas/linux/daily linux/day 7/Hands-on Lab.md",
+    "3.The Atlas/linux/daily linux/Day 8/Theory.md",
+    "3.The Atlas/DSA/concepts/graphs/4.BFS/grid/code.md",
+    "3.The Atlas/linux/daily linux/Day 8",
+    "3.The Atlas/DSA/concepts/graphs/5.Topological Sort",
+    "3.The Atlas/DSA/concepts/graphs/4.BFS/grid/Dungeon Problem Statement.md",
+    "3.The Atlas/AIML/AI Full Stack/index.md",
     "3.The Atlas/AIML/AI Full Stack/Phase 2 — Data & ML Foundations/2.Pandas/Chapter 14 — Pivot Tables.md",
     "3.The Atlas/AIML/AI Full Stack/Phase 2 — Data & ML Foundations/projects/pandas",
     "3.The Atlas/AIML/AI Full Stack/Phase 2 — Data & ML Foundations/projects",
@@ -207,21 +218,11 @@
     "3.The Atlas/WEB DEV/JAVA SCRIPT/JS Foundations/5.Non Primitives in javascript.md",
     "3.The Atlas/WEB DEV/JAVA SCRIPT/JS Foundations/5.1.md",
     "3.The Atlas/WEB DEV/JAVA SCRIPT/JS Foundations/4.Primitives in javascript.md",
-    "3.The Atlas/WEB DEV/JAVA SCRIPT/JS Foundations/3.Operations in javascript.md",
-    "3.The Atlas/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/8.Fibonacci Series using Recursion - Memoization.md",
-    "3.The Atlas/WEB DEV/JAVA SCRIPT/JS Foundations/1.1.JavaScript Introduction.md",
     "3.The Atlas/GATE/SYLLABUS/CS_2026_Syllabus.pdf",
-    "3.The Atlas/GATE/Section 1 Engineering Mathematics/Untitled.md",
     "3.The Atlas/GATE/Section 1 Engineering Mathematics",
     "3.The Atlas/GATE/SYLLABUS",
-    "3.The Atlas/Programming/C++ Game Programming/lecture 1/Introduction to 2D Game Engine Programming.md",
     "3.The Atlas/GATE",
-    "3.The Atlas/Programming/C++ Game Programming/cpp index.md",
-    "3.The Atlas/Programming/C++ Game Programming/intro/syllabus.md",
     "3.The Atlas/Programming/C++ Game Programming/lecture 1",
-    "3.The Atlas/Programming/C++ Game Programming/intro",
-    "3.The Atlas/Programming/C++ Game Programming",
-    "3.The Atlas/AIML/AI Full Stack/Phase 2 — Data & ML Foundations/2.Pandas",
     "images/Pasted image 20260709121351.png",
     "images/Pasted image 20260709121335.png",
     "images/Pasted image 20260709121228.png",
