@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/AIML/AI Full Stack/index.md",
+                "file": "3.The Atlas/DSA/revision sessions/25 Days Revision/Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Roadmap"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/AIML/AI Full Stack/index.md",
+                "file": "3.The Atlas/DSA/revision sessions/25 Days Revision/Roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Roadmap"
             }
           }
         ],
@@ -185,8 +185,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "65966f85ea5d1c66",
+  "active": "af0ff7d915aae477",
   "lastOpenFiles": [
+    "3.The Atlas/DSA/revision sessions/25 Days Revision/Day 1",
+    "3.The Atlas/DSA/roadmaps/Exact Preparation & Revision Roadmap.md",
+    "3.The Atlas/DSA/revision sessions/25 Days Revision/Roadmap.md",
+    "3.The Atlas/AIML/AI Full Stack/index.md",
+    "3.The Atlas/DSA/revision sessions/25 Days Revision",
+    "3.The Atlas/DSA/revision sessions",
+    "3.The Atlas/DSA/Untitled 1.canvas",
     "5.Creative Codex/01. Game Development/C++ Game Programming/lecture 5/Vec2 Class.md",
     "5.Creative Codex/01. Game Development/C++ Game Programming/lecture 5/ECS.md",
     "5.Creative Codex/01. Game Development/C++ Game Programming/lecture 5/slides.md",
@@ -223,16 +230,10 @@
     "GATE/SYLLABUS/CS_2026_Syllabus.pdf",
     "GATE/Group 1/Discrete Mathematics/roadmap.md",
     "GATE/Group 1/Discrete Mathematics/01 Sets/short notes.md",
-    "GATE/Group 1/Discrete Mathematics/01 Sets/1.Sets.md",
-    "GATE/Groups.md",
-    "GATE/GATE PYQ.md",
-    "GATE/Tips/what to do.md",
     "GATE/Tips",
     "GATE/SYLLABUS/GATE _GA_2025_Syllabus.pdf",
     "GATE/Group 2/Operating System/2.Processes",
     "5.Creative Codex/01. Game Development/C++ Game Programming/lecture 5",
-    "3.The Atlas/AIML/AI Full Stack/Phase 2 — Data & ML Foundations/3 Data Cleaning",
-    "GATE/Group 2/Operating System/1.System Calls/question",
     "3.The Atlas/Creativity codex/Untitled.canvas",
     "3.The Atlas/DSA/Untitled.canvas",
     "4.Cold Storage/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
@@ -241,7 +242,6 @@
     "New folder/Projects/Full Stack Projects/Next js/normal project/plan of action.canvas",
     "Projects/Full Stack Projects/Next js/normal project/plan of action.canvas",
     "AI&LLM/AI/Gen AI/Gen AI.canvas",
-    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
-    "AI&LLM/AI/LLM/AI agents/Untitled.canvas"
+    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas"
   ]
 }
