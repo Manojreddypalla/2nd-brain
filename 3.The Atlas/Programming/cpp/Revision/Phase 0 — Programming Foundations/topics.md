@@ -535,3 +535,6 @@ Random STL code
 I prefer this structure because it's based on **how knowledge builds** rather than just listing C++ features. For example, pointers and references are grouped under **Memory Foundations**, because that's the mental model you need before linked lists and trees. Arrays and strings are grouped because they share traversal and indexing patterns. STL comes after you already know the underlying concepts, so you understand _why_ `std::vector` or `std::max_element` work instead of treating them as magic.
 
 Once this foundation is complete, Phase 1 (Arrays), Phase 2 (Linked Lists), Phase 3 (Stacks), and the rest of the DSA roadmap will feel much more connected instead of like isolated topics.
+
+
+

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/Segment 1 — Core Language Fundamentals.md",
-                "mode": "preview",
+                "file": "GATE/Group 4/Computer Networks/Module 1 — OSI Layer/PYQ/SET 1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Segment 1 — Core Language Fundamentals"
+              "title": "SET 1"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/Segment 1 — Core Language Fundamentals.md",
+                "file": "GATE/Group 4/Computer Networks/Module 1 — OSI Layer/PYQ/SET 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Segment 1 — Core Language Fundamentals"
+              "title": "Outline of SET 1"
             }
           }
         ],
@@ -187,8 +187,14 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
+    "GATE/Group 4/Computer Networks/Module 1 — OSI Layer/PYQ",
+    "GATE/Group 4/Computer Networks/Module 1 — OSI Layer/OSI Architecture.md",
+    "GATE/Group 4/Computer Networks/Module 1 — OSI Layer/PYQ/SET 1.md",
+    "GATE/Group 4/Computer Networks/roadmap.md",
     "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/topics.md",
-    "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/Segment 1 — Core Language Fundamentals.md",
+    "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/segment 1/Segment 1 - Part 2 Number Problems (Digit Manipulation).md",
+    "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/segment 1/Segment 1 — Core Language Fundamentals.md",
+    "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/segment 1",
     "3.The Atlas/Programming/cpp/Revision/roadmap.md",
     "3.The Atlas/Programming/cpp/Revision/Untitled.md",
     "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations",
@@ -216,8 +222,6 @@
     "images/Pasted image 20260715155551.png",
     "images/Pasted image 20260715155537.png",
     "images/Pasted image 20260715155438.png",
-    "GATE/Group 4/Computer Networks/Module 1 — OSI Layer/OSI Architecture.md",
-    "GATE/Group 4/Computer Networks/roadmap.md",
     "GATE/Group 4/Computer Networks/Module 1 — OSI Layer",
     "GATE/Group 4/Computer Networks/0.Foundations/0.Computer Networks – Module 0 Foundations (Short Notes).md",
     "GATE/Group 4/Computer Networks/0.Foundations/12. OSI Model (Overview).md",
@@ -228,12 +232,8 @@
     "GATE/Group 4/Computer Networks/0.Foundations/7. Interface.md",
     "GATE/Group 4/Computer Networks/0.Foundations/6. Service.md",
     "GATE/Group 4/Computer Networks/0.Foundations/5. Protocol.md",
-    "GATE/Group 4/Computer Networks/0.Foundations/4. Network Topologies.md",
-    "GATE/Group 4/Computer Networks/0.Foundations/3. Types of Networks (LAN, MAN, WAN).md",
-    "GATE/Group 4/Computer Networks/0.Foundations/2.Components of a Network..md",
     "GATE/Group 4/Computer Networks/0.Foundations",
     "GATE/SYLLABUS/CS_2026_Syllabus.pdf",
-    "GATE/Tips",
     "3.The Atlas/Creativity codex/Untitled.canvas",
     "3.The Atlas/DSA/Untitled.canvas",
     "4.Cold Storage/articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas",
