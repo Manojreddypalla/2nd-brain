@@ -28,7 +28,7 @@ Module 0 — Foundations (Prerequisite)
 
 ---
 
-# Module 0 — Foundations (Prerequisite)
+# Chapter 0 — Foundations (Prerequisite)
 
 **Goal:** Build the intuition for why networks exist before studying the layers.
 
@@ -63,7 +63,7 @@ Topics:
 
 ---
 
-# Module 1 — OSI Layer
+# Chapter 1 — OSI Layer
 
 **Goal:** Understand the responsibility of each layer.
 
@@ -90,7 +90,7 @@ Topics:
 
 ---
 
-# Module 2 — Physical Layer
+# Chapter 2 — Physical Layer
 
 Topics:
 
@@ -121,7 +121,7 @@ Topics:
 
 ---
 
-# Module 3 — Data Link Layer
+# Chapter 3 — Data Link Layer
 
 Topics:
 
@@ -187,7 +187,7 @@ Topics:
 
 ---
 
-# Module 4 — Network Layer
+# Chapter  4 — Network Layer
 
 Topics:
 
@@ -238,7 +238,7 @@ Topics:
 
 ---
 
-# Module 5 — Transport Layer
+# Chapter  5 — Transport Layer
 
 Topics:
 
@@ -267,7 +267,7 @@ Topics:
 
 ---
 
-# Module 6 — Application Layer
+# Chapter  6 — Application Layer
 
 Topics:
 
@@ -292,7 +292,7 @@ Topics:
 
 ---
 
-# Module 7 — Network Security (Basics)
+# Chapter  7 — Network Security (Basics)
 
 Since your PYQ source has a separate section, cover only the networking-related basics:
 
@@ -319,7 +319,7 @@ Since your PYQ source has a separate section, cover only the networking-related 
 
 ---
 
-# Module 8 — Revision
+# Chapter  8 — Revision
 
 - Topic-wise Revision
     
