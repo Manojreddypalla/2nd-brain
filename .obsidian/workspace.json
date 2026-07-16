@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/topics.md",
+                "file": "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/Segment 1 — Core Language Fundamentals.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "topics"
+              "title": "Segment 1 — Core Language Fundamentals"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/topics.md",
+                "file": "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/Segment 1 — Core Language Fundamentals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of topics"
+              "title": "Outline of Segment 1 — Core Language Fundamentals"
             }
           }
         ],
@@ -187,10 +187,10 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
+    "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/topics.md",
+    "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/Segment 1 — Core Language Fundamentals.md",
     "3.The Atlas/Programming/cpp/Revision/roadmap.md",
     "3.The Atlas/Programming/cpp/Revision/Untitled.md",
-    "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/Segment 1 — Core Language Fundamentals.md",
-    "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations/topics.md",
     "3.The Atlas/Programming/cpp/Revision/Phase 0 — Programming Foundations",
     "3.The Atlas/DSA/revision sessions/25 Days Revision/Roadmap.md",
     "3.The Atlas/Programming/cpp/Revision",
