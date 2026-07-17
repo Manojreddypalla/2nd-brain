@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/GATE Corner — Analog vs Digital Signals.md",
+                "file": "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/Program vs Process (GATE OS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GATE Corner — Analog vs Digital Signals"
+              "title": "Program vs Process (GATE OS)"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/GATE Corner — Analog vs Digital Signals.md",
+                "file": "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/Program vs Process (GATE OS).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GATE Corner — Analog vs Digital Signals"
+              "title": "Outline of Program vs Process (GATE OS)"
             }
           }
         ],
@@ -187,9 +187,18 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/Analog vs Digital Signals (GATE In-Depth Notes).md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/GATE Corner — Analog vs Digital Signals.md",
+    "GATE/Group 2/Operating System/2.Processes/contex.md",
+    "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/Program vs Process (GATE OS).md",
+    "GATE/Group 2/Operating System/2.Processes/1.Program vs Process",
+    "GATE/Group 2/Operating System/syllabus.md",
+    "GATE/Group 2/Operating System/1.System Calls/3.gate points.md",
+    "GATE/Group 2/Operating System/1.System Calls/2.System Calls (Quick Revision Notes).md",
+    "GATE/Group 2/Operating System/1.System Calls/1.system calls.md",
+    "GATE/Group 2/Operating System/1.System Calls/question/hard core.md",
+    "GATE/Groups.md",
     "GATE/Group 4/Computer Networks/roadmap.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/GATE Corner — Analog vs Digital Signals.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/Analog vs Digital Signals (GATE In-Depth Notes).md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/3.Data vs Signal/3 Data vs Signal.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/3.Data vs Signal",
@@ -213,16 +222,7 @@
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/6. Service Access Point (SAP)/Service Access Point (SAP).md",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/6. Service Access Point (SAP)",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/5.Peer-to-Peer Communication/gate corner.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/5.Peer-to-Peer Communication/Peer-to-Peer Communication (Deep Intuition).md",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/5.Peer-to-Peer Communication",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/4.OSI vs TCP IP/OSI vs TCP IP.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/4.OSI vs TCP IP",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/3.TCP IP Architecture/gate section.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/3.TCP IP Architecture/PYQ.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/3.TCP IP Architecture/TCP IP Architecture.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 7 Application Layer/🎯 GATE Focus – Layer 7 (Application Layer).md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 1 Physical Layer/Layer 1 Physical Layer.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 1 Physical Layer/GATE Focus – Layer 1 (Physical Layer).md",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
     "images/Pasted image 20260716210549.png",
