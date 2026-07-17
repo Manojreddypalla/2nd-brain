@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/Complete Revision Notes.md",
-                "mode": "preview",
+                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/GATE Corner — Analog vs Digital Signals.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Complete Revision Notes"
+              "title": "GATE Corner — Analog vs Digital Signals"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/Complete Revision Notes.md",
+                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/GATE Corner — Analog vs Digital Signals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Complete Revision Notes"
+              "title": "Outline of GATE Corner — Analog vs Digital Signals"
             }
           }
         ],
@@ -187,8 +187,21 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/Analog vs Digital Signals (GATE In-Depth Notes).md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/GATE Corner — Analog vs Digital Signals.md",
     "GATE/Group 4/Computer Networks/roadmap.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/3.Data vs Signal/3 Data vs Signal.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/3.Data vs Signal",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/2.Guided vs Unguided Media/short notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/2.Guided vs Unguided Media/2 Guided vs Unguided Media (GATE Lecture Notes).md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/2.Guided vs Unguided Media",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/Short Notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/GATE Corner — Transmission Media.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/Transmission Media (GATE Lecture Notes).md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/Complete Revision Notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/8.Encapsulation & Decapsulation/Encapsulation & Decapsulation.md",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/8.Encapsulation & Decapsulation",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/7.Addressing at each layer/🎯 GATE Corner — Addressing at Each Layer.md",
@@ -207,23 +220,10 @@
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/3.TCP IP Architecture/gate section.md",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/3.TCP IP Architecture/PYQ.md",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/3.TCP IP Architecture/TCP IP Architecture.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/3.TCP IP Architecture",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 7 Application Layer/🎯 GATE Focus – Layer 7 (Application Layer).md",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 1 Physical Layer/Layer 1 Physical Layer.md",
     "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 1 Physical Layer/GATE Focus – Layer 1 (Physical Layer).md",
-    "GATE/Groups.md",
-    "GATE/making notes....md",
-    "3.The Atlas/DSA/concepts/Strings/Strings.md",
-    "3.The Atlas/DSA/concepts/Strings/Group Anagrams.md",
-    "3.The Atlas/DSA/concepts/Strings/7.Character Arrays (`char[]` vs `string`).md",
-    "3.The Atlas/DSA/concepts/Strings/6. String Builder (`push_back`, `+=`, `append`).md",
-    "3.The Atlas/DSA/concepts/Strings/5.Longest Common Prefix.md",
-    "3.The Atlas/DSA/concepts/Strings/4.Valid Anagram.md",
-    "3.The Atlas/DSA/concepts/Strings",
     "3.The Atlas/DSA/Untitled.canvas",
-    "3.The Atlas/DSA/revision sessions/25 Days Revision/Day 2/Concepts",
-    "3.The Atlas/DSA/revision sessions/25 Days Revision/Day 2",
-    "3.The Atlas/Hardware & Mechatronics/Robotics Skill Tree",
     "images/Pasted image 20260716210614.png",
     "images/Pasted image 20260716210549.png",
     "images/Pasted image 20260716210443.png",

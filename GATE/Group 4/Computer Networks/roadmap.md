@@ -94,30 +94,25 @@ Topics:
 
 Topics:
 
-- Transmission Media
-    
-- Guided vs Unguided Media
-    
-- Data Rate & Bandwidth
-    
-- Nyquist Theorem
-    
-- Shannon Capacity
-    
-- Line Coding
-    
-- Manchester Encoding
-    
-- Switching
-    
-    - Circuit Switching
-        
-    - Packet Switching
-        
-    - Virtual Circuit Switching
-        
+Chapter 2 — Physical Layer
 
-**Practice:** Physical Layer PYQs
+1. Transmission Media
+2. Guided vs Unguided Media
+3. Data vs Signal
+4. Analog vs Digital Signals
+5. Data Rate, Baud Rate & Bandwidth
+6. Nyquist Theorem
+7. Shannon Capacity
+8. Line Coding
+9. Manchester Encoding
+10. Asynchronous vs Synchronous Transmission
+11. Multiplexing (FDM, TDM)
+12. Switching
+13. Circuit Switching
+14. Packet Switching
+15. Virtual Circuit & Datagram Switching
+
+Practice: Physical Layer PYQs
 
 ---
 
