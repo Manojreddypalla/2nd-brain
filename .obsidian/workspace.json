@@ -25,14 +25,10 @@
             "id": "65966f85ea5d1c66",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.Creative Codex/12.Game ideas/The Second Age/story/what to do.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "what to do"
+              "title": "New tab"
             }
           }
         ],
@@ -157,13 +153,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.Creative Codex/12.Game ideas/The Second Age/story/what to do.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of what to do"
+              "title": "Outline"
             }
           }
         ],
