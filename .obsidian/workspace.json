@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/2. Balanced Binary Tree.md",
+                "file": "3.The Atlas/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Weighted Edge List.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Balanced Binary Tree"
+              "title": "Weighted Edge List"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/2. Balanced Binary Tree.md",
+                "file": "3.The Atlas/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Weighted Edge List.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. Balanced Binary Tree"
+              "title": "Outline of Weighted Edge List"
             }
           }
         ],
@@ -187,14 +187,16 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
-    "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/1. Diameter of Binary TreeUntitled.md",
-    "3.The Atlas/DSA/concepts/trees/daily/question.md",
-    "3.The Atlas/DSA/concepts/trees/daily/tier 2— Strong Medium Problems/6.Binary Tree Level Order Traversal.md",
-    "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/all.md",
+    "3.The Atlas/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Edge list.md",
+    "3.The Atlas/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/code.md",
     "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/5. Kth Smallest Element in BST.md",
     "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/4. Validate Binary Search Tree.md",
     "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/3. Lowest Common Ancestor.md",
     "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/2. Balanced Binary Tree.md",
+    "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/1. Diameter of Binary TreeUntitled.md",
+    "3.The Atlas/DSA/concepts/trees/daily/question.md",
+    "3.The Atlas/DSA/concepts/trees/daily/tier 2— Strong Medium Problems/6.Binary Tree Level Order Traversal.md",
+    "3.The Atlas/DSA/concepts/trees/daily/Tier 1 — Absolutely Do These/all.md",
     "3.The Atlas/DSA/revision sessions/25 Days Revision/Day 2/Concepts/Strings.md",
     "3.The Atlas/DSA/revision sessions/25 Days Revision/Day 2/Concepts/7.Character Arrays (`char[]` vs `string`).md",
     "3.The Atlas/DSA/revision sessions/25 Days Revision/Day 2/Concepts/6. String Builder (`push_back`, `+=`, `append`).md",
@@ -214,8 +216,6 @@
     "5.Creative Codex/12.Game ideas/The Second Age/story/what to do.md",
     "5.Creative Codex/12.Game ideas/The Second Age/story/start.md",
     "5.Creative Codex/12.Game ideas/The Second Age/story/research.md",
-    "5.Creative Codex/12.Game ideas/The Second Age/story/memes.md",
-    "5.Creative Codex/12.Game ideas/The Second Age/story/man of culture.md",
     "3.The Atlas/Hardware & Mechatronics/Robotics Skill Tree",
     "5.Creative Codex/1.indie game developer/one-person game studio",
     "5.Creative Codex/1.indie game developer/Engines",
