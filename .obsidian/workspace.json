@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
-                "mode": "source",
+                "file": "GATE/Group 2/Operating System/syllabus.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎯 GATE Corner – Context Switching"
+              "title": "syllabus"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
+                "file": "GATE/Group 2/Operating System/syllabus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 🎯 GATE Corner – Context Switching"
+              "title": "Outline of syllabus"
             }
           }
         ],
@@ -187,8 +187,9 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
-    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/Context Switching.md",
+    "GATE/Group 2/Operating System/Textbook.md",
     "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
+    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/Context Switching.md",
     "GATE/Group 2/Operating System/syllabus.md",
     "GATE/Group 2/Operating System/2.Processes/5.Context Switching",
     "GATE/Group 2/Operating System/check list.md",
@@ -202,7 +203,6 @@
     "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/GATE Corner — Program vs Process 📝.md",
     "GATE/Group 2/Operating System/1.System Calls/2.System Calls (Quick Revision Notes).md",
     "GATE/Group 2/Operating System/1.System Calls/3.gate points.md",
-    "GATE/Group 2/Operating System/Textbook.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/6.Nyquist Theorem/Nyquist Bit Rate Theorem.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/questions and answers.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/GATE Corner — Data Rate, Baud Rate & Bandwidth Formula Sheet.md",

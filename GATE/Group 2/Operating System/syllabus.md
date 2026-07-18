@@ -1,406 +1,620 @@
-# Operating Systems (OS) Roadmap - GATE CSE + Placements
+I actually like your roadmap a lot. I would only reorganize it to better match **how GATE asks questions** while preserving the learning dependencies. I also noticed one thing: **CPU Scheduling** depends on **Processes and Threads**, but **Synchronization** depends on understanding concurrency (often with threads), so the order should reflect that.
 
-> **Goal:** Build a deep understanding of Operating Systems for **GATE**, **placements**, **Linux**, and **systems programming**.
+---
+
+# Operating Systems (OS) Roadmap — GATE CSE 2027 + Placements + Linux
+
+> **Goal:** Master Operating Systems from fundamentals to advanced concepts for **GATE**, **placements**, **Linux internals**, and **systems programming**.
 
 ---
 
 # 📚 Official GATE Syllabus
 
 - System Calls
+    
 - Processes
+    
 - Threads
+    
 - Inter-Process Communication (IPC)
+    
 - Concurrency & Synchronization
+    
 - Deadlock
+    
 - CPU Scheduling
+    
 - I/O Scheduling
+    
 - Memory Management
+    
 - Virtual Memory
+    
 - File Systems
+    
 
 ---
 
 # 🗺️ Learning Roadmap
 
 ```text
-                  OPERATING SYSTEM
-                         │
-              Foundations (Basics)
-                         │
-                  System Calls
-                         │
-                     Processes
-                         │
-                      Threads
-                         │
-              Inter Process Communication
-                         │
-          Concurrency & Synchronization
-                         │
-                     Deadlocks
-                         │
-                  CPU Scheduling
-                         │
-                  I/O Scheduling
-                         │
-                Memory Management
-                         │
-                  Virtual Memory
-                         │
-                    File Systems
+                 OPERATING SYSTEM
+                        │
+                Foundations (Basics)
+                        │
+                 System Calls
+                        │
+                  Processes
+                        │
+                   Threads
+                        │
+         CPU Scheduling
+                        │
+     Inter Process Communication
+                        │
+   Concurrency & Synchronization
+                        │
+                 Deadlocks
+                        │
+               Memory Management
+                        │
+               Virtual Memory
+                        │
+                File Systems
+                        │
+               I/O Scheduling
 ```
 
 ---
 
-# Module 0 — Foundations (Prerequisite)
+# Module 0 — Foundations
 
-> Learn **why an Operating System exists**.
+### Goal
 
-## Topics
+Understand **why an Operating System exists** and how it controls hardware.
+
+### Topics
 
 - What is an Operating System?
-- Goals of an Operating System
+    
+- Goals of an OS
+    
 - Services Provided by OS
+    
 - Kernel
+    
 - User Mode vs Kernel Mode
+    
+- Privileged Instructions
+    
 - Interrupts
+    
 - Exceptions
+    
 - Traps
+    
 - Boot Process (High Level)
+    
+- Interrupt Handling (Basics)
+    
 
 ---
 
 # Module 1 — System Calls
 
-## Goal
+### Goal
 
-Understand **how user programs communicate with the kernel**.
+Understand how user programs communicate with the kernel.
 
-## Topics
+### Topics
 
 - What is a System Call?
+    
 - Why System Calls exist
+    
 - User Mode → Kernel Mode
+    
 - Types of System Calls
+    
     - Process Control
+        
     - File Management
+        
     - Device Management
+        
     - Information Maintenance
+        
     - Communication
+        
 - API vs System Call
+    
 - POSIX
+    
 - Library Function vs System Call
+    
 
-### Linux Examples
+### Linux
 
 - fork()
+    
 - exec()
+    
 - wait()
+    
 - open()
+    
 - read()
+    
 - write()
+    
 - close()
+    
 
 ---
 
 # Module 2 — Processes
 
-## Goal
+### Goal
 
-Understand how the OS runs programs.
+Understand how the OS executes and manages programs.
 
-## Topics
+### Topics
 
 - Program vs Process
+    
 - Process States
+    
 - Process Life Cycle
+    
 - Process Control Block (PCB)
+    
 - Context Switching
+    
 - Dispatcher
+    
 - Process Creation
+    
 - Process Termination
+    
 - Parent & Child Process
+    
 - fork()
+    
 - exec()
+    
 - wait()
+    
 - Zombie Process
+    
 - Orphan Process
+    
 
 ---
 
 # Module 3 — Threads
 
-## Goal
+### Goal
 
-Learn lightweight execution within a process.
+Understand lightweight execution inside a process.
 
-## Topics
+### Topics
 
 - Thread
+    
 - Process vs Thread
-- User Threads
-- Kernel Threads
+    
+- User-Level Threads
+    
+- Kernel-Level Threads
+    
 - Multithreading Models
+    
 - Thread Libraries
-- Advantages of Threads
+    
+- Thread Control Block (TCB)
+    
+- Thread Scheduling Basics
+    
+- Advantages & Disadvantages
+    
 
 ---
 
-# Module 4 — Inter Process Communication (IPC)
+# Module 4 — CPU Scheduling
 
-## Goal
+### Goal
 
-Understand how processes communicate.
+Understand how the OS selects the next runnable process or thread.
 
-## Topics
+### Topics
+
+### Scheduling Concepts
+
+- CPU Burst
+    
+- I/O Burst
+    
+- Preemptive vs Non-Preemptive
+    
+- Scheduling Queue
+    
+- Ready Queue
+    
+- Dispatcher
+    
+- Dispatcher Latency
+    
+
+### Scheduling Criteria
+
+- CPU Utilization
+    
+- Throughput
+    
+- Turnaround Time
+    
+- Waiting Time
+    
+- Response Time
+    
+
+### Algorithms
+
+- FCFS
+    
+- SJF
+    
+- SRTF
+    
+- Priority
+    
+- Round Robin
+    
+- Multilevel Queue
+    
+- Multilevel Feedback Queue
+    
+
+---
+
+# Module 5 — Inter Process Communication (IPC)
+
+### Goal
+
+Allow processes to communicate and exchange data.
+
+### Topics
 
 - Why IPC?
+    
 - Shared Memory
+    
 - Message Passing
+    
 - Pipes
-- Named Pipes
+    
+- Named Pipes (FIFO)
+    
+- Message Queues
+    
+- Shared Memory Segments
+    
 - Sockets
+    
 - Signals
+    
 
 ### Linux
 
 - pipe()
+    
+- mkfifo()
+    
 - socket()
-- shm
+    
+- shmget()
+    
+- shmat()
+    
 
 ---
 
-# Module 5 — Concurrency & Synchronization
+# Module 6 — Concurrency & Synchronization
 
-## Goal
+### Goal
 
-Prevent multiple processes from corrupting shared data.
+Prevent race conditions while multiple execution units share resources.
 
-## Topics
+### Topics
 
 - Concurrency
+    
+- Parallelism
+    
 - Race Condition
-- Critical Section Problem
+    
+- Critical Section
+    
 - Mutual Exclusion
+    
+- Progress
+    
+- Bounded Waiting
+    
+
+### Software Solutions
+
 - Peterson Algorithm
-- Hardware Synchronization
-- Test and Set
-- Compare and Swap (CAS)
+    
+- Bakery Algorithm (Optional)
+    
+
+### Hardware Solutions
+
+- Test-and-Set
+    
+- Compare-and-Swap
+    
+- Swap Instruction
+    
+
+### Synchronization Tools
+
 - Mutex
+    
 - Semaphore
+    
 - Monitor
+    
+- Condition Variables (Basics)
+    
 
 ### Classical Problems
 
 - Producer Consumer
+    
 - Readers Writers
+    
 - Dining Philosophers
-- Sleeping Barber (Optional)
+    
 
 ---
 
-# Module 6 — Deadlocks
+# Module 7 — Deadlocks
 
-## Goal
+### Goal
 
-Understand how processes get stuck forever.
+Understand why processes wait forever and how to handle it.
 
-## Topics
+### Topics
 
 - Deadlock
+    
+- System Resource Model
+    
 - Coffman Conditions
+    
 - Resource Allocation Graph
+    
+- Safe State
+    
+- Unsafe State
+    
 - Deadlock Prevention
+    
 - Deadlock Avoidance
+    
 - Banker's Algorithm
+    
 - Deadlock Detection
+    
 - Deadlock Recovery
+    
 
 ---
 
-# Module 7 — CPU Scheduling
+# Module 8 — Memory Management
 
-## Goal
+### Goal
 
-Learn how the CPU chooses the next process.
+Understand how RAM is allocated and protected.
 
-## Scheduling Criteria
-
-- CPU Utilization
-- Throughput
-- Turnaround Time
-- Waiting Time
-- Response Time
-
-## Algorithms
-
-- FCFS
-- SJF
-- SRTF
-- Priority Scheduling
-- Round Robin
-- Multilevel Queue
-- Multilevel Feedback Queue
-
----
-
-# Module 8 — I/O Scheduling
-
-## Goal
-
-Learn how disk requests are optimized.
-
-## Topics
-
-- Disk Structure
-- Seek Time
-- Rotational Latency
-- Disk Scheduling
-
-## Algorithms
-
-- FCFS
-- SSTF
-- SCAN
-- LOOK
-- C-SCAN
-- C-LOOK
-
----
-
-# Module 9 — Memory Management
-
-## Goal
-
-Understand how RAM is managed.
-
-## Topics
+### Topics
 
 - Address Binding
-- Logical Address
-- Physical Address
+    
+- Logical vs Physical Address
+    
 - MMU
+    
+- Relocation
+    
 - Swapping
+    
 - Contiguous Allocation
+    
 - Internal Fragmentation
+    
 - External Fragmentation
+    
 - Paging
+    
 - Segmentation
+    
+- Segmentation with Paging (Concept)
+    
 
 ---
 
-# Module 10 — Virtual Memory
+# Module 9 — Virtual Memory
 
-## Goal
+### Goal
 
-Run programs larger than physical RAM.
+Allow programs larger than physical RAM to execute efficiently.
 
-## Topics
+### Topics
 
 - Virtual Memory
+    
 - Demand Paging
-- Page Fault
+    
+- Page Fault Handling
+    
 - Page Table
+    
 - TLB
+    
 - Multi-Level Paging
+    
 - Inverted Page Table
-- Thrashing
+    
 - Working Set
+    
+- Thrashing
+    
 
-## Page Replacement Algorithms
+### Page Replacement
 
 - FIFO
-- LRU
+    
 - Optimal
-- Second Chance (Clock)
+    
+- LRU
+    
+- Clock (Second Chance)
+    
 
 ---
 
-# Module 11 — File Systems
+# Module 10 — File Systems
 
-## Goal
+### Goal
 
-Learn how files are stored on disk.
+Understand how the OS organizes persistent storage.
 
-## Topics
+### Topics
 
 - File Concept
+    
 - File Attributes
+    
 - File Operations
-- Directory Structure
-- File Allocation Methods
-    - Contiguous
-    - Linked
-    - Indexed
-- Free Space Management
-- FAT
-- Inode
-- Journaling (Basics)
-- File Protection
+    
 - Access Methods
+    
+- Directory Structures
+    
+- File Allocation
+    
+    - Contiguous
+        
+    - Linked
+        
+    - Indexed
+        
+- Free Space Management
+    
+- FAT
+    
+- Inode
+    
+- Journaling (Basics)
+    
+- File Protection
+    
 
 ---
 
-# 📅 Suggested Study Order
+# Module 11 — I/O Scheduling
 
-| Day | Module |
-|------|--------|
-| 1 | Foundations + System Calls |
-| 2 | Processes |
-| 3 | Threads |
-| 4 | IPC |
-| 5 | Synchronization |
-| 6 | Deadlocks |
-| 7 | CPU Scheduling |
-| 8 | I/O Scheduling |
-| 9 | Memory Management |
-| 10 | Virtual Memory |
-| 11 | File Systems |
-| 12 | PYQs + Revision |
+### Goal
+
+Optimize disk head movement for faster I/O.
+
+### Topics
+
+### Disk Basics
+
+- Disk Structure
+    
+- Seek Time
+    
+- Rotational Latency
+    
+- Transfer Time
+    
+- Access Time
+    
+
+### Disk Scheduling Algorithms
+
+- FCFS
+    
+- SSTF
+    
+- SCAN
+    
+- C-SCAN
+    
+- LOOK
+    
+- C-LOOK
+    
 
 ---
 
-# ⭐ High Priority for GATE
+# ⭐ GATE Priority
 
-| Priority | Topic |
-|----------|-------|
-| ⭐⭐⭐⭐⭐ | Processes |
-| ⭐⭐⭐⭐⭐ | Synchronization |
-| ⭐⭐⭐⭐⭐ | Deadlocks |
-| ⭐⭐⭐⭐⭐ | CPU Scheduling |
-| ⭐⭐⭐⭐⭐ | Memory Management |
-| ⭐⭐⭐⭐⭐ | Virtual Memory |
-| ⭐⭐⭐⭐☆ | IPC |
-| ⭐⭐⭐⭐☆ | File Systems |
-| ⭐⭐⭐⭐☆ | I/O Scheduling |
-| ⭐⭐⭐☆☆ | Threads |
-| ⭐⭐⭐☆☆ | System Calls |
+|Priority|Module|
+|---|---|
+|⭐⭐⭐⭐⭐|Processes|
+|⭐⭐⭐⭐⭐|CPU Scheduling|
+|⭐⭐⭐⭐⭐|Synchronization|
+|⭐⭐⭐⭐⭐|Deadlocks|
+|⭐⭐⭐⭐⭐|Memory Management|
+|⭐⭐⭐⭐⭐|Virtual Memory|
+|⭐⭐⭐⭐☆|File Systems|
+|⭐⭐⭐⭐☆|IPC|
+|⭐⭐⭐⭐☆|I/O Scheduling|
+|⭐⭐⭐☆☆|Threads|
+|⭐⭐⭐☆☆|System Calls|
 
 ---
 
 # 📖 Study Pattern (Every Module)
 
-For every topic:
+For every topic, follow this sequence:
 
-1. ✅ Intuition (Why does this exist?)
-2. ✅ Internal Working (CPU, Memory, Kernel)
-3. ✅ Visual Mental Model
-4. ✅ Step-by-Step Execution
-5. ✅ Linux Commands & Examples
-6. ✅ Common GATE Tricks
-7. ✅ Placement Interview Questions
-8. ✅ PYQs
-9. ✅ Revision Notes
+1. **Intuition** – Why does this concept exist?
+    
+2. **Internal Working** – CPU, memory, kernel, hardware interactions.
+    
+3. **Visual Mental Model** – Diagrams and execution flow.
+    
+4. **Step-by-Step Execution** – What happens internally?
+    
+5. **Linux Perspective** – Relevant commands, system calls, and examples.
+    
+6. **GATE Corner** – Frequently tested concepts and common traps.
+    
+7. **Placement Interview Questions** – Practical interview discussions.
+    
+8. **PYQs** – Solve previous GATE questions immediately after the topic.
+    
+9. **Revision Notes** – Condense into a one-page summary.
+    
 
 ---
 
-# 🎯 End Goal
+## Why this version?
 
-By completing this roadmap, you should be able to:
+I changed only the **ordering**, not the syllabus.
 
-- Solve **GATE PYQs** confidently.
-- Answer **placement interview** questions.
-- Understand Linux internals.
-- Read systems programming code.
-- Understand OS behavior during debugging.
-- Build a strong foundation for Computer Architecture, DBMS, Networks, and Cybersecurity.
+- **CPU Scheduling** comes immediately after **Threads**, because scheduling is fundamentally about deciding **which process/thread runs next**.
+    
+- **IPC** comes before **Synchronization**, since synchronization mechanisms are used to coordinate communicating processes and threads.
+    
+- **I/O Scheduling** is moved to the end. Although GATE lists it separately, understanding disks, files, and storage first makes disk scheduling algorithms much more intuitive.
+    
+
+This ordering follows both the **dependency graph** inside an operating system and aligns well with how you'll reason through GATE questions, rather than treating each chapter as an isolated topic.
