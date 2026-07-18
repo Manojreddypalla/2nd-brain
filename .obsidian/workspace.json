@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/revision short notes.md",
+                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/6.Nyquist Theorem/Nyquist Bit Rate Theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "revision short notes"
+              "title": "Nyquist Bit Rate Theorem"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/revision short notes.md",
+                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/6.Nyquist Theorem/Nyquist Bit Rate Theorem.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of revision short notes"
+              "title": "Outline of Nyquist Bit Rate Theorem"
             }
           }
         ],
@@ -187,11 +187,13 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/Data Rate, Baud Rate & Bandwidth.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/revision short notes.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/GATE Corner — Data Rate, Baud Rate & Bandwidth Formula Sheet.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/questions and answers.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/6.Nyquist Theorem/Nyquist Bit Rate Theorem.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/GATE Corner — Data Rate, Baud Rate & Bandwidth Formula Sheet.md",
     "GATE/Group 4/Computer Networks/roadmap.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/6.Nyquist Theorem",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/revision short notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/Data Rate, Baud Rate & Bandwidth.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth",
     "3.The Atlas/AIML/AI Full Stack/index.md",
     "3.The Atlas/AIML/AI Full Stack/old.md",
@@ -221,9 +223,7 @@
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/2.Guided vs Unguided Media/short notes.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/2.Guided vs Unguided Media/2 Guided vs Unguided Media (GATE Lecture Notes).md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/2.Guided vs Unguided Media",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/Short Notes.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
     "images/Pasted image 20260716210549.png",
