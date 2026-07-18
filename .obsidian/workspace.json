@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 2/Operating System/syllabus.md",
+                "file": "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "syllabus"
+              "title": "🎯 GATE Corner – Context Switching"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 2/Operating System/syllabus.md",
+                "file": "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of syllabus"
+              "title": "Outline of 🎯 GATE Corner – Context Switching"
             }
           }
         ],
@@ -187,10 +187,10 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
+    "GATE/Group 2/Operating System/syllabus.md",
     "GATE/Group 2/Operating System/Textbook.md",
     "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
     "GATE/Group 2/Operating System/2.Processes/5.Context Switching/Context Switching.md",
-    "GATE/Group 2/Operating System/syllabus.md",
     "GATE/Group 2/Operating System/2.Processes/5.Context Switching",
     "GATE/Group 2/Operating System/check list.md",
     "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/PYQ.md",
