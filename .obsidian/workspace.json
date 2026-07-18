@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/🎯 GATE Corner — Process Control Block (PCB).md",
+                "file": "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎯 GATE Corner — Process Control Block (PCB)"
+              "title": "🎯 GATE Corner – Context Switching"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/🎯 GATE Corner — Process Control Block (PCB).md",
+                "file": "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 🎯 GATE Corner — Process Control Block (PCB)"
+              "title": "Outline of 🎯 GATE Corner – Context Switching"
             }
           }
         ],
@@ -187,9 +187,14 @@
   },
   "active": "65966f85ea5d1c66",
   "lastOpenFiles": [
-    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/Process Control Block (PCB).md",
-    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/🎯 GATE Corner — Process Control Block (PCB).md",
+    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/Context Switching.md",
+    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
     "GATE/Group 2/Operating System/syllabus.md",
+    "GATE/Group 2/Operating System/2.Processes/5.Context Switching",
+    "GATE/Group 2/Operating System/check list.md",
+    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/PYQ.md",
+    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/🎯 GATE Corner — Process Control Block (PCB).md",
+    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/Process Control Block (PCB).md",
     "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)",
     "GATE/Group 2/Operating System/2.Processes/3.Process Life Cycle/Process Life Cycle.md",
     "GATE/Group 2/Operating System/2.Processes/2.Process States/2. Process States (GATE).md",
@@ -217,13 +222,8 @@
     "GATE/Group 2/Operating System/master notes",
     "GATE/Group 2/Operating System/2.Processes/1.Program vs Process",
     "GATE/Group 2/Operating System/1.System Calls/1.system calls.md",
-    "GATE/Group 2/Operating System/1.System Calls/question/hard core.md",
-    "GATE/Groups.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/GATE Corner — Analog vs Digital Signals.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/Analog vs Digital Signals (GATE In-Depth Notes).md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/3.Data vs Signal",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/2.Guided vs Unguided Media",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
     "images/Pasted image 20260716210549.png",
