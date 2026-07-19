@@ -8,34 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "09245f08134a6277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Group 2/Operating System/2.Processes/7.Process Creation/Process Creation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Process Creation"
-            }
-          },
-          {
-            "id": "c78d97a23d5f3037",
+            "id": "0266d08ad5e4088d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "GATE/Group 2/Operating System/syllabus.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "syllabus"
             }
+          },
+          {
+            "id": "d807568bc3842fef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Group 2/Operating System/1.System Calls/6.POSIX/POSIX (Portable Operating System Interface).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "POSIX (Portable Operating System Interface)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 2/Operating System/2.Processes/7.Process Creation/Process Creation.md",
+                "file": "GATE/Group 2/Operating System/1.System Calls/6.POSIX/POSIX (Portable Operating System Interface).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Process Creation"
+              "title": "Outline of POSIX (Portable Operating System Interface)"
             }
           }
         ],
@@ -184,44 +185,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "09245f08134a6277",
+  "active": "d807568bc3842fef",
   "lastOpenFiles": [
-    "GATE/Group 2/Operating System/2.Processes/6.Dispatcher/GATE Corner — Dispatcher.md",
-    "GATE/Group 2/Operating System/2.Processes/7.Process Creation/Process Creation.md",
-    "GATE/Group 2/Operating System/2.Processes/7.Process Creation",
+    "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call/GATE Corner — API vs System Call.md",
+    "GATE/Group 2/Operating System/1.System Calls/6.POSIX/POSIX (Portable Operating System Interface).md",
+    "GATE/Group 2/Operating System/1.System Calls/6.POSIX",
+    "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call/API vs System Call.md",
     "GATE/Group 2/Operating System/syllabus.md",
-    "GATE/Group 2/Operating System/2.Processes/6.Dispatcher/Dispatcher.md",
-    "GATE/Group 2/Operating System/1.System Calls/1.system calls.md",
-    "GATE/Group 2/Operating System/2.Processes/6.Dispatcher",
-    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/Context Switching.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/0.short notes/formulas.md",
-    "GATE/Group 4/Computer Networks/roadmap.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/short notes.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/PYQ.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/index.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/Transmission Modes.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/4.RS-232 (Basic)/RS-232 (Recommended Standard-232).md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/3.comparison/Asynchronous vs Synchronous Transmission.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/4.RS-232 (Basic)",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/3.comparison",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/2.Synchronous Transmission/Synchronous Transmission.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/1.Asynchronous Transmission/Asynchronous Transmission.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/2.Synchronous Transmission",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/1.Asynchronous Transmission",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/6.Comparison of Encoding Schemes/short notes.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/6.Comparison of Encoding Schemes/9.Comparison of Encoding Schemes.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/6.Comparison of Encoding Schemes",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/5.Block Coding/2.8B&10B.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/5.Block Coding/1.4B&5B.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/8.Block Coding.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/5.Block Coding",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/1.Introduction/1.Why do we need Line Coding.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/4.Bipolar Encoding/1.AMI.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/4.Bipolar Encoding/2.Pseudoternary.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/7.Bipolar Encoding.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/4.Bipolar Encoding",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/2.NRZ-I.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding",
+    "GATE/Group 2/Operating System/1.System Calls/3.User Mode → Kernel Mode/Gate Corner.md",
+    "GATE/Group 2/Operating System/1.System Calls/3.gate points.md",
+    "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/4.Information Maintenance/gate corner.md",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/4.Information Maintenance/Information Maintenance System Calls.md",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/3.Device Management System Calls/Device Management System Calls.md",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/4.Information Maintenance",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/1.Process Control/Gate Corner.md",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/3.Device Management System Calls/🎯 GATE Corner — Device Management System Calls.md",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/2. File Management/GATE Corner — File Management System Calls.md",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/2. File Management/File Management System Calls.md",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/3.Device Management System Calls",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/2. File Management",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/1.Process Control/Process Control System Calls.md",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/1.Process Control",
+    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls",
+    "GATE/Group 2/Operating System/1.System Calls/3.User Mode → Kernel Mode/User Mode → Kernel Mode.md",
+    "GATE/Group 2/Operating System/1.System Calls/3.User Mode → Kernel Mode",
+    "GATE/Group 2/Operating System/1.System Calls/2. Why System Calls exist/Why System Calls exist.md",
+    "GATE/Group 2/Operating System/1.System Calls/2.System Calls (Quick Revision Notes).md",
+    "GATE/Group 2/Operating System/1.System Calls/1.What is a System Call/1.What is a System Call.md",
+    "GATE/Group 2/Operating System/1.System Calls/2. Why System Calls exist",
+    "GATE/Group 2/Operating System/1.System Calls/1.What is a System Call",
+    "GATE/Group 2/Operating System/0.Foundations (Prerequisite)/Foundations.md",
+    "GATE/Group 2/Operating System/1.System Calls/PYQ/hard core.md",
+    "GATE/Group 2/Operating System/0.Foundations (Prerequisite)/Operating Systems – Things to Remember (Module 0).md",
+    "GATE/Group 2/Operating System/2.Processes/7.Process Creation/🎯 GATE Corner — Process Creation.md",
+    "GATE/Group 2/Operating System/2.Processes/contex.md",
+    "GATE/Group 2/Operating System/2.Processes/10.Process Creation System Calls/Gate Corner.md",
+    "GATE/Group 2/Operating System/2.Processes/10.Process Creation System Calls/Process Creation System Calls.md",
+    "GATE/Group 2/Operating System/2.Processes/9.Parent & Child Process/🎯 GATE Corner — Parent & Child Process.md",
     "images/Pasted image 20260717182256.png",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
