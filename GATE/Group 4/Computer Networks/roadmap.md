@@ -208,15 +208,12 @@
 
 ## 2.7 Switching
 
-### Introduction to Switching
+ - Introduction to Switching
+ - Circuit Switching
+- Message Switching
+- Packet Switching
 
-### Circuit Switching
-
-### Message Switching
-
-### Packet Switching
-
-#### Packet Switching Types
+ Packet Switching Types
 - Virtual Circuit Switching
 - Datagram Switching
 

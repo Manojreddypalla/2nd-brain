@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "6d258ee73db1fb1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff38787a769a0bb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c50c60455ce4c64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/Program vs Process (GATE OS).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Program vs Process (GATE OS)"
+            }
+          },
+          {
+            "id": "421c6161eb393e71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Group 2/Operating System/syllabus.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "syllabus"
+            }
+          },
+          {
+            "id": "81e27f8330092a47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Group 4/Computer Networks/roadmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "roadmap"
+            }
+          },
+          {
+            "id": "0209645dedfb3efe",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "GATE/extra/SYLLABUS/CS_2026_Syllabus.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CS_2026_Syllabus"
+            }
+          },
+          {
+            "id": "4b0a84aa569faef3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "GATE/extra/SYLLABUS/GATE _GA_2025_Syllabus.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "GATE _GA_2025_Syllabus"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5d59cb94f6ec3bf",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "eca3b466e46e2855",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "47b8751952bc1ecd",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "61111e84b92736a0",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "0cac882073264158",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "c5830aa857bbfbe5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fc1a24f61f0d553a",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/questions and answers.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "5ac64552a0224855",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "GATE/Group 2/Operating System/2.Processes/2.Process States/2. Process States (GATE).md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "5627bb473bd158a8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "GATE/Group 2/Operating System/2.Processes/2.Process States/2. Process States (GATE).md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "81e27f8330092a47",
+  "lastOpenFiles": [
+    "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/Program vs Process (GATE OS).md",
+    "GATE/Group 2/Operating System/syllabus.md",
+    "GATE/extra/SYLLABUS/CS_2026_Syllabus.pdf",
+    "GATE/extra/SYLLABUS/GATE _GA_2025_Syllabus.pdf",
+    "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call/🎯 GATE Corner.md",
+    "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call/Library Function vs System Call.md",
+    "GATE/Group 2/Operating System/1.System Calls/6.POSIX/🎯 GATE Corner — POSIX.md",
+    "GATE/Group 2/Operating System/1.System Calls/6.POSIX/POSIX (Portable Operating System Interface).md",
+    "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call/GATE Corner — API vs System Call.md",
+    "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call/API vs System Call.md",
+    "GATE/Group 2/Operating System/2.Processes/contex.md",
+    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/Context Switching.md",
+    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/🎯 GATE Corner — Process Control Block (PCB).md",
+    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/Process Control Block (PCB).md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/questions and answers.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/revision short notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/GATE Corner — Data Rate, Baud Rate & Bandwidth Formula Sheet.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/Data Rate, Baud Rate & Bandwidth.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals/Analog vs Digital Signals (GATE In-Depth Notes).md",
+    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/Complete Revision Notes.md",
+    "GATE/Group 4/Computer Networks/0.Foundations/0.Computer Networks – Module 0 Foundations (Short Notes).md",
+    "GATE/Groups.md",
+    "GATE/Group 2/Operating System/1.System Calls/1.system calls.md",
+    "GATE/Group 2/Operating System/2.Processes/2.Process States/2. Process States (GATE).md"
+  ]
+}
