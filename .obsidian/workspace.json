@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 2/Operating System/1.System Calls/6.POSIX/POSIX (Portable Operating System Interface).md",
-                "mode": "preview",
+                "file": "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call/🎯 GATE Corner.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "POSIX (Portable Operating System Interface)"
+              "title": "🎯 GATE Corner"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 2/Operating System/1.System Calls/6.POSIX/POSIX (Portable Operating System Interface).md",
+                "file": "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call/🎯 GATE Corner.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of POSIX (Portable Operating System Interface)"
+              "title": "Outline of 🎯 GATE Corner"
             }
           }
         ],
@@ -187,13 +187,17 @@
   },
   "active": "d807568bc3842fef",
   "lastOpenFiles": [
-    "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call/GATE Corner — API vs System Call.md",
+    "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call/Library Function vs System Call.md",
+    "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call/🎯 GATE Corner.md",
+    "GATE/Group 2/Operating System/1.System Calls/3.gate points.md",
+    "GATE/Group 2/Operating System/1.System Calls/6.POSIX/🎯 GATE Corner — POSIX.md",
+    "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call",
+    "GATE/Group 2/Operating System/syllabus.md",
     "GATE/Group 2/Operating System/1.System Calls/6.POSIX/POSIX (Portable Operating System Interface).md",
+    "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call/GATE Corner — API vs System Call.md",
     "GATE/Group 2/Operating System/1.System Calls/6.POSIX",
     "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call/API vs System Call.md",
-    "GATE/Group 2/Operating System/syllabus.md",
     "GATE/Group 2/Operating System/1.System Calls/3.User Mode → Kernel Mode/Gate Corner.md",
-    "GATE/Group 2/Operating System/1.System Calls/3.gate points.md",
     "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call",
     "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/4.Information Maintenance/gate corner.md",
     "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/4.Information Maintenance/Information Maintenance System Calls.md",
@@ -214,15 +218,11 @@
     "GATE/Group 2/Operating System/1.System Calls/2.System Calls (Quick Revision Notes).md",
     "GATE/Group 2/Operating System/1.System Calls/1.What is a System Call/1.What is a System Call.md",
     "GATE/Group 2/Operating System/1.System Calls/2. Why System Calls exist",
-    "GATE/Group 2/Operating System/1.System Calls/1.What is a System Call",
     "GATE/Group 2/Operating System/0.Foundations (Prerequisite)/Foundations.md",
     "GATE/Group 2/Operating System/1.System Calls/PYQ/hard core.md",
     "GATE/Group 2/Operating System/0.Foundations (Prerequisite)/Operating Systems – Things to Remember (Module 0).md",
     "GATE/Group 2/Operating System/2.Processes/7.Process Creation/🎯 GATE Corner — Process Creation.md",
     "GATE/Group 2/Operating System/2.Processes/contex.md",
-    "GATE/Group 2/Operating System/2.Processes/10.Process Creation System Calls/Gate Corner.md",
-    "GATE/Group 2/Operating System/2.Processes/10.Process Creation System Calls/Process Creation System Calls.md",
-    "GATE/Group 2/Operating System/2.Processes/9.Parent & Child Process/🎯 GATE Corner — Parent & Child Process.md",
     "images/Pasted image 20260717182256.png",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
