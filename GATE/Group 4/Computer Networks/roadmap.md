@@ -1,349 +1,473 @@
-That actually works really well, and I'd structure it to match your **PYQ source** instead of forcing a different organization. The less friction between your notes, videos, and practice, the better.
-
-Here's the roadmap I'd use going forward.
-
----
-
 # GATE Computer Networks Roadmap (Final)
 
-```text
-Module 0 — Foundations (Prerequisite)
-│
-├── Module 1 — OSI Layer
-│
-├── Module 2 — Physical Layer
-│
-├── Module 3 — Data Link Layer
-│
-├── Module 4 — Network Layer
-│
-├── Module 5 — Transport Layer
-│
-├── Module 6 — Application Layer
-│
-├── Module 7 — Network Security (Basics)
-│
-└── Module 8 — Revision + PYQs + Mock Tests
-```
-
 ---
 
-# Chapter 0 — Foundations (Prerequisite)
+# Module 0 — Foundations (Prerequisite)
 
 **Goal:** Build the intuition for why networks exist before studying the layers.
 
-Topics:
+## Topics
 
+### Introduction
 - Why Networking?
-    
 - Components of a Network
-    
-- Types of Networks (LAN, MAN, WAN)
-    
-- Network Topologies (Bus, Star, Ring, Mesh, Tree)
-    
-- Protocol
-    
-- Service
-    
-- Interface
-    
-- Layering
-    
-- Encapsulation
-    
-- Decapsulation
-    
-- PDU (Data → Segment → Packet → Frame → Bits)
-    
-- OSI vs TCP/IP Overview (don't memorize yet)
-    
 
-**After completing:** Solve only basic introductory PYQs if available, otherwise move directly to Module 1.
+### Types of Networks
+- LAN
+- MAN
+- WAN
+
+### Network Topologies
+- Bus
+- Star
+- Ring
+- Mesh
+- Tree
+
+### Basic Networking Concepts
+- Protocol
+- Service
+- Interface
+- Layering
+
+### Data Flow
+- Encapsulation
+- Decapsulation
+- PDU
+  - Data
+  - Segment
+  - Packet
+  - Frame
+  - Bits
+
+### Network Models (Overview)
+- OSI Overview
+- TCP/IP Overview
 
 ---
 
-# Chapter 1 — OSI Layer
+**Practice**
+
+- Introductory PYQs (if available)
+
+---
+
+# Module 1 — OSI Layer
 
 **Goal:** Understand the responsibility of each layer.
 
-Topics:
+## Topics
 
+### OSI Model
 - OSI Architecture
-    
-- Functions of each layer
-    
-- TCP/IP Architecture
-    
-- OSI vs TCP/IP
-    
-- Peer-to-Peer Communication
-    
-- Service Access Point (SAP)
-    
-- Addressing at each layer
-    
-- Encapsulation & Decapsulation (revisited)
-    
+- Functions of Each Layer
 
-**Practice:** OSI Layer PYQs
+### TCP/IP Model
+- TCP/IP Architecture
+- Functions
+
+### Comparison
+- OSI vs TCP/IP
+
+### Communication
+- Peer-to-Peer Communication
+- Service Access Point (SAP)
+
+### Addressing
+- Physical Address
+- Logical Address
+- Port Address
+- Specific Address
+
+### Encapsulation
+- Encapsulation
+- Decapsulation (Detailed)
+
+---
+
+**Practice**
+
+- OSI Layer PYQs
 
 ---
 
 # Chapter 2 — Physical Layer
 
-Topics:
+---
 
-Chapter 2 — Physical Layer
+## 2.1 Transmission Media
 
-1. Transmission Media
-2. Guided vs Unguided Media
-3. Data vs Signal
-4. Analog vs Digital Signals
-5. Data Rate, Baud Rate & Bandwidth
-6. Nyquist Theorem
-7. Shannon Capacity
-8. Line Coding
-9. Manchester Encoding
-10. Asynchronous vs Synchronous Transmission
-11. Multiplexing (FDM, TDM)
-12. Switching
-13. Circuit Switching
-14. Packet Switching
-15. Virtual Circuit & Datagram Switching
+### Guided Media
+- Twisted Pair Cable (UTP, STP)
+- Coaxial Cable
+- Optical Fiber
 
-Practice: Physical Layer PYQs
+### Unguided Media
+- Radio Waves
+- Microwaves
+- Infrared
+- Satellite Communication
 
 ---
 
-# Chapter 3 — Data Link Layer
+## 2.2 Signals
 
-Topics:
+### Basic Concepts
+- Data vs Signal
+- Analog Data vs Digital Data
+- Analog Signal vs Digital Signal
+
+### Signal Characteristics
+- Amplitude
+- Frequency
+- Phase
+- Wavelength
+
+### Performance Metrics
+- Data Rate (Bit Rate)
+- Baud Rate
+- Bandwidth
+- Bit Error Rate (BER)
+
+---
+
+## 2.3 Channel Capacity
+
+- Nyquist Bit Rate Theorem
+- Shannon Capacity Theorem
+- Nyquist vs Shannon
+
+---
+
+## 2.4 Line Coding
+
+### Introduction
+- Why Line Coding?
+- Characteristics of Good Line Coding
+
+### Unipolar Encoding
+- Unipolar NRZ
+- Unipolar RZ
+
+### Polar Encoding
+- NRZ-L
+- NRZ-I
+- Polar RZ
+- Manchester Encoding
+- Differential Manchester
+
+### Bipolar Encoding
+- AMI
+- Pseudoternary
+
+### Block Coding
+- 4B/5B
+- 8B/10B
+
+### Comparison of Encoding Schemes
+- Bandwidth Requirement
+- Synchronization
+- DC Component
+- Error Detection Capability
+- Advantages & Disadvantages
+
+---
+
+## 2.5 Transmission Modes
+
+### Asynchronous Transmission
+- Start Bit
+- Stop Bit
+- Character Framing
+
+### Synchronous Transmission
+- Synchronization
+- Frame Transmission
+
+### Comparison
+- Asynchronous vs Synchronous
+
+### RS-232 (Basic)
+- Voltage Levels
+- Start/Stop Bits
+- Applications
+
+---
+
+## 2.6 Multiplexing
+
+### Frequency Division Multiplexing (FDM)
+
+### Time Division Multiplexing (TDM)
+- Synchronous TDM
+- Statistical TDM
+
+### Wavelength Division Multiplexing (WDM) *(Basic)*
+
+---
+
+## 2.7 Switching
+
+### Introduction to Switching
+
+### Circuit Switching
+
+### Message Switching
+
+### Packet Switching
+
+#### Packet Switching Types
+- Virtual Circuit Switching
+- Datagram Switching
+
+---
+
+## Practice
+
+- GateOverflow Topic-wise PYQs
+- Previous 15+ Years GATE PYQs
+- ISRO PYQs (Selected)
+- Formula Revision
+
+---
+
+# Module 3 — Data Link Layer
+
+## Topics
 
 ### Framing
-
 - Character Count
-    
 - Byte Stuffing
-    
 - Bit Stuffing
-    
-
-### Error Detection
-
-- Parity
-    
-- Checksum
-    
-- CRC
-    
-- Hamming Code
-    
-
-### Flow Control
-
-- Stop-and-Wait
-    
-- Sliding Window
-    
-
-### Medium Access Control
-
-- Pure ALOHA
-    
-- Slotted ALOHA
-    
-- CSMA
-    
-- CSMA/CD
-    
-- CSMA/CA
-    
-
-### Ethernet
-
-- Ethernet Frame
-    
-- MAC Address
-    
-- Ethernet Standards
-    
-
-### Bridging
-
-- Transparent Bridge
-    
-- Learning Bridge
-    
-- Spanning Tree (basic)
-    
-
-**Practice:** Data Link Layer PYQs
 
 ---
 
-# Chapter  4 — Network Layer
+### Error Detection
+- Parity
+- Checksum
+- CRC
 
-Topics:
+---
+
+### Error Correction
+- Hamming Code
+
+---
+
+### Flow Control
+- Stop-and-Wait
+- Sliding Window
+
+---
+
+### ARQ Protocols
+- Stop-and-Wait ARQ
+- Go-Back-N ARQ
+- Selective Repeat ARQ
+
+---
+
+### Medium Access Control
+- Pure ALOHA
+- Slotted ALOHA
+- CSMA
+- CSMA/CD
+- CSMA/CA
+
+---
+
+### Ethernet
+- Ethernet Frame
+- MAC Address
+- Ethernet Standards
+
+---
+
+### Bridging
+- Transparent Bridge
+- Learning Bridge
+- Spanning Tree Protocol (Basic)
+
+---
+
+**Practice**
+
+- Data Link Layer PYQs
+
+---
+
+# Module 4 — Network Layer
+
+## Topics
 
 ### IP Addressing
-
 - IPv4
-    
-- IPv6 (basic)
-    
-- Classes
-    
-- Subnetting
-    
+- IPv6 *(Basic)*
+- Classful Addressing
 - CIDR
-    
+- Subnetting
 - Supernetting
-    
+
+---
 
 ### IP Support Protocols
-
 - ARP
-    
+- RARP *(Basic)*
 - ICMP
-    
 - DHCP
-    
 - NAT
-    
 
-### Fragmentation
+---
+
+### IP Datagram
+- IPv4 Header
+- Fragmentation
+- Reassembly
+
+---
 
 ### Routing
 
+#### Routing Algorithms
 - Flooding
-    
-- Shortest Path
-    
-- Distance Vector
-    
-- Link State
-    
-- RIP
-    
-- OSPF (basic)
-    
+- Shortest Path Routing
+- Distance Vector Routing
+- Link State Routing
 
-**Practice:** Network Layer PYQs
+#### Routing Protocols
+- RIP
+- OSPF *(Basic)*
 
 ---
 
-# Chapter  5 — Transport Layer
+**Practice**
 
-Topics:
+- Network Layer PYQs
+
+---
+
+# Module 5 — Transport Layer
+
+## Topics
 
 ### UDP
+- Features
+- Header
+- Applications
+
+---
 
 ### TCP
-
+- Features
 - Header
-    
 - Reliable Transmission
-    
+
+---
+
+### Connection Management
 - Three-Way Handshake
-    
 - Connection Termination
-    
+
+---
 
 ### Flow Control
 
-### Congestion Control
+- Sliding Window
 
-### Sliding Window
+---
+
+### Congestion Control
+- Slow Start
+- Congestion Avoidance
+- Fast Retransmit
+- Fast Recovery *(Basic)*
+
+---
 
 ### Sockets
-
-**Practice:** Transport Layer PYQs
+- Port Numbers
+- Socket Concept
 
 ---
 
-# Chapter  6 — Application Layer
+**Practice**
 
-Topics:
+- Transport Layer PYQs
+
+---
+
+# Module 6 — Application Layer
+
+## Topics
 
 - DNS
-    
 - HTTP
-    
-- HTTPS (basic understanding)
-    
+- HTTPS *(Basic Understanding)*
 - FTP
-    
 - SMTP
-    
 - POP3
-    
 - IMAP
-    
 - Email Architecture
-    
-
-**Practice:** Application Layer PYQs
 
 ---
 
-# Chapter  7 — Network Security (Basics)
+**Practice**
 
-Since your PYQ source has a separate section, cover only the networking-related basics:
+- Application Layer PYQs
 
-- Cryptography Basics
-    
-- Symmetric vs Asymmetric Encryption
-    
-- Digital Signatures
-    
+---
+
+# Module 7 — Network Security (Basics)
+
+## Topics
+
+### Cryptography Basics
+- Plaintext
+- Ciphertext
+- Keys
+
+### Encryption
+- Symmetric Encryption
+- Asymmetric Encryption
+
+### Authentication
 - Hash Functions
-    
+- Digital Signatures
+
+### Secure Communication
 - SSL/TLS
-    
 - Firewalls
-    
 - VPN
-    
-- IPsec (overview)
-    
-
-> **Note:** Core cryptography is usually studied in Cyber Security, so here focus only on enough to understand secure communication over networks.
-
-**Practice:** Network Security PYQs
+- IPsec *(Overview)*
 
 ---
 
-# Chapter  8 — Revision
+**Practice**
+
+- Network Security PYQs
+
+---
+
+# Module 8 — Revision
+
+## Revision Plan
 
 - Topic-wise Revision
-    
 - Formula Sheet
-    
-- Important Algorithms
-    
-- Mixed PYQs (15+ years)
-    
+- Comparison Tables
+- Previous Year Questions (15+ Years)
 - Mock Tests
-    
 - Weak Topic Revision
-    
 
 ---
 
-## Your Study Loop (same as OS)
+# Study Loop
 
 For every module:
 
-1. 📺 Watch **Gate Smashers** for intuition.
-    
-2. 📝 Make concise Obsidian notes.
-    
-3. 💻 Solve **topic-wise GateOverflow PYQs** immediately.
-    
-4. 🔍 Analyze mistakes and fill gaps.
-    
-5. ➡️ Move to the next module.
-    
-
-This keeps your learning synchronized across videos, notes, and practice, which makes revision much simpler later. From tomorrow onward, we can treat this as your fixed Computer Networks roadmap, just like we've been doing with your Operating Systems modules.
+1. 📺 Watch Gate Smashers (Concept Building)
+2. 📝 Create Obsidian Notes
+3. 📄 Create Short Revision Notes
+4. 💻 Solve Topic-wise GateOverflow PYQs
+5. 🔍 Analyze Mistakes
+6. ➜ Move to Next Module

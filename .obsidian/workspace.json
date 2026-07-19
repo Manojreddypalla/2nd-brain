@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ba7041c51f6c8c5b",
+        "id": "6786dd2125172cd4",
         "type": "tabs",
         "children": [
           {
-            "id": "d2dc7ff986b809b3",
+            "id": "f25b9f9497499efb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/WEB DEV/JAVA SCRIPT/JS Foundations/4.Primitives in javascript.md",
-                "mode": "preview",
+                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/gate short notes.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.Primitives in javascript"
-            }
-          },
-          {
-            "id": "65966f85ea5d1c66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🎯 GATE Corner – Context Switching"
+              "title": "gate short notes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
+                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/gate short notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 🎯 GATE Corner – Context Switching"
+              "title": "Outline of gate short notes"
             }
           }
         ],
@@ -185,45 +170,84 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "65966f85ea5d1c66",
+  "floating": {
+    "id": "be70a454cc845e80",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8bd5fca6a2a4b2cd",
+        "type": "window",
+        "children": [
+          {
+            "id": "1bc4c1d8234b72ac",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "65966f85ea5d1c66",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "GATE/Group 4/Computer Networks/roadmap.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "roadmap"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 563,
+        "y": 28,
+        "width": 1913,
+        "height": 1324,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "f25b9f9497499efb",
   "lastOpenFiles": [
-    "GATE/Group 2/Operating System/syllabus.md",
-    "GATE/Group 2/Operating System/Textbook.md",
-    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/🎯 GATE Corner – Context Switching.md",
-    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/Context Switching.md",
-    "GATE/Group 2/Operating System/2.Processes/5.Context Switching",
-    "GATE/Group 2/Operating System/check list.md",
-    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/PYQ.md",
-    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/🎯 GATE Corner — Process Control Block (PCB).md",
-    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)/Process Control Block (PCB).md",
-    "GATE/Group 2/Operating System/2.Processes/4.Process Control Block (PCB)",
-    "GATE/Group 2/Operating System/2.Processes/3.Process Life Cycle/Process Life Cycle.md",
-    "GATE/Group 2/Operating System/2.Processes/2.Process States/2. Process States (GATE).md",
-    "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/Program vs Process (GATE OS).md",
-    "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/GATE Corner — Program vs Process 📝.md",
-    "GATE/Group 2/Operating System/1.System Calls/2.System Calls (Quick Revision Notes).md",
-    "GATE/Group 2/Operating System/1.System Calls/3.gate points.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/6.Nyquist Theorem/Nyquist Bit Rate Theorem.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/questions and answers.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/GATE Corner — Data Rate, Baud Rate & Bandwidth Formula Sheet.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/2.Unguided Media/Unguided Transmission Media.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/gate short notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/1.Guided Media/Guided Transmission Media.md",
     "GATE/Group 4/Computer Networks/roadmap.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/6.Nyquist Theorem",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/revision short notes.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth/Data Rate, Baud Rate & Bandwidth.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Data Rate, Baud Rate & Bandwidth",
-    "3.The Atlas/AIML/AI Full Stack/index.md",
-    "3.The Atlas/AIML/AI Full Stack/old.md",
-    "GATE/Group 2/Operating System/2.Processes/3.Process Life Cycle",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/2.Unguided Media",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/1.Guided Media",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/Transmission Media (GATE Lecture Notes).md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/Guided vs Unguided Media/2 Guided vs Unguided Media (GATE Lecture Notes).md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/Guided vs Unguided Media/short notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/1.Transmission Media/Guided vs Unguided Media",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/PYQ.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/0.short notes/formulas.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/0.short notes/Physical Layer (Short Notes).md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/0.short notes/Untitled",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/0.short notes",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/11.Switching/Switching.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/11.Switching",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/10.Multiplexing/10.Multiplexing.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/10.Multiplexing/gate corner.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/10.Multiplexing",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/9.Transmission Modes/Transmission Modes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/9.Transmission Modes",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/short notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/Untitled.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/9.Comparison of Encoding Schemes.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/8.Block Coding.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/7.Bipolar Encoding.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/6.Differential Manchester Encoding.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/5.Manchester Encoding.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/4.Polar RZ (Return-to-Zero).md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/3.Polar Encoding.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/2.Unipolar Encoding.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/1.Why do we need Line Coding.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding/What You Actually Need to Know for Line Coding.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/8.Line Coding",
+    "GATE/extra/SYLLABUS/CS_2026_Syllabus.pdf",
     "images/Pasted image 20260717182256.png",
-    "GATE/Group 2/Operating System/2.Processes/contex.md",
-    "GATE/Group 2/Operating System/2.Processes/2.Process States",
-    "GATE/Group 2/Operating System/master notes/notes.md",
-    "GATE/Group 2/Operating System/master notes/what is this.md",
-    "GATE/Group 2/Operating System/master notes",
-    "GATE/Group 2/Operating System/2.Processes/1.Program vs Process",
-    "GATE/Group 2/Operating System/1.System Calls/1.system calls.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Analog vs Digital Signals",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/3.Data vs Signal",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
     "images/Pasted image 20260716210549.png",
