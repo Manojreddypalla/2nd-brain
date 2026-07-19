@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6f05dbc47a05c7bc",
+        "id": "363f2d17b28f4b0f",
         "type": "tabs",
         "children": [
           {
-            "id": "d048a68a3c59d6be",
+            "id": "09245f08134a6277",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/0.short notes/formulas.md",
+                "file": "GATE/Group 2/Operating System/2.Processes/7.Process Creation/Process Creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "formulas"
+              "title": "Process Creation"
+            }
+          },
+          {
+            "id": "c78d97a23d5f3037",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Group 2/Operating System/syllabus.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "syllabus"
             }
           }
         ]
@@ -142,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/0.short notes/formulas.md",
+                "file": "GATE/Group 2/Operating System/2.Processes/7.Process Creation/Process Creation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of formulas"
+              "title": "Outline of Process Creation"
             }
           }
         ],
@@ -170,52 +184,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "be70a454cc845e80",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8bd5fca6a2a4b2cd",
-        "type": "window",
-        "children": [
-          {
-            "id": "1bc4c1d8234b72ac",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "65966f85ea5d1c66",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GATE/Group 4/Computer Networks/roadmap.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "roadmap"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 753,
-        "y": 109,
-        "width": 1913,
-        "height": 1032,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "d048a68a3c59d6be",
+  "active": "09245f08134a6277",
   "lastOpenFiles": [
+    "GATE/Group 2/Operating System/2.Processes/6.Dispatcher/GATE Corner — Dispatcher.md",
+    "GATE/Group 2/Operating System/2.Processes/7.Process Creation/Process Creation.md",
+    "GATE/Group 2/Operating System/2.Processes/7.Process Creation",
+    "GATE/Group 2/Operating System/syllabus.md",
+    "GATE/Group 2/Operating System/2.Processes/6.Dispatcher/Dispatcher.md",
+    "GATE/Group 2/Operating System/1.System Calls/1.system calls.md",
+    "GATE/Group 2/Operating System/2.Processes/6.Dispatcher",
+    "GATE/Group 2/Operating System/2.Processes/5.Context Switching/Context Switching.md",
+    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/0.short notes/formulas.md",
+    "GATE/Group 4/Computer Networks/roadmap.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/short notes.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/PYQ.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/index.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/Transmission Modes.md",
-    "GATE/Group 4/Computer Networks/roadmap.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/4.RS-232 (Basic)/RS-232 (Recommended Standard-232).md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/3.comparison/Asynchronous vs Synchronous Transmission.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/5.Transmission Modes/4.RS-232 (Basic)",
@@ -237,16 +221,7 @@
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/7.Bipolar Encoding.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/4.Bipolar Encoding",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/2.NRZ-I.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/1.NRZ-L.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/5.Differential Manchester Encoding.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/4.Manchester Encoding.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/3.Polar RZ (Return-to-Zero).md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/2.Unipolar Encoding/0.short note.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding.md",
     "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/2.Unipolar Encoding/2.Unipolar RZ.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/2.Unipolar Encoding",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/1.Introduction",
     "images/Pasted image 20260717182256.png",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
