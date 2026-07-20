@@ -228,7 +228,7 @@
 
 ---
 
-# Module 3 — Data Link Layer
+# Chapter 3 — Data Link Layer
 
 ## Topics
 

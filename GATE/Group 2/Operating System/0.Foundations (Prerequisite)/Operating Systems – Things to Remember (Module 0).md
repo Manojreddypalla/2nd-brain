@@ -1,4 +1,4 @@
-## Core Definition
+ ## Core Definition
 
 > **Operating System (OS)** is **system software** that acts as an intermediary between the user/applications and the hardware while managing all hardware resources efficiently.
 
