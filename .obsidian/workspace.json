@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/linux/daily linux/day 11/Control Groups.md",
+                "file": "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/4.Bit Stuffing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control Groups"
+              "title": "4.Bit Stuffing"
             }
           },
           {
             "id": "5d7b89dcbb6a6347",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "GATE/extra/SYLLABUS/CS_2026_Syllabus.pdf"
+                "file": "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/5.Character Stuffing vs Bit Stuffing.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CS_2026_Syllabus"
+              "icon": "lucide-file",
+              "title": "5.Character Stuffing vs Bit Stuffing"
             }
           }
         ],
@@ -155,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GATE/extra/SYLLABUS/CS_2026_Syllabus.pdf",
+                "file": "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/5.Character Stuffing vs Bit Stuffing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CS_2026_Syllabus"
+              "title": "Outline of 5.Character Stuffing vs Bit Stuffing"
             }
           }
         ],
@@ -185,8 +187,16 @@
   },
   "active": "5d7b89dcbb6a6347",
   "lastOpenFiles": [
-    "3.The Atlas/linux/daily linux/day 11/Control Groups.md",
     "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/roadmap.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/5.Character Stuffing vs Bit Stuffing.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/4.Bit Stuffing.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/2.Character Count (Byte Count) Framing.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/3.Byte Stuffing.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/1 Framing.md",
+    "GATE/making notes....md",
+    "3.The Atlas/linux/daily linux/day 11/Control Groups.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing",
+    "GATE/extra/SYLLABUS/CS_2026_Syllabus.pdf",
     "GATE/Group 4/Computer Networks/roadmap.md",
     "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer",
     "GATE/Group 2/Operating System/syllabus.md",
@@ -207,20 +217,12 @@
     "GATE/Group 2/Operating System/2.Processes/1.Program vs Process/GATE Corner — Program vs Process 📝.md",
     "GATE/Group 2/Operating System/0.Foundations (Prerequisite)/Operating Systems – Things to Remember (Module 0).md",
     "GATE/Group 2/Operating System/Textbook.md",
-    "GATE/extra/SYLLABUS/CS_2026_Syllabus.pdf",
     "GATE/Group 2/Operating System/0.Foundations (Prerequisite)/Foundations.md",
     "GATE/Group 2/Operating System/0.Foundations (Prerequisite)/answers to those questions/Operating System Responsibilities.md",
     "GATE/Group 2/Operating System/0.Foundations (Prerequisite)/answers to those questions",
-    "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call/🎯 GATE Corner.md",
-    "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call/Library Function vs System Call.md",
-    "GATE/Group 2/Operating System/1.System Calls/3.gate points.md",
-    "GATE/Group 2/Operating System/1.System Calls/6.POSIX/🎯 GATE Corner — POSIX.md",
     "GATE/Group 2/Operating System/1.System Calls/7.Library Function vs System Call",
-    "GATE/Group 2/Operating System/1.System Calls/6.POSIX/POSIX (Portable Operating System Interface).md",
-    "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call/GATE Corner — API vs System Call.md",
     "GATE/Group 2/Operating System/1.System Calls/6.POSIX",
     "GATE/Group 2/Operating System/1.System Calls/5.API vs System Call",
-    "GATE/Group 2/Operating System/1.System Calls/4.Types of System Calls/4.Information Maintenance",
     "images/Pasted image 20260717182256.png",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
