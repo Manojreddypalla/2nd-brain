@@ -1,57 +1,56 @@
 # 3.1 Framing
 
 > [!info] Definition
-> **Framing** is the process of dividing a continuous stream of bits into smaller identifiable units called **Frames** so that the receiver can determine where each frame begins and ends.
+> **Framing** is the process of dividing a continuous stream of bits into smaller identifiable units called **Frames**, enabling the receiver to determine where each frame begins and ends.
 
 ---
 
 # Why is Framing Needed?
 
-Imagine the sender transmits
+Suppose the sender transmits
 
 ```
 101001010101101010101001010101101001...
 ```
 
-The receiver receives
+The receiver also receives
 
 ```
 101001010101101010101001010101101001...
 ```
 
-Question:
+Now the receiver faces two questions:
 
-- Where does Frame 1 end?
-- Where does Frame 2 begin?
+- Where does **Frame 1** end?
+- Where does **Frame 2** begin?
 
-Without boundaries, the receiver cannot distinguish one message from another.
+Without boundaries, the receiver sees only one long stream of bits.
 
-Hence, the Data Link Layer groups data into **Frames**.
+Hence, the **Data Link Layer** divides the bit stream into **Frames**.
 
 ---
 
 # Real-Life Analogy
 
-Suppose a courier has to deliver a 500-page book.
+Imagine sending a **500-page book** through a courier.
 
-Instead of sending 500 loose pages, the courier divides them into separate parcels.
+Instead of sending 500 loose pages, the courier divides them into multiple parcels.
 
-Each parcel has
+Each parcel contains:
 
-- Sender
-- Receiver
+- Sender Address
+- Receiver Address
 - Parcel Number
 - Contents
 
 Similarly,
 
 ```
-Network Layer
+Network Layer Packet
+
         │
         ▼
-Large Packet
-        │
-        ▼
+
 +---------+
 | Frame 1 |
 +---------+
@@ -67,130 +66,142 @@ Each frame is transmitted independently.
 
 # What is a Frame?
 
-A **Frame** is the Data Link Layer Protocol Data Unit (PDU).
+A **Frame** is the **Protocol Data Unit (PDU)** of the **Data Link Layer**.
 
-General Structure
-
-```
-+--------------------------------------+
-| Header | Payload(Data) | Trailer |
-+--------------------------------------+
-```
-
-Example (Ethernet)
+General Frame Format
 
 ```
-+-------------------------------------------------------------+
-| Destination | Source | Type | Data | CRC |
-+-------------------------------------------------------------+
++------------------------------------------------+
+| Header | Payload (Data) | Trailer |
++------------------------------------------------+
 ```
 
 ---
 
 # Components of a Frame
 
-## Header
+## 1. Header
 
-Contains control information such as
+The header contains control information required before processing the data.
+
+Typical fields include
 
 - Source Address
 - Destination Address
-- Length
-- Sequence Information
-- Control Bits
+- Frame Length
+- Frame Type
+- Sequence Number
+- Control Information
 
 ---
 
-## Payload
+## 2. Payload
 
-Contains the actual data received from the Network Layer.
+The payload contains the actual data received from the **Network Layer**.
+
+This is the information that must reach the destination.
 
 ---
 
-## Trailer
+## 3. Trailer
 
-Usually contains
+The trailer contains information used to verify the correctness of the received frame.
 
-- CRC
-- Error Detection Bits
-- End of Frame Information
+Typical fields include
+
+- CRC (Cyclic Redundancy Check)
+- Frame Check Sequence (FCS)
+- Error Detection Information
+
+---
+
+# Frame Delimitation
+
+> [!important]
+> **Frame Delimitation** is the process of identifying the **beginning and end of a frame**.
+
+Without frame delimitation, the receiver cannot distinguish one frame from another.
+
+Different framing techniques use different methods.
+
+| Technique | Frame Delimitation Method |
+|------------|--------------------------|
+| Character Count | Count Field |
+| Byte Stuffing | FLAG Character |
+| Bit Stuffing | FLAG Bit Pattern (`01111110`) |
+
+---
+
+# Framing vs Frame Delimitation
+
+| Framing | Frame Delimitation |
+|----------|-------------------|
+| Divides data into frames | Identifies frame boundaries |
+| Overall process | Boundary detection technique |
 
 ---
 
 # Objectives of Framing
 
-Framing allows the receiver to
+Framing enables the receiver to
 
-- Detect frame boundaries
-- Synchronize communication
-- Perform error detection
-- Deliver complete data to the Network Layer
+- Identify frame boundaries
+- Synchronize sender and receiver
+- Detect transmission errors
+- Deliver complete frames to the Network Layer
 - Retransmit only damaged frames
 
 ---
 
 # Functions of Framing
 
-## 1. Frame Delimitation
+### 1. Frame Delimitation
 
 Marks the beginning and end of every frame.
 
----
+### 2. Synchronization
 
-## 2. Synchronization
+Maintains synchronization between sender and receiver.
 
-Keeps sender and receiver aligned.
+### 3. Error Detection
 
----
+Each frame can be independently checked using CRC or other techniques.
 
-## 3. Error Detection
-
-Each frame can be checked independently using CRC or other techniques.
-
----
-
-## 4. Reliable Delivery
+### 4. Reliable Communication
 
 Only corrupted frames need retransmission.
 
----
+### 5. Efficient Communication
 
-## 5. Efficient Communication
-
-Large messages become manageable pieces.
+Large messages are divided into manageable units.
 
 ---
 
 # Methods of Framing
 
-The Data Link Layer uses multiple techniques to identify frame boundaries.
-
 ## 1. Character Count
 
-Frame size is stored at the beginning.
+The first field stores the total frame length.
 
 ```
-Length = 20 Bytes
-
-[20][DATA........]
++----------------+
+| Count | Data |
++----------------+
 ```
 
 ---
 
 ## 2. Byte Stuffing (Character Stuffing)
 
-Special bytes indicate
+Special **FLAG** characters indicate the beginning and end of a frame.
 
-- Start
-- End
-
-Escape characters are inserted whenever those special bytes appear inside data.
+If a FLAG appears inside the data, an **ESC** character is inserted before it.
 
 ---
 
 ## 3. Bit Stuffing
 
-Special bit pattern
+Special FLAG pattern
 
 ```
 01111110
@@ -198,7 +209,7 @@ Special bit pattern
 
 marks frame boundaries.
 
-Whenever five consecutive 1s occur inside data,
+Whenever **five consecutive 1s** occur inside the data,
 
 ```
 11111
@@ -210,26 +221,26 @@ the sender inserts
 0
 ```
 
-The receiver removes the inserted zero.
+The receiver removes the stuffed bit before delivering the data.
 
 ---
 
 # Advantages
 
-- Easy identification of frame boundaries
-- Reliable communication
-- Better synchronization
-- Easier error detection
-- Efficient retransmission
-- Supports flow control
+- Clearly identifies frame boundaries.
+- Enables synchronization.
+- Supports error detection.
+- Improves reliability.
+- Allows retransmission of only damaged frames.
+- Supports flow control.
 
 ---
 
 # Disadvantages
 
-- Additional header and trailer increase overhead.
-- Stuffing techniques slightly increase frame size.
-- Character Count is vulnerable if the count field becomes corrupted.
+- Header and trailer introduce overhead.
+- Stuffing techniques increase frame size.
+- Character Count loses synchronization if the count field is corrupted.
 
 ---
 
@@ -240,46 +251,36 @@ Framing is used in
 - Ethernet
 - HDLC
 - PPP
-- Wi-Fi (IEEE 802.11)
+- IEEE 802.11 (Wi-Fi)
 - Serial Communication Protocols
 
 ---
 
-# Important Points
+# Important GATE Points
 
 > [!important]
->
-> Framing is a **Data Link Layer** responsibility.
-
----
-
-> [!important]
->
 > Data Link Layer PDU = **Frame**
 
----
+> [!important]
+> Network Layer PDU = **Packet**
 
 > [!important]
->
-> Network Layer PDU = Packet
-
----
+> Transport Layer PDU = **Segment (TCP)** / **Datagram (UDP)**
 
 > [!important]
->
-> Transport Layer PDU = Segment (TCP) / Datagram (UDP)
+> Framing is a **Data Link Layer** responsibility.
 
 ---
 
 # Memory Trick
 
-Imagine reading this
+Imagine reading
 
 ```
 hellohowareyouiamfine
 ```
 
-Impossible.
+Very difficult.
 
 Now add punctuation.
 
@@ -289,52 +290,33 @@ How are you?
 I am fine.
 ```
 
-Frames are the punctuation marks of networking.
+Frames are the **punctuation marks** of networking.
 
 ---
 
 # Summary
 
-- Framing divides continuous data into Frames.
-- Receiver identifies beginning and end of each Frame.
-- Improves synchronization.
-- Enables error detection.
-- Makes retransmission efficient.
+- Framing divides a continuous bit stream into Frames.
+- A Frame is the PDU of the Data Link Layer.
+- Every frame generally consists of Header, Payload, and Trailer.
+- Frame Delimitation identifies frame boundaries.
+- Common framing techniques:
+  - Character Count
+  - Byte Stuffing
+  - Bit Stuffing
 
 ---
 
-# Revision Box
+# Quick Revision
 
-## Definition
-
-Process of dividing a bit stream into Frames.
-
-## Why?
-
-Receiver must know frame boundaries.
-
-## Frame Structure
-
-```
-Header | Data | Trailer
-```
-
-## Functions
-
-- Delimitation
-- Synchronization
-- Error Detection
-- Reliable Delivery
-
-## Methods
-
-- Character Count
-- Byte Stuffing
-- Bit Stuffing
-
-## PDU
-
-Frame
+| Concept | Remember |
+|----------|----------|
+| PDU | Frame |
+| Frame Structure | Header + Payload + Trailer |
+| Frame Delimitation | Detect Start & End |
+| Character Count | Count Field |
+| Byte Stuffing | ESC + FLAG |
+| Bit Stuffing | Insert 0 after five consecutive 1s |
 
 ---
 
@@ -344,5 +326,6 @@ Frame
 - Byte Stuffing
 - Bit Stuffing
 - CRC
-- Ethernet Frame
 - HDLC
+- Ethernet Frame
+- Flow Control
