@@ -329,3 +329,10 @@ Frames are the **punctuation marks** of networking.
 - HDLC
 - Ethernet Frame
 - Flow Control
+
+# Related topics 
+[[1 Framing]]
+[[2.Character Count (Byte Count) Framing]]
+[[3.Byte Stuffing]]
+[[4.Bit Stuffing]]
+
