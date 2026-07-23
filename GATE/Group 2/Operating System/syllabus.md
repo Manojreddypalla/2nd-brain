@@ -219,102 +219,169 @@ Understand lightweight execution inside a process.
     
 
 ---
-
 # Module 4 — CPU Scheduling
 
-### Goal
+## Goal
 
-Understand how the OS selects the next runnable process or thread.
+Understand how the Operating System selects the next runnable process or thread.
 
-### Topics
+---
 
-### Scheduling Concepts
+# 1. Scheduling Concepts
 
 - CPU Burst
-    
 - I/O Burst
-    
+- CPU-I/O Burst Cycle
+- Scheduler (Long-Term, Short-Term, Medium-Term)
 - Preemptive vs Non-Preemptive
-    
 - Scheduling Queue
-    
+- Job Queue
 - Ready Queue
-    
+- Device Queue
 - Dispatcher
-    
 - Dispatcher Latency
-    
+- Context Switching
 
-### Scheduling Criteria
+---
+
+# 2. Scheduling Criteria
 
 - CPU Utilization
-    
 - Throughput
-    
-- Turnaround Time
-    
-- Waiting Time
-    
-- Response Time
-    
+- Turnaround Time (TAT)
+- Waiting Time (WT)
+- Response Time (RT)
+- Fairness
+- Starvation
+- Aging
 
-### Algorithms
+---
+
+# 3. Scheduling Algorithms
 
 - FCFS
-    
 - SJF
-    
 - SRTF
-    
-- Priority
-    
+- Priority Scheduling
 - Round Robin
-    
 - Multilevel Queue
-    
 - Multilevel Feedback Queue
+
+---
+
+# 4. Numerical Practice
+
+- Gantt Chart
+- Average Waiting Time
+- Average Turnaround Time
+- Average Response Time
+- CPU Utilization Calculations
+- Throughput Calculations
+- Context Switch Overhead Problems
     
 
 ---
 
 # Module 5 — Inter Process Communication (IPC)
 
-### Goal
+## Goal
 
-Allow processes to communicate and exchange data.
+Understand how independent processes communicate, synchronize, and exchange data efficiently.
 
-### Topics
+---
+
+# Part 1 — IPC Foundations
 
 - Why IPC?
-    
-- Shared Memory
-    
-- Message Passing
-    
-- Pipes
-    
+- Need for IPC
+- Process Isolation
+- Cooperating vs Independent Processes
+- Communication Models
+- Synchronization Basics
+
+---
+
+# Part 2 — IPC Mechanisms
+
+## Shared Memory
+
+- Concept
+- Advantages
+- Disadvantages
+
+## Message Passing
+
+- Concept
+- Direct vs Indirect Communication
+- Blocking vs Non-Blocking Communication
+- Buffering (Zero, Bounded, Unbounded)
+
+---
+
+# Part 3 — IPC Techniques
+
+- Pipes (Anonymous Pipes)
 - Named Pipes (FIFO)
-    
 - Message Queues
-    
 - Shared Memory Segments
-    
 - Sockets
-    
 - Signals
-    
 
-### Linux
+---
 
-- pipe()
-    
-- mkfifo()
-    
-- socket()
-    
-- shmget()
-    
-- shmat()
+# Part 4 — Linux IPC System Calls
+
+### Pipes
+
+- `pipe()`
+
+### Named Pipes
+
+- `mkfifo()`
+
+### Shared Memory
+
+- `shmget()`
+- `shmat()`
+- `shmdt()`
+- `shmctl()`
+
+### Message Queues
+
+- `msgget()`
+- `msgsnd()`
+- `msgrcv()`
+- `msgctl()`
+
+### Sockets
+
+- `socket()`
+- `bind()`
+- `listen()`
+- `accept()`
+- `connect()`
+- `send()`
+- `recv()`
+- `close()`
+
+### Signals
+
+- `kill()`
+- `signal()`
+- `sigaction()`
+- `raise()`
+
+---
+
+# GATE Focus ⭐
+
+- Why IPC is needed
+- Shared Memory vs Message Passing
+- Pipe vs Named Pipe
+- Blocking vs Non-Blocking Communication
+- Direct vs Indirect Communication
+- Synchronization issues in Shared Memory
+- Basic understanding of Linux IPC system calls (names and purpose)
     
 
 ---
