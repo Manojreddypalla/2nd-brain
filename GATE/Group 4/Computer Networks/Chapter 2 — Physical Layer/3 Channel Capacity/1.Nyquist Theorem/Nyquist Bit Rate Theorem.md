@@ -1,7 +1,3 @@
-Perfect. Since this is for **GATE CSE**, here's a complete, clean, **Obsidian-ready** note. I've intentionally **not gone into advanced Fourier mathematics**, because that's beyond the syllabus. Instead, this explains exactly what you should understand for exams.
-
----
-
 # 📘 Nyquist Bit Rate Theorem
 
 ## Why do we need Nyquist?
@@ -86,9 +82,7 @@ Neighboring symbols overlap.
 Result:
 
 - Receiver cannot determine where one symbol ends.
-    
 - Errors increase.
-    
 
 ---
 
@@ -105,13 +99,9 @@ Harry Nyquist asked:
 Nyquist theorem assumes an **ideal channel**.
 
 - ✅ No Noise
-    
 - ✅ Perfect Receiver
-    
 - ✅ Perfect Transmitter
-    
 - ✅ Only Bandwidth limits communication
-    
 
 Because of these assumptions, Nyquist gives the **theoretical maximum**.
 
@@ -121,18 +111,15 @@ Because of these assumptions, Nyquist gives the **theoretical maximum**.
 
 Nyquist mathematically proved:
 
-[  
-\boxed{\text{Maximum Baud Rate} = 2B}  
-]
+$$
+\boxed{\text{Maximum Baud Rate}=2B}
+$$
 
 where
 
-- B = Bandwidth (Hz)
-    
+- **B** = Bandwidth (Hz)
 
-Unit:
-
-Baud (Symbols/sec)
+**Unit:** Baud (Symbols/sec)
 
 ---
 
@@ -146,19 +133,15 @@ Bandwidth = 3000 Hz
 
 Then
 
-```text
-Maximum Baud Rate
-
-= 2 × 3000
-
-= 6000 Baud
-```
+$$
+\text{Maximum Baud Rate}=2\times3000=6000\text{ Baud}
+$$
 
 Meaning:
 
 The channel can transmit **at most 6000 symbols every second**.
 
-Sending faster causes **Inter-Symbol Interference**.
+Sending faster causes **Inter-Symbol Interference (ISI)**.
 
 ---
 
@@ -169,13 +152,9 @@ This is the most misunderstood part.
 The rigorous proof uses:
 
 - Fourier Transform
-    
 - Nyquist Pulse
-    
 - Sampling Theory
-    
 - Zero Inter-Symbol Interference
-    
 
 These topics are **outside the GATE CSE syllabus**.
 
@@ -193,42 +172,38 @@ The "positive half + negative half" explanation is only an intuition to remember
 
 Previously we learned
 
-# [  
-\text{Data Rate}
-
-\text{Baud Rate}  
-\times  
-\text{Bits/Symbol}  
-]
+$$
+\text{Data Rate}=\text{Baud Rate}\times\text{Bits/Symbol}
+$$
 
 Maximum Baud Rate
 
-[  
-=2B  
-]
+$$
+=2B
+$$
 
 Bits per Symbol
 
-[  
-=\log_2(M)  
-]
+$$
+=\log_2(M)
+$$
 
 Therefore
 
-[  
-\boxed{\text{Maximum Data Rate}=2B\log_2(M)}  
-]
+$$
+\boxed{\text{Maximum Data Rate}=2B\log_2(M)}
+$$
 
 ---
 
 # Variables
 
-|Symbol|Meaning|Unit|
-|---|---|---|
-|B|Bandwidth|Hz|
-|M|Signal Levels|—|
-|Baud|Symbols/sec|Baud|
-|Data Rate|Bits/sec|bps|
+| Symbol | Meaning | Unit |
+|---------|---------|------|
+| **B** | Bandwidth | Hz |
+| **M** | Signal Levels | — |
+| **Baud** | Symbols per Second | Baud |
+| **Data Rate** | Bits per Second | bps |
 
 ---
 
@@ -238,33 +213,27 @@ Known:
 
 Maximum Baud Rate
 
-[  
-=2B  
-]
+$$
+=2B
+$$
 
 Also,
 
-# [  
-\text{Data Rate}
-
-\text{Baud Rate}  
-\times  
-\text{Bits/Symbol}  
-]
+$$
+\text{Data Rate}=\text{Baud Rate}\times\text{Bits/Symbol}
+$$
 
 Substitute
 
-[  
-=2B  
-\times  
-\log_2(M)  
-]
+$$
+=2B\times\log_2(M)
+$$
 
 Hence
 
-[  
-\boxed{\text{Maximum Data Rate}=2B\log_2(M)}  
-]
+$$
+\boxed{\text{Maximum Data Rate}=2B\log_2(M)}
+$$
 
 ---
 
@@ -272,99 +241,93 @@ Hence
 
 If
 
-[  
-M=2  
-]
+$$
+M=2
+$$
 
 then
 
-[  
-\log_2(2)=1  
-]
+$$
+\log_2(2)=1
+$$
 
 Therefore
 
-[  
-\boxed{\text{Maximum Data Rate}=2B}  
-]
+$$
+\boxed{\text{Maximum Data Rate}=2B}
+$$
 
 ---
 
 # Example 1
 
-Bandwidth
-
-3000 Hz
+Bandwidth = **3000 Hz**
 
 Binary Signaling
 
-(M=2)
+$$
+M=2
+$$
 
 Maximum Data Rate
 
-# [  
-2\times3000\times1
-
-6000\text{ bps}  
-]
+$$
+2\times3000\times1=6000\text{ bps}
+$$
 
 ---
 
 # Example 2
 
-Bandwidth
-
-3000 Hz
+Bandwidth = **3000 Hz**
 
 Signal Levels
 
-4
+$$
+M=4
+$$
 
-Bits/Symbol
+Bits per Symbol
 
-[  
-\log_2(4)=2  
-]
+$$
+\log_2(4)=2
+$$
 
 Maximum Data Rate
 
-# [  
-2\times3000\times2
-
-12000\text{ bps}  
-]
+$$
+2\times3000\times2=12000\text{ bps}
+$$
 
 ---
 
 # Example 3
 
-Bandwidth
-
-5000 Hz
+Bandwidth = **5000 Hz**
 
 Signal Levels
 
-16
+$$
+M=16
+$$
 
-Bits/Symbol
+Bits per Symbol
 
-[  
-\log_2(16)=4  
-]
+$$
+\log_2(16)=4
+$$
 
 Maximum Data Rate
 
-# [  
-2\times5000\times4
-
-40000\text{ bps}  
-]
+$$
+2\times5000\times4=40000\text{ bps}
+$$
 
 ---
 
 # Observations
 
-Increasing Bandwidth
+Increasing **Bandwidth**
 
 ↓
 
@@ -376,7 +339,7 @@ Higher Data Rate
 
 ---
 
-Increasing Signal Levels
+Increasing **Signal Levels**
 
 ↓
 
@@ -401,20 +364,14 @@ Highest Data Rate
 Nyquist assumes:
 
 - No Noise
-    
 - Ideal Channel
-    
 
 Real communication channels contain:
 
 - Thermal Noise
-    
 - Crosstalk
-    
 - Interference
-    
 - Attenuation
-    
 
 Therefore,
 
@@ -430,49 +387,42 @@ For noisy channels we use:
 
 Previous Formula
 
-# [  
-\boxed{\text{Data Rate}
-
-\text{Baud Rate}  
-\times  
-\log_2(M)}  
-]
+$$
+\boxed{\text{Data Rate}=\text{Baud Rate}\times\log_2(M)}
+$$
 
 Nyquist
 
-# [  
-\boxed{\text{Maximum Data Rate}
-
-2B\log_2(M)}  
-]
+$$
+\boxed{\text{Maximum Data Rate}=2B\log_2(M)}
+$$
 
 Difference:
 
-Previous formula works when **Baud Rate is known**.
-
-Nyquist calculates the **maximum possible Baud Rate** using Bandwidth.
+- Previous formula works when **Baud Rate is known**.
+- Nyquist calculates the **maximum possible Baud Rate** using Bandwidth.
 
 ---
 
-# Formula Sheet
+# Formula Sheet ⭐
 
 Maximum Baud Rate
 
-[  
-\boxed{2B}  
-]
+$$
+\boxed{2B}
+$$
 
 Bits/Symbol
 
-[  
-\boxed{\log_2(M)}  
-]
+$$
+\boxed{\log_2(M)}
+$$
 
 Maximum Data Rate
 
-[  
-\boxed{2B\log_2(M)}  
-]
+$$
+\boxed{2B\log_2(M)}
+$$
 
 ---
 
@@ -481,17 +431,11 @@ Maximum Data Rate
 ### Remember
 
 - Nyquist assumes **No Noise**.
-    
 - Only **Bandwidth** limits communication.
-    
 - Maximum Baud Rate = **2B**.
-    
-- Maximum Data Rate = **2B log₂(M)**.
-    
-- If **M = 2**, then Data Rate = **2B**.
-    
-- If noise is present, **Nyquist no longer gives the true maximum**—use **Shannon's theorem** instead.
-    
+- Maximum Data Rate = **2B\log_2(M)**.
+- If **M = 2**, then Maximum Data Rate = **2B**.
+- If noise is present, **Nyquist no longer gives the true maximum**—use **Shannon's Capacity Theorem**.
 
 ---
 
@@ -517,4 +461,8 @@ Maximum Data Rate
 
 ## 💡 Exam Tip
 
-For **GATE CSE**, **do not waste time trying to prove why the factor is exactly (2B)**. The derivation comes from advanced communication theory (Fourier analysis and pulse shaping), which is outside the syllabus. Treat **(2B)** as Nyquist's proven result, understand **what it means**, know **its assumptions**, and be able to apply the formula correctly in numerical problems. This is exactly the level expected in GATE.
+For **GATE CSE**, **do not waste time trying to prove why the factor is exactly \(2B\)**.
+
+The derivation comes from advanced communication theory (Fourier analysis and pulse shaping), which is outside the syllabus.
+
+Treat **\(2B\)** as Nyquist's proven result, understand **its assumptions**, know **what it means**, and be able to **apply the formula correctly** in numerical problems. That is exactly the level expected in GATE.
