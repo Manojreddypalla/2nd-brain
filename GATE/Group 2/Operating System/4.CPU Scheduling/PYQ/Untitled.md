@@ -1,0 +1,3 @@
+Consider a CPU that has to execute two types of processes. The first type, Actuators (A), requires a CPU burst of 66 seconds. The second type, Controllers (C), requires a CPU burst of 88 seconds. A new process of type A arrives at time t=10t=10, 20,30,4020,30,40, and 5050 (in seconds). Similarly, a new process of type C arrives at time t=t= 11,22,33,4411,22,33,44, and 5555 (in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The first process of type A starts running at t=10t=10 seconds. The average waiting time (in seconds) for the 1010 processes is ________. (rounded off to one decimal place)
+
+

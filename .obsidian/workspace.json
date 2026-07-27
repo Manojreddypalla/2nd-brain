@@ -4,49 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "834639b201caee30",
+        "id": "0c906cceb7cdd9e4",
         "type": "tabs",
         "children": [
           {
-            "id": "a4960fed8ba92a28",
+            "id": "fc891d0c6f87b2fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/in short/hour 1.md",
+                "file": "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/1.IPC Foundations/IPC Foundations.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hour 1"
+              "title": "IPC Foundations"
             }
           },
           {
-            "id": "ec8755532775427f",
+            "id": "f103506beaf93ebe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/8.Facing ten challenges in Array and methods.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "8.Facing ten challenges in Array and methods"
-            }
-          },
-          {
-            "id": "d36eaded01b607de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Job Prep/Infosys/revision sessions/25 Days Revision/Roadmap.md",
+                "file": "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/2.Message Passing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap"
+              "title": "2.Message Passing"
+            }
+          },
+          {
+            "id": "ba17abb5a08b9154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Group 2/Operating System/syllabus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "syllabus"
             }
           }
         ],
@@ -200,10 +200,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ec8755532775427f",
+  "active": "f103506beaf93ebe",
   "lastOpenFiles": [
-    "3.The Atlas/COURSES/Full stack generative and Agentic AI/core foundations of gen AI/Deep Dive into the GPT Architecture.md",
+    "GATE/Group 2/Operating System/syllabus.md",
+    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/2.Message Passing.md",
+    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/1.Shared Memory.md",
+    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/1.IPC Foundations/IPC Foundations.md",
+    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/Untitled",
+    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms",
+    "GATE/Group 2/Operating System/4.CPU Scheduling/PYQ/Untitled.md",
+    "GATE/Group 2/Operating System/4.CPU Scheduling/PYQ",
+    "Job Prep/Infosys/revision sessions/25 Days Revision/Roadmap.md",
     "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/8.Facing ten challenges in Array and methods.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/in short/hour 1.md",
+    "3.The Atlas/COURSES/Full stack generative and Agentic AI/core foundations of gen AI/Deep Dive into the GPT Architecture.md",
     "GATE/Group 1/Linear Algebra/5.System of Liner equations/1.Why Solving System Of Linear Equations.md",
     "GATE/Group 1/Linear Algebra/4.A New Approach to Multiply a Matrix and a Vector/A New Approach to Multiply a Matrix and a Vector.md",
     "GATE/Group 1/Linear Algebra/5.System of Liner equations",
@@ -215,7 +225,6 @@
     "GATE/Group 1/Linear Algebra/1.why/1.Why Study Linear Algebra.md",
     "GATE/Group 1/Linear Algebra/3.filling the space",
     "GATE/Group 1/Linear Algebra/1.why",
-    "Job Prep/Infosys/revision sessions/25 Days Revision/Roadmap.md",
     "Job Prep/Infosys/revision sessions/25 Days Revision/Phase 2/Bit Manipulation",
     "Job Prep/Infosys/revision sessions/25 Days Revision/Phase 2/1.Binary Search/Binary Search on Answer.md",
     "Job Prep/Infosys/revision sessions/25 Days Revision/Phase 2/1.Binary Search/Binary Search.md",
@@ -224,20 +233,11 @@
     "Job Prep/Infosys/revision sessions/25 Days Revision/Phase 2/1.Binary Search",
     "Job Prep/Infosys/revision sessions/25 Days Revision/phase 1/cheat sheet.md",
     "Job Prep/Infosys/revision sessions/25 Days Revision/Phase 2",
-    "Job Prep/Infosys/revision sessions/25 Days Revision/phase 1",
     "Job Prep/Infosys/roadmap.md",
     "Job Prep/Infosys/topics/array/sliding window/Sliding Window (Master Notes).md",
-    "Job Prep/Infosys/topics/array/2 pointers",
     "Job Prep/Infosys/revision sessions/25 Days Revision/phase 1/Day 4/19th what to do dsa session 4 hrs.md",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/1.IPC Foundations/IPC Foundations.md",
     "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/0.intro/Introduction.md",
     "GATE/Group 2/Operating System/1.System Calls/3.gate points.md",
-    "GATE/Group 2/Operating System/syllabus.md",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/1.IPC Foundations",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/2.Unipolar Encoding/2.Unipolar RZ.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/3.Polar RZ (Return-to-Zero).md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/2.NRZ-I.md",
-    "GATE/Group 4/Computer Networks/Chapter 2 — Physical Layer/4.Line Coding/3.Polar Encoding/1.NRZ-L.md",
     "images/Pasted image 20260717182256.png",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
