@@ -2,5 +2,6 @@
   "obsidian-style-settings",
   "obsidian-local-rest-api",
   "obsidian-excalidraw-plugin",
-  "snippet-commands-obsidian"
+  "snippet-commands-obsidian",
+  "quiz-generator"
 ]

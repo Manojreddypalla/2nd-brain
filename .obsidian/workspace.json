@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc891d0c6f87b2fb",
+            "id": "4542b37a77843b0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/1.IPC Foundations/IPC Foundations.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IPC Foundations"
-            }
-          },
-          {
-            "id": "f103506beaf93ebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/2.Message Passing/2.Message Passing.md",
+                "file": "GATE/Group 2/Operating System/syllabus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Message Passing"
+              "title": "syllabus"
             }
           },
           {
-            "id": "4cee6aae7b3bf3f0",
+            "id": "d947cfdb62826e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/3.IPC Techniques/1.Pipes (Anonymous Pipes).md",
+                "file": "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/1.Peterson Algorithm/gate.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Pipes (Anonymous Pipes)"
+              "title": "gate"
             }
           },
           {
@@ -55,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE/Group 2/Operating System/syllabus.md",
-                "mode": "preview",
+                "file": "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/7.Bounded Waiting/Bounded Waiting.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "syllabus"
+              "title": "Bounded Waiting"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,46 +196,49 @@
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "quiz-generator:Open generator": false
     }
   },
-  "active": "4cee6aae7b3bf3f0",
+  "active": "af0ff7d915aae477",
   "lastOpenFiles": [
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/2.Bakery Algorithm/2.Dry Run.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/2.Bakery Algorithm/1.Bakery Algorithm.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/2.Bakery Algorithm/gate.md",
     "GATE/Group 2/Operating System/syllabus.md",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/3.IPC Techniques/1.Pipes (Anonymous Pipes).md",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/3.IPC Techniques",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/2.Message Passing/2.Message Passing.md",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/2.Message Passing",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/1.shared memory",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/3..IPC Techniques",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms/1.shared memory/1.Shared Memory.md",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/1.IPC Foundations/IPC Foundations.md",
-    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/2.IPC Mechanisms",
-    "GATE/Group 2/Operating System/4.CPU Scheduling/PYQ/Untitled.md",
-    "GATE/Group 2/Operating System/4.CPU Scheduling/PYQ",
-    "Job Prep/Infosys/revision sessions/25 Days Revision/Roadmap.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/8.Facing ten challenges in Array and methods.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/in short/hour 1.md",
-    "3.The Atlas/COURSES/Full stack generative and Agentic AI/core foundations of gen AI/Deep Dive into the GPT Architecture.md",
-    "GATE/Group 1/Linear Algebra/5.System of Liner equations/1.Why Solving System Of Linear Equations.md",
-    "GATE/Group 1/Linear Algebra/4.A New Approach to Multiply a Matrix and a Vector/A New Approach to Multiply a Matrix and a Vector.md",
-    "GATE/Group 1/Linear Algebra/5.System of Liner equations",
-    "GATE/Group 1/Linear Algebra/3.filling the space/2.Filling the Space.md",
-    "GATE/Group 1/Linear Algebra/3.filling the space/1.Filling the Space.md",
-    "GATE/Group 1/Linear Algebra/3.filling the space/gate.md",
-    "GATE/Group 1/Linear Algebra/2 Linearly Independent and Linearly Dependent in Linear Algebra/3 Linearly Independent and Linearly Dependent in Linear Algebra.md",
-    "GATE/Group 1/Linear Algebra/4.A New Approach to Multiply a Matrix and a Vector",
-    "GATE/Group 1/Linear Algebra/1.why/1.Why Study Linear Algebra.md",
-    "GATE/Group 1/Linear Algebra/3.filling the space",
-    "GATE/Group 1/Linear Algebra/1.why",
-    "Job Prep/Infosys/revision sessions/25 Days Revision/Phase 2/1.Binary Search/Binary Search on Answer.md",
-    "Job Prep/Infosys/revision sessions/25 Days Revision/Phase 2/1.Binary Search/Binary Search.md",
-    "Job Prep/Infosys/dates/23/map.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/roadmap.md",
-    "Job Prep/Infosys/revision sessions/25 Days Revision/phase 1/cheat sheet.md",
-    "Job Prep/Infosys/roadmap.md",
-    "Job Prep/Infosys/topics/array/sliding window/Sliding Window (Master Notes).md",
-    "Job Prep/Infosys/revision sessions/25 Days Revision/phase 1/Day 4/19th what to do dsa session 4 hrs.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/2.Bakery Algorithm",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/7.Bounded Waiting/GATE-Level MCQs.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/1.Peterson Algorithm/gate.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/1.Peterson Algorithm/Peterson's Algorithm.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/7.Bounded Waiting/Bounded Waiting.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/index.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/1.Peterson Algorithm",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/3.Race Condition/1.Race Condition.md",
+    "Untitled.canvas",
+    "Untitled.base",
+    "Excalidraw/Drawing 2026-07-27 12.44.14.excalidraw.md",
+    "Excalidraw",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/6.Progress/1.Progress.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/7.Bounded Waiting",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/6.Progress/GATE-Level MCQs.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/4.Critical Section/2.GATE-Level MCQs.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/6.Progress",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/5.Mutual Exclusion/GATE-Level MCQs.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/5.Mutual Exclusion/Mutual Exclusion.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/5.Mutual Exclusion",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/2.Parallelism/1.Parallelism.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/4.Critical Section/1.Critical Section.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/4.Critical Section",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/3.Race Condition/GATE-Level MCQs.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/3.Race Condition",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/1.Concurrency/2.GATE Level Questions — Concurrency.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/1.Concurrency/1.Concurrency.md",
+    "GATE/Group 2/Operating System/Textbook.md",
+    "GATE/Group 2/Operating System/5.Inter Process Communication (IPC)/3.IPC Techniques/6.Sockets.md",
+    "GATE/Group 2/Operating System/check list.md",
+    "GATE/Group 2/Operating System/master notes/what is this.md",
     "images/Pasted image 20260717182256.png",
     "3.The Atlas/DSA/Untitled.canvas",
     "images/Pasted image 20260716210614.png",
@@ -269,7 +257,6 @@
     "New folder/AI&LLM/AI/Gen AI/Gen AI.canvas",
     "New folder/Projects/Full Stack Projects/Next js/normal project/plan of action.canvas",
     "Projects/Full Stack Projects/Next js/normal project/plan of action.canvas",
-    "AI&LLM/AI/Gen AI/Gen AI.canvas",
-    "articles and blogs/1 AI Agents  Agnetic  and Generative AI/1 AI Agents Vs Agnetic workflow.canvas"
+    "AI&LLM/AI/Gen AI/Gen AI.canvas"
   ]
 }
