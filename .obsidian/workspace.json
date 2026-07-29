@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/DevOps/index.md",
-                "mode": "preview",
+                "file": "Mastery/AIML/AIML Python Library/roadmap.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "roadmap"
             }
           }
         ],
@@ -201,8 +201,19 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "af0ff7d915aae477",
+  "active": "e8cc5040f0942d46",
   "lastOpenFiles": [
+    "Mastery/Programming/python/data manipulation/need to learn.md",
+    "Mastery/AIML/AIML Python Library/roadmap.md",
+    "Mastery/AIML/Computer Vision/0.Roadmap.md",
+    "Mastery/AIML/AIML Python Library",
+    "Mastery/AIML/AI Full Stack/index.md",
+    "Mastery/AIML/AI Full Stack/old.md",
+    "Mastery/AIML/Computer Vision/1.prerequisite.md",
+    "Mastery/AIML/AI Full Stack/phase 1/Programming Foundation.md",
+    "Mastery/AIML/Loop Engineering",
+    "Mastery/AIML/topics.md",
+    "Mastery/DevOps/index.md",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/3.Storage",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/1.OS",
@@ -225,20 +236,9 @@
     "interview prep/1. Data Structures & Algorithms/1.Array/5.Two Sum.md",
     "interview prep/1. Data Structures & Algorithms/1.Array/4.Kadane's Algorithm.md",
     "interview prep/1. Data Structures & Algorithms/1.Array/3.Prefix Sum.md",
-    "interview prep/1. Data Structures & Algorithms/1.Array/2.Rotation.md",
-    "interview prep/1. Data Structures & Algorithms/1.Array/1.Traversal.md",
-    "interview prep/0. Programming Fundamentals/13. Space Complexity.md",
     "interview prep/1. Data Structures & Algorithms/1.Array",
-    "interview prep/0. Programming Fundamentals/12. Time Complexity (Big O).md",
-    "interview prep/0. Programming Fundamentals/11. Regular Expressions (Regex).md",
-    "interview prep/0. Programming Fundamentals/10. File Handling.md",
-    "interview prep/0. Programming Fundamentals/9. Exception Handling.md",
-    "interview prep/0. Programming Fundamentals/8. Memory Basics.md",
     "Mastery/interview prep/0. Programming Fundamentals/Untitled",
     "interview prep/21 Behavioral Interview",
-    "interview prep/20. Logical Reasoning",
-    "interview prep/19. Aptitude",
-    "interview prep/18. AI & LLM",
     "Pasted image 20260728194517.png",
     "Untitled.canvas",
     "images/Pasted image 20260717182256.png",
