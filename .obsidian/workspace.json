@@ -4,16 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "0c906cceb7cdd9e4",
+        "id": "26a53de99fccd029",
         "type": "tabs",
         "children": [
           {
-            "id": "4542b37a77843b0b",
+            "id": "4440df09ce470229",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Dev/index.md",
+                "file": "interview prep/1. Data Structures & Algorithms/1.Array/6.Merge Arrays.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.Merge Arrays"
+            }
+          },
+          {
+            "id": "b46ba0947791ddfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview prep/1. Data Structures & Algorithms/2.Strings/6.Pattern Matching.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.Pattern Matching"
+            }
+          },
+          {
+            "id": "e8cc5040f0942d46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mastery/DevOps/index.md",
                 "mode": "preview",
                 "source": false
               },
@@ -21,7 +49,8 @@
               "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -174,42 +203,42 @@
   },
   "active": "af0ff7d915aae477",
   "lastOpenFiles": [
-    "Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works",
-    "Web Dev/0.Computer Science Foundations",
-    "Job Prep/web dev/index.md",
-    "Web Dev/index.md",
-    "Web Dev",
-    "GATE/Groups.md",
-    "Job Prep/web dev",
-    "3.The Atlas/linux/daily linux/0.Summery/Linux Internals Master Summary (Days 1–17).md",
-    "3.The Atlas/linux/daily linux/day 10 Network Namespace/Network Namespace.md",
-    "3.The Atlas/linux/daily linux/0.Summery",
-    "3.The Atlas/linux/daily linux/Day 9 Mount Namespace/Mount Namespace.md",
-    "3.The Atlas/linux/daily linux/Day 8 PID Namespace/PID Namespace.md",
-    "3.The Atlas/linux/daily linux/day 7 Namespaces/Namespaces.md",
-    "3.The Atlas/linux/daily linux/day 6 Linux Networking Basics/Linux Networking Basics.md",
-    "3.The Atlas/linux/daily linux/day 5 Users, Groups & Permissions/Users, Groups & Permissions.md",
-    "3.The Atlas/linux/daily linux/day 4 Linux Filesystem Internals/Linux Filesystem Internals.md",
-    "3.The Atlas/linux/daily linux/day 4 Linux Filesystem Internals/overview.md",
-    "3.The Atlas/linux/daily linux/day 4 Linux Filesystem Internals/Hands-on Lab.md",
-    "3.The Atlas/linux/daily linux/day 3 Linux Memory Management/Linux Memory Management.md",
-    "3.The Atlas/linux/daily linux/day 2 Linux Processe/Linux Processe.md",
-    "3.The Atlas/linux/daily linux/day 1 Linux Architecture/Linux Architecture.md",
-    "3.The Atlas/linux/daily linux/day 1 Linux Architecture/Hands-on Lab.md",
-    "3.The Atlas/linux/daily linux/day 17 Performance & Debugging/Performance & Debugging.md",
-    "3.The Atlas/linux/daily linux/day 16 Container Internals/Container Internals.md",
-    "3.The Atlas/linux/daily linux/day 17 Performance & Debugging",
-    "3.The Atlas/linux/daily linux/index.md",
-    "3.The Atlas/linux/daily linux/day 15 systemd/systemd.md",
-    "3.The Atlas/linux/daily linux/day 16 Container Internals",
-    "3.The Atlas/linux/daily linux/Day 14 System Calls (Deep Dive)/System Calls (Deep Dive).md",
-    "3.The Atlas/linux/daily linux/day 15 systemd",
-    "3.The Atlas/linux/daily linux/day 13 Seccomp (Secure Computing Mode)/Linux Internals Checkpoint  Namespaces, cgroups, Capabilities  Seccomp.md",
-    "3.The Atlas/linux/daily linux/Day 14 System Calls (Deep Dive)",
-    "3.The Atlas/linux/daily linux/day 13 Seccomp (Secure Computing Mode)/Seccomp (Secure Computing Mode).md",
-    "3.The Atlas/linux/daily linux/day 11 Control Groups (cgroups)/Control Groups.md",
-    "3.The Atlas/linux/daily linux/day 13 Seccomp (Secure Computing Mode)",
-    "3.The Atlas/linux/daily linux/day 12 Linux Capabilities",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/3.Storage",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/1.OS",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals",
+    "interview prep/index.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/6.Pattern Matching.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/0.basics STL.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/8.Strings Interview Cheat Sheet.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/7.Trie.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/7.KMP.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/5.Tokenization.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/4.Frequency Count.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/3.Anagram.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/2.Palindrome.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings/1.Reverse String.md",
+    "interview prep/1. Data Structures & Algorithms/1.Array/0.Basic STL.md",
+    "interview prep/1. Data Structures & Algorithms/2.Strings",
+    "interview prep/1. Data Structures & Algorithms/1.Array/6.Merge Arrays.md",
+    "interview prep/1. Data Structures & Algorithms/1.Array/7.Sliding Window.md",
+    "interview prep/1. Data Structures & Algorithms/1.Array/5.Two Sum.md",
+    "interview prep/1. Data Structures & Algorithms/1.Array/4.Kadane's Algorithm.md",
+    "interview prep/1. Data Structures & Algorithms/1.Array/3.Prefix Sum.md",
+    "interview prep/1. Data Structures & Algorithms/1.Array/2.Rotation.md",
+    "interview prep/1. Data Structures & Algorithms/1.Array/1.Traversal.md",
+    "interview prep/0. Programming Fundamentals/13. Space Complexity.md",
+    "interview prep/1. Data Structures & Algorithms/1.Array",
+    "interview prep/0. Programming Fundamentals/12. Time Complexity (Big O).md",
+    "interview prep/0. Programming Fundamentals/11. Regular Expressions (Regex).md",
+    "interview prep/0. Programming Fundamentals/10. File Handling.md",
+    "interview prep/0. Programming Fundamentals/9. Exception Handling.md",
+    "interview prep/0. Programming Fundamentals/8. Memory Basics.md",
+    "Mastery/interview prep/0. Programming Fundamentals/Untitled",
+    "interview prep/21 Behavioral Interview",
+    "interview prep/20. Logical Reasoning",
+    "interview prep/19. Aptitude",
+    "interview prep/18. AI & LLM",
     "Pasted image 20260728194517.png",
     "Untitled.canvas",
     "images/Pasted image 20260717182256.png",
