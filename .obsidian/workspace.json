@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4440df09ce470229",
+            "id": "3605b0394e9e18fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview prep/1. Data Structures & Algorithms/1.Array/6.Merge Arrays.md",
-                "mode": "source",
+                "file": "Mastery/DSA/concepts/trees/imp concepts/BFS using queue.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6.Merge Arrays"
-            }
-          },
-          {
-            "id": "b46ba0947791ddfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "interview prep/1. Data Structures & Algorithms/2.Strings/6.Pattern Matching.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6.Pattern Matching"
-            }
-          },
-          {
-            "id": "e8cc5040f0942d46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mastery/AIML/AIML Python Library/roadmap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "roadmap"
+              "title": "BFS using queue"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,44 +172,44 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "e8cc5040f0942d46",
+  "active": "3605b0394e9e18fe",
   "lastOpenFiles": [
-    "Mastery/Programming/python/data manipulation/need to learn.md",
-    "Mastery/AIML/AIML Python Library/roadmap.md",
-    "Mastery/AIML/Computer Vision/0.Roadmap.md",
+    "Mastery/DSA/concepts/trees/imp concepts/Binary Tree Algorithms for Technical Interviews.md",
+    "Mastery/DSA/concepts/trees/imp concepts/BFS using queue.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/Graph Representations Cheat Sheet.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/4.Weighted Adjacency List/Weighted Adjacency List.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/2.Adjacency Matrix/Weighted Adjacency Matrix.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/2.Adjacency Matrix/Adjacency Matrix (Undirected Graph) code.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/3.Adjacency List/Adjacency List.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/2.Adjacency Matrix/what is it.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/code.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Weighted Edge List.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Edge list.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/Graph Representation in C++ (STL).md",
+    "Mastery/DSA/concepts/graphs/to do.md",
+    "Mastery/DSA/concepts/graphs/3.DFS/recursive DFS.md",
+    "Mastery/DSA/concepts/graphs/3.DFS/iterative DFS (Depth First Search) using a stack..md",
+    "Mastery/DSA/concepts/graphs/3.DFS/DFS Indepth.md",
+    "Mastery/DSA/concepts/graphs/2.problems in GT/4.Strongly Connected Components (SCC).md",
+    "Mastery/DSA/concepts/graphs/2.problems in GT/3.negative cycle.md",
+    "Mastery/DSA/concepts/graphs/2.problems in GT/2.connectivity.md",
+    "Mastery/DSA/concepts/graphs/2.problems in GT/1.shortest path problems.md",
+    "Mastery/DSA/concepts/graphs/2.problems in GT/0.summery.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/3.Adjacency List/Adjacency List (Unweighted Graph).md",
+    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 1 Physical Layer/Layer 1 Physical Layer.md",
+    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 1 Physical Layer/GATE Focus – Layer 1 (Physical Layer).md",
+    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/1.OSI Architecture/MINI Revision.md",
+    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/1.OSI Architecture/1.OSI Architecture.md",
+    "GATE/Group 2/Operating System/11.I O Scheduling",
     "Mastery/AIML/AIML Python Library",
-    "Mastery/AIML/AI Full Stack/index.md",
-    "Mastery/AIML/AI Full Stack/old.md",
-    "Mastery/AIML/Computer Vision/1.prerequisite.md",
-    "Mastery/AIML/AI Full Stack/phase 1/Programming Foundation.md",
     "Mastery/AIML/Loop Engineering",
-    "Mastery/AIML/topics.md",
-    "Mastery/DevOps/index.md",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/3.Storage",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/1.OS",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals",
-    "interview prep/index.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/6.Pattern Matching.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/0.basics STL.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/8.Strings Interview Cheat Sheet.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/7.Trie.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/7.KMP.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/5.Tokenization.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/4.Frequency Count.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/3.Anagram.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/2.Palindrome.md",
-    "interview prep/1. Data Structures & Algorithms/2.Strings/1.Reverse String.md",
-    "interview prep/1. Data Structures & Algorithms/1.Array/0.Basic STL.md",
     "interview prep/1. Data Structures & Algorithms/2.Strings",
-    "interview prep/1. Data Structures & Algorithms/1.Array/6.Merge Arrays.md",
-    "interview prep/1. Data Structures & Algorithms/1.Array/7.Sliding Window.md",
-    "interview prep/1. Data Structures & Algorithms/1.Array/5.Two Sum.md",
-    "interview prep/1. Data Structures & Algorithms/1.Array/4.Kadane's Algorithm.md",
-    "interview prep/1. Data Structures & Algorithms/1.Array/3.Prefix Sum.md",
     "interview prep/1. Data Structures & Algorithms/1.Array",
     "Mastery/interview prep/0. Programming Fundamentals/Untitled",
-    "interview prep/21 Behavioral Interview",
     "Pasted image 20260728194517.png",
     "Untitled.canvas",
     "images/Pasted image 20260717182256.png",

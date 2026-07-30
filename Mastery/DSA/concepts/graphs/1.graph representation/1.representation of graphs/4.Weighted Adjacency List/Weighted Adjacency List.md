@@ -1,6 +1,4 @@
-# Weighted Adjacency List
-
-### Why Do We Need It?
+# Why Do We Need It?
 
 Normal adjacency list stores:
 
