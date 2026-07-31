@@ -92,32 +92,25 @@ Understand how computers actually work.
 
 ## Networking
 
-- OSI
-    
-- TCP/IP
-    
-- TCP Handshake
-    
+- OSI Model _(5–10 min refresher)_
+- TCP/IP Model
+- IP Addressing + CIDR + Subnetting
+- ARP & ICMP
+- TCP
+- TCP 3-Way Handshake & 4-Way Termination
 - UDP
-    
-- HTTP
-    
-- HTTPS
-    
 - DNS
-    
 - DHCP
-    
+- HTTP
+- HTTPS (TLS)
 - NAT
-    
-- Firewall
-    
-- VPN
-    
 - Routing
-    
-- Load Balancer
-    
+- Firewall (iptables/nftables)
+- VPN
+- Load Balancer (L4 vs L7)
+- Reverse Proxy (Nginx)
+- Ports & Sockets
+- Kubernetes Networking (Pods, Services, Ingress) ⭐
 
 ---
 

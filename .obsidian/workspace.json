@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3605b0394e9e18fe",
+            "id": "2a3cff15a8027743",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/DSA/concepts/trees/imp concepts/BFS using queue.md",
+                "file": "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/4.ARP & ICMP(Address Resolution Protocol)(Internet Control Message Protocol).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BFS using queue"
+              "title": "4.ARP & ICMP(Address Resolution Protocol)(Internet Control Message Protocol)"
+            }
+          },
+          {
+            "id": "6b2ac91fd58ce204",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/5.TCP.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5.TCP"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -172,8 +189,22 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "3605b0394e9e18fe",
+  "active": "6b2ac91fd58ce204",
   "lastOpenFiles": [
+    "Mastery/DevOps/index.md",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/5.TCP.md",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/3.IP Addressing + CIDR + Subnetting.md",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/4.ARP & ICMP(Address Resolution Protocol)(Internet Control Message Protocol).md",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/2.TCP&IP Model.md",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/1.OSI  Models.md",
+    "GATE/Group 4/Computer Networks/roadmap.md",
+    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/1.OS/OS.md",
+    "2.Active Work (Projects)/Home Lab/NAS/net use for windows.md",
+    "2.Active Work (Projects)/Home Lab/NAS/how to auto mount a drive at a location.md",
+    "Mastery/DSA/concepts/graphs/1.graph representation/Graph Representation in C++ (STL).md",
+    "Mastery/DSA/concepts/trees/imp concepts/tree max value.md",
+    "Mastery/DSA/concepts/trees/imp concepts/tree min value.md",
+    "Mastery/DSA/concepts/trees/imp concepts/DFS using stacks.md",
     "Mastery/DSA/concepts/trees/imp concepts/Binary Tree Algorithms for Technical Interviews.md",
     "Mastery/DSA/concepts/trees/imp concepts/BFS using queue.md",
     "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/Graph Representations Cheat Sheet.md",
@@ -185,21 +216,7 @@
     "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/code.md",
     "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Weighted Edge List.md",
     "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Edge list.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/Graph Representation in C++ (STL).md",
     "Mastery/DSA/concepts/graphs/to do.md",
-    "Mastery/DSA/concepts/graphs/3.DFS/recursive DFS.md",
-    "Mastery/DSA/concepts/graphs/3.DFS/iterative DFS (Depth First Search) using a stack..md",
-    "Mastery/DSA/concepts/graphs/3.DFS/DFS Indepth.md",
-    "Mastery/DSA/concepts/graphs/2.problems in GT/4.Strongly Connected Components (SCC).md",
-    "Mastery/DSA/concepts/graphs/2.problems in GT/3.negative cycle.md",
-    "Mastery/DSA/concepts/graphs/2.problems in GT/2.connectivity.md",
-    "Mastery/DSA/concepts/graphs/2.problems in GT/1.shortest path problems.md",
-    "Mastery/DSA/concepts/graphs/2.problems in GT/0.summery.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/3.Adjacency List/Adjacency List (Unweighted Graph).md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 1 Physical Layer/Layer 1 Physical Layer.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 1 Physical Layer/GATE Focus – Layer 1 (Physical Layer).md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/1.OSI Architecture/MINI Revision.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/1.OSI Architecture/1.OSI Architecture.md",
     "GATE/Group 2/Operating System/11.I O Scheduling",
     "Mastery/AIML/AIML Python Library",
     "Mastery/AIML/Loop Engineering",
