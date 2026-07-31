@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/5.TCP.md",
-                "mode": "preview",
+                "file": "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/1.Client Server Architecture/Client–Server Architecture.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.TCP"
+              "title": "Client–Server Architecture"
             }
           }
         ],
@@ -191,8 +191,10 @@
   },
   "active": "6b2ac91fd58ce204",
   "lastOpenFiles": [
-    "Mastery/DevOps/index.md",
+    "Mastery/Web Dev/index.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/1.Client Server Architecture/Client–Server Architecture.md",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/5.TCP.md",
+    "Mastery/DevOps/index.md",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/3.IP Addressing + CIDR + Subnetting.md",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/4.ARP & ICMP(Address Resolution Protocol)(Internet Control Message Protocol).md",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/2.TCP&IP Model.md",
@@ -215,8 +217,6 @@
     "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/2.Adjacency Matrix/what is it.md",
     "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/code.md",
     "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Weighted Edge List.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Edge list.md",
-    "Mastery/DSA/concepts/graphs/to do.md",
     "GATE/Group 2/Operating System/11.I O Scheduling",
     "Mastery/AIML/AIML Python Library",
     "Mastery/AIML/Loop Engineering",
