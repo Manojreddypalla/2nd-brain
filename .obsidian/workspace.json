@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2a3cff15a8027743",
+            "id": "33473afac06e4c66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/4.ARP & ICMP(Address Resolution Protocol)(Internet Control Message Protocol).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4.ARP & ICMP(Address Resolution Protocol)(Internet Control Message Protocol)"
-            }
-          },
-          {
-            "id": "6b2ac91fd58ce204",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/1.Client Server Architecture/Client–Server Architecture.md",
+                "file": "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/8.Sessions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Client–Server Architecture"
+              "title": "8.Sessions"
+            }
+          },
+          {
+            "id": "3e957363028d0ee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/9.JWT Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "9.JWT Overview"
             }
           }
         ],
@@ -189,10 +189,18 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "6b2ac91fd58ce204",
+  "active": "3e957363028d0ee2",
   "lastOpenFiles": [
     "Mastery/Web Dev/index.md",
-    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/1.Client Server Architecture/Client–Server Architecture.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/9.JWT Overview.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/8.Sessions.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/7.Cookies.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/5.HTTP vs HTTPS.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/6.SSL&TLS.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/4.TCP&IP.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/3.Browser Journey.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/2.Request Response Cycle.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/1.Client–Server Architecture.md",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/5.TCP.md",
     "Mastery/DevOps/index.md",
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/3.IP Addressing + CIDR + Subnetting.md",
@@ -209,14 +217,6 @@
     "Mastery/DSA/concepts/trees/imp concepts/DFS using stacks.md",
     "Mastery/DSA/concepts/trees/imp concepts/Binary Tree Algorithms for Technical Interviews.md",
     "Mastery/DSA/concepts/trees/imp concepts/BFS using queue.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/Graph Representations Cheat Sheet.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/4.Weighted Adjacency List/Weighted Adjacency List.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/2.Adjacency Matrix/Weighted Adjacency Matrix.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/2.Adjacency Matrix/Adjacency Matrix (Undirected Graph) code.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/3.Adjacency List/Adjacency List.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/2.Adjacency Matrix/what is it.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/code.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/1.representation of graphs/1.edge list/Weighted Edge List.md",
     "GATE/Group 2/Operating System/11.I O Scheduling",
     "Mastery/AIML/AIML Python Library",
     "Mastery/AIML/Loop Engineering",
