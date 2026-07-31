@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/8.Sessions.md",
+                "file": "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/9.Introduction to loops in javascript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.Sessions"
+              "title": "9.Introduction to loops in javascript"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/9.JWT Overview.md",
-                "mode": "source",
+                "file": "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/0.revision.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9.JWT Overview"
+              "title": "0.revision"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,34 +188,35 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "3e957363028d0ee2",
+  "active": "33473afac06e4c66",
   "lastOpenFiles": [
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/5.1.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/1.2.JAVA SCRIPT INTRO.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/1.1.JavaScript Introduction.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/9.Introduction to loops in javascript.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/8.Facing ten challenges in Array and methods.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/7.challenges in Array and methods.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/6.conditions in javascript.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/5.Non Primitives in javascript.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/4.Primitives in javascript.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/3.Operations in javascript.md",
+    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/2.Datatypes, variables and constants in Javascript.md",
     "Mastery/Web Dev/index.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/16.gRPC.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/0.revision.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/15.GraphQL.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/13.WebSocket.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/14.REST.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/12.Reverse Proxy.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/11.Load Balancer.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/10.CDN.md",
+    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/11.Load Balancer",
     "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/9.JWT Overview.md",
     "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/8.Sessions.md",
     "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/7.Cookies.md",
     "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/5.HTTP vs HTTPS.md",
     "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/6.SSL&TLS.md",
     "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/4.TCP&IP.md",
-    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/3.Browser Journey.md",
-    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/2.Request Response Cycle.md",
-    "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/1.Client–Server Architecture.md",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/5.TCP.md",
-    "Mastery/DevOps/index.md",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/3.IP Addressing + CIDR + Subnetting.md",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/4.ARP & ICMP(Address Resolution Protocol)(Internet Control Message Protocol).md",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/2.TCP&IP Model.md",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking/1.OSI  Models.md",
-    "GATE/Group 4/Computer Networks/roadmap.md",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/1.OS/OS.md",
-    "2.Active Work (Projects)/Home Lab/NAS/net use for windows.md",
-    "2.Active Work (Projects)/Home Lab/NAS/how to auto mount a drive at a location.md",
-    "Mastery/DSA/concepts/graphs/1.graph representation/Graph Representation in C++ (STL).md",
-    "Mastery/DSA/concepts/trees/imp concepts/tree max value.md",
-    "Mastery/DSA/concepts/trees/imp concepts/tree min value.md",
-    "Mastery/DSA/concepts/trees/imp concepts/DFS using stacks.md",
-    "Mastery/DSA/concepts/trees/imp concepts/Binary Tree Algorithms for Technical Interviews.md",
-    "Mastery/DSA/concepts/trees/imp concepts/BFS using queue.md",
     "GATE/Group 2/Operating System/11.I O Scheduling",
     "Mastery/AIML/AIML Python Library",
     "Mastery/AIML/Loop Engineering",
@@ -226,7 +226,6 @@
     "Mastery/DevOps/PHASE 0 — Computer Fundamentals",
     "interview prep/1. Data Structures & Algorithms/2.Strings",
     "interview prep/1. Data Structures & Algorithms/1.Array",
-    "Mastery/interview prep/0. Programming Fundamentals/Untitled",
     "Pasted image 20260728194517.png",
     "Untitled.canvas",
     "images/Pasted image 20260717182256.png",
