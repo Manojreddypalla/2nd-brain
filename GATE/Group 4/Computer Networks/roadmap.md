@@ -9,15 +9,18 @@
 ## Topics
 
 ### Introduction
+
 - Why Networking?
 - Components of a Network
 
 ### Types of Networks
+
 - LAN
 - MAN
 - WAN
 
 ### Network Topologies
+
 - Bus
 - Star
 - Ring
@@ -25,22 +28,25 @@
 - Tree
 
 ### Basic Networking Concepts
+
 - Protocol
 - Service
 - Interface
 - Layering
 
 ### Data Flow
+
 - Encapsulation
 - Decapsulation
 - PDU
-  - Data
-  - Segment
-  - Packet
-  - Frame
-  - Bits
+    - Data
+    - Segment
+    - Packet
+    - Frame
+    - Bits
 
 ### Network Models (Overview)
+
 - OSI Overview
 - TCP/IP Overview
 
@@ -59,27 +65,33 @@
 ## Topics
 
 ### OSI Model
+
 - OSI Architecture
 - Functions of Each Layer
 
 ### TCP/IP Model
+
 - TCP/IP Architecture
 - Functions
 
 ### Comparison
+
 - OSI vs TCP/IP
 
 ### Communication
+
 - Peer-to-Peer Communication
 - Service Access Point (SAP)
 
 ### Addressing
+
 - Physical Address
 - Logical Address
 - Port Address
 - Specific Address
 
 ### Encapsulation
+
 - Encapsulation
 - Decapsulation (Detailed)
 
@@ -98,11 +110,13 @@
 ## 2.1 Transmission Media
 
 ### Guided Media
+
 - Twisted Pair Cable (UTP, STP)
 - Coaxial Cable
 - Optical Fiber
 
 ### Unguided Media
+
 - Radio Waves
 - Microwaves
 - Infrared
@@ -113,17 +127,20 @@
 ## 2.2 Signals
 
 ### Basic Concepts
+
 - Data vs Signal
 - Analog Data vs Digital Data
 - Analog Signal vs Digital Signal
 
 ### Signal Characteristics
+
 - Amplitude
 - Frequency
 - Phase
 - Wavelength
 
 ### Performance Metrics
+
 - Data Rate (Bit Rate)
 - Baud Rate
 - Bandwidth
@@ -142,14 +159,17 @@
 ## 2.4 Line Coding
 
 ### Introduction
+
 - Why Line Coding?
 - Characteristics of Good Line Coding
 
 ### Unipolar Encoding
+
 - Unipolar NRZ
 - Unipolar RZ
 
 ### Polar Encoding
+
 - NRZ-L
 - NRZ-I
 - Polar RZ
@@ -157,14 +177,17 @@
 - Differential Manchester
 
 ### Bipolar Encoding
+
 - AMI
 - Pseudoternary
 
 ### Block Coding
+
 - 4B/5B
 - 8B/10B
 
 ### Comparison of Encoding Schemes
+
 - Bandwidth Requirement
 - Synchronization
 - DC Component
@@ -176,18 +199,22 @@
 ## 2.5 Transmission Modes
 
 ### Asynchronous Transmission
+
 - Start Bit
 - Stop Bit
 - Character Framing
 
 ### Synchronous Transmission
+
 - Synchronization
 - Frame Transmission
 
 ### Comparison
+
 - Asynchronous vs Synchronous
 
 ### RS-232 (Basic)
+
 - Voltage Levels
 - Start/Stop Bits
 - Applications
@@ -199,21 +226,23 @@
 ### Frequency Division Multiplexing (FDM)
 
 ### Time Division Multiplexing (TDM)
+
 - Synchronous TDM
 - Statistical TDM
 
-### Wavelength Division Multiplexing (WDM) *(Basic)*
+### Wavelength Division Multiplexing (WDM) _(Basic)_
 
 ---
 
 ## 2.7 Switching
 
- - Introduction to Switching
- - Circuit Switching
+- Introduction to Switching
+- Circuit Switching
 - Message Switching
 - Packet Switching
 
- Packet Switching Types
+Packet Switching Types
+
 - Virtual Circuit Switching
 - Datagram Switching
 
@@ -233,6 +262,7 @@
 ## Topics
 
 ### Framing
+
 - Character Count
 - Byte Stuffing
 - Bit Stuffing
@@ -240,6 +270,7 @@
 ---
 
 ### Error Detection
+
 - Parity
 - Checksum
 - CRC
@@ -247,24 +278,37 @@
 ---
 
 ### Error Correction
+
 - Hamming Code
 
 ---
 
 ### Flow Control
+
 - Stop-and-Wait
 - Sliding Window
 
 ---
 
 ### ARQ Protocols
+
 - Stop-and-Wait ARQ
 - Go-Back-N ARQ
 - Selective Repeat ARQ
 
 ---
 
+### Numerical Practice
+
+- Stop-and-Wait Efficiency / Channel Utilization
+- Go-Back-N / Selective Repeat Efficiency
+- Optimal Sliding Window Size Calculation
+- Bandwidth-Delay Product (Link-Level)
+
+---
+
 ### Medium Access Control
+
 - Pure ALOHA
 - Slotted ALOHA
 - CSMA
@@ -274,6 +318,7 @@
 ---
 
 ### Ethernet
+
 - Ethernet Frame
 - MAC Address
 - Ethernet Standards
@@ -281,6 +326,7 @@
 ---
 
 ### Bridging
+
 - Transparent Bridge
 - Learning Bridge
 - Spanning Tree Protocol (Basic)
@@ -298,8 +344,9 @@
 ## Topics
 
 ### IP Addressing
+
 - IPv4
-- IPv6 *(Basic)*
+- IPv6 _(Basic)_
 - Classful Addressing
 - CIDR
 - Subnetting
@@ -308,8 +355,9 @@
 ---
 
 ### IP Support Protocols
+
 - ARP
-- RARP *(Basic)*
+- RARP _(Basic)_
 - ICMP
 - DHCP
 - NAT
@@ -317,6 +365,7 @@
 ---
 
 ### IP Datagram
+
 - IPv4 Header
 - Fragmentation
 - Reassembly
@@ -326,14 +375,18 @@
 ### Routing
 
 #### Routing Algorithms
+
 - Flooding
 - Shortest Path Routing
 - Distance Vector Routing
+    - Count-to-Infinity Problem
+    - Split Horizon / Poisoned Reverse
 - Link State Routing
 
 #### Routing Protocols
+
 - RIP
-- OSPF *(Basic)*
+- OSPF _(Basic)_
 
 ---
 
@@ -348,6 +401,7 @@
 ## Topics
 
 ### UDP
+
 - Features
 - Header
 - Applications
@@ -355,6 +409,7 @@
 ---
 
 ### TCP
+
 - Features
 - Header
 - Reliable Transmission
@@ -362,6 +417,7 @@
 ---
 
 ### Connection Management
+
 - Three-Way Handshake
 - Connection Termination
 
@@ -370,20 +426,24 @@
 ### Flow Control
 
 - Sliding Window
+- Bandwidth-Delay Product (TCP Throughput / Window Scaling)
 
 ---
 
 ### Congestion Control
+
 - Slow Start
 - Congestion Avoidance
 - Fast Retransmit
-- Fast Recovery *(Basic)*
+- Fast Recovery _(Basic)_
 
 ---
 
 ### Sockets
+
 - Port Numbers
 - Socket Concept
+- Socket API Call Sequence (Server: bind → listen → accept ; Client: connect)
 
 ---
 
@@ -399,7 +459,7 @@
 
 - DNS
 - HTTP
-- HTTPS *(Basic Understanding)*
+- HTTPS _(Basic Understanding)_
 - FTP
 - SMTP
 - POP3
@@ -419,23 +479,27 @@
 ## Topics
 
 ### Cryptography Basics
+
 - Plaintext
 - Ciphertext
 - Keys
 
 ### Encryption
+
 - Symmetric Encryption
 - Asymmetric Encryption
 
 ### Authentication
+
 - Hash Functions
 - Digital Signatures
 
 ### Secure Communication
+
 - SSL/TLS
 - Firewalls
 - VPN
-- IPsec *(Overview)*
+- IPsec _(Overview)_
 
 ---
 

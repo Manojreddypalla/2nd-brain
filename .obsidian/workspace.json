@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33473afac06e4c66",
+            "id": "997aa2729ec04284",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/DSA/math/1.Permutations & Combinations/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "3e957363028d0ee2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/0.revision.md",
+                "file": "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools/1.Mutex/🎯 GATE Corner — Spinlock & Busy Waiting.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.revision"
+              "title": "🎯 GATE Corner — Spinlock & Busy Waiting"
+            }
+          },
+          {
+            "id": "73c173fbfca5f7cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Group 2/Operating System/syllabus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "syllabus"
             }
           }
         ]
@@ -188,44 +188,44 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "33473afac06e4c66",
+  "active": "997aa2729ec04284",
   "lastOpenFiles": [
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/1.Recursion Cheat Sheet.md",
-    "Mastery/DSA/math/1.Permutations & Combinations/index.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools/1.Mutex/2.Busy Waiting(additional).md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools/1.Mutex/🎯 GATE Corner — Spinlock & Busy Waiting.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools/1.Mutex/3.Spinlock(additional).md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools/1.Mutex/1.Mutex.md",
+    "GATE/Group 2/Operating System/syllabus.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools/1.Mutex",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools",
+    "GATE/Group 4/Computer Networks/roadmap.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/roadmap.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/index.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/2.Hardware Solutions (Critical Section) — GATE Summary Notes.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Hardware Synchronization — Why Do We Need It.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/3.Swap Instruction/GATE Corner — Swap Instruction.md",
+    "GATE/extra/SYLLABUS/DA_GATE2027_Syllabus.pdf",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/3.Swap Instruction/Swap Instruction.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/2.Compare-and-Swap/Compare-and-Swap.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/3.Swap Instruction",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/2.Compare-and-Swap/🎯 GATE Corner — Compare-and-Swap (CAS).md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set/GATE Corner — Test-and-Set (TSL).md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/2.Compare-and-Swap",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set/Q&A.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set/Untitled",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/1.Peterson Algorithm/gate.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set/Test-and-Set.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/2.Bakery Algorithm/2.Dry Run.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/2.Bakery Algorithm/1.Bakery Algorithm.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/1.Peterson Algorithm/Peterson's Algorithm.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/6.Progress/1.Progress.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/7.Bounded Waiting/Bounded Waiting.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/5.Mutual Exclusion/Mutual Exclusion.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/2.Parallelism/1.Parallelism.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/1.Topics/1.Concurrency/1.Concurrency.md",
     "Mastery/DSA/math/1.Permutations & Combinations",
     "Mastery/DSA/math",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/2.Generalising Recursion.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/9.nCr using Recursion.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/0.recursion.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/8.Fibonacci Series using Recursion - Memoization.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/8.1 fib.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/7. Taylor series from start to end.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/6.types of recursion.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/5.Static and Global Variables in Recursion.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/4.Recurrence Relation - Time Complexity of Recursion.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/3.Recursion/3.How Recursion uses Stack..md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/2.Introduction/1.introduction.md",
-    "Mastery/DSA/Mastering Data Structures & Algorithms using C and C++/1.C and C++ concepts/1.array/1.Array Basics.md",
-    "Mastery/DSA/DSA Companion Cheat Sheet/index.md",
-    "Mastery/DSA/DSA Advanced Handbook/index.md",
-    "interview prep/0. Programming Fundamentals/13. Space Complexity.md",
-    "interview prep/0. Programming Fundamentals/12. Time Complexity (Big O).md",
-    "interview prep/0. Programming Fundamentals/8. Memory Basics.md",
-    "interview prep/0. Programming Fundamentals/6. Recursion.md",
-    "interview prep/0. Programming Fundamentals/2. Operators.md",
-    "interview prep/0. Programming Fundamentals/0.short notes.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/9.Introduction to loops in javascript.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/5.1.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/1.2.JAVA SCRIPT INTRO.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/1.1.JavaScript Introduction.md",
     "Mastery/Web Dev/0.Computer Science Foundations/Chapter 1 — How the Internet Works/11.Load Balancer",
-    "GATE/Group 2/Operating System/11.I O Scheduling",
-    "Mastery/AIML/AIML Python Library",
-    "Mastery/AIML/Loop Engineering",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/3.Storage",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/2.Networking",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/1.OS",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals",
     "Pasted image 20260728194517.png",
     "Untitled.canvas",
     "images/Pasted image 20260717182256.png",
