@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/OS/Module 1/1.Operating Systems — Introduction.md",
-                "mode": "source",
+                "file": "Mastery/linux/Kernal Develepment/c daily/Day 2 Integers Are Just Bits/Integers Are Just Bits.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Operating Systems — Introduction"
+              "title": "Integers Are Just Bits"
             }
           }
         ]
@@ -176,22 +176,27 @@
   },
   "active": "0c0729e5f0c9ddd0",
   "lastOpenFiles": [
-    "GATE GO/Computer Network/quiz/1.md",
+    "Mastery/linux/Kernal Develepment/c daily/Day 1 How C Maps to Memory/How C Maps to Memory.md",
+    "Mastery/linux/Kernal Develepment/c daily/Day 2 Integers Are Just Bits/Integers Are Just Bits.md",
+    "Mastery/linux/Kernal Develepment/c daily/Day 2 Integers Are Just Bits",
+    "Mastery/linux/Kernal Develepment/daily linux/day 21 Linux Kernel Modules/Linux Kernel Modules.md",
+    "Mastery/linux/Kernal Develepment/c daily/Day 1 How C Maps to Memory",
+    "Mastery/linux/Kernal Develepment/c daily",
+    "Mastery/linux/Kernal Develepment/daily linux/day 21 Linux Kernel Modules",
+    "Mastery/linux/Kernal Develepment/daily linux/day 20 Linux Boot Process/2..md",
+    "Mastery/linux/Kernal Develepment/daily linux/day 20 Linux Boot Process/1.Linux Boot Process – From Power Button to Login Prompt.md",
     "GATE GO/OS/Module 1/1.Operating Systems — Introduction.md",
     "GATE GO/OS/pdf/L-1.pdf",
+    "GATE GO/Computer Network/quiz/1.md",
     "GATE GO/OS/pdf/Unconfirmed 351693.crdownload",
     "GATE GO/OS/pdf",
     "GATE GO/OS/Module 1/Untitled",
     "GATE GO/OS/Module 1",
     "GATE GO/OS",
-    "GATE GO/Computer Network/CN Logs",
     "GATE GO/Computer Network/MODULE 1/3.Subnetting/L-03.md",
-    "GATE GO/Computer Network/quiz",
     "GATE GO/CP/MODULE 1/lecture 1/1.C Programming — Introduction & Motivation.md",
     "GATE GO/CP/MODULE 1/lecture 1/home work.md",
-    "GATE/extra/SYLLABUS/CS_GATE2027_Syllabus.pdf",
     "GATE GO/CP/MODULE 1/lecture 1/1c.Detour - Number System.md",
-    "GATE GO/CP/PDF/L-1 HW.pdf",
     "GATE GO/CP/MODULE 1/lecture 1/1e.Copy Bits to Higher Bits — Sign Extension.md",
     "GATE GO/CP/MODULE 1/lecture 1/1d.Detour - Number System.md",
     "Untitled.canvas",
@@ -200,7 +205,6 @@
     "Mastery/DevOps/Kubernetes/Kubernetes Introduction/2.Why Kubernetes.md",
     "Mastery/DevOps/Kubernetes/Kubernetes Introduction/1.Kubernetes overview.md",
     "Mastery/DevOps/index.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 20 Linux Boot Process/Linux Boot Process – From Power Button to Login Prompt.md",
     "Mastery/linux/Kernal Develepment/daily linux/day 19 Container Networking/Container Networking Deep Dive – Bridges, veth Pairs & Network Namespaces.md",
     "Mastery/linux/Kernal Develepment/daily linux/index.md",
     "Mastery/linux/Kernal Develepment/daily linux/day 12 Linux Capabilities/Linux Capabilities.md",
@@ -209,10 +213,6 @@
     "Mastery/linux/Kernal Develepment/daily linux/day 7 Namespaces/Hands-on Lab.md",
     "Mastery/linux/Kernal Develepment/daily linux/day 18.Capstone Lab – Putting Linux Internals Together/Capstone Lab Putting Linux Internals Together.md",
     "Mastery/linux/Kernal Develepment/daily linux/day 17 Performance & Debugging/Performance & Debugging.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/10.Defeat 6 loop challenges in Javascript.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/9.Introduction to loops in javascript.md",
-    "3.The Atlas/COURSES/WEB DEV/web development.md",
-    "Mastery/DevOps/PHASE 0 — Computer Fundamentals/3.Storage/Storage Mental Model.md",
     "Pasted image 20260728194517.png",
     "images/Pasted image 20260717182256.png",
     "3.The Atlas/DSA/Untitled.canvas",
