@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/linux/Kernal Develepment/daily linux/Day 35 — Mounts/lab.md",
-                "mode": "source",
+                "file": "GATE GO/data structures/1.Linked List/L-1/1 A introduction to Linked list.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lab"
+              "title": "1 A introduction to Linked list"
             }
           },
           {
@@ -190,8 +190,15 @@
   },
   "active": "0c0729e5f0c9ddd0",
   "lastOpenFiles": [
-    "Mastery/linux/Kernal Develepment/daily linux/Day 35 — Mounts/Mounts.md",
     "Mastery/linux/Kernal Develepment/daily linux/Day 35 — Mounts/lab.md",
+    "GATE GO/data structures/1.Linked List/L-1/1 A introduction to Linked list.md",
+    "GATE GO/data structures/1.Linked List/L-1",
+    "GATE GO/data structures/1.Linked List",
+    "GATE GO/data structures/PDF/L-1.pdf",
+    "GATE GO/data structures/PDF/Unconfirmed 305589.crdownload",
+    "GATE GO/data structures/PDF",
+    "GATE GO/data structures",
+    "Mastery/linux/Kernal Develepment/daily linux/Day 35 — Mounts/Mounts.md",
     "Mastery/linux/Kernal Develepment/daily linux/Day 34 Pathname Resolution/lab.md",
     "Mastery/linux/Kernal Develepment/daily linux/Day 35 — Mounts",
     "Mastery/linux/Kernal Develepment/daily linux/Day 34 Pathname Resolution/Pathname Resolution.md",
@@ -204,20 +211,14 @@
     "Mastery/linux/Kernal Develepment/daily linux/day 31 lsof/Understanding Open Files and File Descriptors.md",
     "Mastery/linux/Kernal Develepment/daily linux/Day 32 systemd & Service Lifecycle",
     "Mastery/linux/Kernal Develepment/daily linux/day 30 perf/Profiling Linux Performance.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 31 lsof",
     "Mastery/linux/Kernal Develepment/daily linux/day 29 strace/LAB.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 30 perf",
     "Mastery/linux/Kernal Develepment/daily linux/day 29 strace/strace – Watching System Calls in Real Time.md",
     "Mastery/linux/Kernal Develepment/daily linux/day 28 Virtual Memory & Demand Paging/Virtual Memory & Demand Paging.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 29 strace",
     "Mastery/linux/Kernal Develepment/daily linux/day 27 Linux I O Multiplexing/real life example.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 28 Virtual Memory & Demand Paging",
     "Mastery/linux/Kernal Develepment/daily linux/day 27 Linux I O Multiplexing/Linux I O Multiplexing.md",
     "Mastery/linux/Kernal Develepment/daily linux/day 26 eBPF/LAB.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 27 Linux I O Multiplexing",
     "Mastery/linux/Kernal Develepment/daily linux/day 26 eBPF/Observing the Linux Kernel Without Modifying It.md",
     "Mastery/linux/Kernal Develepment/daily linux/Day 25 IPC/LAB.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 26 eBPF",
     "Mastery/linux/Kernal Develepment/daily linux/Day 25 IPC/Day 25 IPC.md",
     "Mastery/linux/Kernal Develepment/c daily/Day 3 Pointers/Pointers — Storing and Following Addresses.md",
     "GATE GO/Computer Network/MODULE 1/3.Subnetting/L-03/SHORT NOTES.md",
@@ -225,7 +226,6 @@
     "GATE GO/CP/MODULE 1/lecture 1/home work.md",
     "GATE GO/CP/MODULE 1/lecture 1/1e.Copy Bits to Higher Bits — Sign Extension.md",
     "Mastery/linux/Kernal Develepment/daily linux/day 24 Linux Scheduling/Linux Scheduling.md",
-    "GATE GO/OS/Module 1/L-2/Process Fundamentals and Fork-Exec Pair.md",
     "Untitled.canvas",
     "Pasted image 20260728194517.png",
     "images/Pasted image 20260717182256.png",
