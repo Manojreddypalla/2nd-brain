@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "26a53de99fccd029",
+        "id": "6f743c8ecad82914",
         "type": "tabs",
         "children": [
           {
-            "id": "0c0729e5f0c9ddd0",
+            "id": "b9b3a93c53c0811a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mastery/linux/Kernal Develepment/c daily/DAY 4 Pointer Arithmetic/Untitled.md",
-                "mode": "source",
+                "file": "GATE GO/C Programming/MODULE 1/lecture-2/long notes.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "long notes"
             }
           }
         ]
@@ -174,27 +174,36 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "af0ff7d915aae477",
+  "active": "b9b3a93c53c0811a",
   "lastOpenFiles": [
+    "GATE GO/C Programming/MODULE 1/lecture-2/L-2 short Notes.md",
+    "GATE GO/C Programming/MODULE 1/lecture-2/long notes.md",
+    "GATE GO/C Programming/MODULE 1/lecture 1/home work.md",
+    "GATE GO/C Programming/PDF/L-2.pdf",
+    "GATE GO/C Programming/MODULE 1/lecture-2",
+    "GATE GO/C Programming/MODULE 1/lecture 1/Indepth",
+    "GATE GO/C Programming/MODULE 1/lecture 1/1.short notes.md",
+    "GATE GO/C Programming/MODULE 1/lecture 1/Indepth/1b - First C Program.md",
+    "GATE GO/C Programming/MODULE 1/lecture 1/Indepth/1C Programming — Introduction & Motivation.md",
+    "GATE GO/C Programming/MODULE 1/lecture 1/Indepth/1e.Copy Bits to Higher Bits — Sign Extension.md",
+    "GATE GO/C Programming/MODULE 1/lecture 1/Indepth/1c.Detour - Number System.md",
+    "GATE GO/C Programming/MODULE 1/lecture 1/Indepth/1d.Detour - Number System.md",
+    "GATE GO/C Programming/MODULE 1/lecture 1",
+    "GATE GO/C Programming/PDF/L-3.pdf",
+    "GATE GO/C Programming/PDF/L-1 HW.pdf",
+    "GATE GO/C Programming/PDF/L-1.pdf",
+    "GATE GO/C Programming/MODULE 1",
+    "GATE GO/C Programming/PDF",
+    "GATE GO/C Programming",
+    "Mastery/linux/Kernal Develepment/c daily/DAY 4 Pointer Arithmetic/Pointer arithmetic.md",
     "Mastery/linux/Kernal Develepment/daily linux/DAY 36 Page Cache/Page Cache.md",
-    "Mastery/linux/Kernal Develepment/c daily/DAY 4 Pointer Arithmetic/Untitled.md",
-    "Mastery/linux/Kernal Develepment/c daily/DAY 4 Pointer Arithmetic",
     "GATE GO/Computer Network/MODULE 1/3.Subnetting/L-04/short notes.md",
-    "GATE GO/Computer Network/MODULE 1/PDF/5.Supernetting.pdf",
-    "Mastery/linux/Kernal Develepment/daily linux/DAY 36 Page Cache",
-    "GATE GO/aptitude/1.Fundamentals of Computer Science/L-1",
-    "GATE GO/aptitude/1.Fundamentals of Computer Science",
-    "GATE GO/aptitude",
-    "GATE GO/Computer Network/MODULE 1/3.Subnetting/L-05",
-    "GATE GO/Computer Network/MODULE 1/PDF/Unconfirmed 819968.crdownload",
     "GATE GO/Computer Network/MODULE 1/3.Subnetting/L-04/questions.md",
     "GATE GO/Computer Network/MODULE 1/3.Subnetting/L-04/L-4.md",
     "GATE GO/data structures/1.Linked List/L-1/short notes.md",
-    "GATE GO/Computer Network/MODULE 1/3.Subnetting/L-04",
     "GATE GO/data structures/1.Linked List/L-1/1B.md",
     "GATE GO/data structures/1.Linked List/L-1/1 A introduction to Linked list.md",
     "Mastery/linux/Kernal Develepment/daily linux/Day 35 — Mounts/lab.md",
-    "GATE GO/data structures/1.Linked List/L-1",
     "Mastery/linux/Kernal Develepment/daily linux/Day 35 — Mounts/Mounts.md",
     "Mastery/linux/Kernal Develepment/daily linux/Day 34 Pathname Resolution/lab.md",
     "Mastery/linux/Kernal Develepment/daily linux/Day 34 Pathname Resolution/Pathname Resolution.md",
@@ -203,15 +212,6 @@
     "Mastery/linux/Kernal Develepment/daily linux/Day 32 systemd & Service Lifecycle/systemd & Service Lifecycle.md",
     "Mastery/linux/Kernal Develepment/daily linux/index.md",
     "Mastery/linux/Kernal Develepment/daily linux/day 31 lsof/Understanding Open Files and File Descriptors.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 30 perf/Profiling Linux Performance.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 29 strace/LAB.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 29 strace/strace – Watching System Calls in Real Time.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 28 Virtual Memory & Demand Paging/Virtual Memory & Demand Paging.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 27 Linux I O Multiplexing/real life example.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 27 Linux I O Multiplexing/Linux I O Multiplexing.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 26 eBPF/LAB.md",
-    "Mastery/linux/Kernal Develepment/daily linux/day 26 eBPF/Observing the Linux Kernel Without Modifying It.md",
-    "Mastery/linux/Kernal Develepment/daily linux/Day 25 IPC/LAB.md",
     "Untitled.canvas",
     "Pasted image 20260728194517.png",
     "images/Pasted image 20260717182256.png",
