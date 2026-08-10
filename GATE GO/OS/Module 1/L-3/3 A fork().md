@@ -70,13 +70,13 @@ for(i=0; i<n; i++)
 
 If every process executes every iteration:
 
-[  
+$$
 \boxed{2^n\text{ total processes}}  
-]
+$$
 
-[  
+$$
 \boxed{2^n-1\text{ child processes}}  
-]
+$$
 
 **Don't count loop iterations blindly — count actual `fork()` executions.**
 

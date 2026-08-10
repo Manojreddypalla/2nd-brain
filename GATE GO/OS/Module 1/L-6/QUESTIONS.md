@@ -19,9 +19,9 @@ Four jobs execute on a single CPU in the order **A, B, C, D**.
 
 All arrive at time 0. Round Robin time quantum:
 
-[  
+$$
 q=1  
-]
+$$
 
 Find the **completion time of A**.
 
@@ -70,9 +70,9 @@ All jobs arrive at time 0 in order `p, q, r, s, t`.
 
 Round Robin time slice:
 
-[  
+$$   
 q=1  
-]
+$$  
 
 Find the **completion/departure time of p**.
 
@@ -93,9 +93,9 @@ p → 9  ← finishes
 
 Therefore:
 
-[  
+$$   
 \boxed{CT_p=9}  
-]
+$$  
 
 Wait — the lecture's page shows the answer as **11**, because the actual rotation is:
 
@@ -120,10 +120,9 @@ Let's count the timeline properly:
 ```
 
 So:
-
-[  
+$$  
 \boxed{CT_p=11}  
-]
+$$  
 
 ### Answer: **11** ✅
 
@@ -163,19 +162,19 @@ There are:
 
 Therefore:
 
-[  
+$$  
 (n-1)q+ns\le t  
-]
+$$  
 
 So:
 
-[  
+$$   
 (n-1)q\le t-ns  
-]
+$$  
 
-[  
+$$  
 \boxed{q\le\frac{t-ns}{n-1}}  
-]
+$$  
 
 ### Answer: **A**
 
@@ -239,13 +238,12 @@ P1 → P3 → P2
 
 Therefore:
 
-[  
+$$   
 \boxed{\text{FCFS: }P1,P2,P3}  
-]
-
-[  
+$$  
+$$  
 \boxed{\text{RR: }P1,P3,P2}  
-]
+$$  
 
 ### Answer: **D**
 
@@ -270,9 +268,9 @@ All processes arrive at time 0.
 
 RR quantum:
 
-[  
+$$  
 q=4  
-]
+$$  
 
 Find the absolute difference between average turnaround times of **SJF and RR**.
 
@@ -297,19 +295,19 @@ P1 = 21
 
 All arrive at 0, so:
 
-[  
+$$    
 TAT=CT  
-]
+$$  
 
 Average:
 
-# [  
+$$   
 \frac{2+6+13+21}{4}
 
 # \frac{42}{4}
 
 10.5  
-]
+$$  
 
 ---
 
@@ -337,19 +335,19 @@ P4 = 14
 
 Average:
 
-# [  
-\frac{18+21+10+14}{4}
+$$  
+\frac{18+21+10+14}{4}=
 
 15.75  
-]
+$$  
 
 Difference:
 
-# [  
+# $$    
 |10.5-15.75|
 
 \boxed{5.25}  
-]
+$$  
 
 ### Answer: **5.25 ms**
 
@@ -357,9 +355,9 @@ Difference:
 
 For all processes arriving at `0`:
 
-[  
+$$  
 \boxed{TAT=CT}  
-]
+$$  
 
 That makes these problems much faster.
 
@@ -410,11 +408,11 @@ P2 = 10 + 16 = 26
 
 Average:
 
-# [  
+$$    
 \frac{0+10+26}{3}
 
 \boxed{12}  
-]
+$$  
 
 ### Answer: **12 ms**
 

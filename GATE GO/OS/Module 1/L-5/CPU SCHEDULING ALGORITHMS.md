@@ -84,17 +84,17 @@ Enter → Wait → Get served → Finish
 
 ### ⭐ Core formulas
 
-[  
+$$  
 \boxed{TAT = CT - AT}  
-]
+$$  
 
-[  
+$$  
 \boxed{WT = TAT - BT}  
-]
+$$  
 
-[  
+$$  
 \boxed{RT = First\ CPU\ Start - AT}  
-]
+$$  
 
 ### Mental picture
 
