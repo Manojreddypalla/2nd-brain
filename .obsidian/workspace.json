@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/L-1/1.Sigma Notation.md",
-                "mode": "preview",
+                "file": "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/SHORT NOTES.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Sigma Notation"
+              "title": "SHORT NOTES"
             }
           }
         ]
@@ -178,18 +178,21 @@
   },
   "active": "e0042c683e3b2011",
   "lastOpenFiles": [
-    "GATE GO/SYLLABUS/CS_GATE2027_Syllabus.pdf",
-    "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/L-1/1.Sigma Notation.md",
-    "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/pdf/L-1.pdf",
-    "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/pdf/Unconfirmed 853800.crdownload",
-    "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/pdf",
-    "GATE GO/SYLLABUS/DA_GATE2027_Syllabus.pdf",
-    "GATE GO/GATE CS/DSA",
-    "GATE GO/GATE DA/AI",
-    "GATE GO/GATE DA/Machine Learning",
-    "GATE GO/GATE DA/Programming, Data Structures and Algorithms",
-    "GATE GO/GATE COMMON/Probability and Statistics",
-    "GATE GO/GATE COMMON/Linear Algebra",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/L-1 C Linearly Independent and Linearly Dependent.md",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/SHORT NOTES.md",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1",
+    "GATE GO/GATE COMMON/Linear Algebra/PDF/L-1 C.pdf",
+    "GATE GO/GATE COMMON/Linear Algebra/PDF/Unconfirmed 798503.crdownload",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/L-1 A,B.md",
+    "GATE GO/GATE COMMON/aptitude/MODULE 1/1.Summation & Sigma Notation.md",
+    "GATE GO/GATE COMMON/Linear Algebra/PDF/L-1 A&B.pdf",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1/PDF/Unconfirmed 512142.crdownload",
+    "GATE GO/GATE COMMON/Linear Algebra/PDF",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1",
+    "GATE GO/GATE DA/Machine Learning/Untitled",
+    "GATE GO/GATE COMMON/Fundamentals of Computer Science/L-1/1.Sigma Notation.md",
+    "GATE GO/GATE COMMON/aptitude/PDF/L-1.pdf",
+    "GATE GO/GATE COMMON/aptitude/PDF/Unconfirmed 949877.crdownload",
     "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/gate.md",
     "GATE GO/GATE CS/Operating System/Module 1/L-6/QUESTIONS.md",
     "GATE GO/GATE CS/Operating System/Module 1/L-5/CPU SCHEDULING ALGORITHMS.md",
@@ -211,9 +214,6 @@
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/short notes.md",
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2d type conversion.md",
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2c 2'.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2b integer promotion.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2a signed and unsigned numbers in memory.md",
-    "GATE GO/C Programming/MODULE 1/lecture-2/L-2 short Notes.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
