@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "631bd6137f42ca73",
+        "id": "6aa9718ab3488e22",
         "type": "tabs",
         "children": [
           {
-            "id": "1f3a25ac1064431a",
+            "id": "e0042c683e3b2011",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "GATE GO/OS/Module 1/L-6/QUESTIONS.md",
-                "mode": "source",
-                "source": false
+                "file": "GATE GO/SYLLABUS/CS_GATE2027_Syllabus.pdf"
               },
-              "icon": "lucide-file",
-              "title": "QUESTIONS"
+              "icon": "lucide-file-text",
+              "title": "CS_GATE2027_Syllabus"
             }
           }
         ]
@@ -176,44 +174,44 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "1f3a25ac1064431a",
+  "active": "4aa23af889b5c934",
   "lastOpenFiles": [
-    "GATE GO/OS/Module 1/L-5/CPU SCHEDULING ALGORITHMS.md",
-    "GATE GO/OS/Module 1/L-4/THREADS.md",
-    "GATE GO/OS/Module 1/L-3/3 B system calls.md",
-    "GATE GO/OS/Module 1/L-3/3 A fork().md",
-    "GATE GO/OS/Module 1/L-1/1.Operating Systems — Introduction.md",
-    "GATE GO/OS/Module 1/L-1/2.From Writing a C Program to Running It.md",
-    "GATE GO/OS/Module 1/L-6/QUESTIONS.md",
-    "GATE GO/C Programming/MODULE 1/lecture 4/4e Short-Circuiting, Order of Evaluation & Associativity.md",
-    "GATE GO/C Programming/MODULE 1/lecture 4/4d Sequence Points in C.md",
-    "GATE GO/C Programming/MODULE 1/lecture 4/4c Assignment, Conditional & Comma Operators.md",
-    "GATE GO/C Programming/MODULE 1/lecture 4/4b Bitwise Operators in C.md",
-    "GATE GO/C Programming/MODULE 1/lecture 4/4a Operators in c.md",
-    "GATE GO/C Programming/PDF/l-4.pdf",
-    "GATE GO/C Programming/PDF/L-3.pdf",
-    "GATE GO/C Programming/MODULE 1/lecture 3/gate questions and answers.md",
-    "GATE GO/C Programming/MODULE 1/lecture 3/full notes.md",
-    "GATE GO/C Programming/MODULE 1/lecture 4/gate corner.md",
-    "GATE GO/C Programming/MODULE 1/lecture 4/short notes.md",
-    "GATE GO/C Programming/MODULE 1/lecture 4/hw.pdf",
-    "GATE GO/C Programming/MODULE 1/lecture 4/Unconfirmed 558978.crdownload",
-    "GATE GO/C Programming/PDF/Unconfirmed 320915.crdownload",
-    "GATE GO/C Programming/MODULE 1/lecture 4",
-    "GATE GO/C Programming/MODULE 1/lecture 2/hw/1.md",
-    "GATE GO/C Programming/PDF/Unconfirmed 763253.crdownload",
-    "GATE GO/C Programming/MODULE 1/lecture 3",
-    "GATE GO/C Programming/MODULE 1/lecture 2/hw/hw.pdf",
-    "GATE GO/C Programming/MODULE 1/lecture 2/short notes.md",
-    "GATE GO/C Programming/MODULE 1/lecture 2/2d type conversion.md",
-    "GATE GO/C Programming/MODULE 1/lecture 2/2c 2'.md",
-    "GATE GO/C Programming/MODULE 1/lecture 2/2b integer promotion.md",
-    "GATE GO/C Programming/MODULE 1/lecture 2/2a signed and unsigned numbers in memory.md",
+    "GATE GO/SYLLABUS/DA_GATE2027_Syllabus.pdf",
+    "GATE GO/GATE CS/DSA",
+    "GATE GO/GATE DA/AI",
+    "GATE GO/GATE DA/Machine Learning",
+    "GATE GO/GATE DA/Programming, Data Structures and Algorithms",
+    "GATE GO/GATE COMMON/Probability and Statistics",
+    "GATE GO/GATE COMMON/Linear Algebra",
+    "GATE GO/GATE COMMON/Calculus and Optimization",
+    "GATE GO/GATE COMMON/Database Management and Warehousing",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/gate.md",
+    "GATE GO/GATE COMMON",
+    "GATE GO/GATE DA",
+    "GATE GO/GATE CS/Operating System/Module 1/L-6/QUESTIONS.md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-5/CPU SCHEDULING ALGORITHMS.md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-4/THREADS.md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-3/3 B system calls.md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-3/3 A fork().md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-1/1.Operating Systems — Introduction.md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-1/2.From Writing a C Program to Running It.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4e Short-Circuiting, Order of Evaluation & Associativity.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4d Sequence Points in C.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4c Assignment, Conditional & Comma Operators.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4b Bitwise Operators in C.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4a Operators in c.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 3/gate questions and answers.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 3/full notes.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/gate corner.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/short notes.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/hw/1.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/short notes.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2d type conversion.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2c 2'.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2b integer promotion.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2a signed and unsigned numbers in memory.md",
     "GATE GO/C Programming/MODULE 1/lecture-2/L-2 short Notes.md",
-    "GATE GO/C Programming/MODULE 1/lecture-2/hw/Unconfirmed 164151.crdownload",
     "GATE GO/C Programming/MODULE 1/lecture-2/long notes.md",
-    "GATE GO/Algorithms/2.TC of recursive programs/L-1/2A Intro to recurrence relation.md",
-    "GATE GO/Algorithms/why/1.why study algorithms.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
