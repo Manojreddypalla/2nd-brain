@@ -11,12 +11,14 @@
             "id": "e0042c683e3b2011",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "GATE GO/SYLLABUS/CS_GATE2027_Syllabus.pdf"
+                "file": "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/L-1/1.Sigma Notation.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CS_GATE2027_Syllabus"
+              "icon": "lucide-file",
+              "title": "1.Sigma Notation"
             }
           }
         ]
@@ -174,8 +176,13 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "4aa23af889b5c934",
+  "active": "e0042c683e3b2011",
   "lastOpenFiles": [
+    "GATE GO/SYLLABUS/CS_GATE2027_Syllabus.pdf",
+    "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/L-1/1.Sigma Notation.md",
+    "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/pdf/L-1.pdf",
+    "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/pdf/Unconfirmed 853800.crdownload",
+    "GATE GO/GATE COMMON/aptitude/1.Fundamentals of Computer Science/pdf",
     "GATE GO/SYLLABUS/DA_GATE2027_Syllabus.pdf",
     "GATE GO/GATE CS/DSA",
     "GATE GO/GATE DA/AI",
@@ -183,11 +190,7 @@
     "GATE GO/GATE DA/Programming, Data Structures and Algorithms",
     "GATE GO/GATE COMMON/Probability and Statistics",
     "GATE GO/GATE COMMON/Linear Algebra",
-    "GATE GO/GATE COMMON/Calculus and Optimization",
-    "GATE GO/GATE COMMON/Database Management and Warehousing",
     "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/gate.md",
-    "GATE GO/GATE COMMON",
-    "GATE GO/GATE DA",
     "GATE GO/GATE CS/Operating System/Module 1/L-6/QUESTIONS.md",
     "GATE GO/GATE CS/Operating System/Module 1/L-5/CPU SCHEDULING ALGORITHMS.md",
     "GATE GO/GATE CS/Operating System/Module 1/L-4/THREADS.md",
@@ -211,7 +214,6 @@
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2b integer promotion.md",
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2a signed and unsigned numbers in memory.md",
     "GATE GO/C Programming/MODULE 1/lecture-2/L-2 short Notes.md",
-    "GATE GO/C Programming/MODULE 1/lecture-2/long notes.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
