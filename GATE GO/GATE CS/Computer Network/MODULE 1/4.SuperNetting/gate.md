@@ -6,9 +6,9 @@ Yep. I checked the **actual question sections of `5.Supernetting(1).pdf`**, incl
 
 When multiple forwarding-table entries match the destination:
 
-[  
+$$  
 \boxed{\text{Choose the matching prefix with the largest }/n}  
-]
+$$ 
 
 Example:
 
@@ -50,9 +50,9 @@ Therefore:
 
 ## 2. Network ID
 
-[  
+$$ 
 \boxed{\text{Network ID} = IP\ AND\ Subnet\ Mask}  
-]
+$$ 
 
 Use this when determining whether an IP belongs to a subnet/route.
 
@@ -60,17 +60,17 @@ Use this when determining whether an IP belongs to a subnet/route.
 
 ## 3. Host Bits
 
-[  
+$$  
 \boxed{\text{Host bits}=32-\text{prefix}}  
-]
+$$ 
 
-[  
+$$  
 \boxed{\text{Total addresses}=2^{host\ bits}}  
-]
+$$ 
 
-[  
+$$ 
 \boxed{\text{Usable hosts}=2^{host\ bits}-2}  
-]
+$$ 
 
 ---
 
@@ -78,9 +78,9 @@ Use this when determining whether an IP belongs to a subnet/route.
 
 If the interesting mask octet is `M`:
 
-[  
+$$   
 \boxed{\text{Block size}=256-M}  
-]
+$$ 
 
 Example:
 
@@ -137,9 +137,9 @@ But aggregation must preserve correct forwarding behavior.
 
 If a broad aggregate and a specific route both match:
 
-[  
+$$   
 \boxed{\text{Longest Prefix Match wins}}  
-]
+$$ 
 
 The lecture explicitly connects aggregation with LPM.
 
@@ -171,9 +171,9 @@ Longest:
 
 ### Answer:
 
-[  
+$$   
 \boxed{\text{Interface 4}}  
-]
+$$ 
 
 ### Destination: `198.15.7.4`
 
@@ -187,9 +187,9 @@ Matches:
 
 ### Answer:
 
-[  
+$$ [  
 \boxed{\text{Interface 7}}  
-]
+$$ ]
 
 ---
 
@@ -219,9 +219,9 @@ Compare:
 
 ### Answer:
 
-[  
+$$ 
 \boxed{2}  
-]
+$$ 
 
 ### Pattern
 
@@ -290,9 +290,9 @@ Longest:
 
 ### Answer:
 
-[  
+$$ 
 \boxed{R4}  
-]
+$$ 
 
 ---
 
@@ -363,9 +363,9 @@ Allocate address range
 
 Then construct router forwarding tables using:
 
-[  
+$$ 
 \boxed{\text{Longest Prefix Matching}}  
-]
+$$ 
 
 The lecture's solution then assigns the corresponding prefixes to A–F and builds each router's forwarding table.
 
@@ -453,9 +453,9 @@ Therefore:
 
 ### Answer:
 
-[  
+$$  
 \boxed{\text{Eth0 and Eth2}}  
-]
+$$ 
 
 ---
 
@@ -486,9 +486,9 @@ The longest matching prefix is:
 
 ### Answer:
 
-[  
+$$ 
 \boxed{1}  
-]
+$$ 
 
 ### GATE pattern
 
@@ -519,10 +519,9 @@ Falls in:
 ```
 
 ### Answer:
-
-[  
+$$ 
 \boxed{\text{Interface 0}}  
-]
+$$ 
 
 ### `128.96.167.151`
 
@@ -534,9 +533,9 @@ Falls in:
 
 ### Answer:
 
-[  
+$$ 
 \boxed{R2}  
-]
+$$ 
 
 ### `128.96.163.151`
 
@@ -548,9 +547,9 @@ Falls in:
 
 ### Answer:
 
-[  
+$$ 
 \boxed{R3}  
-]
+$$ 
 
 ### `128.96.169.192`
 
@@ -561,10 +560,9 @@ Falls in:
 ```
 
 ### Answer:
-
-[  
+$$ 
 \boxed{\text{Interface 1}}  
-]
+$$ 
 
 ### `128.96.165.121`
 
@@ -572,9 +570,9 @@ Doesn't match any specific prefix.
 
 ### Answer:
 
-[  
+$$ 
 \boxed{R4\text{ (default)}}  
-]
+$$ 
 
 ---
 
@@ -612,10 +610,9 @@ But:
 does.
 
 ### Answer:
-
-[  
+$$ 
 \boxed{\text{Eth2}}  
-]
+$$ 
 
 ---
 
@@ -669,9 +666,9 @@ If:
 
 exists, it gets those addresses because:
 
-[  
+$$ 
 3>2  
-]
+$$ 
 
 **Longest prefix wins.**
 
@@ -692,17 +689,17 @@ Each prefix has 2 fixed bits.
 
 Remaining:
 
-[  
+$$ 
 8-2=6  
-]
+$$ 
 
 host bits.
 
 Therefore:
 
-[  
+$$ 
 2^6=64  
-]
+$$ 
 
 addresses each.
 
@@ -764,9 +761,9 @@ Longest:
 
 ### Answer:
 
-[  
+$$ 
 \boxed{B}  
-]
+$$ 
 
 ---
 
@@ -784,9 +781,9 @@ Why?
 
 Because `/32` is more specific than `/28`.
 
-[  
+$$ 
 \boxed{/32 > /28}  
-]
+$$ 
 
 ### c) Send everything else to C
 
@@ -824,9 +821,9 @@ That's:
 
 Block size:
 
-[  
+$$ 
 256-252=4  
-]
+$$ 
 
 Ranges:
 
@@ -847,9 +844,9 @@ P = .6 → subnet .4–.7
 
 ### Answer:
 
-[  
+$$ 
 \boxed{\text{Only N and P belong to the same subnet}}  
-]
+$$ 
 
 ---
 
@@ -915,9 +912,9 @@ different networks
 
 ### Answer:
 
-[  
+$$ 
 \boxed{\text{C — C1 assumes same, C2 assumes different}}  
-]
+$$ 
 
 ---
 
@@ -943,9 +940,9 @@ Therefore:
 
 Block size:
 
-[  
+$$ 
 256-224=32  
-]
+$$ 
 
 Ranges:
 
@@ -986,10 +983,9 @@ falls inside:
 ```
 
 ### Answer:
-
-[  
+$$  
 \boxed{192.168.1.110}  
-]
+$$ 
 
 ---
 
@@ -1017,15 +1013,15 @@ All can produce a subnet whose broadcast address ends at:
 
 Therefore:
 
-[  
+$$ 
 \boxed{\text{All of the above}}  
-]
+$$ 
 
 Answer:
 
-[  
+$$ 
 \boxed{D}  
-]
+$$ 
 
 ### Important pattern
 
@@ -1079,15 +1075,15 @@ Unique networks:
 
 Therefore:
 
-[  
+$$ 
 \boxed{3}  
-]
+$$ 
 
 ### Answer:
 
-[  
+$$ 
 \boxed{C}  
-]
+$$ 
 
 ---
 
@@ -1233,7 +1229,7 @@ If aggregate overlaps a specific route:
 
 ### Most important exam hierarchy:
 
-[  
+$$ 
 \boxed{  
 \text{LPM}
 
@@ -1245,7 +1241,7 @@ If aggregate overlaps a specific route:
 
 \text{Aggregation}  
 }  
-]
+$$ 
 
 And one **very important exam habit** from these questions:
 

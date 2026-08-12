@@ -23,9 +23,9 @@ then:
 
 ### Number of IP addresses
 
-[  
+$$  
 \boxed{2^{32-n}}  
-]
+$$ 
 
 Example:
 
@@ -47,17 +47,17 @@ Host bits:
 
 Therefore:
 
-[  
+$$  
 2^8 = 256  
-]
+$$ 
 
 IP addresses.
 
 The lecture also shows that if a `/n` network is divided into **4 equal subnets**, each subnet has:
 
-[  
+$$ 
 2^{32-n-2}  
-]
+$$ 
 
 addresses because 2 bits are used to distinguish the four subnets.
 
@@ -268,9 +268,9 @@ The four networks are:
 
 A `/26` has:
 
-[  
+$$ 
 2^{32-26}=2^6=64  
-]
+$$ 
 
 addresses.
 
@@ -966,35 +966,35 @@ The lecture calculates:
 
 ### Separate networks
 
-[  
+$$ 
 2^{11}+2^{12}+2^{10}  
-]
+$$ 
 
-[  
+$$   
 =2^{11}+2^{12}+2^{10}  
-]
+$$ 
 
 ### Aggregate
 
 A `/19` has:
 
-[  
+$$ 
 2^{32-19}=2^{13}  
-]
+$$ 
 
 addresses.
 
 Therefore the aggregate contains:
 
-[  
+$$ 
 2^{13}  
-]
+$$ ]
 
 while the original networks together contain:
 
-[  
+$$ 
 2^{11}+2^{12}+2^{10}  
-]
+$$ 
 
 The difference represents the **extra IPs covered by aggregation**.
 
@@ -1176,9 +1176,9 @@ and ask which forwarding-table entry matches.
 
 The general operation is:
 
-[  
+$$ 
 \boxed{\text{Destination IP AND Subnet Mask} = \text{Network Address}}  
-]
+$$ 
 
 Then compare the resulting network address with the table entry.
 
@@ -1312,9 +1312,9 @@ Immediately:
 
 because:
 
-[  
+$$  
 24>16>8  
-]
+$$ 
 
 The lecture's examples repeatedly demonstrate this idea.
 

@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "6aa9718ab3488e22",
+        "id": "2d380d8dfdf898c1",
         "type": "tabs",
         "children": [
           {
-            "id": "e0042c683e3b2011",
+            "id": "3efcec59dba87e95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/SHORT NOTES.md",
+                "file": "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/gate.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gate"
+            }
+          },
+          {
+            "id": "5ba2d98cac628f14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SHORT NOTES"
+              "title": "L-5 layering in Computer Networks"
+            }
+          },
+          {
+            "id": "b20f921784ad526a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE GO/GATE CS/C Programming/MODULE 2/L-6/A MEMORY LAYOUT.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A MEMORY LAYOUT"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -176,44 +205,44 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "e0042c683e3b2011",
+  "active": "b20f921784ad526a",
   "lastOpenFiles": [
-    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/L-1 C Linearly Independent and Linearly Dependent.md",
-    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/SHORT NOTES.md",
-    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1",
-    "GATE GO/GATE COMMON/Linear Algebra/PDF/L-1 C.pdf",
-    "GATE GO/GATE COMMON/Linear Algebra/PDF/Unconfirmed 798503.crdownload",
-    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/L-1 A,B.md",
-    "GATE GO/GATE COMMON/aptitude/MODULE 1/1.Summation & Sigma Notation.md",
-    "GATE GO/GATE COMMON/Linear Algebra/PDF/L-1 A&B.pdf",
-    "GATE GO/GATE COMMON/Linear Algebra/Module 1/PDF/Unconfirmed 512142.crdownload",
-    "GATE GO/GATE COMMON/Linear Algebra/PDF",
-    "GATE GO/GATE COMMON/Linear Algebra/Module 1",
-    "GATE GO/GATE DA/Machine Learning/Untitled",
-    "GATE GO/GATE COMMON/Fundamentals of Computer Science/L-1/1.Sigma Notation.md",
-    "GATE GO/GATE COMMON/aptitude/PDF/L-1.pdf",
-    "GATE GO/GATE COMMON/aptitude/PDF/Unconfirmed 949877.crdownload",
+    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/C how compiler gives r-code.md",
+    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/b short.md",
+    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/B  The Journey of a Program.md",
+    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/1.short notes.md",
+    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/A FUNCTIONS.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/l-5.pdf",
     "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/gate.md",
-    "GATE GO/GATE CS/Operating System/Module 1/L-6/QUESTIONS.md",
-    "GATE GO/GATE CS/Operating System/Module 1/L-5/CPU SCHEDULING ALGORITHMS.md",
-    "GATE GO/GATE CS/Operating System/Module 1/L-4/THREADS.md",
-    "GATE GO/GATE CS/Operating System/Module 1/L-3/3 B system calls.md",
-    "GATE GO/GATE CS/Operating System/Module 1/L-3/3 A fork().md",
-    "GATE GO/GATE CS/Operating System/Module 1/L-1/1.Operating Systems — Introduction.md",
-    "GATE GO/GATE CS/Operating System/Module 1/L-1/2.From Writing a C Program to Running It.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4e Short-Circuiting, Order of Evaluation & Associativity.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4d Sequence Points in C.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4c Assignment, Conditional & Comma Operators.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4b Bitwise Operators in C.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/4a Operators in c.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 3/gate questions and answers.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 3/full notes.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/gate corner.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 4/short notes.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/hw/1.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/short notes.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2d type conversion.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/2c 2'.md",
+    "GATE GO/SYLLABUS/CS_GATE2027_Syllabus.pdf",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/6.questions.pdf",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/short notes.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/1 Framing.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/Unconfirmed 851167.crdownload",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/New folder",
+    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 2 Data Link Layer/Layer 2 Data Link Layer.md",
+    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 2 Data Link Layer/🎯 GATE Focus – Layer 2 (Data Link Layer).md",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/notes.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/gate.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/Short Notes.md",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Untitled.md",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -1/need and motivation for.md",
+    "GATE GO/GATE CS/Operating System/Module 2/pdf/L-1,2,3.pdf",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -1/short notes.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set/Q&A.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set/GATE Corner — Test-and-Set (TSL).md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set/Test-and-Set.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Hardware Synchronization — Why Do We Need It.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/1.Peterson Algorithm/Peterson's Algorithm.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/2.Software Solutions/1.Peterson Algorithm/gate.md",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/Lecture 1.md",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/SHORT NOTES.md",
+    "GATE GO/GATE COMMON/Linear Algebra/Module 1/L1/L-1 C Linearly Independent and Linearly Dependent.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }

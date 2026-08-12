@@ -231,7 +231,7 @@ Examples
 # Programming Languages
 
 - [[C++]]
-- [[C#]]
+- [[c static Storage Class#]]
 - [[4.Cold Storage/Programming/Python/python]]
 - [[Lua]]
 - [[GLSL]]
