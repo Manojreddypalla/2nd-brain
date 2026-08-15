@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
+                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11a pointers to 2d array.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11A. 2d Array in cp"
+              "title": "11a pointers to 2d array"
             }
           }
         ],
@@ -193,8 +193,9 @@
   },
   "active": "6fb755d82822f819",
   "lastOpenFiles": [
-    "GATE GO/GATE CS/C Programming/PDF/L-11.pdf",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11a pointers to 2d array.md",
+    "GATE GO/GATE CS/C Programming/PDF/L-11.pdf",
     "GATE GO/GATE CS/C Programming/PDF/Unconfirmed 506131.crdownload",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/questions.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-8 Pointers array/A pointers.md",
