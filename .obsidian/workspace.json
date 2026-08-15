@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b26a899f93615c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11A. 2d Array in cp"
-            }
-          },
-          {
             "id": "6fb755d82822f819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11a pointers to 2d array.md",
+                "file": "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Synchronization & Critical Section.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Synchronization & Critical Section"
+            }
+          },
+          {
+            "id": "4a1b26493a0c1bf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools/2.Semaphore/2.Binary Semaphore.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11a pointers to 2d array"
+              "title": "2.Binary Semaphore"
             }
           }
         ],
@@ -191,10 +191,22 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "6fb755d82822f819",
+  "active": "4a1b26493a0c1bf2",
   "lastOpenFiles": [
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/4.Synchronization Tools/2.Semaphore/1.Semaphore.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/2.Hardware Solutions (Critical Section) — GATE Summary Notes.md",
+    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Hardware Synchronization — Why Do We Need It.md",
+    "GATE GO/GATE CS/Operating System/Module 2/pdf/L-1,2,3.pdf",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Synchronization & Critical Section.md",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -1/Short Notes Synchronization & Critical Section.md",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -1/Synchronization & Critical Section.md",
+    "GATE GO/GATE CS/Operating System/Module 2/pdf",
+    "GATE GO/GATE CS/Operating System/Module 1/L-5 and L-6/CPU SCHEDULING ALGORITHMS.md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-4/THREADS.md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-1/2.From Writing a C Program to Running It.md",
+    "GATE GO/GATE CS/Operating System/Module 1/L-1/1.Operating Systems — Introduction.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11a pointers to 2d array.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
     "GATE GO/GATE CS/C Programming/PDF/L-11.pdf",
     "GATE GO/GATE CS/C Programming/PDF/Unconfirmed 506131.crdownload",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/questions.md",
@@ -212,23 +224,11 @@
     "GATE GO/GATE CS/C Programming/PDF/Unconfirmed 930146.crdownload",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer",
     "GATE GO/GATE CS/C Programming/MODULE 3/L -10",
-    "GATE GO/GATE CS/C Programming/MODULE 3/HW/HW -6 SOLUTIONS.pdf",
-    "GATE GO/GATE CS/C Programming/MODULE 3/HW/Unconfirmed 224843.crdownload",
     "2.Active Work (Projects)/Home Lab/NAS/how to auto mount a drive at a location.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/C,D Pointer Arithmetic.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/c short notes.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/b.sizeof().md",
     "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
-    "Mastery/AIML/AI Full Stack/index.md",
-    "Mastery/AIML/AIML Python Library/roadmap.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/a array and pointer.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-7 Recursion/QUESTIONS.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-7 Recursion/short notes recursion.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-7 Recursion/Recursion.md",
-    "GATE GO/GATE CS/C Programming/MODULE 2/L-6/A MEMORY LAYOUT.md",
-    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/C how compiler gives r-code.md",
-    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/b short.md",
-    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/B  The Journey of a Program.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
