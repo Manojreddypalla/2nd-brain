@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3efcec59dba87e95",
+            "id": "8b26a899f93615c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/gate.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "gate"
-            }
-          },
-          {
-            "id": "5ba2d98cac628f14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
+                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L-5 layering in Computer Networks"
+              "title": "questions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,61 +176,35 @@
       "quiz-generator:Open generator": false
     }
   },
-  "floating": {
-    "id": "b5a39e5982925b4b",
-    "type": "floating",
-    "children": [
-      {
-        "id": "57a0fe081861c8f9",
-        "type": "window",
-        "children": [
-          {
-            "id": "b63744a722353a91",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b20f921784ad526a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Mastery/AIML/AI Full Stack/index.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "index"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 850,
-        "y": 21,
-        "width": 2200,
-        "height": 1324,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "b20f921784ad526a",
+  "active": "8b26a899f93615c8",
   "lastOpenFiles": [
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-8 Pointers array/A pointers.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/questions.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/A.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/D double pointer.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/C Strings in CP.md",
+    "GATE GO/GATE CS/C Programming/PDF/L-10.pdf",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/B short.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/B 1D array to function.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-8 Pointers array/D Array.md",
+    "GATE GO/GATE CS/C Programming/PDF/L-9.pdf",
+    "2.Active Work (Projects)/Home Lab/NAS/net use for windows.md",
+    "GATE GO/GATE CS/C Programming/PDF/Unconfirmed 930146.crdownload",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L -10",
+    "GATE GO/GATE CS/C Programming/MODULE 3/HW/HW -6 SOLUTIONS.pdf",
+    "GATE GO/GATE CS/C Programming/MODULE 3/HW/Unconfirmed 224843.crdownload",
+    "2.Active Work (Projects)/Home Lab/NAS/how to auto mount a drive at a location.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/HW/HW-6.pdf",
+    "GATE GO/GATE CS/C Programming/MODULE 3/HW/Unconfirmed 242398.crdownload",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/C,D Pointer Arithmetic.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/c short notes.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/b.sizeof().md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
+    "Mastery/AIML/AI Full Stack/index.md",
     "Mastery/AIML/AIML Python Library/roadmap.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/a array and pointer.md",
-    "GATE GO/GATE CS/C Programming/PDF/L-9.pdf",
-    "GATE GO/GATE CS/C Programming/PDF/Unconfirmed 500805.crdownload",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-8 Pointers array/D Array.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-8 Pointers array/A pointers.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation",
-    "GATE GO/GATE CS/C Programming/MODULE 3/l-9 ARRAY and pointers relation",
-    "GATE GO/GATE CS/C Programming/MODULE 3/New folder",
-    "GATE GO/GATE CS/C Programming/MODULE 3/HW/HW -5.pdf",
-    "GATE GO/GATE CS/C Programming/MODULE 3/HW/HW - 5 solutions.pdf",
-    "GATE GO/GATE CS/C Programming/MODULE 3/HW",
-    "GATE GO/GATE CS/C Programming/MODULE 3/PDF/HW - 5 solutions.pdf",
-    "GATE GO/GATE CS/C Programming/MODULE 3/PDF/Unconfirmed 63892.crdownload",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-7 Recursion/QUESTIONS.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-7 Recursion/short notes recursion.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-7 Recursion/Recursion.md",
@@ -255,19 +214,6 @@
     "GATE GO/GATE CS/C Programming/MODULE 2/L-5/B  The Journey of a Program.md",
     "GATE GO/GATE CS/C Programming/MODULE 2/L-5/1.short notes.md",
     "GATE GO/GATE CS/C Programming/MODULE 2/L-5/A FUNCTIONS.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/gate.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/short notes.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/1 Framing/1 Framing.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 2 Data Link Layer/Layer 2 Data Link Layer.md",
-    "GATE/Group 4/Computer Networks/Chapter 1 — OSI Layer/2.Functions of Each OSI Layer/Layer 2 Data Link Layer/🎯 GATE Focus – Layer 2 (Data Link Layer).md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/notes.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/gate.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/Short Notes.md",
-    "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Untitled.md",
-    "GATE GO/GATE CS/Operating System/Module 2/lecture -1/need and motivation for.md",
-    "GATE GO/GATE CS/Operating System/Module 2/lecture -1/short notes.md",
-    "GATE/Group 2/Operating System/6.Concurrency & Synchronization/3.Hardware Solutions/1.Test-and-Set/Q&A.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
