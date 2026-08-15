@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/questions.md",
+                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "questions"
+              "title": "11A. 2d Array in cp"
+            }
+          },
+          {
+            "id": "6fb755d82822f819",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11A. 2d Array in cp"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,13 +191,16 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "8b26a899f93615c8",
+  "active": "6fb755d82822f819",
   "lastOpenFiles": [
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-8 Pointers array/A pointers.md",
+    "GATE GO/GATE CS/C Programming/PDF/L-11.pdf",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
+    "GATE GO/GATE CS/C Programming/PDF/Unconfirmed 506131.crdownload",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/questions.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-8 Pointers array/A pointers.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/A.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/D double pointer.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-11",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/C Strings in CP.md",
     "GATE GO/GATE CS/C Programming/PDF/L-10.pdf",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/B short.md",
@@ -196,8 +214,6 @@
     "GATE GO/GATE CS/C Programming/MODULE 3/HW/HW -6 SOLUTIONS.pdf",
     "GATE GO/GATE CS/C Programming/MODULE 3/HW/Unconfirmed 224843.crdownload",
     "2.Active Work (Projects)/Home Lab/NAS/how to auto mount a drive at a location.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/HW/HW-6.pdf",
-    "GATE GO/GATE CS/C Programming/MODULE 3/HW/Unconfirmed 242398.crdownload",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/C,D Pointer Arithmetic.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/c short notes.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-9 ARRAY and pointers relation/b.sizeof().md",
@@ -212,8 +228,6 @@
     "GATE GO/GATE CS/C Programming/MODULE 2/L-5/C how compiler gives r-code.md",
     "GATE GO/GATE CS/C Programming/MODULE 2/L-5/b short.md",
     "GATE GO/GATE CS/C Programming/MODULE 2/L-5/B  The Journey of a Program.md",
-    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/1.short notes.md",
-    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/A FUNCTIONS.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
