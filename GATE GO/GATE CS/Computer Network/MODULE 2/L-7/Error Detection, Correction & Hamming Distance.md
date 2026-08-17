@@ -1,272 +1,774 @@
 # Computer Networks — Lecture 7
 
-## Error Detection, Correction & Hamming Distance
+## Framing, Error Detection, Parity & Hamming Distance
 
-> **GATE Scope:** Framing → Error types → Error control → Block coding → Parity → Hamming Distance → Error detection/correction.
+> **Scope:** These notes are based on the uploaded Lecture 7 PDF. I’ve compressed the 150-slide lecture into GATE-focused Obsidian notes while preserving the important examples, formulas, traps, and relationships. The lecture covers framing, error handling, repetition coding, parity checking, Hamming distance, error detection/correction, and related numerical questions.
 
 ---
 
 # 1. Framing
 
-**Framing:** Dividing a continuous stream of bits into **discrete frames/chunks** so that the receiver knows where each frame starts and ends.
+## Why framing?
 
-The fundamental problem is:
+At the physical layer, data is essentially a **continuous stream of bits**.
 
-> Given a continuous bit stream, **where is the beginning and end of a frame?**
+Example:
+
+```text
+010101001101010100101010101...
+```
+
+The receiver needs to know:
+
+- Where does one frame start?
+    
+- Where does one frame end?
+    
+
+### Framing
+
+> **Framing = breaking a continuous stream of bits into discrete chunks called frames.**
+
+Think:
+
+```text
+Continuous bit stream
+───────────────────────────────>
+
+       Frame 1       Frame 2       Frame 3
+     |----------|  |----------|  |----------|
+```
+
+The lecture introduces framing before moving to error handling.
 
 ---
 
 # 2. Error Handling
 
-**Error handling:** Detect and/or correct errors in received frames.
-
 During transmission:
 
 ```text
-Sender → Channel + Noise → Receiver
+Sender ───────────────> Receiver
+          noisy channel
 ```
 
-The received data may differ from the transmitted data.
-
-### Types of errors
-
-### Single-bit error
-
-Only **one bit** is corrupted.
-
-```text
-Sent:     00000100
-Received: 00001100
-              ↑
-```
-
-### Burst error
-
-Multiple bits within a span are corrupted.
-
-```text
-Sent:     000000000000
-Received: 001101000000
-             ↑↑↑
-```
-
-**GATE trigger:** Don't confuse _number of corrupted bits_ with _length of a burst_. A burst can contain fewer corrupted bits than its span.
-
----
-
-# 3. Error-Control Methods
-
-Two broad approaches:
-
-```text
-Error Control
-├── Error Detection
-│   ├── Parity
-│   ├── CRC
-│   └── Checksum
-│
-└── Error Correction
-    └── Hamming Codes
-```
-
-The lecture first develops **parity**, then **Hamming distance**, which is required before studying Hamming codes.
-
----
-
-# 4. Block Coding
-
-Idea:
-
-> Add extra bits to the original data to create a **codeword**.
-
-```text
-Data bits + Check/Parity bits
-        ↓
-     Codeword
-```
-
-If there are `k` data bits and `(n-k)` check bits:
-
-```text
-Codeword length = n
-Data bits       = k
-Check bits      = n-k
-```
-
-The additional bits can be placed at the **start, middle, end, or other positions**, depending on the coding scheme.
-
-For `k` data bits:
-
-```text
-Number of possible data words = 2^k
-```
-
----
-
-# 5. Repetition Coding — Intuition
-
-Simplest idea:
-
-> Send the same data multiple times.
+Noise can modify transmitted bits.
 
 Example:
 
 ```text
-00 → 00 00 00
-01 → 01 01 01
-10 → 10 10 10
-11 → 11 11 11
+Sent:     10101
+Received: 10001
+              ↑
+            error
 ```
 
-Receiver checks the copies.
+### Error handling
 
-If it receives:
+The purpose is:
+
+> **Detect and/or correct errors in received frames.**
+
+The lecture divides error control into:
+
+```text
+Error Control
+     │
+     ├── Error Detection
+     │      ├── Parity
+     │      ├── CRC
+     │      └── Checksum
+     │
+     └── Error Correction
+            └── Hamming codes
+```
+
+The lecture explicitly places **Parity, CRC and Checksum** under detection and **Hamming codes** under correction.
+
+---
+
+# 3. Types of Errors
+
+Two important types:
+
+## 3.1 Single-bit error
+
+Only one bit is corrupted.
+
+```text
+Sent:     00000100
+Received: 00001100
+               ↑
+```
+
+Only one position changed.
+
+---
+
+## 3.2 Burst error
+
+Multiple bits are corrupted within a span.
+
+```text
+Sent:     001000001100
+Received: 001111001100
+             ^^^^
+```
+
+The lecture distinguishes single-bit and burst errors explicitly.
+
+> **GATE idea:** Error detection schemes don't necessarily detect _every possible pattern_ of errors. Their capability depends on the structure of the code.
+
+---
+
+# 4. Coding the Data
+
+The lecture mentions two approaches:
+
+```text
+Coding
+├── Block Coding
+└── Convolution Coding
+```
+
+The lecture marks **convolution coding as not in syllabus**.
+
+So for this lecture, focus on:
+
+> **Block coding**
+
+---
+
+# 5. Block Coding
+
+The basic idea:
+
+> Add extra bits to the original data so that errors can be detected/corrected.
+
+Suppose:
+
+```text
+k data bits
+```
+
+We append:
+
+```text
+(n-k) additional bits
+```
+
+Therefore:
+
+```text
+┌───────────────┬─────────────────┐
+│   k bits      │   (n-k) bits    │
+│   message     │   extra bits    │
+└───────────────┴─────────────────┘
+       data           parity/check
+```
+
+The lecture notes that these additional bits can be placed at the **start, middle, end, or anywhere** in the block.
+
+---
+
+## Number of possible data words
+
+If there are `k` data bits:
+
+[  
+\boxed{\text{Number of possible data words}=2^k}  
+]
+
+Example:
+
+```text
+k = 3
+```
+
+Then:
+
+[  
+2^3=8  
+]
+
+possible data words.
+
+This appears explicitly in the lecture.
+
+---
+
+# 6. Codeword
+
+After adding extra/check bits, the resulting sequence is called a:
+
+> **Codeword**
+
+Example:
+
+```text
+Data word
+   ↓
+1011
+   ↓ + parity/check bits
+10110
+   ↓
+Codeword
+```
+
+So:
+
+```text
+Data word ≠ Codeword
+```
+
+The **data word** contains the original information.
+
+The **codeword** contains:
+
+```text
+data + redundancy
+```
+
+This distinction is important for GATE.
+
+---
+
+# 7. Repetition Coding
+
+The lecture first tries a very simple error-detection idea:
+
+> **Send the same data multiple times.**
+
+This is called the **repetition approach**.
+
+Suppose the packet is:
+
+```text
+00
+```
+
+Repeat it three times:
+
+```text
+00 00 00
+```
+
+Therefore:
+
+|Data|Codeword|
+|---|---|
+|`00`|`00 00 00`|
+|`01`|`01 01 01`|
+|`10`|`10 10 10`|
+|`11`|`11 11 11`|
+
+The receiver knows these four sequences are the **valid codewords**.
+
+---
+
+# 8. How Repetition Detects Errors
+
+Suppose:
+
+```text
+Sent:
+00 00 00
+```
+
+Received:
 
 ```text
 01 00 00
 ```
 
-it knows something is wrong because the three copies don't agree.
+The receiver compares the received sequence with the list of valid codewords.
 
-### Problems
+Valid:
 
-- Large overhead.
-    
-- Doesn't provide a clean way to know the correct data in every situation.
-    
-- Inefficient compared with proper error-control codes.
-    
+```text
+00 00 00
+01 01 01
+10 10 10
+11 11 11
+```
+
+Received:
+
+```text
+01 00 00
+```
+
+It doesn't match any valid codeword.
+
+Therefore:
+
+[  
+\boxed{\text{Error detected}}  
+]
+
+The receiver doesn't need to know exactly **which bit** was wrong; it only knows that the received sequence is invalid.
 
 ---
 
-# 6. Parity Checking
+# 9. Valid vs Invalid Codeword
 
-The simplest error-detection scheme.
+This is one of the most important ideas in the entire lecture.
 
-A **parity bit** is appended to the data so that the total number of `1`s satisfies a chosen condition.
+The receiver has a set:
 
-## Even Parity
+[  
+C={\text{all valid codewords}}  
+]
 
-Total number of `1`s, **including parity bit**, must be **even**.
-
-## Odd Parity
-
-Total number of `1`s, **including parity bit**, must be **odd**.
-
----
-
-## Even-Parity Formula
-
-For data bits:
+If:
 
 ```text
-D1, D2, ..., Dk
+Received word ∈ C
 ```
 
-Parity bit:
+then receiver says:
+
+> Valid codeword → **No error detected**
+
+If:
 
 ```text
-P = D1 ⊕ D2 ⊕ ... ⊕ Dk
+Received word ∉ C
 ```
 
-This produces **even parity**.
+then:
+
+> Invalid codeword → **Error detected**
+
+### But here's the trap
+
+```text
+Valid → Invalid
+```
+
+is detectable.
+
+But:
+
+```text
+Valid → another Valid
+```
+
+is **not detectable**.
 
 Why?
 
-XOR gives `1` when the number of `1`s in its inputs is odd.
+Because the receiver has no way of knowing which valid codeword was originally transmitted.
 
-Therefore:
+The lecture demonstrates exactly this case with repetition coding.
 
-- Odd number of `1`s in data → `P = 1`
-    
-- Even number of `1`s in data → `P = 0`
-    
+---
 
-so the final codeword always has an even number of `1`s.
+# 10. Limitation of Repetition
 
-### Example
-
-Data:
+Suppose:
 
 ```text
-1101010
+Sent:
+00 00 00
 ```
 
-Number of `1`s = 4 → already even.
-
-Therefore:
+and **all three copies are corrupted**:
 
 ```text
-P = 0
+01 01 01
+```
 
-Codeword = 11010100
+But:
+
+```text
+01 01 01
+```
+
+is itself a valid codeword!
+
+Therefore the receiver says:
+
+```text
+"No error."
+```
+
+even though an error occurred.
+
+This is an **undetectable error**.
+
+### Why?
+
+Because:
+
+```text
+valid codeword → valid codeword
+```
+
+The receiver cannot distinguish it from a legitimate transmission.
+
+The lecture explicitly notes that one- and two-bit errors are detectable, but not all three-bit errors.
+
+---
+
+# 11. Problems with Repetition Coding
+
+### Advantages
+
+- Simple.
+    
+- Gives an improved chance of correct reception.
+    
+- Detects many errors.
+    
+
+### Disadvantages
+
+- Huge overhead.
+    
+- Same information is transmitted repeatedly.
+    
+- We don't necessarily know when the correct message has been received.
+    
+
+The lecture lists these limitations.
+
+---
+
+# 12. Parity Checking
+
+A better method is:
+
+> Add **one extra bit**, called the **parity bit**.
+
+Structure:
+
+```text
+Data bits + Parity bit
+```
+
+The parity bit is selected according to a rule.
+
+There are two types:
+
+```text
+Even parity
+Odd parity
 ```
 
 ---
 
-# 7. What Can Single-Bit Parity Detect?
+# 13. Even Parity
+
+For **even parity**:
+
+> Total number of `1`s in the complete codeword must be even.
+
+Example:
+
+```text
+Data = 1101010
+```
+
+Number of 1s:
+
+```text
+1 1 0 1 0 1 0
+↑ ↑   ↑   ↑
+4 ones
+```
+
+Already even.
+
+Therefore:
+
+```text
+Parity bit = 0
+```
+
+Codeword:
+
+```text
+11010100
+```
+
+The lecture gives the same principle: the total number of `1`s including the parity bit must be even.
+
+---
+
+# 14. Odd Parity
+
+For **odd parity**:
+
+> Total number of `1`s in the complete codeword must be odd.
+
+If the data already contains an odd number of `1`s:
+
+```text
+Parity bit = 0
+```
+
+If data contains an even number of `1`s:
+
+```text
+Parity bit = 1
+```
+
+So:
+
+|Number of 1s in data|Even parity bit|Odd parity bit|
+|--:|--:|--:|
+|Even|0|1|
+|Odd|1|0|
+
+---
+
+# 15. XOR Form of Parity
+
+For even parity:
+
+[  
+\boxed{P=D_1\oplus D_2\oplus\cdots\oplus D_k}  
+]
+
+Why?
+
+XOR gives:
+
+```text
+0 ⊕ 0 = 0
+0 ⊕ 1 = 1
+1 ⊕ 0 = 1
+1 ⊕ 1 = 0
+```
+
+Therefore:
+
+[  
+P = \text{parity of number of 1s}  
+]
+
+The lecture explicitly represents parity using XOR.
+
+---
+
+# 16. Parity Checking at Receiver
+
+### Sender
+
+```text
+Data
+  ↓
+Calculate parity
+  ↓
+Data + parity
+  ↓
+Transmit
+```
+
+### Receiver
+
+```text
+Received codeword
+        ↓
+Recalculate parity
+        ↓
+Compare/check
+        ↓
+Error / No error
+```
+
+Conceptually:
+
+[  
+R' = f(D)  
+]
+
+and compare it with the received check information.
+
+The lecture illustrates this sender/receiver process.
+
+---
+
+# 17. What Can Single Parity Detect?
+
+This is a **very important GATE point**.
 
 Suppose even parity is used.
 
 ### One bit changes
 
-```text
-Valid codeword → Invalid codeword
-```
-
-The parity changes, so the receiver detects the error.
-
-### Two bits change
+Example:
 
 ```text
-Valid codeword → Valid codeword
+Original:
+10110010
 ```
 
-The parity may become correct again.
+Number of `1`s has some required parity.
 
-Therefore, the receiver **cannot detect all multiple-bit errors**.
-
-### Important GATE fact
-
-Single parity can detect:
-
-> **Any odd number of bit errors**
-
-It cannot reliably detect:
-
-> **An even number of bit errors**
-
-So:
+Flip one bit:
 
 ```text
-1 error  → Detect
-2 errors → May not detect
-3 errors → Detect
-4 errors → May not detect
-...
+10100010
 ```
 
-The lecture's MSQ establishes that single-bit parity can detect all single-bit errors but cannot correct them.
+Parity changes.
 
-> **GATE clarification:** The important condition is the **number of flipped bits being odd**, not whether the bit _positions_ are odd/even.
+Therefore:
+
+[  
+\boxed{\text{Single-bit error is always detected}}  
+]
+
+The lecture confirms this.
 
 ---
 
-# 8. Minimum Hamming Distance
+# 18. Multiple Errors with Parity
 
-## Hamming Distance
+The key is **number of flipped bits**, not their physical positions.
 
-The **Hamming distance** between two equal-length binary words is:
+### Odd number of errors
 
-> Number of positions in which the corresponding bits differ.
-
-Notation:
+Example:
 
 ```text
-d(x,y)
+1 error
+3 errors
+5 errors
+7 errors
+...
 ```
 
-### Example
+Parity changes.
+
+Therefore:
+
+[  
+\boxed{\text{All odd-number-of-bit errors are detected}}  
+]
+
+### Even number of errors
+
+Example:
+
+```text
+2 errors
+4 errors
+6 errors
+...
+```
+
+Parity can remain unchanged.
+
+Therefore:
+
+[  
+\boxed{\text{Even-number-of-bit errors may go undetected}}  
+]
+
+---
+
+## ⚠️ GATE Trap: "odd positions"
+
+The lecture question mentions burst errors and "odd positions," but the underlying principle is:
+
+> **Parity depends on whether the NUMBER OF CORRUPTED BITS is odd or even.**
+
+It does **not** mean:
+
+> "The corrupted bits happen to be located at positions 1, 3, 5, 7."
+
+That distinction matters.
+
+---
+
+# 19. Single Parity Cannot Correct
+
+Suppose:
+
+```text
+Received codeword has wrong parity.
+```
+
+We know:
+
+> **An error occurred.**
+
+But do we know:
+
+```text
+Which bit changed?
+```
+
+No.
+
+Example:
+
+```text
+10110010
+↑
+Could be any of the 8 positions
+```
+
+Parity only tells us:
+
+```text
+Error exists
+```
+
+not:
+
+```text
+Error is at position 4
+```
+
+Therefore:
+
+[  
+\boxed{\text{Single parity detects but does not correct}}  
+]
+
+The lecture explicitly marks the correction claim as false.
+
+---
+
+# 20. Summary of Single Parity
+
+|Property|Single parity|
+|---|---|
+|Detect 1-bit error|✅|
+|Detect all odd-number errors|✅|
+|Detect all even-number errors|❌|
+|Correct error|❌|
+|Minimum Hamming distance|**2**|
+
+The lecture later derives:
+
+[  
+\boxed{d_{\min}=2}  
+]
+
+for single parity.
+
+---
+
+# 21. Hamming Distance
+
+Now the lecture moves to the central concept required for understanding error detection/correction.
+
+## Definition
+
+> **Hamming distance between two equal-length words = number of corresponding bit positions in which they differ.**
+
+Written as:
+
+[  
+\boxed{d(x,y)=\text{number of differing bit positions}}  
+]
+
+Example:
 
 ```text
 000
@@ -276,16 +778,16 @@ d(x,y)
 Differences:
 
 ```text
-0 ≠ 0  → same
-0 ≠ 1  → different
-0 ≠ 1  → different
+0 0 0
+0 1 1
+  ↑ ↑
 ```
 
 Therefore:
 
-```text
-d(000,011) = 2
-```
+[  
+d(000,011)=2  
+]
 
 Another example:
 
@@ -294,932 +796,2134 @@ Another example:
 11110
 ```
 
-They differ in 3 positions:
+Count the differing positions:
 
-```text
-d = 3
-```
+[  
+d=3  
+]
+
+The lecture gives these examples directly.
 
 ---
 
-# 9. Minimum Hamming Distance — d_min
+# 22. How to Calculate Hamming Distance
 
-For a set of valid codewords:
-
-> `d_min` = **smallest Hamming distance between any two valid codewords.**
-
-```text
-d_min = min d(Ci, Cj)
-        for all distinct valid codewords
-```
+Simply compare bit-by-bit.
 
 Example:
 
 ```text
-C = {0000, 0011, 0101, 0110, ...}
+01101010
+11010111
 ```
 
-Calculate distances between pairs.
-
-The **smallest** one is `d_min`.
-
-### Key intuition
-
-Think of every valid codeword as a point.
+Write vertically:
 
 ```text
-Valid        Valid
-  ●------------●
-       d_min
+0 1 1 0 1 0 1 0
+1 1 0 1 0 1 1 1
+↑   ↑ ↑ ↑ ↑   ↑
 ```
 
-Invalid received words can lie between valid codewords.
+Count differences.
 
-The larger the separation between valid codewords, the more errors the code can tolerate.
+The lecture's example gives:
+
+[  
+\boxed{d=4}  
+]
 
 ---
 
-# 10. Error Detection Using d_min
+# 23. Minimum Hamming Distance
+
+A code contains multiple valid codewords.
+
+Example:
+
+[  
+C={c_1,c_2,c_3,\ldots}  
+]
+
+Calculate distances between valid codewords.
+
+The **minimum Hamming distance** is:
+
+[  
+\boxed{d_{\min}=\min_{c_i\neq c_j}d(c_i,c_j)}  
+]
+
+In words:
+
+> The smallest Hamming distance between any two valid codewords.
+
+The lecture defines it exactly this way.
+
+---
+
+# 24. Why Minimum Hamming Distance Matters
+
+Imagine valid codewords as points:
+
+```text
+Valid A ●────────────● Valid B
+             d
+```
+
+A transmitted valid codeword can be changed by noise.
+
+If the received word lands:
+
+```text
+Valid → Invalid
+```
+
+we can detect the error.
+
+But if it lands:
+
+```text
+Valid A → Valid B
+```
+
+the receiver cannot know that an error occurred.
+
+Therefore, the distance between valid codewords determines how many errors can be tolerated.
+
+---
+
+# 25. Example: Code Set
+
+Consider:
+
+[  
+C={0000,0011,0101,0110,1001,1010,1100,1111}  
+]
+
+The lecture asks for the minimum Hamming distance and obtains:
+
+[  
+\boxed{d_{\min}=2}  
+]
+
+---
+
+# 26. Valid and Invalid Codewords
+
+Imagine:
+
+```text
+Valid ●        ● Valid
+       \       /
+        ○ ○ ○
+      Invalid
+```
+
+If a transmitted valid codeword changes into an invalid word:
+
+```text
+Valid → Invalid
+```
+
+the receiver can detect the error.
+
+But:
+
+```text
+Valid → Valid
+```
+
+means the receiver accepts it.
+
+Therefore:
+
+> **Detection depends on whether corruption can move one valid codeword into another valid codeword.**
+
+This is the central intuition behind `dmin`.
+
+---
+
+# 27. Example with Valid Codewords
 
 Suppose:
 
 ```text
-d_min = 4
+Sender:
+0101001
 ```
 
-Between two valid codewords:
+Receiver:
 
 ```text
-Valid ● -------- ● Valid
-          4
+0101000
 ```
 
-A received word with:
+If the received word is **not a valid codeword**, then:
+
+[  
+\boxed{\text{Error detected}}  
+]
+
+But if the received word itself belongs to the valid-codeword set:
+
+[  
+\boxed{\text{Error cannot be detected}}  
+]
+
+The lecture demonstrates both cases.
+
+---
+
+# 28. Detection Capability
+
+Suppose:
+
+[  
+d_{\min}=4  
+]
+
+Then two valid codewords are at least 4 bit positions apart.
+
+Imagine starting from one valid codeword:
+
+```text
+Valid A
+```
+
+Flip bits:
+
+```text
+1 flip → invalid
+2 flips → invalid
+3 flips → invalid
+4 flips → potentially another valid
+```
+
+Therefore:
+
+[  
+\boxed{\text{Maximum guaranteed detectable errors}=d_{\min}-1}  
+]
+
+So:
+
+[  
+d_{\min}=4  
+\Rightarrow  
+3\text{ errors detectable}  
+]
+
+The lecture illustrates this progression.
+
+---
+
+# 29. General Error Detection Formula
+
+To guarantee detection of up to `s` errors:
+
+[  
+\boxed{d_{\min}\ge s+1}  
+]
+
+or:
+
+[  
+\boxed{s=d_{\min}-1}  
+]
+
+### Example
+
+Want to detect:
+
+```text
+5 errors
+```
+
+Need:
+
+[  
+d_{\min}\ge5+1  
+]
+
+[  
+\boxed{d_{\min}\ge6}  
+]
+
+The lecture explicitly derives:
+
+[  
+d_{\min}=s+1  
+]
+
+for guaranteed detection.
+
+---
+
+# 30. Why `dmin - 1`?
+
+Suppose:
+
+[  
+d_{\min}=4  
+]
+
+Two valid codewords:
+
+```text
+A ●────────────● B
+       4
+```
+
+You can move at most 3 positions away from A without reaching another valid codeword.
+
+Therefore:
 
 ```text
 1 error → invalid
 2 errors → invalid
 3 errors → invalid
-4 errors → could become another valid codeword
+4 errors → may reach valid
 ```
 
-Therefore:
+Hence:
 
-```text
-Maximum guaranteed detectable errors
-= d_min - 1
-```
+[  
+\boxed{3=d_{\min}-1}  
+]
 
-### General Formula
-
-To guarantee detection of up to `s` errors:
-
-```text
-d_min ≥ s + 1
-```
-
-### Example
-
-If:
-
-```text
-d_min = 5
-```
-
-then:
-
-```text
-Detect up to 4 errors.
-```
-
-If the question asks:
-
-> "To guarantee detection of up to 5 errors?"
-
-Answer:
-
-```text
-d_min = 6
-```
+is guaranteed detection capability.
 
 ---
 
-# 11. Why d_min − 1?
+# 31. Single Parity and Hamming Distance
+
+Single parity has:
+
+[  
+\boxed{d_{\min}=2}  
+]
+
+Therefore detection capability:
+
+[  
+d_{\min}-1=1  
+]
+
+So:
+
+[  
+\boxed{\text{Single parity guarantees detection of 1-bit error}}  
+]
+
+This is why the lecture's earlier statement about single parity follows directly from Hamming distance.
+
+---
+
+# 32. Error Correction
+
+Detection asks:
+
+> **Did an error happen?**
+
+Correction asks:
+
+> **Which valid codeword was originally transmitted?**
+
+This requires the receiver to identify the nearest valid codeword.
+
+The lecture states that correction is possible when we can be sufficiently sure about the original codeword.
+
+---
+
+# 33. Intuition Behind Error Correction
 
 Suppose:
 
 ```text
-d_min = 4
+Valid A ●────────────● Valid B
+          distance 5
 ```
 
-Two valid codewords are exactly 4 bits apart.
-
-A received word that is only:
+If the receiver gets a word close to A:
 
 ```text
-1, 2, or 3
+A ●───○
 ```
 
-bits away from one valid codeword cannot yet become another valid codeword.
+it can infer:
 
-But after **4 flips**, it can reach another valid codeword.
+> This corrupted word probably came from A.
 
-Hence:
+But this only works if the corrupted word isn't equally close to another valid codeword.
 
-```text
-Detectable errors = d_min - 1
-```
+That's why we need enough separation between valid codewords.
 
 ---
 
-# 12. Error Correction
-
-Detection only tells us:
-
-> "Something is wrong."
-
-Correction requires:
-
-> "Which valid codeword was originally sent?"
-
-Therefore the receiver must be able to identify the original codeword uniquely.
-
-Think geometrically:
-
-```text
-        invalid
-          ○
-          |
-          | 1
-          |
-Valid ●---+
-```
-
-If every possible received word is closer to exactly one valid codeword, correction is possible.
-
----
-
-# 13. Minimum Distance for Error Correction
+# 34. Correction Capability
 
 To guarantee correction of up to `t` errors:
 
-```text
-d_min ≥ 2t + 1
-```
+[  
+\boxed{d_{\min}\ge2t+1}  
+]
 
 Therefore:
 
-```text
-Maximum guaranteed correctable errors
-= floor((d_min - 1) / 2)
-```
-
-### Examples
-
-#### d_min = 3
-
-```text
-Correct = floor((3-1)/2)
-        = 1 bit
-```
-
-#### d_min = 5
-
-```text
-Correct = floor((5-1)/2)
-        = 2 bits
-```
-
-#### d_min = 7
-
-```text
-Correct = 3 bits
-```
-
-#### d_min = 15
-
-```text
-Correct = 7 bits
-Detect  = 14 bits
-```
-
-The lecture explicitly demonstrates `d_min = 15 → correct 7, detect 14`.
+[  
+\boxed{t=\left\lfloor\frac{d_{\min}-1}{2}\right\rfloor}  
+]
 
 ---
 
-# 14. The Most Important GATE Formula
+# 35. Why `2t+1`?
 
-Memorize this **after understanding it**:
+Suppose you want to correct:
 
-```text
-Detection:
-d_min ≥ s + 1
-
-Correction:
-d_min ≥ 2t + 1
-```
-
-where:
-
-```text
-s = maximum errors to detect
-t = maximum errors to correct
-```
-
-Therefore:
-
-```text
-Detect up to s:
-d_min = s + 1
-
-Correct up to t:
-d_min = 2t + 1
-```
-
----
-
-# 15. Detection vs Correction — Don't Mix Them
-
-|Requirement|Minimum d_min|
-|---|--:|
-|Detect 1 error|2|
-|Detect 2 errors|3|
-|Detect 3 errors|4|
-|Correct 1 error|3|
-|Correct 2 errors|5|
-|Correct 3 errors|7|
-|Correct 5 errors|11|
-
-### Shortcut
-
-```text
-Detect t → t + 1
-
-Correct t → 2t + 1
-```
-
----
-
-# 16. Single-Parity Code and d_min
-
-Single parity code has:
-
-```text
-d_min = 2
-```
-
-Why?
-
-Any two valid codewords must have the same parity. The smallest possible change that preserves parity requires flipping **2 bits**.
-
-Therefore:
-
-```text
-d_min = 2
-```
-
-Hence:
-
-```text
-Detect = d_min - 1 = 1 error
-Correct = floor((2-1)/2) = 0 errors
-```
-
-So single parity:
-
-```text
-✓ Detects 1-bit error
-✗ Corrects 1-bit error
-```
-
-The lecture explicitly uses `d_min = 2` to establish this result.
-
----
-
-# 17. Important Geometric Intuition
-
-Suppose:
-
-```text
-d_min = 5
-```
-
-Two valid codewords:
-
-```text
-A ●----------------● B
-          5
-```
-
-A received word can be at most 2 bits away from the original:
-
-```text
-A ●--1--○--1--○
-```
-
-At distance 2, it is still closer to A.
-
-But after 3 errors:
-
-```text
-A ●---○---○---X
-```
-
-the received word can become ambiguous.
-
-Therefore:
-
-```text
-Correctable = floor((5-1)/2) = 2
-```
-
-This is why the factor **2** appears in:
-
-```text
-2t + 1
-```
-
----
-
-# 18. Combined Detection + Correction
-
-Suppose a code must:
-
-- correct `c` errors
-    
-- detect `d` errors
-    
-- with `d ≥ c`
-    
-
-Then:
-
-```text
-d_min ≥ d + c + 1
-```
-
-The lecture summary gives this as the common combined case.
-
-### Special cases
-
-Only detection:
-
-```text
-c = 0
-
-d_min = d + 1
-```
-
-Only correction:
-
-```text
-d = c
-
-d_min = 2c + 1
-```
-
-Therefore:
-
-```text
-Detection of d + Correction of c:
-d_min = d + c + 1
-```
-
-**GATE trigger:** If the question says **"correct c errors AND detect d errors"**, don't independently apply `2c+1`. Use:
-
-```text
-d_min = d + c + 1
-```
-
----
-
-# 19. Valid vs Invalid Codewords
-
-A code defines a set of **valid codewords**.
-
-Example:
-
-```text
-Valid:
-00000
-10101
-11100
-...
-```
-
-A received sequence can be:
-
-```text
-Valid → Valid
-Valid → Invalid
-```
-
-### Valid → Invalid
-
-Error can be detected.
-
-### Valid → Valid
-
-The receiver may **not know that an error occurred**.
-
-This is the fundamental reason `d_min` matters.
-
----
-
-# 20. Error-Correction Decision Pattern
-
-For a received word `R`:
-
-1. Compare `R` with valid codewords.
-    
-2. Calculate Hamming distance.
-    
-3. Find the closest valid codeword.
-    
-4. If the closest codeword is **uniquely identifiable**, correction is possible.
-    
-
-Example from the lecture:
-
-```text
-Received = 0101000
-```
-
-If the possible invalid words around a valid codeword do not overlap with another valid codeword's correction region, the receiver can determine the original codeword.
-
----
-
-# 21. "Exactly t Errors" vs "Up to t Errors"
-
-This is a common GATE trap.
-
-### Up to t errors
-
-Means:
-
-```text
-0, 1, 2, ..., t
-```
+[  
+t=2  
+]
 
 errors.
 
-To guarantee correction:
+You need:
 
-```text
-d_min ≥ 2t + 1
-```
+[  
+d_{\min}\ge2(2)+1  
+]
 
-### Exactly t errors
-
-The requirement may be different because fewer errors are not necessarily being considered.
-
-Read the wording carefully.
-
-**GATE trigger:** Pay attention to:
-
-- **up to**
-    
-- **at most**
-    
-- **exactly**
-    
-- **guarantee**
-    
-- **in all cases**
-    
-
----
-
-# 22. Important Codeword-Set Questions
-
-If a question gives a set of codewords:
-
-```text
-C = {C1, C2, C3, ...}
-```
-
-and asks `d_min`:
-
-### Method
-
-Compute Hamming distance between codeword pairs:
-
-```text
-d(C1,C2)
-d(C1,C3)
-d(C2,C3)
-...
-```
-
-Then:
-
-```text
-d_min = minimum
-```
-
-For large structured sets, look for patterns instead of comparing every pair.
-
-The lecture includes examples such as "two-out-of-five" and "four-out-of-seven" codes, where the minimum distance is obtained by examining overlap between codewords.
-
----
-
-# 23. Two-out-of-Five Code
-
-Definition:
-
-> All binary words of length 5 containing **exactly two 1s**.
-
-Number of codewords:
-
-```text
-C(5,2) = 10
-```
-
-The lecture derives:
-
-```text
-d_min = 2
-```
-
-Therefore:
-
-```text
-Detect = 1 error
-Correct = 0 errors
-```
-
-### General counting pattern
-
-If a code consists of all length-`n` binary strings having exactly `k` ones:
-
-```text
-Number of codewords = C(n,k)
-```
-
----
-
-# 24. Four-out-of-Seven Code
-
-Definition:
-
-> All binary words of length 7 containing exactly four `1`s.
-
-Number of codewords:
-
-```text
-C(7,4) = 35
-```
-
-The lecture finds:
-
-```text
-d_min = 2
-```
-
-Therefore:
-
-```text
-Detect = 1 error
-Correct = 0 errors
-```
-
----
-
-# 25. Fast Pattern for Constant-Weight Codes
-
-For a code where every codeword has exactly `k` ones:
-
-Two different codewords cannot differ in only one position.
+[  
+\boxed{d_{\min}\ge5}  
+]
 
 Why?
 
-Changing one bit would change the number of `1`s.
+Because the received word can be at distance 2 from the original codeword.
 
-Therefore the smallest possible difference is usually **2**.
-
-So for:
+For another valid codeword to **not** be equally close, the valid codewords must be separated by at least:
 
 ```text
-"exactly k ones"
+2 + 1 + 2
 ```
 
-expect:
+= 5.
+
+Mental picture:
 
 ```text
-d_min = 2
+Valid A ●──○○──R──○○──● Valid B
+          2       2
 ```
 
-when at least two distinct codewords exist.
+The received word `R` is still closer to A than B.
 
 ---
 
-# 26. GATE Problem-Solving Table
+# 36. Important Formula Table
 
-|Given|Find|
-|---|---|
-|`d_min`|Detect = `d_min - 1`|
-|`d_min`|Correct = `floor((d_min-1)/2)`|
-|Detect `s`|`d_min ≥ s+1`|
-|Correct `t`|`d_min ≥ 2t+1`|
-|Correct `c`, detect `d`|`d_min ≥ c+d+1`|
-|Single parity|`d_min=2`|
-|Exactly `k` ones in `n` bits|Number of words = `C(n,k)`|
+|Goal|Required minimum Hamming distance|
+|---|--:|
+|Detect up to `s` errors|(\boxed{s+1})|
+|Correct up to `t` errors|(\boxed{2t+1})|
+|Correct up to `t` and detect additional errors|see combined case below|
+
+The lecture explicitly gives these relationships.
 
 ---
 
-# 27. GATE Traps ⚠️
+# 37. Detection vs Correction
 
-### Trap 1 — Detection ≠ Correction
+This distinction is **extremely important for GATE**.
 
-```text
-d_min = 3
-```
+### Detection
 
-means:
+If:
 
-```text
-Detect up to 2 errors
-Correct up to 1 error
-```
+[  
+d_{\min}=d  
+]
 
-NOT 2 errors corrected.
+then:
 
----
+[  
+\boxed{d-1}  
+]
 
-### Trap 2 — `d_min` itself is NOT the number of detectable errors
+errors can always be detected.
 
-Wrong:
+### Correction
 
-```text
-d_min = 5 → detect 5
-```
+If:
 
-Correct:
+[  
+d_{\min}=d  
+]
 
-```text
-detect = 5 - 1 = 4
-```
+then:
 
----
+[  
+\boxed{\left\lfloor\frac{d-1}{2}\right\rfloor}  
+]
 
-### Trap 3 — Correction needs twice the distance
-
-```text
-Correct t → d_min = 2t+1
-```
-
-not:
-
-```text
-t+1
-```
+errors can always be corrected.
 
 ---
 
-### Trap 4 — Single parity does not correct
+## Example
+
+Suppose:
+
+[  
+d_{\min}=7  
+]
+
+Detection:
+
+[  
+7-1=6  
+]
+
+Correction:
+
+[  
+\left\lfloor\frac{7-1}{2}\right\rfloor=3  
+]
+
+Therefore:
 
 ```text
-d_min = 2
-
-Detect = 1
-Correct = 0
-```
-
----
-
-### Trap 5 — "Valid received codeword" does NOT mean no error
-
-An error can transform:
-
-```text
-Valid → another Valid
-```
-
-and become **undetectable**.
-
----
-
-### Trap 6 — "Odd positions" vs "odd number of errors"
-
-For parity:
-
-```text
-Odd number of flipped bits → detected
-Even number of flipped bits → may escape detection
-```
-
-The relevant property is the **count of flipped bits**.
-
----
-
-# 28. GATE Question Triggers
-
-When you see:
-
-### "Maximum errors that can be detected?"
-
-Immediately think:
-
-```text
-d_min - 1
-```
-
-### "Maximum errors that can be corrected?"
-
-Immediately think:
-
-```text
-floor((d_min - 1)/2)
-```
-
-### "Minimum distance required to detect s errors?"
-
-```text
-s + 1
-```
-
-### "Minimum distance required to correct t errors?"
-
-```text
-2t + 1
-```
-
-### "Correct c AND detect d"
-
-```text
-c + d + 1
-```
-
-### "Minimum Hamming distance of a code"
-
-Compare valid codewords and find the **smallest pairwise distance**.
-
----
-
-# 29. GATE Examples
-
-### Example 1
-
-`d_min = 4`
-
-```text
-Detect = 4-1 = 3
-Correct = floor(3/2) = 1
-```
-
-**Answer: detect 3, correct 1.**
-
----
-
-### Example 2
-
-Guarantee detection of 7 errors:
-
-```text
-d_min = 7+1
-      = 8
+Detect → 6 errors
+Correct → 3 errors
 ```
 
 ---
 
-### Example 3
+# 38. Important GATE Trap
 
-Guarantee correction of 5 errors:
+If:
 
-```text
-d_min = 2(5)+1
-      = 11
-```
+[  
+d_{\min}=4  
+]
 
-The lecture includes this exact type of NIELIT question.
+don't say:
 
----
+> "Can correct 4 errors."
 
-### Example 4
+Wrong.
 
-`d_min = 11`
+You can guarantee:
 
-```text
-Detect = 10
-Correct = 5
-```
+[  
+\left\lfloor\frac{4-1}{2}\right\rfloor=1  
+]
 
 So:
 
 ```text
-✓ Detect 5
-✓ Correct 5
-✗ Detect 11
+Detect → 3
+Correct → 1
 ```
-
-The lecture's MSQ confirms the valid choices are detecting 5 and correcting 5.
 
 ---
 
-# 30. Final Mental Model
+# 39. Detection vs Correction — Visual
 
-Don't memorize four unrelated formulas.
+For:
 
-Understand this picture:
-
-```text
-             Valid codeword
-                   ●
-                 /   \
-              t errors
-               /       \
-              ○         ○
-               \       /
-                \     /
-                 2t+1
-                    \
-                   ●
-             Another valid
-```
-
-If valid codewords are separated by `d_min`:
+[  
+d_{\min}=5  
+]
 
 ```text
-Before reaching another valid codeword:
-    guaranteed detection → d_min - 1
-
-To uniquely identify the original codeword:
-    guaranteed correction → floor((d_min-1)/2)
+Valid A ●──○──○──R──○──○──● Valid B
+          ← 2 → ← 2 →
 ```
+
+A received word can move at most 2 bits from A while remaining uniquely closer to A.
+
+Therefore:
+
+[  
+t=\frac{5-1}{2}=2  
+]
+
+Correct up to 2 errors.
+
+But:
+
+[  
+5-1=4  
+]
+
+errors can be detected.
+
+So:
+
+[  
+\boxed{\text{Detect 4, Correct 2}}  
+]
+
+---
+
+# 40. If `dmin = 8`
+
+Lecture example:
+
+[  
+d_{\min}=8  
+]
+
+Number of invalid words between two valid codewords:
+
+[  
+8-1=7  
+]
+
+Therefore:
+
+### Detection
+
+[  
+\boxed{7}  
+]
+
+### Correction
+
+[  
+\left\lfloor\frac{7}{2}\right\rfloor=3  
+]
+
+Therefore:
+
+[  
+\boxed{\text{Correct 3, Detect 7}}  
+]
+
+The lecture explicitly works through this example.
+
+---
+
+# 41. If `dmin = 15`
+
+Lecture example:
+
+[  
+d_{\min}=15  
+]
+
+Detection:
+
+[  
+15-1=14  
+]
+
+Correction:
+
+[  
+\frac{15-1}{2}=7  
+]
+
+Therefore:
+
+[  
+\boxed{\text{Detect 14, Correct 7}}  
+]
+
+The lecture derives exactly this.
+
+---
+
+# 42. If You Want to Correct `s` Errors
+
+Suppose you want:
+
+[  
+s=\text{number of errors to correct}  
+]
+
+Required:
+
+[  
+\boxed{d_{\min}=2s+1}  
+]
+
+Example:
+
+```text
+Want to correct 5 errors
+```
+
+Then:
+
+[  
+d_{\min}=2(5)+1  
+]
+
+[  
+\boxed{d_{\min}=11}  
+]
+
+The lecture uses a NIELIT question asking exactly this and obtains 11.
+
+---
+
+# 43. If You Want to Detect `s` Errors
+
+Required:
+
+[  
+\boxed{d_{\min}=s+1}  
+]
+
+Example:
+
+```text
+Want to detect 5 errors
+```
+
+Then:
+
+[  
+d_{\min}=6  
+]
+
+---
+
+# 44. If You Want to Correct `c` and Detect `d`
+
+The lecture's common combined case:
+
+> A code corrects `c` errors and detects `d` errors, where (d\ge c).
+
+Then:
+
+[  
+\boxed{d_{\min}=d+c+1}  
+]
+
+Why?
+
+You need:
+
+- `c` distance on one side for correction.
+    
+- `d` distance to ensure detection boundary.
+    
+- one extra separating position.
+    
+
+So:
+
+[  
+\boxed{d_{\min}\ge d+c+1}  
+]
+
+The lecture gives this as the common case.
+
+---
+
+# 45. Example: Correct 2 and Detect 4
+
+Suppose:
+
+```text
+Correct = 2
+Detect = 4
+```
+
+Then:
+
+[  
+d_{\min}=2+4+1  
+]
+
+[  
+\boxed{d_{\min}=7}  
+]
+
+This matches the lecture's discussion around `dmin = 7`.
+
+---
+
+# 46. Example: Correct 5 Errors
+
+Want:
+
+[  
+t=5  
+]
+
+Then:
+
+[  
+d_{\min}=2t+1  
+]
+
+[  
+=2(5)+1  
+]
+
+[  
+\boxed{11}  
+]
 
 Therefore:
 
 ```text
-                 d_min
-                   │
-        ┌──────────┴──────────┐
-        ↓                     ↓
-   Detection              Correction
-        ↓                     ↓
-   d_min - 1        floor((d_min-1)/2)
+dmin = 11
+```
+
+can correct up to:
+
+```text
+5 errors
+```
+
+and detect up to:
+
+```text
+10 errors
+```
+
+The lecture's MSQ confirms:
+
+- Detecting 11 errors → ❌
+    
+- Detecting 5 errors → ✅
+    
+- Correcting 5 errors → ✅
+    
+- Correcting 11 errors → ❌
+    
+
+Answer:
+
+[  
+\boxed{B,C}  
+]
+
+---
+
+# 47. "Can Detect `dmin-1`" Does NOT Mean "Can Correct `dmin-1`"
+
+This is a classic mistake.
+
+For:
+
+[  
+d_{\min}=11  
+]
+
+Detection:
+
+[  
+10  
+]
+
+Correction:
+
+[  
+5  
+]
+
+So:
+
+```text
+Detect 10
+Correct 5
+```
+
+NOT:
+
+```text
+Detect 10
+Correct 10
 ```
 
 ---
 
-# Quick Revision ⚡
+# 48. Codewords as Points
+
+A very useful mental model:
+
+Imagine every valid codeword is a point in a huge space.
+
+Example:
 
 ```text
-Framing
-→ Divide bit stream into frames.
-
-Error types
-→ Single-bit, Burst.
-
-Error control
-→ Detection + Correction.
-
-Detection
-→ Parity, CRC, Checksum.
-
-Correction
-→ Hamming codes.
-
-Block coding
-→ Add redundant/check bits.
-
-Parity
-→ Even parity: total 1s even.
-→ Odd parity: total 1s odd.
-→ Single parity: d_min = 2.
-→ Detects 1-bit error.
-→ Cannot correct 1-bit error.
-
-Hamming distance
-→ Number of differing corresponding bits.
-
-d_min
-→ Minimum Hamming distance between any two valid codewords.
-
-Detection
-→ Detect up to s errors:
-   d_min ≥ s+1
-
-Correction
-→ Correct up to t errors:
-   d_min ≥ 2t+1
-
-Combined
-→ Correct c AND detect d:
-   d_min ≥ c+d+1
-
-Maximum detection
-→ d_min - 1
-
-Maximum correction
-→ floor((d_min-1)/2)
-
-Constant-weight code
-→ Exactly k ones in n bits:
-   Number of codewords = C(n,k)
+          ● A
+        / 
+      ○ ○ ○
+    /
+  ● B
 ```
 
-## One-line GATE memory hook
+`dmin` is the minimum distance between any two valid points.
 
-> **Distance gives a safety gap: `d_min−1` errors can be detected, but only about half that many can be corrected.**
+Noise moves the transmitted point.
 
-The lecture concludes with exactly these detection/correction relationships and the combined `d+c+1` result.
+### Detection
+
+As long as the received word hasn't reached another valid point:
+
+```text
+Valid → Invalid
+```
+
+we detect it.
+
+### Correction
+
+The receiver chooses the nearest valid point.
+
+Therefore:
+
+> **Larger `dmin` means stronger error protection.**
+
+---
+
+# 49. Invalid Codewords
+
+Suppose:
+
+[  
+d_{\min}=6  
+]
+
+Between two valid codewords:
+
+```text
+A ● ○ ○ ○ ○ ○ ● B
+```
+
+There are:
+
+[  
+6-1=5  
+]
+
+intermediate Hamming-distance layers.
+
+So:
+
+[  
+\boxed{\text{5 invalid layers between the two valid codewords}}  
+]
+
+The lecture uses this visualization to derive correction/detection capabilities.
+
+---
+
+# 50. Channel Property
+
+The lecture also considers cases where the **channel property is known**.
+
+Example:
+
+> Channel guarantees that at most **one bit** can be corrupted.
+
+Then even if:
+
+[  
+d_{\min}=3  
+]
+
+a received word one bit away from a valid codeword can be mapped back to that codeword.
+
+The channel assumption gives additional information.
+
+This is important in the lecture's correction examples around pages 94–110.
+
+---
+
+# 51. Why Channel Property Matters
+
+Suppose:
+
+```text
+Valid A ●────────● Valid B
+           3
+```
+
+Received:
+
+```text
+R
+```
+
+If the channel guarantees:
+
+```text
+at most 1 bit error
+```
+
+then the receiver knows:
+
+```text
+R must have come from a valid codeword
+within distance 1.
+```
+
+If only A is within distance 1:
+
+[  
+\boxed{\text{A can be uniquely identified}}  
+]
+
+Therefore the error can be corrected.
+
+---
+
+# 52. But If Channel Property Is Unknown...
+
+Suppose the received word could have:
+
+```text
+1 bit error
+2 bits error
+3 bits error
+...
+```
+
+Then multiple valid codewords may become possible.
+
+You cannot simply assume:
+
+> "Choose the closest one."
+
+You need the code's guaranteed correction capability.
+
+The lecture emphasizes that knowing the channel property can change whether correction is possible.
+
+---
+
+# 53. "Exactly `t` Errors" vs "Up to `t` Errors"
+
+This is a subtle but important distinction.
+
+### Up to `t`
+
+Means:
+
+```text
+0, 1, 2, ..., t errors
+```
+
+### Exactly `t`
+
+Means:
+
+```text
+t errors only
+```
+
+For example:
+
+> "Channel has exactly 2 bit errors."
+
+is different from:
+
+> "Channel can have up to 2 bit errors."
+
+The lecture uses this distinction in its examples involving a known channel property.
+
+---
+
+# 54. Example: Four 5-bit Codewords
+
+The lecture gives:
+
+```text
+A = 01100
+B = 11010
+C = 10101
+D = 00011
+```
+
+The minimum Hamming distance is:
+
+[  
+\boxed{3}  
+]
+
+Therefore:
+
+### Detection
+
+[  
+3-1=2  
+]
+
+So:
+
+[  
+\boxed{\text{Detect up to 2 errors}}  
+]
+
+### Correction
+
+[  
+\left\lfloor\frac{3-1}{2}\right\rfloor=1  
+]
+
+So:
+
+[  
+\boxed{\text{Correct up to 1 error}}  
+]
+
+The lecture explicitly marks this as the code's Hamming-distance property.
+
+---
+
+# 55. Example: Received `11101`
+
+Using the above code:
+
+```text
+A = 01100
+B = 11010
+C = 10101
+D = 00011
+```
+
+Suppose:
+
+```text
+Received = 11101
+```
+
+Compare distances.
+
+The lecture shows that `A` and `C` are candidates under the **exactly two-bit error** assumption, and discusses which codeword can be identified depending on the channel property.
+
+The key GATE lesson:
+
+> **Never solve a correction question without first checking what the channel guarantees.**
+
+---
+
+# 56. "At Most One Bit Error" Example
+
+If the channel guarantees:
+
+[  
+\text{at most 1 bit error}  
+]
+
+and:
+
+[  
+d_{\min}\ge3  
+]
+
+then one-bit errors can be corrected.
+
+Why?
+
+Any received word within distance 1 of a valid codeword cannot simultaneously be within distance 1 of another valid codeword.
+
+---
+
+# 57. Minimum Hamming Distance — Master Formula
+
+## Detection
+
+To detect up to `s` errors:
+
+[  
+\boxed{d_{\min}\ge s+1}  
+]
+
+---
+
+## Correction
+
+To correct up to `t` errors:
+
+[  
+\boxed{d_{\min}\ge2t+1}  
+]
+
+---
+
+## Detection + Correction
+
+To correct `c` errors and detect `d` errors:
+
+[  
+\boxed{d_{\min}\ge c+d+1}  
+]
+
+for the common case (d\ge c).
+
+---
+
+# 58. Code Design Perspective
+
+You can think of designing a code as:
+
+```text
+Choose valid codewords
+        ↓
+Keep them far apart
+        ↓
+Increase dmin
+        ↓
+Increase error protection
+```
+
+But increasing distance generally requires more redundancy / fewer usable data words.
+
+So there is a trade-off:
+
+```text
+More redundancy
+      ↓
+larger separation
+      ↓
+better error protection
+```
+
+---
+
+# 59. Repetition Code Revisited Through Hamming Distance
+
+Repetition code:
+
+```text
+00 → 00 00 00
+01 → 01 01 01
+10 → 10 10 10
+11 → 11 11 11
+```
+
+Compare:
+
+```text
+00 00 00
+01 01 01
+```
+
+All three groups differ:
+
+[  
+d=3  
+]
+
+Similarly every pair of valid codewords differs in 3 positions.
+
+Therefore:
+
+[  
+\boxed{d_{\min}=3}  
+]
+
+Thus:
+
+### Detection
+
+[  
+3-1=2  
+]
+
+### Correction
+
+[  
+\left\lfloor\frac{3-1}{2}\right\rfloor=1  
+]
+
+So the repetition code can:
+
+[  
+\boxed{\text{Detect 2 errors and correct 1 error}}  
+]
+
+This ties the first part of the lecture directly to Hamming distance.
+
+---
+
+# 60. Single Parity Revisited Through Hamming Distance
+
+Single parity code has:
+
+[  
+d_{\min}=2  
+]
+
+Therefore:
+
+```text
+Detection = 2 - 1 = 1
+Correction = floor((2-1)/2) = 0
+```
+
+So:
+
+[  
+\boxed{\text{Detect 1, Correct 0}}  
+]
+
+This explains **why** single parity cannot correct an error.
+
+---
+
+# 61. Two-Out-of-Five Code
+
+The lecture gives a code consisting of all binary words of length 5 containing exactly two `1`s.
+
+Number of codewords:
+
+[  
+\binom52  
+]
+
+[  
+=\frac{5!}{2!3!}  
+]
+
+[  
+\boxed{10}  
+]
+
+The lecture lists the ten codewords.
+
+---
+
+# 62. Minimum Distance of Two-Out-of-Five Code
+
+Any two valid codewords each contain exactly two `1`s.
+
+The closest possible pair differs in:
+
+- one `1` moving from one position to another.
+    
+
+That changes:
+
+```text
+1 → 0
+0 → 1
+```
+
+So exactly two positions differ.
+
+Therefore:
+
+[  
+\boxed{d_{\min}=2}  
+]
+
+Hence:
+
+```text
+Detect → 1 error
+Correct → 0 errors
+```
+
+The lecture confirms that the two-out-of-five code has minimum Hamming distance 2.
+
+---
+
+# 63. Four-Out-of-Seven Code
+
+Similarly, consider all binary words of length 7 containing exactly four `1`s.
+
+Number of codewords:
+
+[  
+\binom74  
+]
+
+[  
+=\frac{7!}{4!3!}  
+]
+
+[  
+\boxed{35}  
+]
+
+The lecture gives this result.
+
+---
+
+# 64. Minimum Distance of Four-Out-of-Seven
+
+Again, two valid codewords can differ by moving one `1`:
+
+```text
+1 → 0
+0 → 1
+```
+
+So the minimum distance is:
+
+[  
+\boxed{d_{\min}=2}  
+]
+
+Therefore:
+
+```text
+Detect → 1 error
+Correct → 0 errors
+```
+
+The lecture confirms this.
+
+---
+
+# 65. Important Pattern: Constant-Weight Codes
+
+If a code contains all binary strings of length `n` having exactly `k` ones:
+
+[  
+\boxed{\text{Number of codewords}=\binom nk}  
+]
+
+For this type of code:
+
+[  
+\boxed{d_{\min}=2}  
+]
+
+because the smallest possible change between two codewords is replacing one `1` with one `0` and another `0` with `1`.
+
+Therefore:
+
+[  
+\boxed{\text{Detect 1 error, correct 0}}  
+]
+
+---
+
+# 66. GATE/Numerical Pattern
+
+Whenever you see:
+
+> "Minimum Hamming distance of code is (d)"
+
+immediately calculate:
+
+[  
+\boxed{\text{Detection}=d-1}  
+]
+
+and:
+
+[  
+\boxed{\text{Correction}=\left\lfloor\frac{d-1}{2}\right\rfloor}  
+]
+
+Example:
+
+[  
+d=11  
+]
+
+Then:
+
+```text
+Detection = 10
+Correction = 5
+```
+
+---
+
+# 67. Reverse Questions
+
+GATE often asks the reverse.
+
+### If you need to detect `s` errors:
+
+[  
+\boxed{d_{\min}=s+1}  
+]
+
+### If you need to correct `t` errors:
+
+[  
+\boxed{d_{\min}=2t+1}  
+]
+
+Example:
+
+> Correct 8 errors.
+
+[  
+d_{\min}=2(8)+1=17  
+]
+
+---
+
+# 68. Combined Error Detection/Correction
+
+Suppose:
+
+```text
+Correct c errors
+Detect d errors
+```
+
+Then, in the common case (d\ge c):
+
+[  
+\boxed{d_{\min}=c+d+1}  
+]
+
+Example:
+
+```text
+Correct 3
+Detect 5
+```
+
+[  
+d_{\min}=3+5+1  
+]
+
+[  
+\boxed{9}  
+]
+
+---
+
+# 69. Core Conceptual Chain
+
+This entire lecture can be understood as one chain:
+
+```text
+Noise
+  ↓
+Bit errors
+  ↓
+Add redundancy
+  ↓
+Create codewords
+  ↓
+Separate valid codewords
+  ↓
+Hamming distance
+  ↓
+Minimum Hamming distance
+  ↓
+Error detection / correction capability
+```
+
+The more separated the valid codewords are:
+
+[  
+\boxed{\text{larger }d_{\min}}  
+]
+
+the more errors the code can handle.
+
+---
+
+# 70. Important Comparison
+
+|Scheme|Main idea|(d_{\min})|Detect|Correct|
+|---|---|--:|--:|--:|
+|Repetition example|Repeat data|3|2|1|
+|Single parity|Add 1 parity bit|2|1|0|
+|General code|Depends on code|(d)|(d-1)|(\lfloor(d-1)/2\rfloor)|
+
+---
+
+# 71. Error Detection vs Error Correction
+
+|Feature|Detection|Correction|
+|---|---|---|
+|Main question|Did error occur?|What was original codeword?|
+|Requirement|Invalid received word|Unique valid codeword identification|
+|Distance requirement|(s+1)|(2t+1)|
+|Capability|(d_{\min}-1)|(\lfloor(d_{\min}-1)/2\rfloor)|
+|Example|Parity|Hamming code|
+
+---
+
+# 72. Lecture's Final Results
+
+The lecture ends with these important results:
+
+### Result 1 — Detection
+
+All errors of `d` or fewer bits can be detected **iff**:
+
+[  
+\boxed{d_{\min}=d+1}  
+]
+
+---
+
+### Result 2 — Correction
+
+All errors of `c` or fewer bits can be corrected **iff**:
+
+[  
+\boxed{d_{\min}=2c+1}  
+]
+
+---
+
+### Result 3 — Common combined case
+
+A code that:
+
+- corrects `c` errors, and
+    
+- detects `d` errors, where (d\ge c),
+    
+
+requires:
+
+[  
+\boxed{d_{\min}=d+c+1}  
+]
+
+---
+
+# 73. One-Page Mental Model
+
+```text
+                    ERROR CONTROL
+                         │
+          ┌──────────────┴──────────────┐
+          │                             │
+     DETECTION                     CORRECTION
+          │                             │
+   "Did error occur?"           "What was original?"
+          │                             │
+      Parity/CRC                  Hamming codes
+          │
+          └──────────────┐
+                         ↓
+                  CODEWORDS
+                         ↓
+                 HAMMING DISTANCE
+                         ↓
+              MINIMUM HAMMING DISTANCE
+                         │
+             ┌───────────┴───────────┐
+             ↓                       ↓
+        DETECTION                CORRECTION
+             │                       │
+       dmin - 1                  floor((dmin-1)/2)
+             │                       │
+   detect s → s+1          correct t → 2t+1
+```
+
+---
+
+# 74. ⚠️ GATE Traps & Clarifications
+
+### Trap 1 — Hamming distance ≠ number of errors
+
+Hamming distance is the number of differing positions **between two words**.
+
+It is not automatically the number of errors that occurred.
+
+---
+
+### Trap 2 — Use `dmin`, not arbitrary distance
+
+Error capability depends on:
+
+[  
+\boxed{d_{\min}}  
+]
+
+not the maximum distance between codewords.
+
+---
+
+### Trap 3 — Detection and correction are different
+
+For:
+
+[  
+d_{\min}=7  
+]
+
+```text
+Detect = 6
+Correct = 3
+```
+
+NOT 6 correction.
+
+---
+
+### Trap 4 — Parity does not locate an error
+
+Parity says:
+
+```text
+Error exists
+```
+
+It doesn't say:
+
+```text
+Bit #4 is wrong
+```
+
+Therefore it cannot correct.
+
+---
+
+### Trap 5 — Even number of parity errors may escape
+
+Single parity detects all **odd-number-of-bit errors**, but even-number errors can preserve parity.
+
+---
+
+### Trap 6 — Valid received word does NOT guarantee no error
+
+This is crucial:
+
+```text
+Original valid
+      ↓
+   noise
+      ↓
+another valid codeword
+```
+
+The receiver accepts it.
+
+Therefore:
+
+[  
+\boxed{\text{Undetectable error}}  
+]
+
+---
+
+### Trap 7 — `dmin = 4` does not mean detect 4 guaranteed
+
+It means:
+
+[  
+4-1=3  
+]
+
+errors are guaranteed detectable.
+
+A 4-bit error **may** turn one valid codeword into another valid codeword.
+
+---
+
+### Trap 8 — "Up to" matters
+
+"Correct up to 3 errors" means:
+
+```text
+0, 1, 2, 3
+```
+
+not exactly 3.
+
+---
+
+### Trap 9 — Channel assumptions matter
+
+If the problem says:
+
+> At most one bit can be corrupted
+
+use that information.
+
+Don't ignore the channel property.
+
+---
+
+# 75. Worked GATE-Style Examples
+
+## Example 1
+
+Given:
+
+[  
+d_{\min}=6  
+]
+
+How many errors can be detected?
+
+[  
+6-1=\boxed5  
+]
+
+How many can be corrected?
+
+[  
+\left\lfloor\frac{6-1}{2}\right\rfloor  
+=2  
+]
+
+### Answer
+
+[  
+\boxed{\text{Detect 5, Correct 2}}  
+]
+
+---
+
+## Example 2
+
+A code must detect up to 8 errors.
+
+Required:
+
+[  
+d_{\min}=8+1  
+]
+
+[  
+\boxed9  
+]
+
+---
+
+## Example 3
+
+A code must correct up to 4 errors.
+
+[  
+d_{\min}=2(4)+1  
+]
+
+[  
+\boxed9  
+]
+
+---
+
+## Example 4
+
+A code has:
+
+[  
+d_{\min}=11  
+]
+
+Then:
+
+[  
+\text{Detection}=10  
+]
+
+[  
+\text{Correction}=5  
+]
+
+[  
+\boxed{\text{Detect 10, Correct 5}}  
+]
+
+This is exactly the logic used in the lecture's MSQ.
+
+---
+
+# 76. Question Pattern: Find `dmin`
+
+Given codewords:
+
+```text
+00000
+00111
+11001
+11110
+```
+
+Method:
+
+1. Compare every pair.
+    
+2. Calculate Hamming distance.
+    
+3. Find smallest distance.
+    
+
+That smallest value is:
+
+[  
+\boxed{d_{\min}}  
+]
+
+Then immediately derive:
+
+```text
+Detection = dmin - 1
+Correction = floor((dmin - 1)/2)
+```
+
+---
+
+# 77. Question Pattern: Number of Codewords
+
+If all length-`n` words containing exactly `k` ones are allowed:
+
+[  
+\boxed{|C|=\binom nk}  
+]
+
+Examples:
+
+[  
+\binom52=10  
+]
+
+[  
+\binom74=35  
+]
+
+These exact patterns appear in the lecture's practice questions.
+
+---
+
+# 78. Question Pattern: Valid/Invalid Received Word
+
+Given a set of valid codewords:
+
+```text
+C = { ... }
+```
+
+and received word `R`:
+
+### Step 1
+
+Check:
+
+[  
+R\in C?  
+]
+
+If yes:
+
+```text
+R = valid codeword
+```
+
+→ Error **may** still have occurred.
+
+If no:
+
+```text
+R = invalid codeword
+```
+
+→ Error definitely detected.
+
+---
+
+# 79. Question Pattern: Correct the Received Word
+
+If correction capability is guaranteed:
+
+1. Find valid codewords near the received word.
+    
+2. Calculate their Hamming distances.
+    
+3. Determine the nearest valid codeword.
+    
+4. Use channel assumptions if given.
+    
+5. If unique → correction possible.
+    
+6. If multiple equally possible candidates → cannot uniquely correct.
+    
+
+---
+
+# 80. Final Formula Sheet
+
+## Hamming Distance
+
+[  
+\boxed{d(x,y)=\text{number of differing bit positions}}  
+]
+
+## Minimum Hamming Distance
+
+[  
+\boxed{d_{\min}=\min_{x\ne y}d(x,y)}  
+]
+
+## Detect up to `s`
+
+[  
+\boxed{d_{\min}\ge s+1}  
+]
+
+## Maximum guaranteed detection
+
+[  
+\boxed{s=d_{\min}-1}  
+]
+
+## Correct up to `t`
+
+[  
+\boxed{d_{\min}\ge2t+1}  
+]
+
+## Maximum guaranteed correction
+
+[  
+\boxed{t=\left\lfloor\frac{d_{\min}-1}{2}\right\rfloor}  
+]
+
+## Correct `c`, detect `d`
+
+[  
+\boxed{d_{\min}\ge c+d+1}  
+]
+
+for the common case (d\ge c).
+
+## Number of binary words with exactly `k` ones
+
+[  
+\boxed{\binom nk}  
+]
+
+## Even parity
+
+[  
+\boxed{P=D_1\oplus D_2\oplus\cdots\oplus D_k}  
+]
+
+with total number of `1`s even.
+
+---
+
+# Quick Revision
+
+### Framing
+
+- Continuous bit stream → discrete frames.
+    
+- Purpose: identify frame boundaries.
+    
+
+### Error Handling
+
+- **Detection:** determine whether an error occurred.
+    
+- **Correction:** determine the original codeword.
+    
+
+### Block Coding
+
+- Add redundant bits to data.
+    
+- `k` data bits → (2^k) possible data words.
+    
+
+### Repetition
+
+```text
+00 → 00 00 00
+01 → 01 01 01
+10 → 10 10 10
+11 → 11 11 11
+```
+
+- (d_{\min}=3)
+    
+- Detect 2
+    
+- Correct 1
+    
+
+### Single Parity
+
+- Even parity → total `1`s even.
+    
+- Odd parity → total `1`s odd.
+    
+- Single parity:
+    
+    - (d_{\min}=2)
+        
+    - Detect 1
+        
+    - Correct 0
+        
+    - Detects all odd-number-of-bit errors.
+        
+    - Even-number errors may escape.
+        
+
+### Hamming Distance
+
+[  
+d(x,y)=#\text{ differing positions}  
+]
+
+### Minimum Hamming Distance
+
+[  
+d_{\min}=\min d(x,y)  
+]
+
+### Detection
+
+[  
+\boxed{\text{Detect }d_{\min}-1}  
+]
+
+### Correction
+
+[  
+\boxed{\text{Correct }\left\lfloor\frac{d_{\min}-1}{2}\right\rfloor}  
+]
+
+### Required distance
+
+```text
+Detect s → dmin = s + 1
+Correct t → dmin = 2t + 1
+```
+
+### Combined
+
+[  
+\boxed{d_{\min}=c+d+1}  
+]
+
+(common case (d\ge c))
+
+### Biggest conceptual rule
+
+> **Errors are detectable as long as corruption cannot take one valid codeword into another valid codeword.**
+
+That is exactly what **minimum Hamming distance** measures.
+
+---
+
+# GATE Question Triggers
+
+When you see these phrases, immediately think:
+
+|Question wording|Trigger|
+|---|---|
+|"Minimum Hamming distance"|Compare every pair of valid codewords|
+|"Detect up to `s` errors"|(d_{\min}=s+1)|
+|"Correct up to `t` errors"|(d_{\min}=2t+1)|
+|"Given (d_{\min}), maximum detectable"|(d_{\min}-1)|
+|"Given (d_{\min}), maximum correctable"|(\lfloor(d_{\min}-1)/2\rfloor)|
+|"Single parity"|(d_{\min}=2)|
+|"Parity detects?"|All odd-number-of-bit errors|
+|"Parity corrects?"|❌|
+|"Valid → valid"|Undetectable|
+|"Valid → invalid"|Detectable|
+|"Exactly `k` ones in n-bit code"|(\binom nk)|
+|"At most one bit error"|Use channel property|
+|"Correct c + detect d"|(d_{\min}=c+d+1)|
+
+**The most important thing to carry forward into the next lecture is:**  
+**`valid codewords → Hamming distance → dmin → detection/correction capability`.** The lecture ends by making this exact connection.

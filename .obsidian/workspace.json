@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2146f741dcf428e",
+            "id": "b3197fefa6705f1f",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -20,21 +20,20 @@
             }
           },
           {
-            "id": "4a1b26493a0c1bf2",
+            "id": "752cc11ec5081c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/Computer Network/MODULE 2/L-7/Error Detection, Correction & Hamming Distance.md",
-                "mode": "preview",
+                "file": "GATE GO/GATE CS/C Programming/MODULE 3/L-13/pointers revision.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Error Detection, Correction & Hamming Distance"
+              "title": "pointers revision"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 324.5
   },
   "right": {
     "id": "5722a18ff3e48f14",
@@ -189,43 +188,43 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "4a1b26493a0c1bf2",
+  "active": "b3197fefa6705f1f",
   "lastOpenFiles": [
-    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/L-7.pdf",
     "GATE GO/GATE CS/Computer Network/MODULE 2/L-7/Error Detection, Correction & Hamming Distance.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-7/short notes.md",
+    "GATE GO/GATE CS/C Programming/PDF/L-13.pdf",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-13/pointers revision.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-13/B.VOID Pointer.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-13/Untitled",
+    "GATE GO/GATE CS/C Programming/PDF/L-11.pdf",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-12 Pointer Arithmetic/Pointer Arithmetic.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-13/A.Complex Declarations & Function Pointers.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/PRACTICE SET",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-13",
+    "GATE GO/GATE CS/C Programming/PDF/L-12.pdf",
+    "GATE GO/GATE CS/C Programming/PDF/Unconfirmed 257923.crdownload",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11C.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-12 Pointer Arithmetic",
+    "GATE GO/GATE CS/C Programming/PDF/Unconfirmed 770017.crdownload",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11B.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11A. 2d Array in cp.md",
+    "GATE GO/GATE CS/C Programming/MODULE 3/L-11 2D ARRAY/11a pointers to 2d array.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-7/q.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/L-7.pdf",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/3.Error Correction/4.Hamming Code Numericals.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/3.Error Correction/3.Error Detection vs Error Correction.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/3.Error Correction/2.- Hamming Code.md",
+    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/3.Error Correction/1.Hamming Distance.md",
     "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Synchronization & Critical Section.md",
     "GATE GO/GATE CS/Computer Network/MODULE 2/L-6/Switching, Physical Layer & Framing.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-7/Untitled",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-7",
     "GATE GO/GATE CS/Computer Network/MODULE 2/L-6/short notes.md",
     "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/short notes.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/l-5.pdf",
     "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/6.questions.pdf",
     "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/gate.md",
     "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/Short Notes.md",
     "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-04/short notes.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/PDF/4.more of subnetting.pdf",
     "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-04/questions.md",
     "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-04/L-4.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-03/L-03.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/notes.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/3.Error Correction/2.- Hamming Code.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/3.Error Correction/1.Hamming Distance.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/3.CRC/1.Generator Polynomial.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/3.CRC/6.CRC Numericals.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/3.CRC/5.Error Detection Capability.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/3.CRC/3.Sender Algorithm.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/3.CRC/2.Modulo-2 Division.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/2.Checksum/example.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/2.Checksum/check sum.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/1.Parity/3.LRC & VRC Example.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/1.Parity/2. LRC Basic.md",
-    "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/1.Parity/1.VRC (Parity).md",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/Unconfirmed 727550.crdownload",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-6",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/L-6.pdf",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/Unconfirmed 426013.crdownload",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
