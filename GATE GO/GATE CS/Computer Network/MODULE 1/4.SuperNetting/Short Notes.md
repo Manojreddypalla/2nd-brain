@@ -19,9 +19,9 @@ IP/n
 - Number of addresses:
     
 
-[  
+$$  
 \boxed{2^{32-n}}  
-]
+$$
 
 ---
 
@@ -57,9 +57,9 @@ means first **24 bits** must match.
 
 If destination matches multiple entries:
 
-[  
+$$  
 \boxed{\text{Choose the longest matching prefix}}  
-]
+$$
 
 Example:
 
@@ -125,9 +125,9 @@ Four `/26` networks:
 
 Each `/26`:
 
-[  
+$$  
 2^{32-26}=64  
-]
+$$
 
 Together cover:
 
@@ -137,9 +137,9 @@ Together cover:
 
 Therefore:
 
-[  
+$$  
 \boxed{140.24.7.0/24}  
-]
+$$
 
 can represent all four.
 
@@ -232,9 +232,9 @@ Keep the specific route.
 
 Then:
 
-[  
+$$  
 \boxed{\text{Longest Prefix Match handles the overlap}}  
-]
+$$
 
 Example:
 
@@ -315,9 +315,9 @@ This happens **hop-by-hop** at each router.
 
 To determine whether an IP belongs to a network:
 
-[  
+$$  
 \boxed{\text{IP Address AND Subnet Mask = Network Address}}  
-]
+$$
 
 Then compare with the forwarding-table network.
 
@@ -353,8 +353,8 @@ Then:
 
 ### ⭐ One-line memory
 
-[  
+$$  
 \boxed{\text{Supernetting = multiple networks → common prefix → fewer routing entries}}  
-]
+$$
 
 These are the **actual notebook-worthy points**. Don't copy the full lecture into your notes — the diagrams/examples can stay in the lecture/PDF, while these rules and patterns are what you need for revision.

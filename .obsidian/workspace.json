@@ -8,17 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6fb755d82822f819",
+            "id": "c2146f741dcf428e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Synchronization & Critical Section.md",
-                "mode": "preview",
-                "source": false
+                "file": "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/L-7.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Synchronization & Critical Section"
+              "icon": "lucide-file-text",
+              "title": "L-7"
             }
           },
           {
@@ -27,24 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-04/short notes.md",
+                "file": "GATE GO/GATE CS/Computer Network/MODULE 2/L-7/Error Detection, Correction & Hamming Distance.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "short notes"
-            }
-          },
-          {
-            "id": "f44f3f83214bcf73",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "GATE GO/GATE CS/Computer Network/MODULE 1/PDF/4.more of subnetting.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "4.more of subnetting"
+              "title": "Error Detection, Correction & Hamming Distance"
             }
           }
         ],
@@ -205,13 +191,25 @@
   },
   "active": "4a1b26493a0c1bf2",
   "lastOpenFiles": [
-    "GATE GO/GATE CS/Computer Network/MODULE 1/PDF/4.more of subnetting.pdf",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/L-7.pdf",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-7/Error Detection, Correction & Hamming Distance.md",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Synchronization & Critical Section.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-6/Switching, Physical Layer & Framing.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-7/Untitled",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-7",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-6/short notes.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/short notes.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/l-5.pdf",
+    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/practice session/6.questions.pdf",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/gate.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/Short Notes.md",
     "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-04/short notes.md",
+    "GATE GO/GATE CS/Computer Network/MODULE 1/PDF/4.more of subnetting.pdf",
     "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-04/questions.md",
     "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-04/L-4.md",
     "GATE GO/GATE CS/Computer Network/MODULE 1/3.Subnetting/L-03/L-03.md",
     "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/notes.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 1/4.SuperNetting/Short Notes.md",
     "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/3.Error Correction/2.- Hamming Code.md",
     "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/3.Error Correction/1.Hamming Distance.md",
     "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/3.CRC/1.Generator Polynomial.md",
@@ -224,23 +222,10 @@
     "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/1.Parity/3.LRC & VRC Example.md",
     "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/1.Parity/2. LRC Basic.md",
     "GATE/Group 4/Computer Networks/Chapter 3 - Data Link Layer/2 Error Detection/1.Parity/1.VRC (Parity).md",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-6/short notes.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/L-7.pdf",
     "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/Unconfirmed 727550.crdownload",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-6/Switching, Physical Layer & Framing.md",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/short notes.md",
-    "Untitled.md",
     "GATE GO/GATE CS/Computer Network/MODULE 2/L-6",
     "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/L-6.pdf",
     "GATE GO/GATE CS/Computer Network/MODULE 2/PDF/Unconfirmed 426013.crdownload",
-    "GATE GO/GATE CS/Computer Network/MODULE 2/L-5/L-5 layering in Computer Networks.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/6.challenges/3.loop challenges in Javascript.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/7.Loops/9.Introduction to loops in javascript.md",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/7.Loops",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/6.challenges",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/5.conditions",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/5.Non Primitives",
-    "3.The Atlas/COURSES/WEB DEV/JAVA SCRIPT/JS Foundations/4.Primitives and Non Primitives",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
