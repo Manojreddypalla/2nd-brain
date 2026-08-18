@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/data structures/1.Linked List/L-4/4A.md",
+                "file": "GATE GO/GATE CS/data structures/1.Linked List/L-4/4B Circular Linked List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4A"
+              "title": "4B Circular Linked List"
             }
           }
         ],
@@ -191,9 +191,10 @@
   },
   "active": "f2c5e124bdc23233",
   "lastOpenFiles": [
-    "GATE GO/GATE CS/data structures/1.Linked List/L-3/QUESTIONS.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-4/4A.md",
     "GATE GO/GATE CS/data structures/PDF/L-4.pdf",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-4/4B Circular Linked List.md",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-4/4A.md",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-3/QUESTIONS.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/3B.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/3A.md",
     "GATE GO/GATE CS/data structures/PDF/L-3.pdf",
@@ -225,8 +226,6 @@
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/home work.md",
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/1.short notes.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-12 Pointer Arithmetic/Pointer Arithmetic.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-13/A.Complex Declarations & Function Pointers.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-14/getchar, putchar, Static and Dynamic scoping, call by value, call by reference..md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
