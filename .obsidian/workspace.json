@@ -8,33 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d20d01404169fa5c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "GATE GO/GATE CS/data structures/PDF/L-4.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "L-4"
-            }
-          },
-          {
-            "id": "f2c5e124bdc23233",
+            "id": "37fcb9fd73b54985",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/data structures/1.Linked List/L-4/4B Circular Linked List.md",
+                "file": "GATE GO/GATE CS/Operating System/Module 2/Lecture -3/Peterson → Hardware Solutions → End.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4B Circular Linked List"
+              "title": "Peterson → Hardware Solutions → End"
+            }
+          },
+          {
+            "id": "d20d01404169fa5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Synchronization & Critical Section.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Synchronization & Critical Section"
+            }
+          },
+          {
+            "id": "985c2d626dfd1ebf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "GATE GO/GATE CS/Operating System/Module 2/pdf/L-1,2,3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "L-1,2,3"
+            }
+          },
+          {
+            "id": "e9fd514504276b59",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "GATE GO/GATE CS/Operating System/revision/Module 2/L-03.png"
+              },
+              "icon": "lucide-image",
+              "title": "L-03"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -189,28 +215,44 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "f2c5e124bdc23233",
+  "active": "e9fd514504276b59",
   "lastOpenFiles": [
-    "GATE GO/GATE CS/data structures/PDF/L-4.pdf",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/L-3.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/L-03.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 57326.crdownload",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/l-2.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/L-1.2.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/hardware sync.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 815936.crdownload",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/peterson algo ..png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 749886.crdownload",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 114352.crdownload",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 28901.crdownload",
+    "GATE GO/GATE CS/Operating System/Module 2/Lecture -3/Peterson → Hardware Solutions → End.md",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/L-1.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/ChatGPT Image Aug 18, 2026, 04_35_40 PM.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/L1.2.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 448005.crdownload",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 651768.crdownload",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Synchronization & Critical Section.md",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 474362.crdownload",
+    "GATE GO/GATE CS/Operating System/Module 2/pdf/L-1,2,3.pdf",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/L-5.png",
+    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 162391.crdownload",
+    "GATE GO/GATE CS/Operating System/revision/Module 1/L-5.png",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -1/Synchronization & Critical Section.md",
+    "GATE GO/GATE CS/Operating System/Module 2/lecture -1/Short Notes Synchronization & Critical Section.md",
+    "GATE GO/GATE CS/Operating System/INDEX.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-4/4B Circular Linked List.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-4/4A.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/QUESTIONS.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/3B.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/3A.md",
-    "GATE GO/GATE CS/data structures/PDF/L-3.pdf",
-    "GATE GO/GATE CS/data structures/PDF/Unconfirmed 808222.crdownload",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-4",
     "GATE GO/GATE CS/data structures/1.Linked List/L-2/short notes.md",
-    "GATE GO/GATE CS/data structures/PDF/L-2.pdf",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-3",
-    "GATE GO/GATE CS/data structures/PDF/Unconfirmed 923893.crdownload",
     "GATE GO/GATE CS/data structures/1.Linked List/L-1/short notes.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-2/notes/C.Recursion.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-2/short notes and cheat sheets",
     "GATE GO/GATE CS/data structures/1.Linked List/L-2/notes/B.Deletion in linked list.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-2/notes/A .insertion.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/code/linkedList.c",
-    "GATE GO/GATE CS/data structures/1.Linked List/code/Unconfirmed 548445.crdownload",
     "GATE GO/GATE CS/data structures/1.Linked List/L-1/notes/1B.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-1/notes/1 A introduction to Linked list.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/B short.md",
@@ -221,11 +263,6 @@
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/REVISION/Untitled.md",
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/REVISION/questions.md",
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/REVISION/cheat sheet.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/notes/2a signed and unsigned numbers in memory.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 2/short notes.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/home work.md",
-    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/1.short notes.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-12 Pointer Arithmetic/Pointer Arithmetic.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
