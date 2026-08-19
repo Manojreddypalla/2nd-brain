@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/Operating System/Module 3/L-2/PAGING.md",
+                "file": "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/1.short notes.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PAGING"
+              "title": "1.short notes"
             }
           }
         ],
@@ -243,8 +243,13 @@
   },
   "active": "a26e3c6ba8107ac3",
   "lastOpenFiles": [
-    "GATE GO/GATE CS/Operating System/Module 3/L-1/Memory Management Base Bound Segmentation.md",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-4/4C  Doubly Linked List.md",
+    "GATE GO/GATE CS/data structures/revision",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-4/4B Circular Linked List.md",
+    "GATE GO/GATE CS/data structures/PDF/L-4.pdf",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-4/4A.md",
     "GATE GO/GATE CS/Operating System/Module 3/L-2/PAGING.md",
+    "GATE GO/GATE CS/Operating System/Module 3/L-1/Memory Management Base Bound Segmentation.md",
     "GATE GO/GATE CS/Operating System/Module 3/L-2",
     "GATE GO/GATE CS/Operating System/Module 3/L-1/What is fragmentation.md",
     "GATE GO/GATE CS/Operating System/Module 3/L-1",
@@ -262,8 +267,6 @@
     "GATE GO/GATE CS/Operating System/revision/Module 2/hardware sync.png",
     "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 815936.crdownload",
     "GATE GO/GATE CS/Operating System/revision/Module 2/peterson algo ..png",
-    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 749886.crdownload",
-    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 114352.crdownload",
     "GATE GO/GATE CS/Operating System/Module 2/Lecture -3/Peterson → Hardware Solutions → End.md",
     "GATE GO/GATE CS/Operating System/revision/Module 2/L-1.png",
     "GATE GO/GATE CS/Operating System/revision/Module 2/ChatGPT Image Aug 18, 2026, 04_35_40 PM.png",
@@ -272,8 +275,6 @@
     "GATE GO/GATE CS/Operating System/Module 2/lecture -1/Synchronization & Critical Section.md",
     "GATE GO/GATE CS/Operating System/Module 2/lecture -1/Short Notes Synchronization & Critical Section.md",
     "GATE GO/GATE CS/Operating System/INDEX.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-4/4B Circular Linked List.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-4/4A.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/QUESTIONS.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/3B.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/3A.md",
@@ -287,8 +288,6 @@
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/B short.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/B 1D array to function.md",
     "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/A.md",
-    "GATE GO/GATE CS/C Programming/MODULE 2/L-6/notes/A MEMORY LAYOUT.md",
-    "GATE GO/GATE CS/C Programming/MODULE 2/L-5/Notes/1.short notes.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
