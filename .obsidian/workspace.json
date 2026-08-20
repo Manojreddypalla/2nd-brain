@@ -4,89 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "2d380d8dfdf898c1",
+        "id": "bf2b197ac51d449a",
         "type": "tabs",
         "children": [
           {
-            "id": "37fcb9fd73b54985",
+            "id": "953d20ce0fcc7354",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/Operating System/Module 2/Lecture -3/Peterson → Hardware Solutions → End.md",
+                "file": "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5F.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Peterson → Hardware Solutions → End"
+              "title": "5F"
             }
           },
           {
-            "id": "d20d01404169fa5c",
+            "id": "2a96a3d85ef63bfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/Operating System/Module 2/lecture -2/Synchronization & Critical Section.md",
-                "mode": "preview",
+                "file": "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5E.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Synchronization & Critical Section"
+              "title": "5E"
             }
           },
           {
-            "id": "985c2d626dfd1ebf",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "GATE GO/GATE CS/Operating System/Module 2/pdf/L-1,2,3.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "L-1,2,3"
-            }
-          },
-          {
-            "id": "e9fd514504276b59",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "GATE GO/GATE CS/C Programming/PDF/L-1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "L-1"
-            }
-          },
-          {
-            "id": "8bbf3994479e8ba8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "GATE GO/GATE CS/C Programming/REVISION/L-1.png"
-              },
-              "icon": "lucide-image",
-              "title": "L-1"
-            }
-          },
-          {
-            "id": "a26e3c6ba8107ac3",
+            "id": "ebfe4df9da6a4913",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/1.short notes.md",
+                "file": "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5B.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.short notes"
+              "title": "5B"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +204,28 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "a26e3c6ba8107ac3",
+  "active": "953d20ce0fcc7354",
   "lastOpenFiles": [
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5E.md",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5F.md",
+    "GATE GO/GATE CS/data structures/PDF/L-5,6.pdf",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/Unconfirmed 872378.crdownload",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5D  What is Asymptotic comparison  how LOG works  rice grain story.md",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/log/cheat sheet.md",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/log/Untitled",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/log",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5C.md",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5B.md",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES/5A intro.md",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5/NOTES",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis/L-5",
+    "GATE GO/GATE CS/data structures/2.Asymptotic Analysis",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-2/notes/A .insertion.md",
+    "GATE GO/GATE CS/data structures/PDF/Unconfirmed 363207.crdownload",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-1/notes/1 A introduction to Linked list.md",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-1/short notes.md",
+    "GATE GO/GATE CS/data structures/1.Linked List/L-1/notes/1B.md",
+    "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/1.short notes.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-4/4C  Doubly Linked List.md",
     "GATE GO/GATE CS/data structures/revision",
     "GATE GO/GATE CS/data structures/1.Linked List/L-4/4B Circular Linked List.md",
@@ -250,22 +233,14 @@
     "GATE GO/GATE CS/data structures/1.Linked List/L-4/4A.md",
     "GATE GO/GATE CS/Operating System/Module 3/L-2/PAGING.md",
     "GATE GO/GATE CS/Operating System/Module 3/L-1/Memory Management Base Bound Segmentation.md",
-    "GATE GO/GATE CS/Operating System/Module 3/L-2",
     "GATE GO/GATE CS/Operating System/Module 3/L-1/What is fragmentation.md",
-    "GATE GO/GATE CS/Operating System/Module 3/L-1",
     "GATE GO/GATE CS/C Programming/MODULE 1/lecture 1/Indepth/1b - First C Program.md",
     "GATE GO/GATE CS/C Programming/REVISION/L-1.png",
-    "GATE GO/GATE CS/C Programming/PDF/L-1.pdf",
-    "GATE GO/GATE CS/C Programming/REVISION/Unconfirmed 660917.crdownload",
-    "GATE GO/GATE CS/C Programming/REVISION",
-    "GATE GO/GATE CS/C Programming/New folder",
     "GATE GO/GATE CS/Operating System/revision/Module 2/L-03.png",
     "GATE GO/GATE CS/Operating System/revision/Module 2/L-3.png",
-    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 57326.crdownload",
     "GATE GO/GATE CS/Operating System/revision/Module 2/l-2.png",
     "GATE GO/GATE CS/Operating System/revision/Module 2/L-1.2.png",
     "GATE GO/GATE CS/Operating System/revision/Module 2/hardware sync.png",
-    "GATE GO/GATE CS/Operating System/revision/Module 2/Unconfirmed 815936.crdownload",
     "GATE GO/GATE CS/Operating System/revision/Module 2/peterson algo ..png",
     "GATE GO/GATE CS/Operating System/Module 2/Lecture -3/Peterson → Hardware Solutions → End.md",
     "GATE GO/GATE CS/Operating System/revision/Module 2/L-1.png",
@@ -277,17 +252,6 @@
     "GATE GO/GATE CS/Operating System/INDEX.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/QUESTIONS.md",
     "GATE GO/GATE CS/data structures/1.Linked List/L-3/3B.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-3/3A.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-2/short notes.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-1/short notes.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-2/notes/C.Recursion.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-2/notes/B.Deletion in linked list.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-2/notes/A .insertion.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-1/notes/1B.md",
-    "GATE GO/GATE CS/data structures/1.Linked List/L-1/notes/1 A introduction to Linked list.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/B short.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/B 1D array to function.md",
-    "GATE GO/GATE CS/C Programming/MODULE 3/L-10 Array string double pointer/A.md",
     "GATE GO/OS/Module 1/Untitled.canvas"
   ]
 }
