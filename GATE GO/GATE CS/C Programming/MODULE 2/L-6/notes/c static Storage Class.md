@@ -18,12 +18,12 @@ extern
 
 ### Properties of `static`
 
-|Property|Value|
-|---|---|
-|**Storage**|Static memory|
-|**Initial value**|`0`|
-|**Scope**|Within block|
-|**Lifetime**|Till end of program|
+| Property          | Value               |
+| ----------------- | ------------------- |
+| **Storage**       | Static memory       |
+| **Initial value** | `0`                 |
+| **Scope**         | Within block        |
+| **Lifetime**      | Till end of program |
 
 ---
 

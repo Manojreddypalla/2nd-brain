@@ -356,9 +356,9 @@ Page Size = 2^k bytes
 
 Then:
 
-[  
+$$ 
 \boxed{k\ bits=\text{Offset}}  
-]
+$$
 
 and:
 
